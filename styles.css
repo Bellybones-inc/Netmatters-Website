@@ -52,6 +52,8 @@ Ignore for time being
   overflow-y: hidden;
 }
 
+/* header */
+
 .page-parent {
   display: flex;
   flex-direction: row;
@@ -63,4 +65,81 @@ Ignore for time being
   flex-direction: column;
   min-height: 700px;
   height: 100vh;
+}
+
+/* consider removing height from container below */
+
+#header_container {
+  display: block;
+  color: #666;
+  height: 168px;
+}
+
+.inner {
+  display:block;
+  padding: 20px,0px, 20px, 0px;
+}
+
+.container {
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.row {
+  display: table;
+  width: 100%
+}
+
+.logo_container_1 {
+  padding: 0;
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+  width: 100%
+  position: relative;
+  min-height: 1px;
+}
+
+.logo_container_2 {
+  table-layout: fixed;
+}
+
+
+/* Job advertisements */
+
+
+
+.img_container {
+height: auto;
+display: block;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.img-1 .img-2 {
+  width: 100%;
+}
+
+
+/* media queries */
+
+@media (max-width: 767px) { header .inner .row
+{
+  display: table;
+  width: 100%;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
 }
