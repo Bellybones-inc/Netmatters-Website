@@ -107,6 +107,32 @@ Ignore for time being
   table-layout: fixed;
 }
 
+.netmatters {
+  vertical-align: middle;
+  display: table-cell;
+
+}
+
+/* middle section begins - services */
+
+#middle {
+  display: block;
+}
+
+.service_container {
+  display: block;
+  padding: 50px, 15px, 50px, 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+.services {
+  margin-top: -30px;
+}
+
+
 
 /* Job advertisements */
 
