@@ -35,7 +35,7 @@ Ignore for time being
 
 .main {
     display: block;
-    color: rgb(102, 102, 102);
+    color: rgb (102, 102, 102);
     background-color: rgb(255, 255, 255);
   }
 
@@ -60,11 +60,11 @@ Ignore for time being
   height: 700px;
 }
 
-.full-page {
+.half-page {
+  width: 100%;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
-  min-height: 700px;
-  height: 100vh;
 }
 
 /* consider removing height from container below */
@@ -93,23 +93,38 @@ Ignore for time being
   width: 100%
 }
 
+.netmatters {
+border-image-repeat: stretch;
+border-image-slice: 100%;
+max-width: 100%
+}
+
 .logo_container_1 {
   padding: 0;
   display: table-cell;
   float: none;
   vertical-align: middle;
-  width: 100%
+  width: 100%;
   position: relative;
   min-height: 1px;
 }
 
-.logo_container_2 {
+/* .logo_container_2 {
   table-layout: fixed;
-}
+} */
 
 .netmatters {
   vertical-align: middle;
   display: table-cell;
+
+}
+
+.hamburger {
+align-items: flex-start;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
 
 }
 
@@ -151,21 +166,17 @@ overflow-y: hidden;
 
 
 /* media queries */
-
-@media (max-width: 767px) { header .inner .row
-{
-  display: table;
-  width: 100%;
-  margin: 0;
-}
-
-
-
-
-
-
+// 
+// @media (max-width: 767px) {#header_container .inner .row {
+//   display: table;
+//   width: 100%;
+//   margin: 0;
+// }
+//
+// @media (max-width: 991px) {header .inner .logo_container_2 {
+//   display: table;
+//   table-layout: fixed;
+// }
 
 
-
-
-}
+// This is the end
