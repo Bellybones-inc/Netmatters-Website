@@ -9,8 +9,6 @@
 /*
   ===Variables===
                   */
-/* This color is not black
-
 /*
     ===Base===
                   */
@@ -21,7 +19,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -43,7 +43,7 @@ body {
   overflow-y: hidden;
 }
 
-Ignore for time being .main {
+.main {
   display: block;
   color: #666666;
   background-color: white;

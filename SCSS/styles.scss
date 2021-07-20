@@ -2,13 +2,11 @@
 // Partial imports
 @import 'partials/media';
 
-
-
       /*
         ===Variables===
                         */
 
-$color-text: #fff; /* This color is not black
+$color-text: #fff;
 
       /*
           ===Base===
@@ -21,7 +19,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -43,13 +43,6 @@ body
   overflow-x: hidden;
   overflow-y: hidden;
   }
-
-Ignore for time being
-/* #container>.main {
-  z-index: 10;
-  position: absolute;
-
-} */
 
 .main {
     display: block;
