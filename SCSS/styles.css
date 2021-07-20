@@ -1,8 +1,28 @@
-/* Layout */
+/* media queries */
+@media (max-width: 767px) {
+  #header_container .inner .row {
+    display: table;
+    width: 100%;
+    margin: 0;
+  }
+}
+/*
+  ===Variables===
+                  */
+/* This color is not black
+
+/*
+    ===Base===
+                  */
 html {
   height: 100%;
   display: block;
   text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -10,7 +30,7 @@ body {
   line-height: 1.42857143;
   font-size: 1rem;
   letter-spacing: 0.4px;
-  color: #666;
+  color: #fff;
   margin: 0;
   display: block;
 }
@@ -25,7 +45,7 @@ body {
 
 Ignore for time being .main {
   display: block;
-  color: rgb 102, 102, 102;
+  color: #666666;
   background-color: white;
 }
 
@@ -49,17 +69,22 @@ Ignore for time being .main {
   height: 700px;
 }
 
-.half-page {
+.full-page {
   width: 100%;
   min-height: 700px;
   display: flex;
   flex-direction: column;
 }
+.full-page .hero-banner {
+  border-top: 1px solid rgba(51, 54, 69, 0.5);
+  flex: 1 0 auto;
+  position: relative;
+}
 
 /* consider removing height from container below */
 #header_container {
   display: block;
-  color: #666;
+  color: #fff;
   height: 168px;
 }
 
@@ -140,7 +165,5 @@ Ignore for time being .main {
 .img-1 .img-2 {
   width: 100%;
 }
-
-/* media queries */
 
 /*# sourceMappingURL=styles.css.map */

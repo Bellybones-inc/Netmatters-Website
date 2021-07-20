@@ -1,10 +1,28 @@
 
-/* Layout */
+// Partial imports
+@import 'partials/media';
+
+
+
+      /*
+        ===Variables===
+                        */
+
+$color-text: #fff; /* This color is not black
+
+      /*
+          ===Base===
+                        */
 
 html {
   height: 100%;
   display: block;
   text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body
@@ -13,7 +31,7 @@ body
     line-height: 1.42857143;
     font-size: 1rem;
     letter-spacing: .4px;
-    color: #666;
+    color: $color-text;
     margin: 0;
     display: block;
   }
@@ -35,7 +53,7 @@ Ignore for time being
 
 .main {
     display: block;
-    color: rgb (102, 102, 102);
+    color: rgb(102, 102, 102);
     background-color: rgb(255, 255, 255);
   }
 
@@ -60,24 +78,32 @@ Ignore for time being
   height: 700px;
 }
 
-.half-page {
+.full-page {
   width: 100%;
   min-height: 700px;
   display: flex;
   flex-direction: column;
+
+
+  .hero-banner {
+  border-top: 1px solid rgba(51, 54, 69,.5);
+  flex: 1 0 auto;
+  position: relative;
 }
+}
+
 
 /* consider removing height from container below */
 
 #header_container {
   display: block;
-  color: #666;
+  color: $color-text;
   height: 168px;
 }
 
 .inner {
   display:block;
-  padding: 20px,0px, 20px, 0px;
+  padding: 20px, 0px, 20px, 0px;
 }
 
 .container {
@@ -147,11 +173,7 @@ border-image-slice: 100%;
   margin-top: -30px;
 }
 
-
-
 /* Job advertisements */
-
-
 
 .img_container {
 height: auto;
@@ -163,20 +185,3 @@ overflow-y: hidden;
 .img-1 .img-2 {
   width: 100%;
 }
-
-
-/* media queries */
-// 
-// @media (max-width: 767px) {#header_container .inner .row {
-//   display: table;
-//   width: 100%;
-//   margin: 0;
-// }
-//
-// @media (max-width: 991px) {header .inner .logo_container_2 {
-//   display: table;
-//   table-layout: fixed;
-// }
-
-
-// This is the end
