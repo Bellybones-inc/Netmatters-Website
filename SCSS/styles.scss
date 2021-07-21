@@ -76,15 +76,20 @@ body
   min-height: 700px;
   display: flex;
   flex-direction: column;
-
+}
 
   .hero-banner {
   border-top: 1px solid rgba(51, 54, 69,.5);
+  display: block;
   flex: 1 0 auto;
   position: relative;
 }
-}
 
+.hero-image {
+  min-height: 1px;
+  float: left;
+  margin-right: 0px; 
+}
 
 /* consider removing height from container below */
 

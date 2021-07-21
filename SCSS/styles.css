@@ -75,10 +75,18 @@ body {
   display: flex;
   flex-direction: column;
 }
-.full-page .hero-banner {
+
+.hero-banner {
   border-top: 1px solid rgba(51, 54, 69, 0.5);
+  display: block;
   flex: 1 0 auto;
   position: relative;
+}
+
+.hero-image {
+  min-height: 1px;
+  float: left;
+  margin-right: 0px;
 }
 
 /* consider removing height from container below */
