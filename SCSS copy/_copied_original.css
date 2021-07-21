@@ -1,17 +1,9 @@
-
-// Partial imports
-@import 'partials/media';
-
-      /*
-        ===Variables===
-                        */
-
-$color-text: #fff;
-
-      /*
-          ===Base===
-                        */
-
+/*
+  ===Variables===
+                  */
+/*
+    ===Base===
+                  */
 html {
   height: 100%;
   display: block;
@@ -25,16 +17,15 @@ html {
   box-sizing: inherit;
 }
 
-body
-  {
-    font-family: Poppins, sans-serif;
-    line-height: 1.42857143;
-    font-size: 1rem;
-    letter-spacing: .4px;
-    color: $color-text;
-    margin: 0;
-    display: block;
-  }
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.42857143;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #fff;
+  margin: 0;
+  display: block;
+}
 
 #container {
   display: block;
@@ -42,13 +33,13 @@ body
   height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
-  }
+}
 
 .main {
-    display: block;
-    color: rgb(102, 102, 102);
-    background-color: rgb(255, 255, 255);
-  }
+  display: block;
+  color: #666666;
+  background-color: white;
+}
 
 .main-outer {
   display: block;
@@ -64,7 +55,6 @@ body
 }
 
 /* header */
-
 .page-parent {
   display: flex;
   flex-direction: row;
@@ -78,9 +68,28 @@ body
   flex-direction: column;
 }
 
+.hero-banner {
+  border-top: 1px solid rgba(51, 54, 69, 0.5);
+  display: block;
+  flex: 1 0 auto;
+  position: relative;
+}
+
+.hero-image {
+  min-height: 1px;
+  float: left;
+  margin-right: 0px;
+}
+
+/* consider removing height from container below */
+#header_container {
+  display: block;
+  color: #fff;
+  height: 168px;
+}
 
 .inner {
-  display:block;
+  display: block;
   padding: 20px, 0px, 20px, 0px;
 }
 
@@ -94,14 +103,14 @@ body
 
 .row {
   display: table;
-  width: 100%
+  width: 100%;
 }
 
-// .netmatters {
-// border-image-repeat: stretch;
-// border-image-slice: 100%;
-// max-width: 100%
-// }
+.netmatters {
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  max-width: 100%;
+}
 
 .logo_container_1 {
   padding: 0;
@@ -113,15 +122,15 @@ body
   min-height: 1px;
 }
 
-
+/* .logo_container_2 {
+  table-layout: fixed;
+} */
 .netmatters {
   vertical-align: middle;
   display: table-cell;
 }
 
-
 /* middle section begins - services */
-
 #middle {
   display: block;
 }
@@ -131,22 +140,22 @@ body
   padding: 50px, 15px, 50px, 15px;
   margin-right: auto;
   margin-left: auto;
-
 }
 
-// .services {
-//   margin-top: -30px;
-// }
+.services {
+  margin-top: -30px;
+}
 
 /* Job advertisements */
-
 .img_container {
-height: auto;
-display: block;
-overflow-x: hidden;
-overflow-y: hidden;
+  height: auto;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .img-1 .img-2 {
   width: 100%;
 }
+
+/*# sourceMappingURL=_copied_original.css.map */

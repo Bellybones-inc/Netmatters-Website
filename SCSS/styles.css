@@ -76,26 +76,6 @@ body {
   flex-direction: column;
 }
 
-.hero-banner {
-  border-top: 1px solid rgba(51, 54, 69, 0.5);
-  display: block;
-  flex: 1 0 auto;
-  position: relative;
-}
-
-.hero-image {
-  min-height: 1px;
-  float: left;
-  margin-right: 0px;
-}
-
-/* consider removing height from container below */
-#header_container {
-  display: block;
-  color: #fff;
-  height: 168px;
-}
-
 .inner {
   display: block;
   padding: 20px, 0px, 20px, 0px;
@@ -114,12 +94,6 @@ body {
   width: 100%;
 }
 
-.netmatters {
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
-  max-width: 100%;
-}
-
 .logo_container_1 {
   padding: 0;
   display: table-cell;
@@ -130,20 +104,9 @@ body {
   min-height: 1px;
 }
 
-/* .logo_container_2 {
-  table-layout: fixed;
-} */
 .netmatters {
   vertical-align: middle;
   display: table-cell;
-}
-
-.hamburger {
-  align-items: flex-start;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
 }
 
 /* middle section begins - services */
@@ -156,10 +119,6 @@ body {
   padding: 50px, 15px, 50px, 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.services {
-  margin-top: -30px;
 }
 
 /* Job advertisements */

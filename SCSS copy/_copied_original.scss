@@ -1,6 +1,4 @@
-
 // Partial imports
-@import 'partials/media';
 
       /*
         ===Variables===
@@ -78,6 +76,26 @@ body
   flex-direction: column;
 }
 
+  .hero-banner {
+  border-top: 1px solid rgba(51, 54, 69,.5);
+  display: block;
+  flex: 1 0 auto;
+  position: relative;
+}
+
+.hero-image {
+  min-height: 1px;
+  float: left;
+  margin-right: 0px;
+}
+
+/* consider removing height from container below */
+
+#header_container {
+  display: block;
+  color: $color-text;
+  height: 168px;
+}
 
 .inner {
   display:block;
@@ -97,11 +115,11 @@ body
   width: 100%
 }
 
-// .netmatters {
-// border-image-repeat: stretch;
-// border-image-slice: 100%;
-// max-width: 100%
-// }
+.netmatters {
+border-image-repeat: stretch;
+border-image-slice: 100%;
+max-width: 100%
+}
 
 .logo_container_1 {
   padding: 0;
@@ -113,6 +131,9 @@ body
   min-height: 1px;
 }
 
+/* .logo_container_2 {
+  table-layout: fixed;
+} */
 
 .netmatters {
   vertical-align: middle;
@@ -134,9 +155,10 @@ body
 
 }
 
-// .services {
-//   margin-top: -30px;
-// }
+
+.services {
+  margin-top: -30px;
+}
 
 /* Job advertisements */
 
