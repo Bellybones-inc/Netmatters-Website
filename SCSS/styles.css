@@ -73,7 +73,6 @@ body {
   width: 100%;
   min-height: 700px;
   display: flex;
-  flex-direction: column;
 }
 
 .inner {
@@ -90,23 +89,12 @@ body {
 }
 
 .row {
-  display: table;
-  width: 100%;
+  display: flex;
 }
 
-.logo_container_1 {
-  padding: 0;
-  display: table-cell;
-  float: none;
-  vertical-align: middle;
+.img-fluid {
   width: 100%;
-  position: relative;
-  min-height: 1px;
-}
-
-.netmatters {
-  vertical-align: middle;
-  display: table-cell;
+  height: auto;
 }
 
 /* middle section begins - services */
@@ -121,7 +109,6 @@ body {
   margin-left: auto;
 }
 
-/* Job advertisements */
 .img_container {
   height: auto;
   display: block;
