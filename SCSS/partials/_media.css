@@ -1,6 +1,6 @@
 /* media queries */
 @media (max-width: 767px) {
-  header .inner .row {
+  #header_container .inner .row {
     display: table;
     width: 100%;
     margin: 0;

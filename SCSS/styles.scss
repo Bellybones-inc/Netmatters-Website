@@ -73,11 +73,14 @@ body
 
 .full-page {
   width: 100%;
-  min-height: 700px;
+  height: 100vh;
   display: flex;
-  // flex-direction: column;
+  flex-direction: column;
+    .banner {
+      flex-grow: 1;
+      flex-basis: auto;
 }
-
+}
 
 .inner {
   display: block;
@@ -109,7 +112,8 @@ margin-right: 7px;
 }
 
 .form-control {
-  
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   border-bottom-style: solid;
@@ -120,6 +124,21 @@ margin-right: 7px;
 .box {
   margin: 11px;
 }
+
+// Banner section
+
+.banner {
+  border-top-width: 1;
+  border-top-color: rgba(51, 54, 69, .5);
+  flex-shrink: 0;
+}
+
+@media (max-width: 760px) {
+ .banner .hero-image {
+   height: 531px;
+ }
+}
+
 
 
 
