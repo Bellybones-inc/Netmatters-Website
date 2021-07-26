@@ -127,19 +127,56 @@ margin-right: 7px;
 
 // Banner section
 
- .img-content {
-  outline: 2px solid black;
-  background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
 
 #banner {
-  flex-shrink: 0;
+  background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
+  background-position: 55% 90%;
   position: relative;
-  flex-basis: auto;
+  outline: 2px solid black;
+  display: flex;
+  flex-shrink: 0;
   flex-grow: 1;
+  flex-basis: auto;
 }
+
+.content-container {
+  display: flex;
+  background: linear-gradient(270deg, transparent 25%, #000);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.img-title {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.img-sub-heading {
+  color: #fff;
+  margin-bottom: 35px;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+}
+
+.text-content {
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 43.313px;
+  margin-left: 43.313px;
+}
+
+
 
 
 // .hero-image {
@@ -147,9 +184,7 @@ margin-right: 7px;
 //  filter: brightness(45%);
 // }
 
-h3 {
-  color: #fff;
-}
+
 
 // Banner stuff
 // border-top-width: 1;
@@ -159,11 +194,20 @@ h3 {
 
 
 
-// @media (max-width: 760px) {
-//  #banner .img-content {
-//    height: 531px;
-//  }
-// }
+@media (max-width: 760px){
+ #banner {
+   height: 531px;
+ }
+}
+
+@media (max-width: 991px){
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 
 
 
