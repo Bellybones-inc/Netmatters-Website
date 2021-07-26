@@ -75,14 +75,11 @@ body {
   display: flex;
   flex-direction: column;
 }
-.full-page .banner {
-  flex-grow: 1;
-  flex-basis: auto;
-}
 
 .inner {
   display: block;
-  padding: 20px, 0px, 20px, 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -119,19 +116,28 @@ body {
 
 .box {
   margin: 11px;
+  margin-bottom: 0px;
+  padding-top: 7px;
 }
 
-.banner {
-  border-top-width: 1;
-  border-top-color: rgba(51, 54, 69, 0.5);
+.img-content {
+  outline: 2px solid black;
+  background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#banner {
   flex-shrink: 0;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
 }
 
-@media (max-width: 760px) {
-  .banner .hero-image {
-    height: 531px;
-  }
+h3 {
+  color: #fff;
 }
+
 /* middle section begins - services */
 
 /*# sourceMappingURL=styles.css.map */
