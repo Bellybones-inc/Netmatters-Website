@@ -13,16 +13,16 @@ $color-text: #fff;
                         */
 
 html {
-  height: 100%;
-  display: block;
-  text-size-adjust: 100%;
-  box-sizing: border-box;
+    height: 100%;
+    display: block;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body
@@ -37,11 +37,11 @@ body
   }
 
 #container {
-  display: block;
-  position: relative;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+    display: block;
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
 .main {
@@ -51,152 +51,149 @@ body
   }
 
 .main-outer {
-  display: block;
-  height: 100%;
-  overflow-x: auto;
-  overflow-y: auto;
+    display: block;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .main-inner {
-  display: block;
-  overflow-x: hidden;
-  overflow-y: hidden;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* header */
 
 .page-parent {
-  display: flex;
-  flex-direction: row;
-  height: 700px;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
 }
 
 .full-page {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .inner {
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: 0px;
-  margin-right: 0px;
-  align-items: center;
-  gap: 15px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+    gap: 15px;
 }
 
 
 
 .item-1 {
-width: 70%;
-flex-grow: 2;
-margin-right: 7px;
+    width: 70%;
+    flex-grow: 2;
+    margin-right: 7px;
 }
 
 .item-3 {
-  flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .form-control {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-bottom-color: rgba(0, 0, 0, 0.1);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  padding-right: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-right: 40px;
 }
 
 .box {
-  margin: 11px;
-  margin-bottom: 0px;
-  padding-top: 7px;
+    margin: 11px;
+    margin-bottom: 0px;
+    padding-top: 7px;
 }
 
 // Banner section
 
 
 #banner {
-  background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
-  background-position: 55% 90%;
-  position: relative;
-  outline: 2px solid black;
-  display: flex;
-  flex-shrink: 0;
-  flex-grow: 1;
-  flex-basis: auto;
+    background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
+    background-position: 55% 90%;
+    position: relative;
+    border-top: 1px solid rgba(51, 54, 69, .5);
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: auto;
 }
 
 .content-container {
-  display: flex;
-  background: linear-gradient(270deg, transparent 25%, #000);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+    display: flex;
+    background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .img-title {
-  display: block;
-  margin-bottom: 25px;
-  font-size: 3rem;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 400;
+    display: block;
+    margin-bottom: 25px;
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .img-sub-heading {
-  color: #fff;
-  margin-bottom: 35px;
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+    color: #fff;
+    margin-bottom: 35px;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
 }
 
 .text-content {
-  display: block;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: 43.313px;
-  margin-left: 43.313px;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 43.313px;
+    margin-left: 43.313px;
 }
 
 .btn-lg {
-  height: auto;
-  padding: 5px 20px;
-  font-size: 1.25rem;
-  line-height: 50px;
-  color: #fff;
-  background-color: #926fb1;
-  border-color: #926fb1;
-  border: 1px solid transparent;
-  text-transform: uppercase;
+    height: auto;
+    padding: 5px 20px;
+    font-size: 1.25rem;
+    line-height: 50px;
+    color: #fff;
+    background-color: #926fb1;
+    border-color: #926fb1;
+    border: 1px solid transparent;
+    text-transform: uppercase;
 }
 
 
-
-// Banner stuff
-// border-top-width: 1;
-// border-top-color: rgba(51, 54, 69, .5);
-// flex-shrink: 0;
+/* middle section begins - services */
 
 
 
+// Media queries //
 
 @media (max-width: 760px){
  #banner {
@@ -212,31 +209,3 @@ margin-right: 7px;
     text-align: center;
   }
 }
-
-
-
-
-/* middle section begins - services */
-
-// #middle {
-//   display: block;
-// }
-//
-// .service_container {
-//   display: block;
-//   padding: 50px, 15px, 50px, 15px;
-//   margin-right: auto;
-//   margin-left: auto;
-//
-// }
-//
-// .img_container {
-// height: auto;
-// display: block;
-// overflow-x: hidden;
-// overflow-y: hidden;
-// }
-//
-// .img-1 .img-2 {
-//   width: 100%;
-// }

@@ -124,7 +124,7 @@ body {
   background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
   background-position: 55% 90%;
   position: relative;
-  outline: 2px solid black;
+  border-top: 1px solid rgba(51, 54, 69, 0.5);
   display: flex;
   flex-shrink: 0;
   flex-grow: 1;
@@ -133,7 +133,7 @@ body {
 
 .content-container {
   display: flex;
-  background: linear-gradient(270deg, transparent 25%, #000);
+  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -180,6 +180,7 @@ body {
   text-transform: uppercase;
 }
 
+/* middle section begins - services */
 @media (max-width: 760px) {
   #banner {
     height: 531px;
@@ -193,6 +194,5 @@ body {
     text-align: center;
   }
 }
-/* middle section begins - services */
 
 /*# sourceMappingURL=styles.css.map */
