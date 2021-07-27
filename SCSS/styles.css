@@ -181,6 +181,38 @@ body {
 }
 
 /* middle section begins - services */
+.container-services {
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+}
+
+.services {
+  margin-top: -30px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-4 {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.block {
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 3px 3px 3px 3px;
+  border-width: 1px 1px 1px 1px;
+  border: 1px solid #cccccc;
+  font-weight: 600;
+  text-align: center;
+}
+
 @media (max-width: 760px) {
   #banner {
     height: 531px;
