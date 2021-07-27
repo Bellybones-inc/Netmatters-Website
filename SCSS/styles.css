@@ -168,6 +168,18 @@ body {
   margin-left: 43.313px;
 }
 
+.btn-lg {
+  height: auto;
+  padding: 5px 20px;
+  font-size: 1.25rem;
+  line-height: 50px;
+  color: #fff;
+  background-color: #926fb1;
+  border-color: #926fb1;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+}
+
 @media (max-width: 760px) {
   #banner {
     height: 531px;
