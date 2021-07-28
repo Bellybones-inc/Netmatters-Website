@@ -311,7 +311,7 @@ span.p {
 
 .about-text,
 .netmatters {
-  color: #ffffff;
+  color: #fff;
 }
 
 .netmatters {
@@ -320,8 +320,7 @@ span.p {
 
 p {
   line-height: 1.875rem;
-  margin-bottom: 25px;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 25px 0px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -330,6 +329,53 @@ p {
 
 p:first-child {
   font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #333645;
+  border: 1px solid transparent;
+  background-image: none;
+  padding: 5px 15px 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  line-height: 35px;
+  white-space: normal;
+}
+
+.btn-primary:focus {
+  background-color: #bfbfbf;
+  border-color: #bfbfbf;
+  color: #333645;
+}
+
+.container_header {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.latest {
+  text-transform: uppercase;
+  color: #333645;
+  font-size: 1.25rem;
+  padding: 40px 0px 40px 0px;
+  font-weight: 600;
+  position: relative;
+  line-height: 24px;
+}
+
+.latest::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 3px;
+  display: block;
+  background-color: #333645;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 @media (max-width: 760px) {
