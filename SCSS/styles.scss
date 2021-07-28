@@ -1,6 +1,7 @@
 
 // Partial imports
-@import 'partials/variables';
+@import 'partials/variables',
+        'components/icons';
 
       /*
         ===Variables===
@@ -277,17 +278,7 @@ color: #67809f;
 }
 }
 
-@each $theme, $color in $themes {
-    .block-#{$theme} {
-      color: $color;
-  }
-}
 
-// @for $i from 1 through 7 {
-//   .icn-#{$i} {
-//     color: tomato;
-//   }
-// }
 // Media queries //
 
 @media (max-width: 760px){
