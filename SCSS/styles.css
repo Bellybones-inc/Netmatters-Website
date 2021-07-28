@@ -257,6 +257,15 @@ span.p {
   border: 1px 1px 1px 1px;
 }
 
+.block:hover {
+  background-color: #67809f;
+  color: #fff;
+}
+.block:hover .btn-secondary {
+  background-color: #fff;
+  color: #67809f;
+}
+
 @media (max-width: 760px) {
   #banner {
     height: 531px;

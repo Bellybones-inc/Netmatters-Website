@@ -267,6 +267,20 @@ span.p {
   border: 1px 1px 1px 1px;
 }
 
+ // .btn-secondary:hover {
+ //   background-color: #fff;
+ //   color: #67809f;
+ // }
+
+.block:hover {
+ background-color: #67809f;
+ color: #fff;
+ .btn-secondary {
+background-color: #fff;
+color: #67809f;
+}
+}
+
 
 // Media queries //
 
