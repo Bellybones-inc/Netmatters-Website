@@ -1,6 +1,7 @@
 
 // Partial imports
 @import 'partials/variables',
+        'partials/mixins',
         'components/icons';
 
       /*
@@ -278,9 +279,50 @@ color: #67809f;
 }
 }
 
-//About 
+//About
+#about {
+  display: block;
+  background-image: url(https://www.netmatters.co.uk/assets/images/branded.png);
+  background-color: rgb(51, 54, 69);
+  background-position: 100% 50%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
 
+.about_container {
+  display: block;
+  padding: 50px 15px 50px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.netmatters {
+  display:block;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.about-text,
+.netmatters {
+  color: #ffffff;
+}
+
+.netmatters {
+  text-transform: uppercase;
+}
+
+.about-text {
+
+}
+
+p {
+  @include text
+}
+
+p:first-child {
+  font-weight: bold;
+}
 // Media queries //
 
 @media (max-width: 760px){

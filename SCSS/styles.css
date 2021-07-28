@@ -286,6 +286,52 @@ span.p {
   color: #67809f;
 }
 
+#about {
+  display: block;
+  background-image: url(https://www.netmatters.co.uk/assets/images/branded.png);
+  background-color: #333645;
+  background-position: 100% 50%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.about_container {
+  display: block;
+  padding: 50px 15px 50px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.netmatters {
+  display: block;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.about-text,
+.netmatters {
+  color: #ffffff;
+}
+
+.netmatters {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.875rem;
+  margin-bottom: 25px;
+  margin: 0px 0px 10px 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p:first-child {
+  font-weight: bold;
+}
+
 @media (max-width: 760px) {
   #banner {
     height: 531px;
