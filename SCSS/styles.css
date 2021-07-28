@@ -1,11 +1,3 @@
-/* media queries */
-@media (max-width: 767px) {
-  #header_container .inner .row {
-    display: table;
-    width: 100%;
-    margin: 0;
-  }
-}
 /*
   ===Variables===
                   */
@@ -264,6 +256,34 @@ span.p {
 .block:hover .btn-secondary, .block:hover .h2::after {
   background-color: #fff;
   color: #67809f;
+}
+
+.block-soft {
+  color: #67809f;
+}
+
+.block-it {
+  color: #4183d7;
+}
+
+.block-digi {
+  color: #2ecc71;
+}
+
+.block-tele {
+  color: #d64541;
+}
+
+.block-des {
+  color: #926fb1;
+}
+
+.block-sec {
+  color: #f62459;
+}
+
+.block-train {
+  color: #926fb1;
 }
 
 @media (max-width: 760px) {

@@ -1,6 +1,6 @@
 
 // Partial imports
-@import 'partials/media';
+@import 'partials/variables';
 
       /*
         ===Variables===
@@ -267,10 +267,6 @@ span.p {
   border: 1px 1px 1px 1px;
 }
 
- // .btn-secondary:hover {
- //   background-color: #fff;
- //   color: #67809f;
- // }
 
 .block:hover {
  background-color: #67809f;
@@ -281,7 +277,17 @@ color: #67809f;
 }
 }
 
+@each $theme, $color in $themes {
+    .block-#{$theme} {
+      color: $color;
+  }
+}
 
+// @for $i from 1 through 7 {
+//   .icn-#{$i} {
+//     color: tomato;
+//   }
+// }
 // Media queries //
 
 @media (max-width: 760px){

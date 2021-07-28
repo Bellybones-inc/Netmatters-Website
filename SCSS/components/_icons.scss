@@ -1,0 +1,31 @@
+
+
+.icn {
+  &-soft {
+    color: map-get($themes, 'soft');
+  }
+  &-it {
+    color: map-get($themes, 'it');
+  }
+  &-digi {
+    color: map-get($themes, 'digi');
+  }
+  &-tele {
+    color: map-get($themes, 'tele');
+  }
+  &-des {
+    color: map-get($themes, 'des');
+  }
+  &-sec {
+    color: map-get($themes, 'sec');
+  }
+  &-train {
+    color: map-get($themes, 'train');
+  }
+}
+
+@each $theme, $color in $themes {
+    .icn-#{$theme} {
+      color: $color;
+  }
+}
