@@ -261,7 +261,7 @@ span.p {
   background-color: #67809f;
   color: #fff;
 }
-.block:hover .btn-secondary {
+.block:hover .btn-secondary, .block:hover .h2::after {
   background-color: #fff;
   color: #67809f;
 }
