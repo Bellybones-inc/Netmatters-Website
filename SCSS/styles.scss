@@ -279,11 +279,20 @@ p:first-child {
   color: #333645;
 }
 
-// Careers section //
+// Careers section header //
 
-.container_header {
- padding-left: 15px;
- padding-right: 15px;
+#careers_header {
+  display: block;
+}
+
+.container {
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ul {
+  list-style-position: inside;
 }
 
 .anon {
@@ -317,6 +326,87 @@ p:first-child {
   right: 0;
   margin: auto;
 }
+
+// Careers section main //
+
+.row {
+  margin-top: -30px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+
+.section {
+  padding: 50px 0px 50px 0px;
+}
+
+.advert_container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col{
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+
+.job_block {
+  padding: 30px 30px 30px 30px;
+  border: 1px solid rgb(204, 204, 204, 204);
+  border-top-color: rgb(102, 102, 102);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
+  border-radius: 3px;
+}
+
+.job_title {
+  color: rgb(65, 131, 215);
+  font-size: 16px;
+}
+
+.details {
+  font-size: $small-grey-size;
+  color: $small-grey;
+}
+
+
+.btn-lg {
+  color: $color-text;
+  background-color: rgb(65, 131, 215);
+}
+
+
+.user {
+  display:flex;
+  align-items: flex-start;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+}
+
+.person {
+  font-size: 14px;
+}
+
+.profile_image {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+
+.date {
+  font-size: $small-grey-size;
+  color: $small-grey;
+}
+
+.space {
+  display: none;
+}
+
+.col::before {
+  content: ', \00a0';
+}
+
+
 
 
 // Media queries //
