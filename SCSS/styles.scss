@@ -2,69 +2,8 @@
 // Partial imports
 @import 'partials/variables',
         'partials/mixins',
-        'components/icons';
-
-      /*
-        ===Variables===
-                        */
-
-$color-text: #fff;
-$color-text-dark: darken($color-text, 25%);
-
-      /*
-          ===Base===
-                        */
-
-html {
-    height: 100%;
-    display: block;
-    text-size-adjust: 100%;
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-body
-  {
-    font-family: Poppins, sans-serif;
-    line-height: 1.42857143;
-    font-size: 1rem;
-    letter-spacing: .4px;
-    color: $color-text;
-    margin: 0;
-    display: block;
-  }
-
-#container {
-    display: block;
-    position: relative;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-
-.main {
-    display: block;
-    color: rgb(102, 102, 102);
-    background-color: rgb(255, 255, 255);
-  }
-
-.main-outer {
-    display: block;
-    height: 100%;
-    overflow-x: auto;
-    overflow-y: auto;
-}
-
-.main-inner {
-    display: block;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
+        'components/icons',
+        'base/base';
 
 /* header */
 
@@ -128,7 +67,6 @@ body
 }
 
 // Banner section
-
 
 #banner {
     background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
@@ -314,7 +252,7 @@ color: #67809f;
 }
 
 p {
-  @include text
+  @include bio-text
 }
 
 p:first-child {

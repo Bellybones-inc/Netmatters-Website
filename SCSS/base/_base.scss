@@ -1,0 +1,53 @@
+
+/* ===Base=== */
+
+html {
+  height: 100%;
+  display: block;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  }
+
+body
+  {
+  font-family: Poppins, sans-serif;
+  line-height: 1.42857143;
+  font-size: 1rem;
+  letter-spacing: .4px;
+  color: $color-text;
+  margin: 0;
+  display: block;
+  }
+
+#container {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  }
+
+.main {
+  display: block;
+  color: rgb(102, 102, 102);
+  background-color: rgb(255, 255, 255);
+  }
+
+.main-outer {
+  display: block;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  }
+
+.main-inner {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  }

@@ -1,6 +1,10 @@
+/* ===Variables=== */
+
+// Font styles
+$color-text: #fff;
+$color-text-dark: darken($color-text, 25%);
 
 //icon colours
-
 $themes: (
  'soft': #67809f,
  'it': #4183d7,

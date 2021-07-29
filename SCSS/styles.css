@@ -1,3 +1,4 @@
+/* ===Variables=== */
 .icn-soft {
   color: #67809f;
 }
@@ -26,12 +27,7 @@
   color: #926fb1;
 }
 
-/*
-  ===Variables===
-                  */
-/*
-    ===Base===
-                  */
+/* ===Base=== */
 html {
   height: 100%;
   display: block;
