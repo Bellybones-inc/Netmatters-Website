@@ -2,8 +2,9 @@
 // Partial imports
 @import 'partials/variables',
         'partials/mixins',
-        'components/icons',
-        'base/base';
+        'base/base',
+        'components/icons';
+
 
 /* header */
 
@@ -132,11 +133,11 @@
 /* middle section begins - services */
 
 .container-services {
-padding-top: 50px;
-padding-right: 15px;
-padding-bottom: 50px;
-padding-left: 15px;
-}
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  }
 .container-inner {
     display: block;
 }
@@ -285,11 +286,20 @@ p:first-child {
  padding-right: 15px;
 }
 
+.anon {
+  padding: 0;
+  float: left;
+  list-style-type: none;
+}
+
 .latest {
+  display: block;
   text-transform: uppercase;
+  text-decoration: none;
   color: #333645;
   font-size: 1.25rem;
-  padding: 40px 0px 40px 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-weight: 600;
   position: relative;
   line-height: 24px;
@@ -297,10 +307,10 @@ p:first-child {
 
 .latest::after {
   content: "";
-  position: absolute;
-  width: 28px;
-  height: 3px;
   display: block;
+  position: absolute;
+  width: 71px;
+  height: 5px;
   background-color: #333645;
   bottom: 0;
   left: 0;
