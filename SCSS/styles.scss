@@ -279,7 +279,11 @@ p:first-child {
   color: #333645;
 }
 
-// Careers section header //
+                            /***************************
+                            ****************************
+                                Careers section header
+                            ****************************
+                            ***************************/
 
 #careers_header {
   display: block;
@@ -327,7 +331,12 @@ ul {
   margin: auto;
 }
 
-// Careers section main //
+                            /***************************
+                            ****************************
+                                Careers section main
+                            ****************************
+                            ***************************/
+
 
 .row {
   margin-top: -30px;
@@ -420,56 +429,60 @@ ul {
   content: ', \00a0';
 }
 
-// Newsletter //
+                            /***************************
+                            ****************************
+                                Newsletter section
+                            ****************************
+                            ***************************/
 
-.newsletter_section {
+.newsletter_section { // Sets a grey background to the newsletter //
   background-color: #ddd;
 }
 
-.newsletter_container {
+.newsletter_container { // section structure //
   padding: 0px 15px 0px 15px;
 }
 
-.newsletter_inner {
+.newsletter_inner { //  section structure //
   padding: 50px 30px 50px 30px;
 
 }
 
-.newsletter_heading {
+.newsletter_heading {  // h2 element //
   color: #333645;
   margin: 15px;
 }
 
-.form_container {
+.form_container { // flex-box form container //
   display: flex;
   padding-left: -15px;
   padding-right: -15px;
   flex-wrap: wrap;
 }
 
-label {
+label { // label font //
   font-weight: 600;
   color: #333645;
   font-size: 1rem;
 }
 
-label::after {
+
+label::after {  // asterisk after label /
   content: " *";
   color: #d24d57;
 }
 
-
-.sign-up-field {
+.sign-up-field { // forms have a flex basis of 450px //
   flex: 1 1 450px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.form-control {
+.form-control { // white background for forms //
   background-color: rgb(255, 255, 255);
 }
 
-.marketing_info_container {
+.marketing_info_container { // flex container for policy info and checkbox //
   display: flex;
   padding: 0px 15px 0px 15px;
   gap: 15px;
@@ -480,7 +493,7 @@ label::after {
   margin-top: 0px;
 }
 
-.submit {
+.submit { // label colour //
   background-color: #333645;
   color: $color-text;
 }
