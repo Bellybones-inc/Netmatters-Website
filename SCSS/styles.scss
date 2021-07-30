@@ -358,10 +358,17 @@ ul {
   border-radius: 3px;
 }
 
-.job_title {
-  color: rgb(65, 131, 215);
+.job_title1, .job_title2, .job_title3 {
   font-size: 16px;
 }
+
+.job_title1, .job_title2 {
+  color: rgb(65, 131, 215);}
+
+.job_title3 {
+  color: #926fb1;
+}
+
 
 .details {
   font-size: $small-grey-size;
@@ -374,6 +381,12 @@ ul {
   background-color: rgb(65, 131, 215);
 }
 
+.btn_3 {
+  color: $color-text;
+  background-color: #926fb1;
+}
+
+
 
 .user {
   display:flex;
@@ -381,6 +394,7 @@ ul {
   padding-top: 30px;
   border-top: 1px solid #ccc;
   margin-top: 30px;
+  gap: 15px;
 }
 
 .person {
@@ -406,8 +420,65 @@ ul {
   content: ', \00a0';
 }
 
+// Newsletter //
+
+.newsletter_section {
+  background-color: #ddd;
+}
+
+.newsletter_container {
+  padding: 0px 15px 0px 15px;
+}
+
+.newsletter_inner {
+  padding: 50px 30px 50px 30px;
+
+}
+
+.newsletter_heading {
+  color: #333645;
+  margin: 15px;
+}
+
+.form_container {
+  display: flex;
+  padding-left: -15px;
+  padding-right: -15px;
+  flex-wrap: wrap;
+}
+
+label {
+  font-weight: 600;
+  color: #333645;
+  font-size: 1rem;
+}
+
+label::after {
+  content: " *";
+  color: #d24d57;
+}
 
 
+.sign-up-field {
+  flex: 1 1 450px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.form-control {
+  background-color: rgb(255, 255, 255);
+}
+
+.marketing_info_container {
+  display: flex;
+  padding: 0px 15px 0px 15px;
+  gap: 15px;
+  justify-content: center;
+}
+
+.policy_text {
+  margin-top: 0px;
+}
 
 // Media queries //
 
