@@ -482,10 +482,6 @@ ul {
   color: #666666;
 }
 
-.space {
-  display: none;
-}
-
 .col::before {
   content: ",  ";
 }
