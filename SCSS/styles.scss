@@ -28,7 +28,7 @@
     padding-bottom: 20px;
 }
 
-.container {
+.top_container {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -285,14 +285,8 @@ p:first-child {
                             ****************************
                             ***************************/
 
-#careers_header {
+#careers_container {
   display: block;
-}
-
-.container {
-  display: block;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 ul {
@@ -339,32 +333,41 @@ ul {
 
 
 .row {
+  display: block;
   margin-top: -30px;
   margin-left: -15px;
   margin-right: -15px;
+  object-position: center;
 }
 
 
-.section {
+.section { // sets the top and bottom padding and covers row.
   padding: 50px 0px 50px 0px;
 }
+
+
 
 .advert_container {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.job_container {
-  margin-top: 30px;
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.col-lg-4 {
-  padding-left: 15px;
-  padding-right: 15px;
+.col-lg-4, .col-sm-6 {
+  padding: 0px 15px 0px 15px;
+  margin-top: 30px;
   }
-.col-sm-6 {
+
+.col-lg-4, .col-md-4 {
   display: inline-block;
+  align-content: center;
 }
+
 
 .job_block { // this includes job title, description, button and the date of the listing
   padding: 30px 30px 30px 30px;
@@ -402,8 +405,6 @@ ul {
   background-color: #926fb1;
 }
 
-
-
 .user {        // items aligned to start of container w/ border above content
   display:flex;
   align-items: flex-start;
@@ -428,13 +429,9 @@ ul {
   color: $small-grey;
 }
 
-// .space {
-//   display: none;
+// .col::before {     // space between containers
+//   content: ', \00a0';
 // }
-
-.col::before {     // space between containers
-  content: ', \00a0';
-}
 
                             /***************************
                             ****************************
@@ -611,3 +608,24 @@ h4 {
     text-align: center;
   }
 }
+
+// @media (min-width: 1260px){
+// .container-fluid {
+//   width: 1200px;
+//   object-position: center;
+// }
+// }
+
+@media (min-width: 992px){
+.container-fluid {
+  width: 970px;
+  object-position: center;
+}
+}
+//
+//  @media (min-width: 768px) {
+//  .container-fluid {
+//     width: 750px;
+//       object-position: center;
+//   }
+// }

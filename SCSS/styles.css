@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* ===Variables=== */
 /* ===Base=== */
 html {
@@ -99,7 +98,7 @@ body {
   padding-bottom: 20px;
 }
 
-.container {
+.top_container {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -352,14 +351,8 @@ p:first-child {
     Careers section header
 ****************************
 ***************************/
-#careers_header {
+#careers_container {
   display: block;
-}
-
-.container {
-  display: block;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 ul {
@@ -404,9 +397,11 @@ ul {
 ****************************
 ***************************/
 .row {
+  display: block;
   margin-top: -30px;
   margin-left: -15px;
   margin-right: -15px;
+  object-position: center;
 }
 
 .section {
@@ -418,17 +413,19 @@ ul {
   padding-right: 15px;
 }
 
-.job_container {
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-lg-4, .col-sm-6 {
+  padding: 0px 15px 0px 15px;
   margin-top: 30px;
 }
 
-.col-lg-4 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.col-sm-6 {
+.col-lg-4, .col-md-4 {
   display: inline-block;
+  align-content: center;
 }
 
 .job_block {
@@ -488,10 +485,6 @@ ul {
 .date {
   font-size: 13px;
   color: #666666;
-}
-
-.col::before {
-  content: ",  ";
 }
 
 /***************************
@@ -652,6 +645,12 @@ h4 {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .container-fluid {
+    width: 970px;
+    object-position: center;
   }
 }
 
