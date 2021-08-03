@@ -565,7 +565,15 @@ footer {
 }
 
 .footer_container {
+  display: block;
   padding: 0px 15px 0px 15px;
+  margin: 0px 78.5px 0px 78.5px;
+}
+
+.block_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .footer_block {
@@ -589,7 +597,7 @@ footer {
   width: 225px;
 }
 
-li, .copyright {
+li, .copyright, .sitemap {
   text-decoration: none;
   list-style-type: none;
   font-size: 13px;
@@ -609,22 +617,20 @@ h4 {
   display: flex;
   padding: 10px 0px 0px 0px;
   border-top: 1px solid #888;
-  margin: 10px 0px 0px 0px;
-  gap: 180px;
-  flex: 2 0;
-  flex-wrap: nowrap;
+  margin-top: 10px;
 }
 
 .social-media {
   display: flex;
+  justify-content: flex-end;
+  gap: 10px;
   flex-grow: 1;
-  gap: 15px;
 }
 
 .sitemap {
-  display: flex;
-  flex-shrink: 0;
-  flex-wrap: nowrap;
+  display: inline-flex;
+  padding-right: 10px;
+  flex: 1 0;
 }
 
 @media (max-width: 760px) {
