@@ -98,7 +98,7 @@ body {
   padding-bottom: 20px;
 }
 
-.top_container {
+.container {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -645,12 +645,6 @@ h4 {
     align-content: center;
     align-items: center;
     text-align: center;
-  }
-}
-@media (min-width: 992px) {
-  .container-fluid {
-    width: 970px;
-    object-position: center;
   }
 }
 
