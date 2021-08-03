@@ -354,10 +354,17 @@ ul {
   padding-right: 15px;
 }
 
-.col{
+.job_container {
+  margin-top: 30px;
+}
+
+.col-lg-4 {
   padding-left: 15px;
   padding-right: 15px;
   }
+.col-sm-6 {
+  display: inline-block;
+}
 
 .job_block { // this includes job title, description, button and the date of the listing
   padding: 30px 30px 30px 30px;
