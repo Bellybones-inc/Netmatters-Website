@@ -98,7 +98,7 @@ body {
   padding-bottom: 20px;
 }
 
-.container {
+#header_container {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -197,7 +197,7 @@ body {
 }
 
 /* middle section begins - services */
-.container-services {
+.container {
   padding-top: 50px;
   padding-right: 15px;
   padding-bottom: 50px;
@@ -396,36 +396,41 @@ ul {
     Careers section main
 ****************************
 ***************************/
-.row {
-  display: block;
-  margin-top: -30px;
-  margin-left: -15px;
-  margin-right: -15px;
-  object-position: center;
-}
-
 .section {
   padding: 50px 0px 50px 0px;
 }
 
-.advert_container {
+.job_row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.job_container {
+  display: flex;
+  justify-content: center;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.container {
+.job_container {
   margin-left: auto;
   margin-right: auto;
 }
 
-.col-lg-4, .col-sm-6 {
-  padding: 0px 15px 0px 15px;
-  margin-top: 30px;
+.box {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1 1;
 }
 
-.col-lg-4, .col-md-4 {
-  display: inline-block;
-  align-content: center;
+.img-container {
+  display: flex;
+  flex-grow: 1;
+  max-width: 100%;
 }
 
 .job_block {
@@ -645,6 +650,26 @@ h4 {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .job_container, .about_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
   }
 }
 
