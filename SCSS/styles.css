@@ -202,6 +202,8 @@ body {
   padding-right: 15px;
   padding-bottom: 50px;
   padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container-inner {
@@ -653,17 +655,17 @@ h4 {
   }
 }
 @media (min-width: 768px) {
-  .job_container, .about_container {
+  .job_container, .about_container, .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .job_container, .about_container {
+  .job_container, .about_container, .container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
-  .job_container, .about_container {
+  .job_container, .about_container, .container {
     width: 1200px;
   }
 }
