@@ -132,7 +132,7 @@
 
 /* middle section begins - services */
 
-.container {
+.custom-container1 {
   padding-top: 50px;
   padding-right: 15px;
   padding-bottom: 50px;
@@ -142,7 +142,7 @@
   }
 
 .container-inner {
-    display: block;
+    // display: block;
 }
 
 .services {
@@ -290,40 +290,40 @@ p:first-child {
 }
 
 ul {
-list-style-position: inside;
-}
+  list-style-position: inside;
+  }
 
 .anon {
-padding: 0;
-float: left;
-list-style-type: none;
-}
+  padding: 0;
+  float: left;
+  list-style-type: none;
+  }
 
 .latest {
-display: block;
-text-transform: uppercase;
-text-decoration: none;
-color: #333645;
-font-size: 1.25rem;
-padding-top: 40px;
-padding-bottom: 40px;
-font-weight: 600;
-position: relative;
-line-height: 24px;
-}
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333645;
+  font-size: 1.25rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 600;
+  position: relative;
+  line-height: 24px;
+  }
 
 .latest::after {
-content: "";
-display: block;
-position: absolute;
-width: 71px;
-height: 5px;
-background-color: #333645;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
-}
+  content: "";
+  display: block;
+  position: absolute;
+  width: 71px;
+  height: 5px;
+  background-color: #333645;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  }
 
                             /***************************
                             ****************************
@@ -334,75 +334,87 @@ margin: auto;
 
 
 .section { // sets the top and bottom padding and covers row.
-padding: 50px 0px 50px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 
 .jobs {
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin: -30px -15px 0px -15px;
 }
 
 .job_block { // this includes job title, description, button and the date of the listing
-padding: 30px 30px 30px 30px;
-border: 1px solid rgb(204, 204, 204, 204);
-border-top-color: rgb(102, 102, 102);
-box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
-border-radius: 3px;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid rgb(204, 204, 204, 204);
+  border-top-color: rgb(102, 102, 102);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
+  border-radius: 3px;
 }
 
 .job_title1, .job_title2, .job_title3 {
-font-size: 16px;
+  font-size: 16px;
 }
 
 .job_title1, .job_title2 {
-color: rgb(65, 131, 215);}
-
-.job_title3 {
-color: #926fb1;
+  color: rgb(65, 131, 215);
 }
 
+.job_title3 {
+  color: #926fb1;
+}
+
+.img-container {
+  transition: transform .2s;
+}
+
+.img-container:hover {
+  transform: scale(1.2);
+}
 
 .details { //font color and size for job description
-font-size: $small-grey-size;
-color: $small-grey;
+  font-size: $small-grey-size;
+  color: $small-grey;
 }
 
 
 .btn-lg {
-color: $color-text;
-background-color: rgb(65, 131, 215);
+  color: $color-text;
+  background-color: rgb(65, 131, 215);
 }
 
 .btn_3 {
-color: $color-text;
-background-color: #926fb1;
+  color: $color-text;
+  background-color: #926fb1;
 }
 
 .user {        // items aligned to start of container w/ border above content
-display:flex;
-align-items: flex-start;
-padding-top: 30px;
-border-top: 1px solid #ccc;
-margin-top: 30px;
-gap: 15px;
+  display:flex;
+  align-items: flex-start;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  gap: 15px;
 }
 
 .person {    // larger font that is positioned next to profile image
-font-size: 14px;
+  font-size: 14px;
 }
 
 .profile_image {      //small user image at the bottom of each column
-width: 47px;
-height: 47px;
-border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
 }
 
 .date {
-font-size: $small-grey-size;
-color: $small-grey;
+  font-size: $small-grey-size;
+  color: $small-grey;
 }
 
 // .col::before {     // space between containers

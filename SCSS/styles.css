@@ -197,17 +197,13 @@ body {
 }
 
 /* middle section begins - services */
-.container {
+.custom-container1 {
   padding-top: 50px;
   padding-right: 15px;
   padding-bottom: 50px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.container-inner {
-  display: block;
 }
 
 .services {
@@ -393,6 +389,10 @@ ul {
   margin-right: auto;
 }
 
+.row {
+  margin: -30px -15px 0px -15px;
+}
+
 .job_block {
   padding: 30px 30px 30px 30px;
   border: 1px solid #cccccc;
@@ -411,6 +411,14 @@ ul {
 
 .job_title3 {
   color: #926fb1;
+}
+
+.img-container {
+  transition: transform 0.2s;
+}
+
+.img-container:hover {
+  transform: scale(1.2);
 }
 
 .details {
