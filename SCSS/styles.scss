@@ -16,7 +16,7 @@
 
 .full-page {
     width: 100%;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -71,7 +71,7 @@
 
 #banner {
     background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
-    background-position: 55% 90%;
+    // background-position: 55% 90%;
     position: relative;
     border-top: 1px solid rgba(51, 54, 69, .5);
     display: flex;
@@ -116,6 +116,11 @@
     margin-right: 43.313px;
     margin-left: 43.313px;
 }
+
+// .text-container {
+//   margin-right: auto;
+//   margin-left: auto;
+// }
 
 .btn-lg {
     height: auto;
@@ -520,7 +525,8 @@ footer {
 .footer_container {
   display: block;
    padding: 0px 15px 0px 15px;
-   margin: 0px 78.5px 0px 78.5px;
+   margin-left: auto;
+   margin-right: auto;
   }
 
 
@@ -610,20 +616,23 @@ h4 {
 }
 
 @media (min-width: 768px){
-.job_container, .about_container, .container, #careers_container, .newsletter_container {
+.job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container {
   width: 750px;
 }
 }
 
 @media (min-width: 992px){
-.job_container, .about_container, .container, #careers_container, .newsletter_container {
+.job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container {
   width: 970px;
 }
 
 }
 
 @media (min-width: 1260px){
-.job_container, .about_container, .container, #careers_container, .newsletter_container {
+.job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container {
   width: 1200px;
 }
 
