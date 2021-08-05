@@ -286,7 +286,7 @@ p:first-child {
                             ***************************/
 
 #careers_container {
-
+  margin: auto;
 }
 
 ul {
@@ -345,6 +345,12 @@ ul {
   margin-right: auto;
 }
 
+.custom-container2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
 .row {
   margin: -30px -15px 0px -15px;
 }
@@ -370,7 +376,11 @@ ul {
 }
 
 .img-container {
-  transition: transform .2s;
+  transition: all .25s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-delay: 0s;
 }
 
 .img-container:hover {
@@ -433,6 +443,8 @@ ul {
 
 .newsletter_container { // section structure //
   padding: 0px 15px 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .newsletter_inner { //  section structure //
@@ -598,20 +610,20 @@ h4 {
 }
 
 @media (min-width: 768px){
-.job_container, .about_container, .container {
+.job_container, .about_container, .container, #careers_container, .newsletter_container {
   width: 750px;
 }
 }
 
 @media (min-width: 992px){
-.job_container, .about_container, .container {
+.job_container, .about_container, .container, #careers_container, .newsletter_container {
   width: 970px;
 }
 
 }
 
 @media (min-width: 1260px){
-.job_container, .about_container, .container {
+.job_container, .about_container, .container, #careers_container, .newsletter_container {
   width: 1200px;
 }
 
