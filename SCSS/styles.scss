@@ -286,7 +286,7 @@ p:first-child {
                             ***************************/
 
 #careers_container {
-display: block;
+
 }
 
 ul {
@@ -337,39 +337,16 @@ margin: auto;
 padding: 50px 0px 50px 0px;
 }
 
-.job_row {
-display: flex;
-justify-content: center;
-flex-direction: row;
-flex-wrap: wrap;
-}
 
-.job_container {
-  display: flex;
-  justify-content: center;
+.jobs {
 padding-left: 15px;
 padding-right: 15px;
-}
-
-
-.job_container, {
 margin-left: auto;
 margin-right: auto;
 }
 
-.box {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  flex: 1 1;
-}
 
-.img-container {
-  display: flex;
-  flex-grow: 1;
-  max-width: 100%
-}
+
 
 .job_block { // this includes job title, description, button and the date of the listing
 padding: 30px 30px 30px 30px;
