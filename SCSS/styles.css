@@ -103,11 +103,6 @@ body {
   margin-right: auto;
 }
 
-.form-control {
-  display: inline;
-  width: auto;
-}
-
 #banner {
   background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
   position: relative;
