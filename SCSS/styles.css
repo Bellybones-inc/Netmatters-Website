@@ -103,6 +103,19 @@ body {
   margin-right: auto;
 }
 
+.header_row {
+  display: table;
+}
+
+.logo_column, .hamburger, .mobile_icon {
+  display: table-cell;
+  width: 100%;
+}
+
+.hamburger {
+  padding: 7px 0px 7px 0px;
+}
+
 #banner {
   background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
   position: relative;
@@ -589,11 +602,6 @@ h4 {
   flex: 1 0;
 }
 
-@media (max-width: 760px) {
-  #banner {
-    height: 531px;
-  }
-}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
