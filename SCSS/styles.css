@@ -92,16 +92,20 @@ body {
 }
 
 .inner {
-  display: block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#header_container {
+.header_container {
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-control {
+  display: inline;
+  width: auto;
 }
 
 #banner {
@@ -365,7 +369,7 @@ ul {
   padding-right: 15px;
 }
 
-.row {
+.custom-row {
   margin: -30px -15px 0px -15px;
 }
 
@@ -605,19 +609,19 @@ h4 {
 }
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container {
+.newsletter_container, .text-container, .footer_container, .header_container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container {
+.newsletter_container, .text-container, .footer_container, .header_container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container {
+.newsletter_container, .text-container, .footer_container, .header_container {
     width: 1200px;
   }
 }
