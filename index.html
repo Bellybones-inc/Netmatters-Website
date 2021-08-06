@@ -10,15 +10,12 @@
   <title>Netmatters Homepage</title>
 
   <!-- CSS and Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
   integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-
   <link rel="stylesheet" type="text/css" href="SCSS/styles.css">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,19 +48,32 @@
                 </div>
               </div>
 
-                <div class="col-3 d-sm-none d-md-none d-lg-none mobile_icon">
-                  <img src="img/067-phone.png">
+                <div class="col-3 col-sm-3 d-md-none d-lg-none mobile_icon">
+                  <span class="telephone">
+                    <img src="img/067-phone.png">
+                  </span>
                 </div>
 
-                <div class="col-3 col-sm-6 hamburger">
-                  <svg accesskey="" viewBox="0 0 100 80" width="40" height="40">
-                      <rect width="100" height="20"></rect>
-                      <rect y="30" width="100" height="20"></rect>
-                      <rect y="60" width="100" height="20"></rect>
-                  </svg>
-                </div>
+                <!-- Search form -->
+                <!-- <div class="col-md-3">
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div> -->
+
+                <div class="col-3 col-sm-6 col-md-3 col-lg-8 hamburger">
+                    <svg class="burger_menu" accesskey="" viewBox="0 0 100 80" width="40" height="40">
+                        <rect width="100" height="20"></rect>
+                        <rect y="30" width="100" height="20"></rect>
+                        <rect y="60" width="100" height="20"></rect>
+                    </svg>
+                  </div>
 
             </div> <!-- row end  -->
+
+
               <input class="form-control search-bar d-md-none d-lg-none" placeholder="Search...">
           </div> <!-- container end  -->
         </div> <!-- inner end  -->

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ===Variables=== */
 /* ===Base=== */
 html {
@@ -112,8 +113,20 @@ body {
   width: 100%;
 }
 
+.telephone {
+  margin-left: 15px;
+}
+
 .hamburger {
   padding: 7px 0px 7px 0px;
+}
+
+.burger_menu {
+  margin-left: 20px;
+}
+
+.hamburger::after {
+  content: "  ";
 }
 
 #banner {
