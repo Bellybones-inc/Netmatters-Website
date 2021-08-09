@@ -129,6 +129,10 @@ body {
   content: "  ";
 }
 
+.search-form {
+  display: inline-flex;
+}
+
 #banner {
   background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
   position: relative;
