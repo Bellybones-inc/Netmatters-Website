@@ -51,7 +51,6 @@
   margin-left: 15px;
 }
 
-
 .hamburger {
   padding: 7px 0px 7px 0px;
 }
@@ -67,7 +66,33 @@ content: ' \00a0';
 }
 
 .search-form {
+  align-content:center;
+}
+
+.form {
+  border: 1px solid #e5e5e5;
+}
+
+.search-submit {
+  border: none;
+  background-color: #999aa2;
+  color: #fff;
+  height: 33px;
+  width: 40px;
+}
+
+.form {
+    padding: 3px 8px 3px 8px;
+}
+
+.action {
   display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.contact_btn {
+  vertical-align: middle;
 }
 
 
