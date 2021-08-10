@@ -65,12 +65,13 @@ content: ' \00a0';
 
 }
 
-.search-form {
-  align-content:center;
-}
+// .search-form {
+//   align-content:center;
+// }
 
 .form {
   border: 1px solid #e5e5e5;
+  padding: 3px 8px 3px 8px;
 }
 
 .search-submit {
@@ -81,19 +82,22 @@ content: ' \00a0';
   width: 40px;
 }
 
-.form {
-    padding: 3px 8px 3px 8px;
+.search-form {
 }
+
+
+
+ .action {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
 
 // .action {
-//   display: inline-flex;
-//   flex-wrap: nowrap;
-//   flex-direction: row;
+//   display: flex;
+//   align-items: center;
 // }
-
-.contact_btn {
-  vertical-align: middle;
-}
 
 
 
