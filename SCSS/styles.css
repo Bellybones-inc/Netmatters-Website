@@ -634,6 +634,22 @@ h4 {
   flex: 1 0;
 }
 
+/***************************
+****************************
+      Accreditations
+****************************
+***************************/
+.accreditation_container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.accreditation_row {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+}
+
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
