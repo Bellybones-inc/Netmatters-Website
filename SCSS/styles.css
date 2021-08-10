@@ -149,12 +149,6 @@ body {
   padding: 3px 8px 3px 8px;
 }
 
-.action {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-}
-
 .contact_btn {
   vertical-align: middle;
 }
