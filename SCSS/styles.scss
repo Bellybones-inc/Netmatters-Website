@@ -498,6 +498,31 @@ ul {
 .client {
   padding: 50px 0px 50px 0px;
 }
+
+.description {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: -200px;
+  right: -200px;
+}
+
+.box {
+  // opacity: 0;
+  background-color: #333645;
+  color: $color-text;
+  padding: 20px;
+  max-width: 260px;
+  margin: 0px auto 50px auto;
+  // &:hover {
+  //   opacity: 100%;
+  }
+
+ .item:hover .description {
+  display: block;
+}
+
+
                             /***************************
                             ****************************
                                 Newsletter section
@@ -695,6 +720,8 @@ h4 {
 &:hover {
   opacity: 100%;
 }
+
+
 }
 .greyscale {
   opacity: 100%;
@@ -703,8 +730,6 @@ h4 {
 }
 }
 
-
-
 .item {
   flex-grow: 1;
   position: relative;
@@ -712,7 +737,11 @@ h4 {
   vertical-align: middle;
 }
 
-// Media queries //
+                              /***************************
+                              ****************************
+                                    Media Queries
+                              ****************************
+                              ***************************/
 
 @media (max-width: 991px){
   .content-container {

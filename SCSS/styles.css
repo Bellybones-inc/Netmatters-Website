@@ -493,6 +493,26 @@ ul {
   padding: 50px 0px 50px 0px;
 }
 
+.description {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: -200px;
+  right: -200px;
+}
+
+.box {
+  background-color: #333645;
+  color: #fff;
+  padding: 20px;
+  max-width: 260px;
+  margin: 0px auto 50px auto;
+}
+
+.item:hover .description {
+  display: block;
+}
+
 /***************************
 ****************************
     Newsletter section
@@ -692,6 +712,11 @@ h4 {
   vertical-align: middle;
 }
 
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
