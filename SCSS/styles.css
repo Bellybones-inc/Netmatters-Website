@@ -661,6 +661,21 @@ h4 {
   margin-top: 20px;
 }
 
+.colour {
+  opacity: 0;
+  position: absolute;
+}
+.colour:hover {
+  opacity: 100%;
+}
+
+.greyscale {
+  opacity: 100%;
+}
+.greyscale:hover {
+  opacity: 0;
+}
+
 .item {
   flex-grow: 1;
   position: relative;
