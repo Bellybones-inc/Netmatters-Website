@@ -486,6 +486,15 @@ ul {
 
 /***************************
 ****************************
+    Client section
+****************************
+***************************/
+.client {
+  padding: 50px 0px 50px 0px;
+}
+
+/***************************
+****************************
     Newsletter section
 ****************************
 ***************************/
@@ -653,7 +662,7 @@ h4 {
   flex-direction: row;
   text-align: center;
   vertical-align: middle;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
 }
 
@@ -705,7 +714,7 @@ h4 {
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
     width: 1200px;
   }
 }
