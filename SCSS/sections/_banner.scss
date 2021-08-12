@@ -1,0 +1,60 @@
+                                /***************************
+                                ****************************
+                                       Banner Section
+                                ****************************
+                                ***************************/
+
+#banner {
+  position: relative;
+  display: flex;
+  flex: 1 0 auto;
+  background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
+  border-top: 1px solid rgba(51, 54, 69, .5);
+}
+
+.content-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: $transparent-bg;
+}
+
+.img-title {
+  display: block;
+  margin-bottom: 25px;
+  color: $white-text;
+  font-weight: 400;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.img-sub-heading {
+margin-bottom: 35px;
+line-height: 2.25rem;
+color: $white-text;
+font-size: 1.25rem;
+}
+
+.text-content {
+  @include text-padding;
+  display: block;
+  margin-right: 43.313px;
+  margin-left: 43.313px;
+}
+
+.banner-btn {
+  @include btn-style;
+  height: auto;
+  padding: 5px 20px;
+  line-height: 50px;
+  color: $white-text;
+  background-color: $purple-bg;
+  border-color: $purple-border;
+  font-size: 1.25rem;
+}

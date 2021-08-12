@@ -1,0 +1,62 @@
+
+                        /***************************
+                        ****************************
+                                About section
+                        ****************************
+                        ***************************/
+
+#about {
+  display: block;
+  background-color: rgb(51, 54, 69);
+  background-position: 100% 50%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://www.netmatters.co.uk/assets/images/branded.png);
+}
+
+.about_container {
+  @include container-properties-custom;
+  display: block;
+}
+
+.netmatters {
+  display:block;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.about-text,
+.netmatters {
+  color: $white-text;
+}
+
+.netmatters {
+  text-transform: uppercase;
+}
+
+p {
+  @include bio-text
+}
+
+p:first-child {
+  font-weight: bold;
+}
+
+.btn-culture {
+  @include btn-style;
+  padding: 5px 15px 5px 15px;
+  line-height: 35px;
+  border-radius: 3px;
+  white-space: normal;
+  background-image: none;
+  background-color: $white-text;
+  color: $dark-grey-text;
+  font-size: 1.063rem;
+}
+
+.btn-culture:focus {
+  background-color: $white-text-dark;
+  border-color: $white-text-dark;
+  color: $dark-grey-text;
+}
