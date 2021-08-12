@@ -555,7 +555,7 @@ ul {
   border-left-color: transparent;
 }
 
-.item:hover .description {
+bippity .item:hover .description {
   display: block;
 }
 
