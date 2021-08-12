@@ -541,21 +541,23 @@ ul {
     margin: auto;
   }
 
-  // .arrow {
-  //   position: absolute;
-  //   bottom: 10px;
-  //   left: 50%;
-  //   margin-left: -36px;
-  // }
-  //
-  // .box::after .arrow {
-  //   display: inline-block;
-  //   content: "";
-  //   margin: auto;
-  //   border-style: solid;
-  //   border-width: 35px 36px 0px 36px;
-  //   border-color: #333645;
-  // }
+
+  .arrow {
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -36px;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-width: 35px 36px 0px 36px;
+    border-color: #333645;
+  }
+
+  .box::after {
+    content: "";
+  }
 
  .item:hover .description {
   display: block;
