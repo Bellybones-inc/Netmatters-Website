@@ -1,0 +1,72 @@
+/* header */
+
+.page-parent {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.full-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header_container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_row {
+  display: table;
+}
+
+.logo_column, .hamburger, .mobile_icon {
+  display: table-cell;
+  width: 100%;
+}
+
+.telephone {
+  margin-left: 15px;
+}
+
+.hamburger {
+  padding: 7px 0px 7px 0px;
+}
+
+.burger_menu {
+  margin-left: 20px;
+}
+
+.hamburger::after {
+  content: ' \00a0';
+}
+
+.form {
+  border: 1px solid #e5e5e5;
+  padding: 3px 8px 3px 8px;
+}
+
+.search-submit {
+  border: none;
+  background-color: #999aa2;
+  color: #fff;
+  height: 33px;
+  width: 40px;
+}
+
+.search-form {
+}
+
+ .action {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
