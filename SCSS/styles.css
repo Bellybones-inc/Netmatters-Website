@@ -1,5 +1,41 @@
 @charset "UTF-8";
 /* ===Variables=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
 /* ===Base=== */
 html {
   height: 100%;
@@ -555,7 +591,7 @@ ul {
   border-left-color: transparent;
 }
 
-bippity .item:hover .description {
+.item:hover .description {
   display: block;
 }
 
@@ -756,43 +792,6 @@ h4 {
   position: relative;
   padding: 0px 20px 0px 20px;
   vertical-align: middle;
-}
-
-/***************************
-****************************
-      Media Queries
-****************************
-***************************/
-@media (max-width: 991px) {
-  .content-container {
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-  }
-}
-@media (min-width: 768px) {
-  .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
-    width: 970px;
-  }
-}
-@media (min-width: 1260px) {
-  .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
-    width: 1200px;
-  }
-}
-@media (min-width: 1260px) {
-  .about-text {
-    width: 50%;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
