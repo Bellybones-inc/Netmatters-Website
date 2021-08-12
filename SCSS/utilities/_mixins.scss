@@ -1,3 +1,5 @@
+
+
 //mixins
 
 @mixin bio-text {
@@ -7,4 +9,66 @@
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+
+// Small line division
+
+@mixin line-divider {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333645;
+
+}
+
+// Service block
+@mixin service-block {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 3px 3px 3px 3px;
+  border-width: 1px 1px 1px 1px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+
+// The background position for the About section images
+@mixin about-bg-position {
+  background-color: rgb(51, 54, 69);
+  background-position: 100% 50%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+
+//Button styles
+
+@mixin btn-banner-style {
+  height: auto;
+  padding: 5px 20px;
+  line-height: 50px;
+  color: #fff;
+  background-color: #926fb1;
+  border-color: #926fb1;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+@mixin btn-culture-style {
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  line-height: 35px;
+  white-space: normal;
+  border: 1px solid transparent;
+  background-image: none;
+  background-color: #fff;
+  color: #333645;
+  text-transform: uppercase;
+  font-size: 1.063rem;
 }

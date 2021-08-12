@@ -1,14 +1,26 @@
 /* ===Variables=== */
 
-// Font styles
-$color-text: #fff;
-$color-text-dark: darken($color-text, 25%);
+// Font colour
+$white-text: #fff;
+$white-text-dark: darken($white-text, 25%);
 $small-grey: rgb(102, 102, 102);
+$blue-grey-text: #67809f;
+$dark-grey-text: #333645;
+$red-text: #d24d57;
+
+// Font size
 $small-grey-size: 13px;
 
+// Background styles
+$dark-grey-bg: #333645;
+$grey-bg: #ddd;
+$transparent-bg: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+$blue-grey-bg: #67809f;
+$white-bg: #fff;
 
 // padding
 $section: 50px 0px 50px 0px;
+$container: 0px 15px 0px 15px;
 
 
 
