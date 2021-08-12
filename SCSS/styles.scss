@@ -91,9 +91,7 @@
 #banner {
     position: relative;
     display: flex;
-    flex-shrink: 0;
-    flex-grow: 1;
-    flex-basis: auto;
+    flex: 1 0 auto;
     background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
     border-top: 1px solid rgba(51, 54, 69, .5);
 }
@@ -130,15 +128,21 @@
 }
 
 .text-content {
+  @include text-padding;
     display: block;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-right: 43.313px;
     margin-left: 43.313px;
 }
 
 .banner-btn {
-  @include btn-banner-style
+  @include btn-style;
+  height: auto;
+  padding: 5px 20px;
+  line-height: 50px;
+  color: $white-text;
+  background-color: $purple-bg;
+  border-color: $purple-border;
+  font-size: 1.25rem;
 }
 
                               /***************************
@@ -148,9 +152,7 @@
                               ***************************/
 
 .custom-container1 {
-  padding: 50px 15px 50px 15px;
-  margin-right: auto;
-  margin-left: auto;
+  @include container-properties-custom;
   }
 
 .services {
@@ -158,7 +160,13 @@
 }
 
 .block {
-  @include service-block;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 3px 3px 3px 3px;
+  border-width: 1px 1px 1px 1px;
+  border: 1px solid rgb(204, 204, 204);
+  font-weight: 600;
+  text-align: center;
 }
 
 .icon {
@@ -211,16 +219,17 @@ span.p {
                             ***************************/
 
 #about {
-  @include about-bg-position;
   display: block;
+  background-color: rgb(51, 54, 69);
+  background-position: 100% 50%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
   background-image: url(https://www.netmatters.co.uk/assets/images/branded.png);
 }
 
 .about_container {
+  @include container-properties-custom;
   display: block;
-  padding: 50px 15px 50px 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .netmatters {
@@ -248,7 +257,15 @@ p:first-child {
 }
 
 .btn-culture {
-  @include btn-culture-style
+  @include btn-style;
+  padding: 5px 15px 5px 15px;
+  line-height: 35px;
+  border-radius: 3px;
+  white-space: normal;
+  background-image: none;
+  background-color: $white-text;
+  color: $dark-grey-text;
+  font-size: 1.063rem;
 }
 
 .btn-culture:focus {
@@ -312,15 +329,13 @@ ul {
 
 
 .jobs {
-  padding-left: 15px;
-  padding-right: 15px;
+  @include text-padding;
   margin-left: auto;
   margin-right: auto;
 }
 
 .custom-container2 {
-  padding-left: 15px;
-  padding-right: 15px;
+  @include text-padding;
 }
 
 
@@ -419,7 +434,7 @@ ul {
 }
 
 .box {
-  background-color: #333645;
+  background-color: $dark-grey-bg;
   color: $white-text;
   padding: 20px;
   max-width: 260px;
@@ -440,15 +455,9 @@ ul {
   }
 
   .box h3::after {
-    content: "";
-    position: absolute;
+    @include line-divider;
     width: 28px;
     height: 3px;
-    display: block;
-    background-color: $white-text;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
   }
 
@@ -466,7 +475,7 @@ ul {
     display: inline-block;
     border-style: solid;
     border-width: 35px 36px 0px 36px;
-    border-color: #333645;
+    border-color: $dark-grey-bg;
     border-top-color: rgb(51, 54, 69);
     border-right-color: transparent;
     border-bottom-color: transparent;
