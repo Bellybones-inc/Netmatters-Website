@@ -53,10 +53,9 @@ p:first-child {
   background-color: $white-text;
   color: $dark-grey-text;
   font-size: 1.063rem;
-}
-
-.btn-culture:focus {
+  &:hover {
   background-color: $white-text-dark;
   border-color: $white-text-dark;
   color: $dark-grey-text;
+}
 }

@@ -1,3 +1,4 @@
+
                                 /***************************
                                 ****************************
                                        Banner Section
@@ -48,13 +49,17 @@ font-size: 1.25rem;
   margin-left: 43.313px;
 }
 
-.banner-btn {
+.btn.banner-btn {
   @include btn-style;
   height: auto;
   padding: 5px 20px;
   line-height: 50px;
   color: $white-text;
-  background-color: $purple-bg;
   border-color: $purple-border;
+  background-color: $purple-bg;
   font-size: 1.25rem;
+}
+
+.btn .btn-lg {
+ background-color: $purple-bg !important;
 }
