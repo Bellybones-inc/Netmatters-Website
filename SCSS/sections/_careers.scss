@@ -1,0 +1,140 @@
+/***************************
+****************************
+    Careers section header
+****************************
+***************************/
+
+
+#careers_container {
+  margin: auto;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.anon {
+  padding: 0;
+  float: left;
+  list-style-type: none;
+}
+
+.latest {
+  display: block;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 24px;
+  color: $dark-grey-text;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.latest::after {
+  @include line-divider;
+  margin: auto;
+  width: 71px;
+  height: 5px;
+}
+
+/***************************
+****************************
+    Careers section main
+****************************
+***************************/
+
+
+
+.section { // sets the top and bottom padding and covers row.
+  padding: $section;
+}
+
+
+.jobs {
+  @include text-padding;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-container2 {
+  @include text-padding;
+}
+
+
+.custom-row {
+  margin: -30px -15px 0px -15px;
+}
+
+.job_block { // this includes job title, description, button and the date of the listing
+  padding: 30px 30px 30px 30px;
+  border: 1px solid rgb(204, 204, 204, 204);
+  border-top-color: rgb(102, 102, 102);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
+  border-radius: 3px;
+}
+
+.job_title1, .job_title2, .job_title3 {
+  font-size: 16px;
+}
+
+.job_title1, .job_title2 {
+  color: rgb(65, 131, 215);
+}
+
+.job_title3 {
+  color: #926fb1;
+}
+
+.img-container {
+  transition: all .25s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-delay: 0s;
+}
+
+.img-container:hover {
+  transform: scale(1.2);
+}
+
+.details { //font color and size for job description
+  font-size: $small-grey-size;
+  color: $small-grey;
+}
+
+
+.btn-lg {
+  color: $white-text;
+  background-color: rgb(65, 131, 215);
+}
+
+.btn_3 {
+  color: $white-text;
+  background-color: #926fb1;
+}
+
+.user {        // items aligned to start of container w/ border above content
+  display:flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.person {    // larger font that is positioned next to profile image
+  font-size: 14px;
+}
+
+.profile_image {      //small user image at the bottom of each column
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+
+.date {
+  font-size: $small-grey-size;
+  color: $small-grey;
+}

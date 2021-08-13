@@ -1,0 +1,89 @@
+/***************************
+****************************
+      Footer section
+****************************
+***************************/
+
+
+footer {
+  background-color: $dark-grey-bg;
+  color: $white-text;
+  padding: 47px 0px 43px 0px;
+  line-height: 1.375rem;
+}
+
+
+.footer_container {
+  padding: $container;
+  margin: auto;
+  display: block;
+}
+
+
+.block_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer_block {
+  display: flex;
+  justify-content: center;
+}
+
+.link_container, .office_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link_inner, .office_block {
+  margin: 0px 0px 30px 0px;
+  display: block;
+}
+
+.service_links, .offices {
+  padding: 0px;
+  width: 225px;
+}
+
+
+li, .copyright, .sitemap {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 13px;
+}
+
+.link {
+  color: $white-text;
+}
+
+h4 {
+  text-transform: uppercase;
+  margin-bottom: 26px;
+  font-size: 1rem;
+}
+
+.end_container { // main flex container for copyright section
+  padding: 10px 0px 0px 0px;
+  border-top: 1px solid #888;
+  margin-top: 10px;
+  display: flex;
+}
+
+//flex content below is aligned to the end of the container, which expands as viewport increases width.
+
+.social-media {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+// below Flex shrink property set to 0
+
+.sitemap {
+  padding-right: 10px;
+  display: inline-flex;
+  flex: 1 0;
+}

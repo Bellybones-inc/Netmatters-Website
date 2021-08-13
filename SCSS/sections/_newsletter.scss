@@ -1,0 +1,66 @@
+/***************************
+****************************
+    Newsletter section
+****************************
+***************************/
+
+.newsletter_section { // Sets a grey background to the newsletter //
+  background-color: $grey-bg;
+}
+
+.newsletter_container { // section structure //
+  padding: $container;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter_inner { //  section structure //
+  padding: 50px 30px 50px 30px;
+}
+
+.newsletter_heading {  // h2 element //
+  color: $dark-grey-text;
+  margin: 15px;
+}
+
+.form_container { // flex-box form container //
+  padding: $container;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label { // label font //
+  color: $dark-grey-text;
+  font-weight: 600;
+  font-size: 1rem;  
+}
+
+label::after {  // asterisk after label /
+  content: " *";
+  color: $red-text;
+}
+
+.sign-up-field { // forms have a flex basis of 450px //
+  flex: 1 1 450px;
+  padding: $container;
+}
+
+.form-control { // white background for forms //
+  background-color: rgb(255, 255, 255);
+}
+
+.marketing_info_container { // flex container for policy info and checkbox //
+  padding: $container;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.policy_text {
+  margin-top: 0px;
+}
+
+.submit { // label colour //
+  background-color: $dark-grey-bg;
+  color: $white-text;
+}

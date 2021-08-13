@@ -88,34 +88,6 @@ body {
   overflow-y: hidden;
 }
 
-.icn-soft {
-  color: #67809f;
-}
-
-.icn-it {
-  color: #4183d7;
-}
-
-.icn-digi {
-  color: #2ecc71;
-}
-
-.icn-tele {
-  color: #d64541;
-}
-
-.icn-des {
-  color: #926fb1;
-}
-
-.icn-sec {
-  color: #f62459;
-}
-
-.icn-train {
-  color: #926fb1;
-}
-
 /* header */
 .page-parent {
   display: flex;
@@ -532,7 +504,7 @@ ul {
 
 /***************************
 ****************************
-        Client section
+        Clients section
 ****************************
 ***************************/
 .client {
