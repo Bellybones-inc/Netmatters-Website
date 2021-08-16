@@ -1,0 +1,13 @@
+// icons
+
+@import '../utilities/variables',
+        '../utilities/mixins',
+        '../utilities/media',
+        '../base/base';
+
+
+@each $name, $color in $themes {
+  .icon-#{$name} {
+background-color: $color;
+  }
+}

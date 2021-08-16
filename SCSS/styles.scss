@@ -5,6 +5,10 @@
         'utilities/mixins',
         'utilities/media';
 
+// Components imports
+
+@import 'components/icons';       
+
 // Base styles import
 
 @import 'base/base';
@@ -14,7 +18,7 @@
 @import 'sections/header',
         'sections/banner',
         'sections/services',
-        'sections/about',          
+        'sections/about',
         'sections/careers',
         'sections/clients',
         'sections/newsletter',

@@ -8,7 +8,8 @@
 @import '../utilities/variables',
         '../utilities/mixins',
         '../utilities/media',
-        '../base/base';
+        '../base/base',
+        '../components/icons';
 
 .custom-container1 {
   @include container-properties-custom;
@@ -28,8 +29,7 @@
   text-align: center;
 }
 
-.icon-1 {
-  @include icon-color;
+.icon {
   display: block;
   margin: 0px auto 17px auto;
   border-radius: 50%;
