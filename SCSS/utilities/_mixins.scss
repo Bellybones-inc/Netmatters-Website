@@ -59,6 +59,7 @@
   @each $name, $color in $themes {
     &-#{$name} {
   background-color: $color;
+  border-color: $color;
     }
   }
 }

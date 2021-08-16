@@ -33,11 +33,20 @@
   @include themes($themes);
 }
 
-.block {
-  background-color: $white-bg;
-  &:hover{
+.btn {
   @include themes($themes);
 }
+
+.btn-secondary {
+  border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
+}
+
+.button-container {
+  padding: 5px 15px 5px 15px;
 }
 
 .icon {
@@ -75,18 +84,3 @@ span.p {
   font-size: .8125rem;
   font-weight: 400;
 }
-
-.button-container {
-  display: block;
-  padding: 5px 15px 5px 15px;
-  border: 1px 1px 1px 1px;
-}
-
-
-
-
-
-
-// .btn-secondary, .h2::after {
-// background-color: $white-bg;
-// color: $blue-grey-text;
