@@ -14,7 +14,7 @@
   background-image: url(https://www.netmatters.co.uk/assets/images/branded.png);
 }
 
-.about_container {
+.about_container {     
   @include container-properties-custom;
   display: block;
 }
