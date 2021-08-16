@@ -1,17 +1,156 @@
-/* Error: Undefined variable.
- *    ,
- * 26 |   background: $transparent-bg;
- *    |               ^^^^^^^^^^^^^^^
- *    '
- *   Users/wilber/Desktop/Netmatters Website/scss/sections/_banner.scss 26:15  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 26 \2502    background: $transparent-bg;\a    \2502                ^^^^^^^^^^^^^^^\a    \2575 \a   Users/wilber/Desktop/Netmatters Website/scss/sections/_banner.scss 26:15  root stylesheet";
+/***************************
+****************************
+       Banner Section
+****************************
+***************************/
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
+/* ===Base=== */
+html {
+  height: 100%;
+  display: block;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.42857143;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #fff;
+  margin: 0;
+  display: block;
+}
+
+#container {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main {
+  display: block;
+  color: #666666;
+  background-color: white;
+}
+
+.main-outer {
+  display: block;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.main-inner {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#banner {
+  position: relative;
+  display: flex;
+  flex: 1 0 auto;
+  background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
+  border-top: 1px solid rgba(51, 54, 69, 0.5);
+}
+
+.content-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+}
+
+.img-title {
+  display: block;
+  margin-bottom: 25px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.img-sub-heading {
+  margin-bottom: 35px;
+  line-height: 2.25rem;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.text-content {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+  margin-right: 43.313px;
+  margin-left: 43.313px;
+}
+
+.btn.banner-btn {
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  height: auto;
+  padding: 5px 20px;
+  line-height: 50px;
+  color: #fff;
+  border-color: #926fb1;
+  background-color: #926fb1;
+  font-size: 1.25rem;
+}
+
+.btn .btn-lg {
+  background-color: #926fb1 !important;
+}
+
+/*# sourceMappingURL=_banner.css.map */

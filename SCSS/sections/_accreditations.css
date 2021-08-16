@@ -1,17 +1,138 @@
-/* Error: Undefined variable.
- *   ,
- * 8 |   padding: $section;
- *   |            ^^^^^^^^
- *   '
- *   Users/wilber/Desktop/Netmatters Website/scss/sections/_accreditations.scss 8:12  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 8 \2502    padding: $section;\a   \2502             ^^^^^^^^\a   \2575 \a   Users/wilber/Desktop/Netmatters Website/scss/sections/_accreditations.scss 8:12  root stylesheet";
+/***************************
+****************************
+      Accreditations
+****************************
+***************************/
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
+/* ===Base=== */
+html {
+  height: 100%;
+  display: block;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.42857143;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #fff;
+  margin: 0;
+  display: block;
+}
+
+#container {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main {
+  display: block;
+  color: #666666;
+  background-color: white;
+}
+
+.main-outer {
+  display: block;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.main-inner {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.accreditation {
+  padding: 50px 0px 50px 0px;
+}
+
+.accreditation_container {
+  padding: 0px 15px 0px 15px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: space-evenly;
+}
+
+.second-row {
+  margin-top: 20px;
+}
+
+.colour {
+  opacity: 0;
+  position: absolute;
+}
+.colour:hover {
+  opacity: 100%;
+}
+
+.greyscale {
+  opacity: 100%;
+}
+.greyscale:hover {
+  opacity: 0;
+}
+
+.item {
+  position: relative;
+  padding: 0px 20px 0px 20px;
+  flex-grow: 1;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=_accreditations.css.map */

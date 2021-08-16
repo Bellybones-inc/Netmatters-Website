@@ -1,17 +1,156 @@
-/* Error: Undefined variable.
- *   ,
- * 8 |   background-color: $grey-bg;
- *   |                     ^^^^^^^^
- *   '
- *   Users/wilber/Desktop/Netmatters Website/scss/sections/_newsletter.scss 8:21  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 8 \2502    background-color: $grey-bg;\a   \2502                      ^^^^^^^^\a   \2575 \a   Users/wilber/Desktop/Netmatters Website/scss/sections/_newsletter.scss 8:21  root stylesheet";
+/***************************
+****************************
+    Newsletter section
+****************************
+***************************/
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
+/* ===Base=== */
+html {
+  height: 100%;
+  display: block;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.42857143;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #fff;
+  margin: 0;
+  display: block;
+}
+
+#container {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main {
+  display: block;
+  color: #666666;
+  background-color: white;
+}
+
+.main-outer {
+  display: block;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.main-inner {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.newsletter_section {
+  background-color: #ddd;
+}
+
+.newsletter_container {
+  padding: 0px 15px 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter_inner {
+  padding: 50px 30px 50px 30px;
+}
+
+.newsletter_heading {
+  color: #333645;
+  margin: 15px;
+}
+
+.form_container {
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  color: #333645;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+label::after {
+  content: " *";
+  color: #d24d57;
+}
+
+.sign-up-field {
+  flex: 1 1 450px;
+  padding: 0px 15px 0px 15px;
+}
+
+.form-control {
+  background-color: white;
+}
+
+.marketing_info_container {
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.policy_text {
+  margin-top: 0px;
+}
+
+.submit {
+  background-color: #333645;
+  color: #fff;
+}
+
+/*# sourceMappingURL=_newsletter.css.map */

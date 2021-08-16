@@ -5,6 +5,11 @@
                                 ****************************
                                 ***************************/
 
+@import '../utilities/variables',
+        '../utilities/mixins',
+        '../utilities/media',
+        '../base/base';
+
 #banner {
   position: relative;
   display: flex;

@@ -1,17 +1,231 @@
-/* Error: Undefined variable.
- *    ,
- * 28 |   color: $dark-grey-text;
- *    |          ^^^^^^^^^^^^^^^
- *    '
- *   Users/wilber/Desktop/Netmatters Website/scss/sections/_careers.scss 28:10  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 28 \2502    color: $dark-grey-text;\a    \2502           ^^^^^^^^^^^^^^^\a    \2575 \a   Users/wilber/Desktop/Netmatters Website/scss/sections/_careers.scss 28:10  root stylesheet";
+/***************************
+****************************
+    Careers section header
+****************************
+***************************/
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
+/* ===Base=== */
+html {
+  height: 100%;
+  display: block;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.42857143;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #fff;
+  margin: 0;
+  display: block;
+}
+
+#container {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main {
+  display: block;
+  color: #666666;
+  background-color: white;
+}
+
+.main-outer {
+  display: block;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.main-inner {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#careers_container {
+  margin: auto;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.anon {
+  padding: 0;
+  float: left;
+  list-style-type: none;
+}
+
+.latest {
+  display: block;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 24px;
+  color: #333645;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.latest::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333645;
+  margin: auto;
+  width: 71px;
+  height: 5px;
+}
+
+/***************************
+****************************
+    Careers section main
+****************************
+***************************/
+.section {
+  padding: 50px 0px 50px 0px;
+}
+
+.jobs {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.custom-row {
+  margin: -30px -15px 0px -15px;
+}
+
+.job_block {
+  padding: 30px 30px 30px 30px;
+  border: 1px solid #cccccc;
+  border-top-color: #666666;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
+  border-radius: 3px;
+}
+
+.job_title1, .job_title2, .job_title3 {
+  font-size: 16px;
+}
+
+.job_title1, .job_title2 {
+  color: #4183d7;
+}
+
+.job_title3 {
+  color: #926fb1;
+}
+
+.img-container {
+  transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-delay: 0s;
+}
+
+.img-container:hover {
+  transform: scale(1.2);
+}
+
+.details {
+  font-size: 13px;
+  color: #666666;
+}
+
+.btn-lg {
+  color: #fff;
+  background-color: #4183d7;
+}
+
+.btn_3 {
+  color: #fff;
+  background-color: #926fb1;
+}
+
+.user {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.person {
+  font-size: 14px;
+}
+
+.profile_image {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+
+.date {
+  font-size: 13px;
+  color: #666666;
+}
+
+/*# sourceMappingURL=_careers.css.map */

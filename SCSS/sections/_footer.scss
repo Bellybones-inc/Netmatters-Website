@@ -4,6 +4,11 @@
 ****************************
 ***************************/
 
+@import '../utilities/variables',
+        '../utilities/mixins',
+        '../utilities/media',
+        '../base/base';
+
 
 footer {
   background-color: $dark-grey-bg;

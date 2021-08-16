@@ -4,6 +4,11 @@
 ****************************
 ***************************/
 
+@import '../utilities/variables',
+        '../utilities/mixins',
+        '../utilities/media',
+        '../base/base';
+
 .newsletter_section { // Sets a grey background to the newsletter //
   background-color: $grey-bg;
 }
@@ -32,7 +37,7 @@
 label { // label font //
   color: $dark-grey-text;
   font-weight: 600;
-  font-size: 1rem;  
+  font-size: 1rem;
 }
 
 label::after {  // asterisk after label /

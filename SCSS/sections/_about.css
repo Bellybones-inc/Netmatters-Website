@@ -1,17 +1,158 @@
-/* Error: Undefined mixin.
- *    ,
- * 18 |   @include container-properties-custom;
- *    |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   Users/wilber/Desktop/Netmatters Website/scss/sections/_about.scss 18:3  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 18 \2502    @include container-properties-custom;\a    \2502    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   Users/wilber/Desktop/Netmatters Website/scss/sections/_about.scss 18:3  root stylesheet";
+/***************************
+****************************
+        About section
+****************************
+***************************/
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
+/* ===Base=== */
+html {
+  height: 100%;
+  display: block;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.42857143;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #fff;
+  margin: 0;
+  display: block;
+}
+
+#container {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main {
+  display: block;
+  color: #666666;
+  background-color: white;
+}
+
+.main-outer {
+  display: block;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.main-inner {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#about {
+  display: block;
+  background-color: #333645;
+  background-position: 100% 50%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://www.netmatters.co.uk/assets/images/branded.png);
+}
+
+.about_container {
+  padding: 50px 15px 50px 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.netmatters {
+  display: block;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.about-text,
+.netmatters {
+  color: #fff;
+}
+
+.netmatters {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.875rem;
+  margin: 0px 0px 25px 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p:first-child {
+  font-weight: bold;
+}
+
+.btn-culture {
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  padding: 5px 15px 5px 15px;
+  line-height: 35px;
+  border-radius: 3px;
+  white-space: normal;
+  background-image: none;
+  background-color: #fff;
+  color: #333645;
+  font-size: 1.063rem;
+}
+.btn-culture:hover {
+  background-color: #bfbfbf;
+  border-color: #bfbfbf;
+  color: #333645;
+}
+
+/*# sourceMappingURL=_about.css.map */

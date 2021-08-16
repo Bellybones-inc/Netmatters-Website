@@ -1,5 +1,10 @@
 /* header */
 
+@import '../utilities/variables',
+        '../utilities/mixins',
+        '../utilities/media',
+        '../base/base';
+
 .page-parent {
     display: flex;
     flex-direction: row;
@@ -11,7 +16,7 @@
     display: flex;
     flex-direction: column;
 }
- 
+
 .inner {
     padding-top: 20px;
     padding-bottom: 20px;
