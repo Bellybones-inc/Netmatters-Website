@@ -30,6 +30,17 @@
 }
 
 .icon {
+  @include themes($themes);
+}
+
+.block {
+  background-color: $white-bg;
+  &:hover{
+  @include themes($themes);
+}
+}
+
+.icon {
   display: block;
   margin: 0px auto 17px auto;
   border-radius: 50%;
@@ -72,10 +83,7 @@ span.p {
 }
 
 
-.block-digi, .block-sec, .block-soft, .block-train, .block-tele {
 
-  background-color: map-get($themes, soft, it, digi, tele, des, sec, train)
-}
 
 
 

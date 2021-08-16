@@ -6,8 +6,8 @@
         '../base/base';
 
 
-@each $name, $color in $themes {
-  .icon-#{$name} {
-background-color: $color;
-  }
-}
+// @each $name, $color in $themes {
+//   .icon-#{$name} {
+// background-color: $color;
+//   }
+// }

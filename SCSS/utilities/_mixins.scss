@@ -52,3 +52,13 @@
 @mixin icon-color {
     background-color: #67809f;
 }
+
+// background-colour
+
+@mixin themes($map) {
+  @each $name, $color in $themes {
+    &-#{$name} {
+  background-color: $color;
+    }
+  }
+}

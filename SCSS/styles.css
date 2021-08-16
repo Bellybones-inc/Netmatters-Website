@@ -164,34 +164,6 @@ body {
   overflow-y: hidden;
 }
 
-.icon-soft {
-  background-color: #67809f;
-}
-
-.icon-it {
-  background-color: #4183d7;
-}
-
-.icon-digi {
-  background-color: #2ecc71;
-}
-
-.icon-tele {
-  background-color: #d64541;
-}
-
-.icon-des {
-  background-color: #926fb1;
-}
-
-.icon-sec {
-  background-color: #f62459;
-}
-
-.icon-train {
-  background-color: #926fb1;
-}
-
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
@@ -929,34 +901,6 @@ body {
   overflow-y: hidden;
 }
 
-.icon-soft {
-  background-color: #67809f;
-}
-
-.icon-it {
-  background-color: #4183d7;
-}
-
-.icon-digi {
-  background-color: #2ecc71;
-}
-
-.icon-tele {
-  background-color: #d64541;
-}
-
-.icon-des {
-  background-color: #926fb1;
-}
-
-.icon-sec {
-  background-color: #f62459;
-}
-
-.icon-train {
-  background-color: #926fb1;
-}
-
 .custom-container1 {
   padding: 50px 15px 50px 15px;
   margin-right: auto;
@@ -975,6 +919,53 @@ body {
   border: 1px solid #cccccc;
   font-weight: 600;
   text-align: center;
+}
+
+.icon-soft {
+  background-color: #67809f;
+}
+.icon-it {
+  background-color: #4183d7;
+}
+.icon-digi {
+  background-color: #2ecc71;
+}
+.icon-tele {
+  background-color: #d64541;
+}
+.icon-des {
+  background-color: #926fb1;
+}
+.icon-sec {
+  background-color: #f62459;
+}
+.icon-train {
+  background-color: #926fb1;
+}
+
+.block {
+  background-color: #fff;
+}
+.block:hover-soft {
+  background-color: #67809f;
+}
+.block:hover-it {
+  background-color: #4183d7;
+}
+.block:hover-digi {
+  background-color: #2ecc71;
+}
+.block:hover-tele {
+  background-color: #d64541;
+}
+.block:hover-des {
+  background-color: #926fb1;
+}
+.block:hover-sec {
+  background-color: #f62459;
+}
+.block:hover-train {
+  background-color: #926fb1;
 }
 
 .icon {
