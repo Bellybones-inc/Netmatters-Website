@@ -29,7 +29,17 @@
 }
 
 .icon {
-  margin: 17px;
+  display: block;
+  margin: 0px auto 17px auto;
+  color: #fff;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background-color: #67809f;
+}
+
+.icn {
+  margin-top: 16px;
 }
 
 .h2 {
