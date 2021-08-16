@@ -1025,15 +1025,6 @@ span.p {
   border: 1px 1px 1px 1px;
 }
 
-.block:hover {
-  background-color: #67809f;
-  color: #fff;
-}
-.block:hover .btn-secondary, .block:hover .h2::after {
-  background-color: #fff;
-  color: #67809f;
-}
-
 /***************************
 ****************************
         About section

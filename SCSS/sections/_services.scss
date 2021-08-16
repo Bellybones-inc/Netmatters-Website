@@ -72,11 +72,13 @@ span.p {
 }
 
 
-.block:hover {
-  background-color: $blue-grey-bg;
-  color: $white-text;
-  .btn-secondary, .h2::after {
-  background-color: $white-bg;
-  color: $blue-grey-text;
+.block-digi, .block-sec, .block-soft, .block-train, .block-tele {
+
+  background-color: map-get($themes, soft, it, digi, tele, des, sec, train)
 }
-}
+
+
+
+// .btn-secondary, .h2::after {
+// background-color: $white-bg;
+// color: $blue-grey-text;
