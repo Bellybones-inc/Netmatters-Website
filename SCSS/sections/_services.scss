@@ -28,14 +28,14 @@
   text-align: center;
 }
 
-.icon {
+.icon-1 {
+  @include icon-color;
   display: block;
   margin: 0px auto 17px auto;
-  color: $white-text;
   border-radius: 50%;
   height: 60px;
+  color: $white-text;
   width: 60px;
-  background-color: $blue-grey-bg;
 }
 
 .icn {

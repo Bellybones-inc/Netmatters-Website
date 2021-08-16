@@ -150,14 +150,34 @@ body {
   text-align: center;
 }
 
-.icon {
+.icon-1 {
   display: block;
   margin: 0px auto 17px auto;
-  color: #fff;
   border-radius: 50%;
   height: 60px;
+  color: #fff;
   width: 60px;
+}
+.icon-1 .icon-1 {
   background-color: #67809f;
+}
+.icon-1 .icon-2 {
+  background-color: #4183d7;
+}
+.icon-1 .icon-3 {
+  background-color: #2ecc71;
+}
+.icon-1 .icon-4 {
+  background-color: #d64541;
+}
+.icon-1 .icon-5 {
+  background-color: #926fb1;
+}
+.icon-1 .icon-6 {
+  background-color: #f62459;
+}
+.icon-1 .icon-7 {
+  background-color: #2ecc71;
 }
 
 .icn {

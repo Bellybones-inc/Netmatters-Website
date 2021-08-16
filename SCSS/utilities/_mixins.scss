@@ -48,3 +48,27 @@
   border: 1px solid transparent;
   text-transform: uppercase;
 }
+
+@mixin icon-color {
+  .icon-1 {
+    background-color: #67809f;
+  }
+  .icon-2 {
+    background-color: #4183d7;
+  }
+  .icon-3 {
+    background-color: #2ecc71;
+  }
+  .icon-4 {
+    background-color: #d64541;
+  }
+  .icon-5 {
+    background-color: #926fb1;
+  }
+  .icon-6 {
+    background-color: #f62459;
+  }
+.icon-7 {
+    background-color: #2ecc71;
+  }
+}
