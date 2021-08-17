@@ -1894,8 +1894,20 @@ label::after {
   margin-bottom: 15px;
 }
 
-.form-control {
-  background-color: #fff;
+.form-check-input {
+  width: 32px;
+  height: 32px;
+  border: 3px solid #333645;
+  background-color: #ddd;
+}
+.form-check-input:checked {
+  background-color: #333645;
+  border-color: #333645;
+}
+
+#checkboxNoLabel {
+  box-shadow: none;
+  border-color: #333645;
 }
 
 .marketing_info_container {
@@ -2107,12 +2119,16 @@ footer {
 }
 
 li, .copyright, .sitemap {
-  text-decoration: none;
   list-style-type: none;
   font-size: 13px;
 }
 
 .link {
+  color: #fff;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
   color: #fff;
 }
 

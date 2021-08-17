@@ -9,7 +9,6 @@
         '../utilities/media',
         '../base/base';
 
-
 footer {
   background-color: $dark-grey-bg;
   color: $white-text;
@@ -17,13 +16,11 @@ footer {
   line-height: 1.375rem;
 }
 
-
 .footer_container {
   padding: $container;
   margin: auto;
   display: block;
 }
-
 
 .block_container {
   display: flex;
@@ -52,15 +49,18 @@ footer {
   width: 225px;
 }
 
-
 li, .copyright, .sitemap {
-  text-decoration: none;
   list-style-type: none;
   font-size: 13px;
 }
 
 .link {
   color: $white-text;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: $white-text;
+  }
 }
 
 h4 {

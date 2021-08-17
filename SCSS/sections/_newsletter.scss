@@ -55,8 +55,20 @@ label::after {  // asterisk after label /
   margin-bottom: 15px;
 }
 
-.form-control { // white background for forms //
-  background-color: $white-bg;
+.form-check-input { // white background for forms //
+  width: 32px;
+  height: 32px;
+  border: 3px solid $dark-grey-text;
+  background-color: $grey-bg;
+  &:checked {
+    background-color: $dark-grey-bg;
+    border-color: $dark-grey-text;
+  }
+}
+
+#checkboxNoLabel {
+  box-shadow: none;
+  border-color: $dark-grey-text;
 }
 
 .marketing_info_container { // flex container for policy info and checkbox //
