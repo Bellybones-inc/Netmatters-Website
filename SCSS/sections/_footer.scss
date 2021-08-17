@@ -85,7 +85,25 @@ h4 {
   gap: 10px;
 }
 
-// below Flex shrink property set to 0
+.media_icon {
+  padding: 7px 10px 10px 10px;
+  color: $white-text;
+  &:hover {
+    border-radius: 50%;
+    color: $white-text;
+  }
+}
+  .media-fb:hover{
+    background-color: steelblue;}
+
+  .media-twit:hover{
+    background-color: deepskyblue;}
+
+  .media-insta:hover{
+    background-color: salmon;}
+
+  .media-link:hover{
+    background-color: darkcyan;}
 
 .sitemap {
   padding-right: 10px;

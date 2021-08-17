@@ -204,6 +204,31 @@ h4 {
   gap: 10px;
 }
 
+.media_icon {
+  padding: 7px 10px 10px 10px;
+  color: #fff;
+}
+.media_icon:hover {
+  border-radius: 50%;
+  color: #fff;
+}
+
+.media-fb:hover {
+  background-color: steelblue;
+}
+
+.media-twit:hover {
+  background-color: deepskyblue;
+}
+
+.media-insta:hover {
+  background-color: salmon;
+}
+
+.media-link:hover {
+  background-color: darkcyan;
+}
+
 .sitemap {
   padding-right: 10px;
   display: inline-flex;
