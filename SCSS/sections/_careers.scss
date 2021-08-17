@@ -92,6 +92,12 @@ ul {
 }
 
 .img-container {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.responsive {
   transition: all .25s cubic-bezier(0.22, 0.61, 0.36, 1);
   transition-property: all;
   transition-duration: 0.25s;
@@ -99,8 +105,9 @@ ul {
   transition-delay: 0s;
 }
 
-.img-container:hover {
+.responsive:hover {
   transform: scale(1.2);
+  object-position: 2px 10px;
 }
 
 .details { //font color and size for job description
