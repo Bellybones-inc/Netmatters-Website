@@ -42,6 +42,44 @@
   }
 }
 /* ===Base=== */
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -138,19 +176,14 @@ body {
 }
 
 .btn.banner-btn {
-  border: 1px solid transparent;
-  text-transform: uppercase;
-  height: auto;
   padding: 5px 20px;
   line-height: 50px;
   color: #fff;
-  border-color: #926fb1;
   background-color: #926fb1;
   font-size: 1.25rem;
 }
-
-.btn .btn-lg {
-  background-color: #926fb1 !important;
+.btn.banner-btn:hover {
+  background-color: #79539a !important;
 }
 
 /*# sourceMappingURL=_banner.css.map */

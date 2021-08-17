@@ -627,19 +627,14 @@ body {
 }
 
 .btn.banner-btn {
-  border: 1px solid transparent;
-  text-transform: uppercase;
-  height: auto;
   padding: 5px 20px;
   line-height: 50px;
   color: #fff;
-  border-color: #926fb1;
   background-color: #926fb1;
   font-size: 1.25rem;
 }
-
-.btn .btn-lg {
-  background-color: #926fb1 !important;
+.btn.banner-btn:hover {
+  background-color: #79539a !important;
 }
 
 /***************************
@@ -980,15 +975,13 @@ body {
 }
 
 .btn-secondary {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
   border: 1px solid transparent;
   border-radius: 3px 3px 3px 3px;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.063rem;
-}
-
-.button-container {
-  padding: 5px 15px 5px 15px;
 }
 
 .icon {
@@ -1211,8 +1204,13 @@ p:first-child {
 }
 
 .btn-culture {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
   border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
   padding: 5px 15px 5px 15px;
   line-height: 35px;
   border-radius: 3px;
@@ -1463,13 +1461,33 @@ ul {
 }
 
 .btn-lg {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
   color: #fff;
   background-color: #4183d7;
 }
+.btn-lg:hover {
+  background-color: #286abd;
+}
 
 .btn_3 {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
   color: #fff;
   background-color: #926fb1;
+}
+.btn_3:hover {
+  background-color: #79539a;
 }
 
 .user {
@@ -1856,6 +1874,7 @@ body {
 }
 
 label {
+  padding-bottom: 5px;
   color: #333645;
   font-weight: 600;
   font-size: 1rem;
@@ -1871,8 +1890,12 @@ label::after {
   padding: 0px 15px 0px 15px;
 }
 
+.form-group {
+  margin-bottom: 15px;
+}
+
 .form-control {
-  background-color: white;
+  background-color: #fff;
 }
 
 .marketing_info_container {
@@ -1884,11 +1907,31 @@ label::after {
 
 .policy_text {
   margin-top: 0px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #333645;
+}
+
+.privacy {
+  color: #333645;
+}
+.privacy:hover {
+  color: #1d1f28;
 }
 
 .submit {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
   background-color: #333645;
   color: #fff;
+}
+.submit:hover {
+  background-color: #1d1f28;
 }
 
 /***************************

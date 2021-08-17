@@ -35,6 +35,7 @@
 }
 
 label { // label font //
+  padding-bottom: 5px;
   color: $dark-grey-text;
   font-weight: 600;
   font-size: 1rem;
@@ -50,8 +51,12 @@ label::after {  // asterisk after label /
   padding: $container;
 }
 
+.form-group {
+  margin-bottom: 15px;
+}
+
 .form-control { // white background for forms //
-  background-color: rgb(255, 255, 255);
+  background-color: $white-bg;
 }
 
 .marketing_info_container { // flex container for policy info and checkbox //
@@ -63,9 +68,23 @@ label::after {  // asterisk after label /
 
 .policy_text {
   margin-top: 0px;
+  line-height: 32px;
+  font-weight: 600;
+  color: $dark-grey-text;
+}
+
+.privacy {
+  color: $dark-grey-text;
+  &:hover {
+    color: $dark-grey-hover;
+  }
 }
 
 .submit { // label colour //
+  @include btn-style;
   background-color: $dark-grey-bg;
   color: $white-text;
+  &:hover {
+    background-color: $dark-grey-hover;
+  }
 }

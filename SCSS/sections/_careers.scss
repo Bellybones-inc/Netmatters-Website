@@ -88,7 +88,7 @@ ul {
 }
 
 .job_title3 {
-  color: #926fb1;
+  color: $purple-text;
 }
 
 .img-container {
@@ -110,13 +110,21 @@ ul {
 
 
 .btn-lg {
+  @include btn-style;
   color: $white-text;
-  background-color: rgb(65, 131, 215);
+  background-color: $blue-bg;
+  &:hover {
+    background-color: $blue-hover;
+  }
 }
 
 .btn_3 {
+  @include btn-style;
   color: $white-text;
-  background-color: #926fb1;
+  background-color: $purple-bg;
+  &:hover {
+    background-color: $purple-hover;
+  }
 }
 
 .user {        // items aligned to start of container w/ border above content

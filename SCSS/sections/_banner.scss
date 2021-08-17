@@ -55,16 +55,12 @@ font-size: 1.25rem;
 }
 
 .btn.banner-btn {
-  @include btn-style;
-  height: auto;
   padding: 5px 20px;
   line-height: 50px;
   color: $white-text;
-  border-color: $purple-border;
   background-color: $purple-bg;
   font-size: 1.25rem;
-}
-
-.btn .btn-lg {
- background-color: $purple-bg !important;
+ &:hover {
+   background-color: $purple-hover !important;
+ }
 }

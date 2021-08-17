@@ -5,8 +5,10 @@ $white-text: #fff;
 $white-text-dark: darken($white-text, 25%);
 $small-grey: rgb(102, 102, 102);
 $blue-grey-text: #67809f;
+$blue-text: rgb(65, 131, 215);
 $dark-grey-text: #333645;
 $red-text: #d24d57;
+$purple-text: #926fb1;
 
 // Font size
 $small-grey-size: 13px;
@@ -16,11 +18,14 @@ $dark-grey-bg: #333645;
 $grey-bg: #ddd;
 $transparent-bg: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
 $blue-grey-bg: #67809f;
+$blue-bg: rgb(65, 131, 215);
 $white-bg: #fff;
 $purple-bg: #926fb1;
 
-//Border colours
-$purple-border: #926fb1;
+// Background hover
+$purple-hover: darken($purple-bg, 10%);
+$blue-hover: darken($blue-bg, 10%);
+$dark-grey-hover: darken($dark-grey-text, 10%);
 
 // padding
 $section: 50px 0px 50px 0px;

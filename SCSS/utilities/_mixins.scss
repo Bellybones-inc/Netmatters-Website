@@ -45,8 +45,13 @@
 //Buttons
 
 @mixin btn-style {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
   border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
 }
 
 @mixin icon-color {

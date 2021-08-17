@@ -42,6 +42,44 @@
   }
 }
 /* ===Base=== */
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -195,13 +233,33 @@ ul {
 }
 
 .btn-lg {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
   color: #fff;
   background-color: #4183d7;
 }
+.btn-lg:hover {
+  background-color: #1b467e;
+}
 
 .btn_3 {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
   color: #fff;
   background-color: #926fb1;
+}
+.btn_3:hover {
+  background-color: #523868;
 }
 
 .user {
