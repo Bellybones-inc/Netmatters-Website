@@ -30,6 +30,13 @@
   margin-left: auto;
 }
 
+@mixin arrow-wrapper {
+  display: inline-block;
+  margin-right: -4px;
+  margin-left: 12px;
+}
+
+
 // Small line division
 
 @mixin line-divider {

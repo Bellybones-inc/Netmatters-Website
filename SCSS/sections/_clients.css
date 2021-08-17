@@ -42,6 +42,44 @@
   }
 }
 /* ===Base=== */
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -133,6 +171,7 @@ body {
   left: 0;
   right: 0;
   background-color: #333645;
+  background-color: #fff;
   width: 28px;
   height: 3px;
   margin: auto;

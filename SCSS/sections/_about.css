@@ -42,6 +42,44 @@
   }
 }
 /* ===Base=== */
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -137,9 +175,20 @@ p:first-child {
   font-weight: bold;
 }
 
+.arrow-cult {
+  display: inline-block;
+  margin-right: -4px;
+  margin-left: 12px;
+}
+
 .btn-culture {
+  line-height: 35px;
+  padding: 5px 15px 5px 15px;
   border: 1px solid transparent;
+  border-radius: 3px 3px 3px 3px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.063rem;
   padding: 5px 15px 5px 15px;
   line-height: 35px;
   border-radius: 3px;

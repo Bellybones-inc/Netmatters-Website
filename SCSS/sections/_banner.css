@@ -186,4 +186,10 @@ body {
   background-color: #79539a !important;
 }
 
+.arrow-find {
+  display: inline-block;
+  margin-right: -4px;
+  margin-left: 12px;
+}
+
 /*# sourceMappingURL=_banner.css.map */

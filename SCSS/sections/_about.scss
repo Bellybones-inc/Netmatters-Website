@@ -49,6 +49,10 @@ p:first-child {
   font-weight: bold;
 }
 
+.arrow-cult {
+  @include arrow-wrapper;
+}
+
 .btn-culture {
   @include btn-style;
   padding: 5px 15px 5px 15px;
@@ -63,5 +67,5 @@ p:first-child {
   background-color: $white-text-dark;
   border-color: $white-text-dark;
   color: $dark-grey-text;
-}
+  }
 }

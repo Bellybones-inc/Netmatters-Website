@@ -44,6 +44,7 @@ margin-bottom: 0;
 
 .box h3::after {
   @include line-divider;
+  background-color: $white-text;
   width: 28px;
   height: 3px;
   margin: auto;

@@ -637,6 +637,12 @@ body {
   background-color: #79539a !important;
 }
 
+.arrow-find {
+  display: inline-block;
+  margin-right: -4px;
+  margin-left: 12px;
+}
+
 /***************************
   ****************************
 Middle section begins - Services
@@ -1203,6 +1209,12 @@ p:first-child {
   font-weight: bold;
 }
 
+.arrow-cult {
+  display: inline-block;
+  margin-right: -4px;
+  margin-left: 12px;
+}
+
 .btn-culture {
   line-height: 35px;
   padding: 5px 15px 5px 15px;
@@ -1687,6 +1699,7 @@ body {
   left: 0;
   right: 0;
   background-color: #333645;
+  background-color: #fff;
   width: 28px;
   height: 3px;
   margin: auto;

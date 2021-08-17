@@ -41,10 +41,10 @@
 }
 
 .img-sub-heading {
-margin-bottom: 35px;
-line-height: 2.25rem;
-color: $white-text;
-font-size: 1.25rem;
+  margin-bottom: 35px;
+  line-height: 2.25rem;
+  color: $white-text;
+  font-size: 1.25rem;
 }
 
 .text-content {
@@ -63,4 +63,8 @@ font-size: 1.25rem;
  &:hover {
    background-color: $purple-hover !important;
  }
+}
+
+.arrow-find {
+  @include arrow-wrapper;
 }
