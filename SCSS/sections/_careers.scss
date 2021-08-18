@@ -49,12 +49,9 @@ ul {
 ****************************
 ***************************/
 
-
-
 .section { // sets the top and bottom padding and covers row.
   padding: $section;
 }
-
 
 .jobs {
   @include text-padding;
@@ -66,7 +63,6 @@ ul {
   @include text-padding;
 }
 
-
 .custom-row {
   margin: -30px -15px 0px -15px;
 }
@@ -74,7 +70,7 @@ ul {
 .job_block { // this includes job title, description, button and the date of the listing
   padding: 30px 30px 30px 30px;
   border: 1px solid rgb(204, 204, 204, 204);
-  border-top-color: rgb(102, 102, 102);
+  // border-top-color: rgb(102, 102, 102);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
   border-radius: 3px;
 }
@@ -95,26 +91,57 @@ ul {
   display: block;
   position: relative;
   overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  line-height: 1.438rem;
+  padding: 0px 10px 0px 10px;
+  color: $white-text;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  z-index: 1;
+&:hover {
+  text-decoration: underline;
+  opacity: 100%;
+  color: $white-text;
+  }
+}
+
+.tag-j-1 {
+  background-color: $red-bg;
+}
+
+.tag-j-2 {
+  background-color: $blue-grey-bg;
+}
+
+.tag-art {
+  background-color: $purple-bg;
 }
 
 .responsive {
   transition: all .25s cubic-bezier(0.22, 0.61, 0.36, 1);
   transition-property: all;
-  transition-duration: 0.25s;
+  transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
   transition-delay: 0s;
-}
-
-.responsive:hover {
-  transform: scale(1.2);
-  object-position: 2px 10px;
+    &:hover {
+    transform: scale(1.1);
+    object-position: 5px 2px;
+    opacity: 80%;
+  }
 }
 
 .details { //font color and size for job description
   font-size: $small-grey-size;
   color: $small-grey;
 }
-
 
 .btn-lg {
   @include btn-style;

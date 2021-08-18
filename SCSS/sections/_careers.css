@@ -198,7 +198,6 @@ ul {
 .job_block {
   padding: 30px 30px 30px 30px;
   border: 1px solid #cccccc;
-  border-top-color: #666666;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
   border-radius: 3px;
 }
@@ -219,19 +218,51 @@ ul {
   display: block;
   position: relative;
   overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  line-height: 1.438rem;
+  padding: 0px 10px 0px 10px;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  z-index: 1;
+}
+.tag:hover {
+  text-decoration: underline;
+  opacity: 100%;
+  color: #fff;
+}
+
+.tag-j-1 {
+  background-color: #d24d57;
+}
+
+.tag-j-2 {
+  background-color: #67809f;
+}
+
+.tag-art {
+  background-color: #926fb1;
 }
 
 .responsive {
   transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
   transition-property: all;
-  transition-duration: 0.25s;
+  transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
   transition-delay: 0s;
 }
-
 .responsive:hover {
-  transform: scale(1.2);
-  object-position: 2px 10px;
+  transform: scale(1.1);
+  object-position: 5px 2px;
+  opacity: 80%;
 }
 
 .details {
