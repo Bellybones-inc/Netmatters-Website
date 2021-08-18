@@ -3,6 +3,11 @@
       Media Queries
 ****************************
 ***************************/
+@media (min-width: 768px) {
+  .logo_column {
+    width: 345px;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;

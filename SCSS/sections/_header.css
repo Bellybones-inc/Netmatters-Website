@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* header */
 /* ===Variables=== */
 /* ===Mixins=== */
@@ -7,6 +6,11 @@
       Media Queries
 ****************************
 ***************************/
+@media (min-width: 768px) {
+  .logo_column {
+    width: 345px;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -39,6 +43,49 @@
   }
 }
 /* ===Base=== */
+/* ===Variables=== */
+/* ===Mixins=== */
+/***************************
+****************************
+      Media Queries
+****************************
+***************************/
+@media (min-width: 768px) {
+  .logo_column {
+    width: 345px;
+  }
+}
+@media (max-width: 991px) {
+  .content-container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-text {
+    width: 50%;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -114,12 +161,18 @@ body {
 }
 
 .header_row {
-  display: table;
+  display: flex;
+  align-items: center;
 }
 
-.logo_column, .hamburger, .mobile_icon {
-  display: table-cell;
-  width: 100%;
+.img-logo {
+  max-width: 100%;
+}
+
+.mobile_icon {
+  display: flex;
+  flex-grow: 3;
+  justify-content: flex-end;
 }
 
 .telephone {
@@ -134,25 +187,37 @@ body {
   margin-left: 20px;
 }
 
-.hamburger::after {
-  content: "  ";
+.action {
+  display: flex;
+  flex-grow: 1;
 }
 
 .form {
+  width: 174px;
+  height: 56px;
   border: 1px solid #e5e5e5;
-  padding: 3px 8px 3px 8px;
+  padding: 5px 15px 5px 15px;
+}
+
+.extra-space {
+  margin-bottom: 0.5em;
 }
 
 .search-submit {
   border: none;
   background-color: #999aa2;
   color: #fff;
-  height: 33px;
-  width: 40px;
+  height: 56px;
+  width: 63px;
+}
+
+.action_wrapper {
+  padding-top: 7px;
 }
 
 .action {
   display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
 }
