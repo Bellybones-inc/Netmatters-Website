@@ -436,7 +436,7 @@ body {
 
 .header_row {
   display: flex;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 .img-logo {
@@ -491,7 +491,6 @@ body {
 
 .action {
   display: flex;
-  flex-grow: 1;
   justify-content: center;
   align-items: center;
 }

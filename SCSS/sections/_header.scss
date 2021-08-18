@@ -31,7 +31,7 @@
 
 .header_row {
   display: flex;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 .img-logo {
@@ -66,14 +66,6 @@
   flex-grow: 1;
 }
 
-// .header_row::after {
-//   content: ' \00a0';
-// }
-
-.search-form {
-
-}
-
 .form {
   width: 174px;
   height: 56px;
@@ -84,7 +76,6 @@
 .extra-space {
   margin-bottom: 0.5em;
 }
-
 
 .search-submit {
   border: none;
@@ -100,7 +91,6 @@
 
  .action {
    display: flex;
-   flex-grow: 1;
    justify-content: center;
    align-items: center;
  }
