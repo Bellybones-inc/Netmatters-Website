@@ -7,8 +7,8 @@
 ****************************
 ***************************/
 @media (min-width: 768px) {
-  .logo_column {
-    width: 345px;
+  .action_wrapper {
+    padding: 7px 15px 0px 15px;
   }
 }
 @media (max-width: 991px) {
@@ -51,8 +51,8 @@
 ****************************
 ***************************/
 @media (min-width: 768px) {
-  .logo_column {
-    width: 345px;
+  .action_wrapper {
+    padding: 7px 15px 0px 15px;
   }
 }
 @media (max-width: 991px) {
@@ -177,6 +177,7 @@ body {
 
 .telephone {
   margin-left: 15px;
+  vertical-align: middle;
 }
 
 .hamburger {
@@ -185,6 +186,13 @@ body {
 
 .burger_menu {
   margin-left: 20px;
+  padding-top: 10px;
+  background-color: #333645;
+  border-radius: 3px 3px 3px 3px;
+}
+
+rect {
+  fill: #fff;
 }
 
 .action {
@@ -203,16 +211,16 @@ body {
   margin-bottom: 0.5em;
 }
 
+.search-form {
+  margin-left: 20px;
+}
+
 .search-submit {
   border: none;
   background-color: #999aa2;
   color: #fff;
   height: 56px;
   width: 63px;
-}
-
-.action_wrapper {
-  padding-top: 7px;
 }
 
 .action {

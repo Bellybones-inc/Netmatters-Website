@@ -5,7 +5,19 @@
 ***************************/
 @media (min-width: 768px) {
   .logo_column {
-    width: 345px;
+    height: 60.6px;
+  }
+
+  .logo_container {
+    padding: 0px 5px 0px 0px;
+  }
+
+  .action_wrapper {
+    padding: 0px 15px 0px 15px;
+  }
+
+  .header_row {
+    height: 60.6px;
   }
 }
 @media (max-width: 991px) {
