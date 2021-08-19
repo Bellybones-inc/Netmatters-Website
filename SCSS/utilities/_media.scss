@@ -16,12 +16,21 @@ padding: 0px 15px 0px 15px;
 }
 }
 
+@media (min-width: 992px) {
+  .img-logo {
+    width: 374px;
+    max-width: none;
+  }
+  .search-submit {
+    border-radius: 3px 3px 3px 3px;
+  }
+}
 
-// @media (min-width:768px) {
-//  .action_wrapper {
-//  padding: 7px 15px 0px 15px;
-// }
-// }
+@media (min-width: 1200px) {
+  .search-submit {
+    border-radius: 0px 3px 3px 0px;
+  }
+}
 
 @media (max-width: 991px){
 .content-container {

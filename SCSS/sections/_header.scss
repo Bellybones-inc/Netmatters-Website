@@ -31,17 +31,18 @@
 
 .header_row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .img-logo {
   max-width: 100%;
-} 
+}
 
 .mobile_icon {
   display: flex;
   flex-grow: 3;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .telephone {
@@ -66,7 +67,10 @@ rect {
 
 .action {
   display: flex;
-  flex-grow: 1;
+  // flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
 }
 
 .form {
@@ -86,14 +90,20 @@ rect {
 
 .search-submit {
   border: none;
-  background-color: #999aa2;
-  color: #fff;
+  border-radius: 0px 3px 3px 0px;
+  background-color: $grey-bg;
+  color: $white-text;
   height: 56px;
   width: 63px;
 }
 
- .action {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+ .support {
+   @include btn-header;
+   background-color: #4183d7 !important;
  }
+
+.contact {
+  @include btn-header;
+  margin-left: 20px;
+  background-color: $grey-bg !important;
+}

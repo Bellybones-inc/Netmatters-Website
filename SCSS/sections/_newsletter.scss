@@ -10,7 +10,7 @@
         '../base/base';
 
 .newsletter_section { // Sets a grey background to the newsletter //
-  background-color: $grey-bg;
+  background-color: $light-grey-bg;
 }
 
 .newsletter_container { // section structure //
@@ -59,7 +59,7 @@ label::after {  // asterisk after label /
   width: 32px;
   height: 32px;
   border: 3px solid $dark-grey-text;
-  background-color: $grey-bg;
+  background-color: $light-grey-bg;
   &:checked {
     background-color: $dark-grey-bg;
     border-color: $dark-grey-text;

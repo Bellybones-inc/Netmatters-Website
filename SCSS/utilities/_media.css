@@ -16,6 +16,21 @@
     height: 60.6px;
   }
 }
+@media (min-width: 992px) {
+  .img-logo {
+    width: 374px;
+    max-width: none;
+  }
+
+  .search-submit {
+    border-radius: 3px 3px 3px 3px;
+  }
+}
+@media (min-width: 1200px) {
+  .search-submit {
+    border-radius: 0px 3px 3px 0px;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
