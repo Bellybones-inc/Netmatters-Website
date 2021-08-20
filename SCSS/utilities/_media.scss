@@ -4,6 +4,8 @@
 ****************************
 ***************************/
 
+//Header
+
 @media (min-width:768px) {
 .logo_container{
   padding: 0px 5px 0px 0px
@@ -41,6 +43,8 @@ padding: 0px 15px 0px 15px;
 }
 }
 
+// Align content
+
 @media (min-width: 768px){
 .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container  {
@@ -50,17 +54,20 @@ padding: 0px 15px 0px 15px;
 
 @media (min-width: 992px){
 .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .text-container, .footer_container, .header_container,
+.navigation-container {
   width: 970px;
 }
 }
 
 @media (min-width: 1260px){
 .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
   width: 1200px;
+} 
 }
-}
+
+// About
 
 @media (min-width: 1260px){
 .about-text {
