@@ -11,6 +11,11 @@
 
 .main-navigation {
 background-color: $dark-grey-bg;
+text-align: center;
+}
+
+.navigation-container {
+  padding: 0px 15px 0px 15px;
 }
 
 .nav-list {
@@ -18,14 +23,15 @@ background-color: $dark-grey-bg;
   position: relative;
   display: flex;
   margin: auto;
+  padding: 0px;
   flex-direction: row;
   list-style-type: none;
+  text-align: center;
 }
 
 .web {
   @include nav-border;
   flex: 1;
-  text-align: center;
 }
 
 .link_icn {
@@ -33,18 +39,17 @@ background-color: $dark-grey-bg;
   padding: 19px 0px 18px 0px;
   color: $white-text;
   text-transform: uppercase;
+  object-position: center;
 }
 
-// .icn_wrapper {
-//   padding-bottom: 10px;
-// }
-
-.icn {
-  // @include themes($themes);
-  display: block;
-  text-align: center;
+.con-wrapper {
   object-position: center;
   padding-bottom: 10px;
+}
+
+.company-con {
+  display: block;
+  margin: 0% 40% 0% 40%;
 }
 
 .nav-menu {
