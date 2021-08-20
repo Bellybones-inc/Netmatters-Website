@@ -8,3 +8,51 @@
         '../utilities/mixins',
         '../utilities/media',
         '../base/base';
+
+.navigation-container {
+  @include nav-border;
+  position: relative;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.web {
+  @include nav-border;
+  display: none;
+  flex: 1;
+  text-align: center;
+  &:hover {
+    display: inline-flex;
+  }
+}
+
+.link_icn {
+  padding: 19px 0px 18px 0px;
+  color: $white-text;
+  text-transform: uppercase;
+}
+
+.icn_wrapper {
+  padding-bottom: 10px;
+}
+
+.icn {
+  @include themes($themes);
+}
+
+.nav-menu {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: -1px;
+  right: -1px;
+  z-index: 10;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+&link_icn:hover {
+  display: inline-flex;
+}
+}
