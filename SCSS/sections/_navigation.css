@@ -5,6 +5,7 @@
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -72,6 +73,7 @@
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -216,9 +218,11 @@ body {
 .link_icn {
   display: block;
   padding: 19px 0px 18px 0px;
+  line-height: 1;
   color: #fff;
   text-transform: uppercase;
-  object-position: center;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .con-wrapper {
@@ -228,7 +232,29 @@ body {
 
 .company-con {
   display: block;
-  margin: 0% 40% 0% 40%;
+  margin: 0% 44% 0% 44%;
+}
+.company-con con-1 {
+  background-color: #926fb1;
+}
+.company-con con-2 {
+  background-color: #4183d7;
+}
+.company-con con-3 {
+  background-color: #d64541;
+}
+.company-con con-4 {
+  background-color: #67809f;
+}
+.company-con con-5 {
+  background-color: #2ecc71;
+}
+.company-con con-6 {
+  background-color: #f62459;
+}
+
+.sm-txt {
+  font-size: 10px;
 }
 
 .nav-menu {
@@ -242,8 +268,20 @@ body {
   list-style: none;
 }
 
-.nav-menu .nav-item {
+.options {
   display: none;
+}
+
+.web-1:hover + .option-1 {
+  display: block;
+}
+
+.web-2:hover + .option-2 {
+  display: block;
+}
+
+.web-3:hover + .option-3 {
+  display: block;
 }
 
 /*# sourceMappingURL=_navigation.css.map */

@@ -1,5 +1,6 @@
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -66,6 +67,7 @@
 }
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -133,6 +135,7 @@
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -250,6 +253,7 @@ body {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -367,6 +371,7 @@ body {
 /* header */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -434,6 +439,7 @@ body {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -671,6 +677,7 @@ rect {
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -738,6 +745,7 @@ rect {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -882,9 +890,11 @@ body {
 .link_icn {
   display: block;
   padding: 19px 0px 18px 0px;
+  line-height: 1;
   color: #fff;
   text-transform: uppercase;
-  object-position: center;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .con-wrapper {
@@ -894,7 +904,29 @@ body {
 
 .company-con {
   display: block;
-  margin: 0% 40% 0% 40%;
+  margin: 0% 44% 0% 44%;
+}
+.company-con-1 {
+  color: #926fb1;
+}
+.company-con-2 {
+  color: #4183d7;
+}
+.company-con-3 {
+  color: #d64541;
+}
+.company-con-4 {
+  color: #67809f;
+}
+.company-con-5 {
+  color: #2ecc71;
+}
+.company-con-6 {
+  color: #f62459;
+}
+
+.sm-txt {
+  font-size: 10px;
 }
 
 .nav-menu {
@@ -908,8 +940,20 @@ body {
   list-style: none;
 }
 
-.nav-menu .nav-item {
+.options {
   display: none;
+}
+
+.web-1:hover + .option-1 {
+  display: block;
+}
+
+.web-2:hover + .option-2 {
+  display: block;
+}
+
+.web-3:hover + .option-3 {
+  display: block;
 }
 
 /***************************
@@ -919,6 +963,7 @@ body {
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -986,6 +1031,7 @@ body {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -1169,6 +1215,7 @@ Middle section begins - Services
   ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -1236,6 +1283,7 @@ Middle section begins - Services
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -1352,6 +1400,7 @@ body {
 
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -1419,6 +1468,7 @@ body {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -1670,6 +1720,7 @@ span.p {
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -1737,6 +1788,7 @@ span.p {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -1932,6 +1984,7 @@ p:first-child {
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -1999,6 +2052,7 @@ p:first-child {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -2314,6 +2368,7 @@ ul {
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -2381,6 +2436,7 @@ ul {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -2573,6 +2629,7 @@ body {
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -2640,6 +2697,7 @@ body {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -2859,6 +2917,7 @@ label::after {
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -2926,6 +2985,7 @@ label::after {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -3152,6 +3212,7 @@ h4 {
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
@@ -3219,6 +3280,7 @@ h4 {
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries

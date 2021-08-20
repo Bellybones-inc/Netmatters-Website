@@ -1,6 +1,6 @@
-
-
 /* ===Mixins=== */
+
+@import '../utilities/variables';
 
 @mixin bio-text {
   line-height: 1.875rem;
@@ -86,5 +86,14 @@ border-right: 1px solid rgba(0,0,0,.25);
   background-color: $color;
   border-color: $color;
     }
+  }
+}
+
+// icon colour nav bar
+@mixin c-icon($map) {
+  @each $number, $color in $c-icon {
+      &-#{$number} {
+      color: $color;
+      }
   }
 }

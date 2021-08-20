@@ -37,9 +37,11 @@ text-align: center;
 .link_icn {
   display: block;
   padding: 19px 0px 18px 0px;
+  line-height: 1;
   color: $white-text;
   text-transform: uppercase;
-  object-position: center;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .con-wrapper {
@@ -48,8 +50,13 @@ text-align: center;
 }
 
 .company-con {
+  @include c-icon($c-icon);
   display: block;
-  margin: 0% 40% 0% 40%;
+  margin: 0% 44% 0% 44%;
+}
+
+.sm-txt {
+  font-size: 10px;
 }
 
 .nav-menu {
@@ -63,6 +70,16 @@ text-align: center;
   list-style: none;
 }
 
-.nav-menu .nav-item {
+.options {
   display: none;
+}
+
+.web-1:hover + .option-1 {
+  display: block;}
+
+.web-2:hover + .option-2 {
+  display: block;
+}
+.web-3:hover + .option-3 {
+  display: block;
 }
