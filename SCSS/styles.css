@@ -865,6 +865,30 @@ body {
   text-align: center;
 }
 
+.nav-web {
+  background-color: #926fb1;
+}
+
+.nav-sup {
+  background-color: #4183d7;
+}
+
+.nav-serv {
+  background-color: #d24d57;
+}
+
+.nav-soft {
+  background-color: #999aa2;
+}
+
+.nav-digi {
+  background-color: #ddd;
+}
+
+.nav-sec {
+  background-color: #67809f;
+}
+
 .navigation-container {
   padding: 0px 15px 0px 15px;
 }
@@ -878,6 +902,7 @@ body {
   padding: 0px;
   flex-direction: row;
   list-style-type: none;
+  list-style-position: outside;
   text-align: center;
 }
 
@@ -984,27 +1009,27 @@ body {
 }
 
 .lin-web:hover + .option-1 {
-  display: inline-flex;
+  display: block;
 }
 
 .lin-sup:hover + .option-2 {
-  display: inline-flex;
+  display: block;
 }
 
 .lin-serv:hover + .option-3 {
-  display: inline-flex;
+  display: block;
 }
 
 .lin-soft:hover + .option-4 {
-  display: inline-flex;
+  display: block;
 }
 
 .lin-mark:hover + .option-5 {
-  display: inline-flex;
+  display: block;
 }
 
 .lin-sec:hover + .option-6 {
-  display: inline-flex;
+  display: block;
 }
 
 .nav-menu {
@@ -1020,7 +1045,6 @@ body {
   margin-inline-end: 0px;
   margin-inline-start: 0px;
   list-style-type: circle;
-  list-style-position: outside;
   top: 100%;
 }
 

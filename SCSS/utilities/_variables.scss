@@ -33,7 +33,7 @@ $dark-grey-hover: darken($dark-grey-text, 10%);
 $section: 50px 0px 50px 0px;
 $container: 0px 15px 0px 15px;
 
-//icon colours
+//icon colours banner
 $themes: (
  'soft': #67809f,
  'it': #4183d7,
@@ -53,7 +53,7 @@ $themes: (
  '6': #f62459,);
 
 
- //hover colour
+ //hover colour navigation
  $hov: (
  'web': #926fb1,
  'sup': rgb(65, 131, 215),
@@ -62,3 +62,13 @@ $themes: (
  'mark': #ddd,
  'sec': #67809f,
  );
+
+//background-colour navigation
+$sub-menu: (
+'web': #926fb1,
+'sup': rgb(65, 131, 215),
+'serv': #d24d57,
+'soft': #999aa2,
+'digi': #ddd,
+'sec': #67809f,
+);
