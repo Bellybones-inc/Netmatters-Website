@@ -78,8 +78,17 @@ border-right: 1px solid rgba(0,0,0,.25);
   font-size: 1.1rem;
 }
 
-// background-colour
+// Navigation panel hover
+@mixin hover {
+  &:hover .company-con {
+    color: $white-text;
+    }
+  &:hover .link_icn {
+    color: $white-text;
+  }
+}
 
+// background-colour for banner cards
 @mixin themes($map) {
   @each $name, $color in $themes {
     &-#{$name} {
@@ -91,9 +100,18 @@ border-right: 1px solid rgba(0,0,0,.25);
 
 // icon colour nav bar
 @mixin c-icon($map) {
-  @each $number, $color in $c-icon {
+  @each $number, $color in $map {
       &-#{$number} {
       color: $color;
       }
+  }
+}
+
+//background ground colour for nav on hover
+@mixin hov ($map) {
+  @each $hover, $color in $map {
+    &-#{$hover} {
+      background-color: $color;
+    }
   }
 }

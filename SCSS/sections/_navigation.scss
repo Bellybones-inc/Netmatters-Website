@@ -43,6 +43,9 @@ text-align: center;
   text-decoration: none;
   font-size: 18px;
 }
+.con-1 {
+  color: $purple-text;
+}
 
 .con-wrapper {
   object-position: center;
@@ -70,16 +73,69 @@ text-align: center;
   list-style: none;
 }
 
+
+.con {
+  @include c-icon ($c-icon);
+}
+
+// Panel segments on hover
+
+.web-1:hover {
+  background-color: $purple-bg;
+  @include hover;
+}
+
+.web-2:hover {
+  background-color: #4183d7;
+  @include hover;
+}
+
+.web-3:hover {
+  background-color: #d64541;
+  @include hover;
+}
+
+.web-4:hover {
+  background-color: #67809f;
+  @include hover;
+}
+
+.web-5:hover {
+  background-color: #2ecc71;
+  @include hover;
+}
+
+.web-6:hover {
+  background-color: #f62459;
+  @include hover;
+}
+
+// sub-menu on hover 
+
 .options {
   display: none;
 }
 
-.web-1:hover + .option-1 {
-  display: block;}
-
-.web-2:hover + .option-2 {
+.lin-web:hover + .option-1 {
   display: block;
 }
-.web-3:hover + .option-3 {
+
+.lin-sup:hover + .option-2 {
+  display: block;
+}
+
+.lin-serv:hover + .option-3 {
+  display: block;
+}
+
+.lin-soft:hover + .option-4 {
+  display: block;
+}
+
+.lin-mark:hover + .option-5 {
+  display: block;
+}
+
+.lin-sec:hover + .option-6 {
   display: block;
 }
