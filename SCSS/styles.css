@@ -1033,6 +1033,8 @@ body {
 }
 
 .nav-menu {
+  list-style: none;
+  text-decoration: none;
   position: absolute;
   top: 100%;
   left: -1px;
