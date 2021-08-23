@@ -43,9 +43,6 @@ text-align: center;
   text-decoration: none;
   font-size: 18px;
 }
-.con-1 {
-  color: $purple-text;
-}
 
 .con-wrapper {
   object-position: center;
@@ -62,16 +59,16 @@ text-align: center;
   font-size: 10px;
 }
 
-.nav-menu {
-  position: absolute;
-  top: 100%;
-  left: -1px;
-  right: -1px;
-  z-index: 10;
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
+// .nav-menu {
+//   position: absolute;
+//   top: 100%;
+//   left: -1px;
+//   right: -1px;
+//   z-index: 10;
+//   padding: 0px;
+//   margin: 0px;
+//   list-style: none;
+// }
 
 .con {
   @include c-icon ($c-icon);
@@ -114,25 +111,52 @@ text-align: center;
 }
 
 .lin-web:hover + .option-1 {
-  display: block;
+  display: inline-flex;
 }
 
 .lin-sup:hover + .option-2 {
-  display: block;
+  display: inline-flex;
 }
 
 .lin-serv:hover + .option-3 {
-  display: block;
+  display: inline-flex;
 }
 
 .lin-soft:hover + .option-4 {
-  display: block;
+  display: inline-flex;
 }
 
 .lin-mark:hover + .option-5 {
-  display: block;
+  display: inline-flex;
 }
 
 .lin-sec:hover + .option-6 {
-  display: block;
+  display: inline-flex;
+}
+
+// Option styles
+
+.options {
+
+}
+
+.nav-menu {
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  right: -1px;
+  z-index: 10;
+  padding: 0px;
+  margin: 0px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  list-style-type: circle;
+  list-style-position: outside;
+  top: 100%;
+}
+
+.nav-item {
+  float: left;
 }
