@@ -291,64 +291,35 @@ body {
   color: #f62459;
 }
 
+.web:hover:hover .company-con {
+  color: #fff;
+}
+.web:hover:hover .link_icn {
+  color: #fff;
+}
+
 .web-1:hover {
   background-color: #926fb1;
-}
-.web-1:hover:hover .company-con {
-  color: #fff;
-}
-.web-1:hover:hover .link_icn {
-  color: #fff;
 }
 
 .web-2:hover {
   background-color: #4183d7;
 }
-.web-2:hover:hover .company-con {
-  color: #fff;
-}
-.web-2:hover:hover .link_icn {
-  color: #fff;
-}
 
 .web-3:hover {
   background-color: #d64541;
-}
-.web-3:hover:hover .company-con {
-  color: #fff;
-}
-.web-3:hover:hover .link_icn {
-  color: #fff;
 }
 
 .web-4:hover {
   background-color: #67809f;
 }
-.web-4:hover:hover .company-con {
-  color: #fff;
-}
-.web-4:hover:hover .link_icn {
-  color: #fff;
-}
 
 .web-5:hover {
   background-color: #2ecc71;
 }
-.web-5:hover:hover .company-con {
-  color: #fff;
-}
-.web-5:hover:hover .link_icn {
-  color: #fff;
-}
 
 .web-6:hover {
   background-color: #f62459;
-}
-.web-6:hover:hover .company-con {
-  color: #fff;
-}
-.web-6:hover:hover .link_icn {
-  color: #fff;
 }
 
 .options {

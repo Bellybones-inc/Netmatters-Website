@@ -107,11 +107,11 @@ border-right: 1px solid rgba(0,0,0,.25);
   }
 }
 
-//background ground colour for nav on hover
-@mixin hov ($map) {
-  @each $hover, $color in $map {
-    &-#{$hover} {
-      background-color: $color;
-    }
-  }
-}
+// //background ground colour for nav on hover
+// @mixin hov ($map) {
+//   @each $hover, $color in $map {
+//     &-#{$hover} {
+//       background-color: $color;
+//     }
+//   }
+// }
