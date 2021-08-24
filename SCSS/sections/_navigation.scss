@@ -128,6 +128,7 @@
 
 .nav-menu {
   position: absolute;
+  width: 100%;
   top: 100%;
   left: -1px;
   right: -1px;
@@ -149,18 +150,26 @@
 }
 
 .nav-item {
-  content: "-";
   padding-left: 20px;
   float: left;
-  text-decoration: none;
+  text-align: center;
   line-height: 2.813rem;
   font-size: 1rem;
 }
 
-.sub-link {
-  display: inline;
-  color: $white-text;
-  text-decoration: none;
-  text-align: center;
+.sub-link, .sub-last {
+  display: block;
   letter-spacing: 0.4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $white-text;
+  &:after {
+    content: "-";
+    padding-left: 20px;
+  }
+}
+
+.sub-last:after {
+  content: "";
+  padding-left: 20px;
 }
