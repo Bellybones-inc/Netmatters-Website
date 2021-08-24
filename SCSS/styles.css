@@ -1765,6 +1765,9 @@ body {
   background-color: #fff;
   color: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
 }
+.block:hover .icon {
+  background-color: #fff;
+}
 
 .icon-soft {
   background-color: #67809f;

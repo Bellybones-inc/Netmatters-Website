@@ -32,6 +32,9 @@
     background-color: $white-bg;
     color: $transparent-bg;
    }
+  &:hover .icon{
+    background-color: $white-bg;
+  }
 }
 
 .icon {
