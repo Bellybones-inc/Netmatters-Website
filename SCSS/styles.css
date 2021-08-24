@@ -1049,6 +1049,8 @@ body {
 }
 
 .nav-item {
+  content: "-";
+  padding-left: 20px;
   float: left;
   text-decoration: none;
   line-height: 2.813rem;
@@ -1056,8 +1058,11 @@ body {
 }
 
 .sub-link {
+  display: inline;
   color: #fff;
   text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.4px;
 }
 
 /***************************
