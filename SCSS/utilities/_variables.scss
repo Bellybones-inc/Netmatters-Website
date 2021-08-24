@@ -65,10 +65,12 @@ $themes: (
 
 //background-colour navigation
 $sub-menu: (
-'web': #926fb1,
-'sup': #4183d7,
-'serv': #d64541,
-'soft': #67809f,
-'digi': #2ecc71,
-'sec': #f62459,
+'web': darken(#926fb1, 10%),
+'sup': darken(#4183d7, 10%),
+'serv': darken(#d64541, 10%),
+'soft': darken(#67809f, 10%),
+'digi': darken(#2ecc71, 10%),
+'sec': darken(#f62459, 10%),
 );
+
+ 
