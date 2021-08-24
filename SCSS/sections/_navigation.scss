@@ -10,14 +10,14 @@
         '../base/base';
 
 .main-navigation {
-background-color: $dark-grey-bg;
-text-align: center;
+  background-color: $dark-grey-bg;
+  text-align: center;
 }
 
 @each $theme, $color in $sub-menu {
   .nav-#{$theme} {
     background-color: $color;
-  }
+  } 
 }
 
 .navigation-container {
