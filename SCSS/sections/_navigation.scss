@@ -128,7 +128,7 @@
 
 .nav-menu {
   position: absolute;
-  width: 100%;
+  width: 2000px;
   top: 100%;
   left: -1px;
   right: -1px;
@@ -142,6 +142,17 @@
   list-style-type: circle;
   top: 100%;
 }
+
+.nav-menu:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: $white-text;
+}
+
+
 
 @each $theme, $color in $sub-menu {
   .nav-#{$theme} {
