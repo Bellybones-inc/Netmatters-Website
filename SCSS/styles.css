@@ -1763,10 +1763,51 @@ body {
 }
 .block:hover .btn {
   background-color: #fff;
-  color: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+}
+.block:hover .btn-soft {
+  color: #67809f;
+}
+.block:hover .btn-it {
+  color: #4183d7;
+}
+.block:hover .btn-digi {
+  color: #2ecc71;
+}
+.block:hover .btn-tele {
+  color: #d64541;
+}
+.block:hover .btn-des {
+  color: #926fb1;
+}
+.block:hover .btn-sec {
+  color: #f62459;
+}
+.block:hover .btn-train {
+  color: #926fb1;
 }
 .block:hover .icon {
   background-color: #fff;
+}
+.block:hover .icn-soft {
+  color: #67809f;
+}
+.block:hover .icn-it {
+  color: #4183d7;
+}
+.block:hover .icn-digi {
+  color: #2ecc71;
+}
+.block:hover .icn-tele {
+  color: #d64541;
+}
+.block:hover .icn-des {
+  color: #926fb1;
+}
+.block:hover .icn-sec {
+  color: #f62459;
+}
+.block:hover .icn-train {
+  color: #926fb1;
 }
 
 .icon-soft {

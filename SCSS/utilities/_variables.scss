@@ -33,7 +33,7 @@ $dark-grey-hover: darken($dark-grey-text, 10%);
 $section: 50px 0px 50px 0px;
 $container: 0px 15px 0px 15px;
 
-//icon colours banner
+//icon colours services
 $themes: (
  'soft': #67809f,
  'it': #4183d7,
@@ -42,6 +42,15 @@ $themes: (
  'des': #926fb1,
  'sec': #f62459,
  'train': #926fb1,);
+
+ $themes-hover: (
+  'soft': #67809f,
+  'it': #4183d7,
+  'digi': #2ecc71,
+  'tele': #d64541,
+  'des': #926fb1,
+  'sec': #f62459,
+  'train': #926fb1,);
 
  //icon colours nav panel
  $c-icon: (
@@ -72,5 +81,3 @@ $sub-menu: (
 'digi': darken(#2ecc71, 10%),
 'sec': darken(#f62459, 10%),
 );
-
- 
