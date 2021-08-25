@@ -153,8 +153,6 @@
   background-color: $white-text;
 }
 
-
-
 @each $theme, $color in $sub-menu {
   .nav-#{$theme} {
     background-color: $color;

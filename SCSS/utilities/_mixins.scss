@@ -54,16 +54,6 @@ border-right: 1px solid rgba(0,0,0,.25);
   background-color: #333645;
 }
 
-@mixin line-divider-white {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #fff;
-}
-
 //Buttons
 
 @mixin btn-style {

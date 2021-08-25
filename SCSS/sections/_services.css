@@ -554,6 +554,10 @@ span.h2::after {
   height: 3px;
 }
 
+.card_con:hover span.h2::after {
+  background-color: #fff;
+}
+
 span.p {
   display: block;
   margin: 0px 0px 13px 0px;
