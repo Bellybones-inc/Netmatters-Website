@@ -19,8 +19,9 @@
   margin-top: -30px;
 }
 
+
+  // @include service-hover;
 .block {
-  @include service-hover;
   margin-top: 30px;
   padding: 30px;
   border-radius: 3px 3px 3px 3px;
@@ -28,27 +29,28 @@
   border: 1px solid rgb(204, 204, 204);
   font-weight: 600;
   text-align: center;
-  // &:hover {
-  //   @include themes($themes);
-  // }
-   &:hover .btn {
-    background-color: $white-bg;
-    @include themes-hover($themes-hover);
-   }
-  &:hover .icon {
-    background-color: $white-bg;
-  }
-  &:hover .icn {
-    @include themes-hover($themes-hover);
-  }
+&:hover .btn {
+  background-color: $white-bg;
+  @include themes-hover($themes-hover);
+ }
+&:hover .icon {
+  background-color: $white-bg;
+}
+&:hover .icn {
+  @include themes-hover($themes-hover);
+}
 }
 
+.card_con:hover .block {
+  @include card-bg($card-bg);
+  color: $white-text;}
+
 .icon {
-  @include themes($themes);
+  @include card-bg($card-bg);
 }
 
 .btn {
-  @include themes($themes);
+  @include card-bg($card-bg);
 }
 
 .btn-secondary {

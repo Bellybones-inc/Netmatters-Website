@@ -1733,34 +1733,6 @@ body {
   font-weight: 600;
   text-align: center;
 }
-.block.block-soft:hover {
-  background-color: #67809f;
-  color: #fff;
-}
-.block.block-it:hover {
-  background-color: #4183d7;
-  color: #fff;
-}
-.block.block-digi:hover {
-  background-color: #2ecc71;
-  color: #fff;
-}
-.block.block-tele:hover {
-  background-color: #d64541;
-  color: #fff;
-}
-.block.block-des:hover {
-  background-color: #926fb1;
-  color: #fff;
-}
-.block.block-sec:hover {
-  background-color: #f62459;
-  color: #fff;
-}
-.block.block-train:hover {
-  background-color: #926fb1;
-  color: #fff;
-}
 .block:hover .btn {
   background-color: #fff;
 }
@@ -1810,62 +1782,73 @@ body {
   color: #926fb1;
 }
 
+.card_con:hover .block {
+  color: #fff;
+}
+.card_con:hover .block-soft {
+  background-color: #67809f;
+}
+.card_con:hover .block-it {
+  background-color: #4183d7;
+}
+.card_con:hover .block-digi {
+  background-color: #2ecc71;
+}
+.card_con:hover .block-tele {
+  background-color: #d64541;
+}
+.card_con:hover .block-des {
+  background-color: #926fb1;
+}
+.card_con:hover .block-sec {
+  background-color: #f62459;
+}
+.card_con:hover .block-train {
+  background-color: #926fb1;
+}
+
 .icon-soft {
   background-color: #67809f;
-  border-color: #67809f;
 }
 .icon-it {
   background-color: #4183d7;
-  border-color: #4183d7;
 }
 .icon-digi {
   background-color: #2ecc71;
-  border-color: #2ecc71;
 }
 .icon-tele {
   background-color: #d64541;
-  border-color: #d64541;
 }
 .icon-des {
   background-color: #926fb1;
-  border-color: #926fb1;
 }
 .icon-sec {
   background-color: #f62459;
-  border-color: #f62459;
 }
 .icon-train {
   background-color: #926fb1;
-  border-color: #926fb1;
 }
 
 .btn-soft {
   background-color: #67809f;
-  border-color: #67809f;
 }
 .btn-it {
   background-color: #4183d7;
-  border-color: #4183d7;
 }
 .btn-digi {
   background-color: #2ecc71;
-  border-color: #2ecc71;
 }
 .btn-tele {
   background-color: #d64541;
-  border-color: #d64541;
 }
 .btn-des {
   background-color: #926fb1;
-  border-color: #926fb1;
 }
 .btn-sec {
   background-color: #f62459;
-  border-color: #f62459;
 }
 .btn-train {
   background-color: #926fb1;
-  border-color: #926fb1;
 }
 
 .btn-secondary {
