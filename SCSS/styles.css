@@ -1319,6 +1319,10 @@ body {
   border-top: 1px solid rgba(51, 54, 69, 0.5);
 }
 
+.img-container-banner {
+  height: 100%;
+}
+
 .content-container {
   position: absolute;
   display: flex;
