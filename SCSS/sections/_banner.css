@@ -193,6 +193,7 @@ body {
   display: flex;
   flex: 1 0 auto;
   background-image: url("https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-3wAI.jpg");
+  background-size: cover;
   background-repeat: space;
   background-position: center;
   border-top: 1px solid rgba(51, 54, 69, 0.5);
