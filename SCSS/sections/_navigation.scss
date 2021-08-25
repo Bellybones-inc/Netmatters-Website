@@ -159,8 +159,7 @@
   }
 }
 
-
-.nav-item {
+.nav-item  {
   padding-left: 30px;
   float: left;
   text-align: center;
@@ -168,9 +167,9 @@
   font-size: 1rem;
 }
 
-// .nav-item:first-child {
-//   margin-left: 150px;
-// }
+.nav-item:nth-child(1) {
+  padding-left: 0px;
+}
 
 .nav-menu::before{
   content: "";
@@ -206,7 +205,7 @@
   background-color: darken(#f62459, 10%);
 }
 
-.sub-link, .sub-last {
+.sub-link, .sub-last, .sub-first {
   display: block;
   letter-spacing: 0.5px;
   text-decoration: none;

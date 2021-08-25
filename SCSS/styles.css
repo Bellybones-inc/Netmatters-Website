@@ -1067,6 +1067,10 @@ body {
   font-size: 1rem;
 }
 
+.nav-item:nth-child(1) {
+  padding-left: 0px;
+}
+
 .nav-menu::before {
   content: "";
   display: block;
@@ -1101,14 +1105,14 @@ body {
   background-color: #de093f;
 }
 
-.sub-link, .sub-last {
+.sub-link, .sub-last, .sub-first {
   display: block;
   letter-spacing: 0.5px;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
 }
-.sub-link:after, .sub-last:after {
+.sub-link:after, .sub-last:after, .sub-first:after {
   content: "-";
   padding-left: 30px;
 }
