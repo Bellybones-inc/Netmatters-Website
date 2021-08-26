@@ -92,9 +92,14 @@
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {

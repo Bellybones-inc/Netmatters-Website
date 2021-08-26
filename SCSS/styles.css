@@ -95,9 +95,14 @@
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -202,9 +207,14 @@
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -310,9 +320,14 @@
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -468,9 +483,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -626,9 +646,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -734,9 +759,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -1014,9 +1044,14 @@ rect {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -1122,9 +1157,14 @@ rect {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -1545,9 +1585,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -1653,9 +1698,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -1884,9 +1934,14 @@ Middle section begins - Services
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -1992,9 +2047,14 @@ Middle section begins - Services
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -2149,9 +2209,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -2257,9 +2322,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -2617,9 +2687,14 @@ span.p {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -2725,9 +2800,14 @@ span.p {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -2961,9 +3041,14 @@ p:first-child {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -3069,9 +3154,14 @@ p:first-child {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -3429,9 +3519,14 @@ ul {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -3537,9 +3632,14 @@ ul {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -3770,9 +3870,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -3878,9 +3983,14 @@ body {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -4138,9 +4248,14 @@ label::after {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -4246,9 +4361,14 @@ label::after {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -4513,9 +4633,14 @@ h4 {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -4621,9 +4746,14 @@ h4 {
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
