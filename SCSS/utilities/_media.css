@@ -92,6 +92,11 @@
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;

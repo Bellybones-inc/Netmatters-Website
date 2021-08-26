@@ -110,6 +110,13 @@ padding: 0px 15px 0px 15px;
   }
 }
 
+// Cards careers section
+@media (min-width: 576px) and (max-width: 991px){
+.visible-tech {
+  display: block;
+  }
+}
+
 // About
 
 @media (min-width: 1260px){

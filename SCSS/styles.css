@@ -95,6 +95,11 @@
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -194,6 +199,11 @@
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -297,6 +307,11 @@
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -450,6 +465,11 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -606,6 +626,11 @@ body {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -706,6 +731,11 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -984,6 +1014,11 @@ rect {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -1084,6 +1119,11 @@ rect {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -1505,6 +1545,11 @@ body {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -1605,6 +1650,11 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -1834,6 +1884,11 @@ Middle section begins - Services
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -1934,6 +1989,11 @@ Middle section begins - Services
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -2089,6 +2149,11 @@ body {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -2189,6 +2254,11 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -2547,6 +2617,11 @@ span.p {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -2647,6 +2722,11 @@ span.p {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -2881,6 +2961,11 @@ p:first-child {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -2981,6 +3066,11 @@ p:first-child {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -3233,6 +3323,10 @@ ul {
   color: #666666;
 }
 
+.visible-tech {
+  display: none;
+}
+
 /***************************
 ****************************
         Clients section
@@ -3332,6 +3426,11 @@ ul {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -3435,6 +3534,11 @@ ul {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -3666,6 +3770,11 @@ body {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -3766,6 +3875,11 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -4024,6 +4138,11 @@ label::after {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -4124,6 +4243,11 @@ label::after {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }
@@ -4389,6 +4513,11 @@ h4 {
     display: block;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -4489,6 +4618,11 @@ h4 {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .visible-tech {
     display: block;
   }
 }

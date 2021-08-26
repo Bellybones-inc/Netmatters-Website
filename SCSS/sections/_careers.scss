@@ -94,6 +94,7 @@ ul {
   border: 1px solid #ccc;
 }
 
+
 .tag {
   position: absolute;
   top: 10px;
@@ -160,7 +161,7 @@ ul {
     background-color: $purple-hover;
   }
 }
-
+ 
 .user {        // items aligned to start of container w/ border above content
   display:flex;
   align-items: flex-start;
@@ -183,4 +184,8 @@ ul {
 .date {
   font-size: $small-grey-size;
   color: $small-grey;
+}
+
+.visible-tech {
+  display: none;
 }
