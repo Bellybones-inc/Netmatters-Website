@@ -51,6 +51,7 @@
   .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container {
     width: 750px;
+    margin: auto;
   }
 }
 @media (min-width: 992px) {
@@ -100,9 +101,14 @@
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -159,6 +165,7 @@
   .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container {
     width: 750px;
+    margin: auto;
   }
 }
 @media (min-width: 992px) {
@@ -208,9 +215,14 @@
     display: block;
   }
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .visible-tech {
-    display: block;
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 @media (min-width: 1260px) {
@@ -266,10 +278,6 @@ body {
   display: block;
   overflow-x: hidden;
   overflow-y: hidden;
-}
-
-#careers_container {
-  margin: auto;
 }
 
 ul {

@@ -39,10 +39,16 @@
     text-align: center;
   }
 }
+@media (min-width: 576px) and (max-width: 768px) {
+  .custom-container2, .custom-container1 {
+    max-width: 100%;
+  }
+}
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container {
     width: 750px;
+    margin: auto;
   }
 }
 @media (min-width: 992px) {
