@@ -65,6 +65,16 @@ Middle section begins - Services
     width: 1200px;
   }
 }
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .visible-digi {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -131,6 +141,16 @@ Middle section begins - Services
   .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .visible-digi {
+    display: block;
   }
 }
 @media (min-width: 1260px) {
@@ -250,6 +270,16 @@ body {
     width: 1200px;
   }
 }
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .visible-digi {
+    display: block;
+  }
+}
 @media (min-width: 1260px) {
   .about-text {
     width: 50%;
@@ -316,6 +346,16 @@ body {
   .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .visible-digi {
+    display: block;
   }
 }
 @media (min-width: 1260px) {
@@ -391,7 +431,6 @@ body {
   border: 1px solid #cccccc;
   font-weight: 600;
   text-align: center;
-  text-overflow: ellipsis;
 }
 .block:hover .btn {
   background-color: #fff;
@@ -565,6 +604,10 @@ span.p {
   line-height: 1.375rem;
   font-size: 0.8125rem;
   font-weight: 400;
+}
+
+.visible-it, .visible-digi {
+  display: none;
 }
 
 /*# sourceMappingURL=_services.css.map */
