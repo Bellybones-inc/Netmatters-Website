@@ -87,7 +87,7 @@ span.h2::after {
   left: 0;
   right: 0;
   background-color: #333645;
-}
+} 
 
 .card_con:hover span.h2::after {
   background-color: $white-bg;
@@ -101,6 +101,7 @@ span.p {
   font-weight: 400;
 }
 
-.visible-it, .visible-digi {
+.visible-it, .visible-it_two, .visible-digi, .visible-sec, .visible-serv, .visible-sec_two,
+.visible-des, .visible-des_two{
   display: none;
 }

@@ -65,13 +65,38 @@ Middle section begins - Services
     width: 1200px;
   }
 }
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .visible-it_two, .visible-serv {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .visible-serv {
     display: block;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   .visible-digi {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 1400px) {
+  .visible-sec {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .visible-sec_two, .visible-des_two {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-des {
     display: block;
   }
 }
@@ -143,13 +168,38 @@ Middle section begins - Services
     width: 1200px;
   }
 }
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .visible-it_two, .visible-serv {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .visible-serv {
     display: block;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   .visible-digi {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 1400px) {
+  .visible-sec {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .visible-sec_two, .visible-des_two {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-des {
     display: block;
   }
 }
@@ -270,13 +320,38 @@ body {
     width: 1200px;
   }
 }
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .visible-it_two, .visible-serv {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .visible-serv {
     display: block;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   .visible-digi {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 1400px) {
+  .visible-sec {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .visible-sec_two, .visible-des_two {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-des {
     display: block;
   }
 }
@@ -348,13 +423,38 @@ body {
     width: 1200px;
   }
 }
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .visible-it_two, .visible-serv {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .visible-serv {
     display: block;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   .visible-digi {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 1400px) {
+  .visible-sec {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .visible-sec_two, .visible-des_two {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-des {
     display: block;
   }
 }
@@ -606,7 +706,8 @@ span.p {
   font-weight: 400;
 }
 
-.visible-it, .visible-digi {
+.visible-it, .visible-it_two, .visible-digi, .visible-sec, .visible-serv, .visible-sec_two,
+.visible-des, .visible-des_two {
   display: none;
 }
 
