@@ -377,11 +377,27 @@ body {
   border-radius: 3px 3px 3px 3px;
 }
 
+.lg-search {
+  display: flex;
+}
+
 #control {
   border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem 0rem 0rem 0.25rem;
   outline: 1px solid rgba(255, 255, 255, 0.2);
   background-color: rgba(0, 0, 0, 0.1);
   font-size: 1rem;
+}
+
+#submit-lg {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0rem 0.25rem 0.25rem 0rem;
+}
+
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
 }
 
 rect {
