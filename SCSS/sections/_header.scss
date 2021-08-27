@@ -108,10 +108,16 @@ rect {
  .support {
    @include btn-header;
    background-color: #4183d7 !important;
+   &:hover {
+     background-color: darken(#4183d7, 10%) !important;
+   }
  }
 
 .contact {
   @include btn-header;
   margin-left: 20px;
   background-color: $grey-bg !important;
+  &:hover {
+    background-color: darken($grey-bg, 10%) !important;
+  }
 }
