@@ -108,6 +108,7 @@ rect {
  .support {
    @include btn-header;
    background-color: #4183d7 !important;
+   border: 1px solid Transparent !important;
    &:hover {
      background-color: darken(#4183d7, 10%) !important;
    }
@@ -117,6 +118,7 @@ rect {
   @include btn-header;
   margin-left: 20px;
   background-color: $grey-bg !important;
+  border: 1px solid Transparent !important;
   &:hover {
     background-color: darken($grey-bg, 10%) !important;
   }

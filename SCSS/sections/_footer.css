@@ -5,11 +5,40 @@
 ***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
 ****************************
 ***************************/
+@media (min-width: 768px) {
+  .logo_container {
+    padding: 0px 5px 0px 0px;
+  }
+
+  .action_wrapper {
+    padding: 0px 15px 0px 15px;
+  }
+
+  .header_row {
+    height: 60.6px;
+  }
+}
+@media (min-width: 992px) {
+  .img-logo {
+    width: 374px;
+    max-width: none;
+  }
+
+  .search-submit {
+    border-radius: 3px 3px 3px 3px;
+  }
+}
+@media (min-width: 1200px) {
+  .search-submit {
+    border-radius: 0px 3px 3px 0px;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -18,37 +47,129 @@
     text-align: center;
   }
 }
+@media (min-width: 576px) and (max-width: 768px) {
+  .custom-container2, .custom-container1 {
+    max-width: 100%;
+  }
+}
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container {
     width: 750px;
+    margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
-@media (min-width: 1260px) {
+@media (max-width: 991px) {
+  .content-container {
+    background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .visible-it_two {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .visible-serv {
+    display: block;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .visible-digi {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 1400px) {
+  .visible-sec {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .visible-sec_two, .visible-des_two {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
+  }
+}
+@media (min-width: 1259px) {
   .about-text {
     width: 50%;
+  }
+}
+@media (min-width: 1259px) {
+  .block_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
+/* ===Variables=== */
 /***************************
 ****************************
       Media Queries
 ****************************
 ***************************/
+@media (min-width: 768px) {
+  .logo_container {
+    padding: 0px 5px 0px 0px;
+  }
+
+  .action_wrapper {
+    padding: 0px 15px 0px 15px;
+  }
+
+  .header_row {
+    height: 60.6px;
+  }
+}
+@media (min-width: 992px) {
+  .img-logo {
+    width: 374px;
+    max-width: none;
+  }
+
+  .search-submit {
+    border-radius: 3px 3px 3px 3px;
+  }
+}
+@media (min-width: 1200px) {
+  .search-submit {
+    border-radius: 0px 3px 3px 0px;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -57,27 +178,90 @@
     text-align: center;
   }
 }
+@media (min-width: 576px) and (max-width: 768px) {
+  .custom-container2, .custom-container1 {
+    max-width: 100%;
+  }
+}
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container {
     width: 750px;
+    margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container {
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
-@media (min-width: 1260px) {
+@media (max-width: 991px) {
+  .content-container {
+    background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .visible-it {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .visible-it_two {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .visible-serv {
+    display: block;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .visible-digi {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 1400px) {
+  .visible-sec {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .visible-sec_two, .visible-des_two {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .visible-des {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1259px) {
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
+  }
+}
+@media (min-width: 1259px) {
+  .job_title1 {
+    min-height: 2.35rem;
+  }
+}
+@media (min-width: 1259px) {
   .about-text {
     width: 50%;
+  }
+}
+@media (min-width: 1259px) {
+  .block_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 html {
@@ -143,21 +327,15 @@ footer {
   display: block;
 }
 
-.block_container {
+.footer_block {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.footer_block {
-  display: flex;
-  justify-content: center;
-}
-
-.link_container, .office_container {
+.office_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .link_inner, .office_block {

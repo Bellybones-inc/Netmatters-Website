@@ -141,8 +141,17 @@ padding: 0px 15px 0px 15px;
 
 // About
 
-@media (min-width: 1260px){
+@media (min-width: 1259px){
 .about-text {
 width: 50%;
 }
+}
+
+// Footer flex container
+@media (min-width: 1259px){
+  .block_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }

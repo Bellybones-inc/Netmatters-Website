@@ -113,9 +113,16 @@
     min-height: 2.35rem;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 1259px) {
   .about-text {
     width: 50%;
+  }
+}
+@media (min-width: 1259px) {
+  .block_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 

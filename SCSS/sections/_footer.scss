@@ -22,21 +22,15 @@ footer {
   display: block;
 }
 
-.block_container {
+.footer_block {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.footer_block {
-  display: flex;
-  justify-content: center;
-}
-
-.link_container, .office_container {
+.office_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .link_inner, .office_block {
