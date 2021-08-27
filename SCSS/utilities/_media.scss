@@ -75,6 +75,13 @@ padding: 0px 15px 0px 15px;
 }
 }
 
+@media (min-width: 768px){
+  .burger_menu {
+  margin-left: 20px;
+  }
+}
+
+
 // Transparent background banner
 
 @media (max-width: 991px) {
