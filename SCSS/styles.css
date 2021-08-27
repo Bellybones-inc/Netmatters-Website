@@ -3561,6 +3561,10 @@ ul {
   list-style-type: none;
 }
 
+.title_container {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+}
+
 .latest {
   display: block;
   position: relative;
@@ -4064,6 +4068,9 @@ body {
 
 .client {
   padding: 50px 0px 50px 0px;
+}
+.client:before {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
 }
 
 .description {
