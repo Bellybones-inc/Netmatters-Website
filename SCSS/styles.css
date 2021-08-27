@@ -4275,6 +4275,10 @@ label::after {
   background-color: #1d1f28;
 }
 
+.space_between {
+  display: block;
+}
+
 /***************************
 ****************************
       Footer section
