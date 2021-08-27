@@ -3446,6 +3446,7 @@ ul {
 }
 
 .responsive {
+  width: 100%;
   transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
   transition-property: all;
   transition-duration: 0.15s;
