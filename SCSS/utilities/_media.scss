@@ -44,13 +44,14 @@ padding: 0px 15px 0px 15px;
 }
 }
 
-// Align content
+// Bootstrap Override
 
 @media (min-width: 576px) and (max-width: 768px){
   .custom-container2, .custom-container1{
     max-width: 100%;
   }
 }
+// Align content
 
 @media (min-width: 768px){
 .job_container, .about_container, .container, #careers_container,
@@ -74,7 +75,15 @@ padding: 0px 15px 0px 15px;
 }
 }
 
-// Card banner text boxes
+// Transparent background banner
+
+@media (max-width: 991px) {
+.content-container {
+  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+  }
+}
+
+// Card  service text boxes - extra space
 @media (min-width: 768px) and (max-width: 1400px){
 .visible-it {
   display: block;
