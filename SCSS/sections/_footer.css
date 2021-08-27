@@ -329,6 +329,7 @@ footer {
 
 .footer_block {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
