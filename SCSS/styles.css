@@ -3551,6 +3551,10 @@ body {
   overflow-y: hidden;
 }
 
+.articles_jobs {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+}
+
 ul {
   list-style-position: inside;
 }
@@ -4068,9 +4072,6 @@ body {
 
 .client {
   padding: 50px 0px 50px 0px;
-}
-.client:before {
-  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
 }
 
 .description {
