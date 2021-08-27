@@ -3553,6 +3553,7 @@ body {
 
 .articles_jobs {
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 ul {
@@ -4938,9 +4939,8 @@ h4 {
 
 .social-media {
   display: flex;
-  flex-grow: 1;
   justify-content: flex-end;
-  gap: 10px;
+  margin-top: -5px;
 }
 
 .media_icon {
