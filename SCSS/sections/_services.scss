@@ -29,6 +29,7 @@ Middle section begins - Services
 &:hover .btn {
   background-color: $white-bg;
   @include themes-hover($themes-hover);
+  transition: none !important;
  }
 &:hover .icon {
   background-color: $white-bg;

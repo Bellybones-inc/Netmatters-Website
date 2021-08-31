@@ -355,6 +355,7 @@ body {
 }
 .block:hover .btn {
   background-color: #fff;
+  transition: none !important;
 }
 .block:hover .btn-soft {
   color: #67809f;
