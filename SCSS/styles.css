@@ -34,6 +34,11 @@
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -167,6 +172,11 @@
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -303,6 +313,11 @@
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -489,6 +504,11 @@ body {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -677,6 +697,11 @@ body {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -811,6 +836,11 @@ body {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -1145,6 +1175,11 @@ rect {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -1279,6 +1314,11 @@ rect {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -1554,7 +1594,7 @@ body {
   display: none;
 }
 
-.lin-web:hover + .option-1 {
+ul .lin-web:hover + .option-1 {
   display: block;
 }
 
@@ -1732,6 +1772,11 @@ body {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -1866,6 +1911,11 @@ body {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -2127,6 +2177,11 @@ Middle section begins - Services
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -2261,6 +2316,11 @@ Middle section begins - Services
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -2448,6 +2508,11 @@ body {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -2582,6 +2647,11 @@ body {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -2972,6 +3042,11 @@ span.p {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -3106,6 +3181,11 @@ span.p {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -3372,6 +3452,11 @@ p:first-child {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -3506,6 +3591,11 @@ p:first-child {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -3902,6 +3992,11 @@ ul {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -4036,6 +4131,11 @@ ul {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -4299,6 +4399,11 @@ body {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -4433,6 +4538,11 @@ body {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -4727,6 +4837,11 @@ label::after {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -4861,6 +4976,11 @@ label::after {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -5152,6 +5272,11 @@ h4 {
     border-radius: 0px 3px 3px 0px;
   }
 }
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
+  }
+}
 @media (max-width: 991px) {
   .content-container {
     justify-content: center;
@@ -5286,6 +5411,11 @@ h4 {
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
