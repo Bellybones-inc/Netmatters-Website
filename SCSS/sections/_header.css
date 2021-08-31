@@ -1,4 +1,8 @@
-/* header */
+/***************************
+****************************
+      Header section
+****************************
+***************************/
 /* ===Variables=== */
 /* ===Mixins=== */
 /* ===Variables=== */
@@ -33,6 +37,11 @@
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
@@ -169,6 +178,11 @@
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 537px) {
+  .header_row {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {

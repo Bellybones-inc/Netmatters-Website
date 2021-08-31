@@ -1,8 +1,8 @@
-/***************************
-****************************
-    Careers section header
-****************************
-***************************/
+  /***************************
+  ****************************
+      Careers section header
+  ****************************
+  ***************************/
 
 @import '../utilities/variables',
         '../utilities/mixins',
@@ -28,7 +28,6 @@ ul {
   box-shadow: 0 5px 35px rgba(0,0,0,.1);
 }
 
-
 .latest {
   display: block;
   position: relative;
@@ -49,13 +48,13 @@ ul {
   height: 5px;
 }
 
-/***************************
-****************************
-    Careers section main
-****************************
-***************************/
+  /***************************
+  ****************************
+      Careers section main
+  ****************************
+  ***************************/
 
-.section { // sets the top and bottom padding and covers row.
+.section {    //sets the top and bottom padding and covers row.
   padding: $section;
 }
 
@@ -73,10 +72,9 @@ ul {
   margin: -30px -15px 0px -15px;
 }
 
-.job_block { // this includes job title, description, button and the date of the listing
+.job_block {    //this includes job title, description, button and the date of the listing
   padding: 30px 30px 30px 30px;
   border: 1px solid rgb(204, 204, 204, 204);
-  // border-top-color: rgb(102, 102, 102);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
   border-radius: 3px;
 }
@@ -146,7 +144,7 @@ ul {
   }
 }
 
-.details { //font color and size for job description
+.details {      //font color and size for job description
   font-size: $small-grey-size;
   color: $small-grey;
 }
@@ -169,7 +167,7 @@ ul {
   }
 }
 
-.user {        // items aligned to start of container w/ border above content
+.user {    // items aligned to start of container w/ border above content
   display:flex;
   align-items: flex-start;
   gap: 15px;
@@ -182,7 +180,7 @@ ul {
   font-size: 14px;
 }
 
-.profile_image {      //small user image at the bottom of each column
+.profile_image {    //small user image at the bottom of each column
   width: 47px;
   height: 47px;
   border-radius: 50%;

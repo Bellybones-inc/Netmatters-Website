@@ -1,8 +1,8 @@
-/***************************
-****************************
-      Footer section
-****************************
-***************************/
+  /***************************
+  ****************************
+        Footer section
+  ****************************
+  ***************************/
 
 @import '../utilities/variables',
         '../utilities/mixins',
@@ -21,11 +21,6 @@ footer {
   margin: auto;
   display: block;
 }
-
-// .block_container {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
 
 .footer_block {
   display: flex;
@@ -92,17 +87,18 @@ h4 {
     color: $white-text;
   }
 }
-  .media-fb:hover{
-    background-color: steelblue;}
 
-  .media-twit:hover{
-    background-color: deepskyblue;}
+.media-fb:hover{
+  background-color: steelblue;}
 
-  .media-insta:hover{
-    background-color: salmon;}
+.media-twit:hover{
+  background-color: deepskyblue;}
 
-  .media-link:hover{
-    background-color: darkcyan;}
+.media-insta:hover{
+  background-color: salmon;}
+
+.media-link:hover{
+  background-color: darkcyan;}
 
 .sitemap {
   padding-right: 10px;
