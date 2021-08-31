@@ -8,8 +8,7 @@
 @import '../utilities/variables',
         '../utilities/mixins',
         '../utilities/media',
-        '../base/base',
-        '../components/icons';
+        '../base/base';
 
 .custom-container1 {
   @include container-properties-custom;
@@ -87,7 +86,7 @@ span.h2::after {
   left: 0;
   right: 0;
   background-color: #333645;
-} 
+}
 
 .card_con:hover span.h2::after {
   background-color: $white-bg;
