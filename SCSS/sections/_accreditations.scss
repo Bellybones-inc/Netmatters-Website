@@ -32,18 +32,36 @@
 
 .colour {
   position: absolute;
-   opacity: 0;
-  &:hover {
+   opacity: 0;}
+
+.item:hover .colour{
    opacity: 1.0;
 }
 
-}
+
 .greyscale {
     opacity: 1.0;
   &:hover {
     opacity: 0;
 }
 }
+
+.bussey {
+  left: 14.5%;
+}
+
+.crane {
+  left: 10.5%;
+}
+
+.beat {
+  left: 26%;
+}
+
+.diver {
+  left: 10%;
+}
+
 
 .item {
   position: relative;

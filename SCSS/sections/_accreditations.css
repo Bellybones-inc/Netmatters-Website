@@ -359,7 +359,8 @@ body {
   position: absolute;
   opacity: 0;
 }
-.colour:hover {
+
+.item:hover .colour {
   opacity: 1;
 }
 
@@ -368,6 +369,22 @@ body {
 }
 .greyscale:hover {
   opacity: 0;
+}
+
+.bussey {
+  left: 14.5%;
+}
+
+.crane {
+  left: 10.5%;
+}
+
+.beat {
+  left: 26%;
+}
+
+.diver {
+  left: 10%;
 }
 
 .item {
