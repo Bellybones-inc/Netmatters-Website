@@ -49,6 +49,31 @@ padding: 0px 15px 0px 15px;
 }
 }
 
+// Header contact btn - IE fix
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .contact {
+        width: auto;
+   }
+}
+
+// Newsletter checkbox - IE fix
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .check-please {
+     display: block;
+        margin-right: 15px;
+        background-color: #ddd;
+        border: 3px solid #333645;
+   }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .form-check-input {
+        display: none;
+   }
+}
+
 // Bootstrap Override
 
 @media (min-width: 576px) and (max-width: 768px){

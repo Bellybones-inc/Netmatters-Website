@@ -52,6 +52,11 @@
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -191,6 +196,11 @@
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {

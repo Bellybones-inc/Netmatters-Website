@@ -32,7 +32,8 @@
 
 .colour {
   position: absolute;
-   opacity: 0;}
+   opacity: 0;
+}
 
 .item:hover .colour{
    opacity: 1.0;
@@ -45,7 +46,7 @@
     opacity: 0;
 }
 }
-// IE fix below
+// // IE fix below
 // .bussey {
 //   left: 14.5%;
 // }

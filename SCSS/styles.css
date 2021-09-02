@@ -47,6 +47,24 @@
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -186,6 +204,24 @@
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -383,6 +419,24 @@ body {
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -522,6 +576,24 @@ body {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -861,6 +933,24 @@ rect {
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -1000,6 +1090,24 @@ rect {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -1458,6 +1566,24 @@ body {
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -1597,6 +1723,24 @@ body {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -1863,6 +2007,24 @@ Middle section begins - Services
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -2002,6 +2164,24 @@ Middle section begins - Services
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -2398,6 +2578,24 @@ span.p {
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -2537,6 +2735,24 @@ span.p {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -2808,6 +3024,24 @@ p:first-child {
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -2947,6 +3181,24 @@ p:first-child {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -3348,6 +3600,24 @@ ul {
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -3487,6 +3757,24 @@ ul {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -3755,6 +4043,24 @@ body {
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -3894,6 +4200,24 @@ body {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -4099,6 +4423,10 @@ label::after {
   border-color: #333645;
 }
 
+.check-please {
+  display: none;
+}
+
 .marketing_info_container {
   padding: 0px 15px 0px 15px;
   display: flex;
@@ -4191,6 +4519,24 @@ label::after {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -4332,6 +4678,24 @@ label::after {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -4632,6 +4996,24 @@ h4 {
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -4771,6 +5153,24 @@ h4 {
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .check-please {
+    display: block;
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .form-check-input {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {

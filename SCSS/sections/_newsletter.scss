@@ -66,9 +66,14 @@ label::after {  // asterisk after label /
   }
 }
 
+
 #checkboxNoLabel {
   box-shadow: none;
   border-color: $dark-grey-text;
+}
+
+.check-please {
+  display: none;
 }
 
 .marketing_info_container { // flex container for policy info and checkbox //
