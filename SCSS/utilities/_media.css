@@ -140,6 +140,11 @@
     height: 222.22px;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .profile_image {
+    margin-right: 15px;
+  }
+}
 @media (min-width: 1259px) {
   .about-text {
     width: 50%;

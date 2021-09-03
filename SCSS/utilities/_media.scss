@@ -176,6 +176,13 @@ padding: 0px 15px 0px 15px;
    }
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
+  {
+    .profile_image {
+      margin-right: 15px;
+    }
+}
+
 // About
 
 @media (min-width: 1259px){
