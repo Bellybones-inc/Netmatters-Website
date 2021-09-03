@@ -53,6 +53,11 @@
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -138,7 +143,7 @@
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -146,6 +151,33 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -216,6 +248,11 @@
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -301,7 +338,7 @@
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -309,6 +346,33 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -433,6 +497,11 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -518,7 +587,7 @@ body {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -526,6 +595,33 @@ body {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -596,6 +692,11 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -681,7 +782,7 @@ body {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -689,6 +790,33 @@ body {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -955,6 +1083,11 @@ rect {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -1040,7 +1173,7 @@ rect {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -1048,6 +1181,33 @@ rect {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -1118,6 +1278,11 @@ rect {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -1203,7 +1368,7 @@ rect {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -1211,6 +1376,33 @@ rect {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -1596,6 +1788,11 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -1681,7 +1878,7 @@ body {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -1689,6 +1886,33 @@ body {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -1759,6 +1983,11 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -1844,7 +2073,7 @@ body {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -1852,6 +2081,33 @@ body {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -2045,6 +2301,11 @@ Middle section begins - Services
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -2130,7 +2391,7 @@ Middle section begins - Services
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -2138,6 +2399,33 @@ Middle section begins - Services
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -2208,6 +2496,11 @@ Middle section begins - Services
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -2293,7 +2586,7 @@ Middle section begins - Services
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -2301,6 +2594,33 @@ Middle section begins - Services
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -2624,6 +2944,11 @@ span.p {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -2709,7 +3034,7 @@ span.p {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -2717,6 +3042,33 @@ span.p {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -2787,6 +3139,11 @@ span.p {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -2872,7 +3229,7 @@ span.p {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -2880,6 +3237,33 @@ span.p {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -3078,6 +3462,11 @@ p:first-child {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -3163,7 +3552,7 @@ p:first-child {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -3171,6 +3560,33 @@ p:first-child {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -3241,6 +3657,11 @@ p:first-child {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -3326,7 +3747,7 @@ p:first-child {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -3334,6 +3755,33 @@ p:first-child {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -3662,6 +4110,11 @@ ul {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -3747,7 +4200,7 @@ ul {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -3755,6 +4208,33 @@ ul {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -3825,6 +4305,11 @@ ul {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -3910,7 +4395,7 @@ ul {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -3918,6 +4403,33 @@ ul {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -3989,6 +4501,7 @@ body {
 .description {
   display: none;
   position: absolute;
+  text-align: center;
   bottom: 100%;
   left: -200px;
   right: -200px;
@@ -4113,6 +4626,11 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -4198,7 +4716,7 @@ body {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -4206,6 +4724,33 @@ body {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -4276,6 +4821,11 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -4361,7 +4911,7 @@ body {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -4369,6 +4919,33 @@ body {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -4595,6 +5172,11 @@ label::after {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -4680,7 +5262,7 @@ label::after {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -4688,6 +5270,33 @@ label::after {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -4758,6 +5367,11 @@ label::after {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -4843,7 +5457,7 @@ label::after {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -4851,6 +5465,33 @@ label::after {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -5078,6 +5719,11 @@ h4 {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -5163,7 +5809,7 @@ h4 {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -5171,6 +5817,33 @@ h4 {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -5241,6 +5914,11 @@ h4 {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -5326,7 +6004,7 @@ h4 {
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
   }
@@ -5334,6 +6012,33 @@ h4 {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 60px;
+  }
+
+  .gs-crane {
+    padding-left: 60px;
   }
 }
 @media (min-width: 1259px) {
@@ -5422,6 +6127,7 @@ body {
 .colour {
   position: absolute;
   opacity: 0;
+  text-align: none;
 }
 
 .item:hover .colour {

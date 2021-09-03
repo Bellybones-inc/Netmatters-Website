@@ -52,6 +52,23 @@
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #checkboxNoLabel {
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -129,6 +146,26 @@
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px), (max-width: 1920px) {
+  .hire-3 {
+    height: 222.22px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1259px), (max-width: 1399px) {
+  #hire {
+    height: 210.34px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1200px), (max-width: 1258px) {
+  .hire-3 {
+    height: 176.67px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .profile_image {
+    margin-right: 15px;
   }
 }
 @media (min-width: 1259px) {
@@ -193,6 +230,23 @@
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #checkboxNoLabel {
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -270,6 +324,26 @@
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px), (max-width: 1920px) {
+  .hire-3 {
+    height: 222.22px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1259px), (max-width: 1399px) {
+  #hire {
+    height: 210.34px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1200px), (max-width: 1258px) {
+  .hire-3 {
+    height: 176.67px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .profile_image {
+    margin-right: 15px;
   }
 }
 @media (min-width: 1259px) {
@@ -341,6 +415,7 @@ body {
 .description {
   display: none;
   position: absolute;
+  text-align: center;
   bottom: 100%;
   left: -200px;
   right: -200px;
