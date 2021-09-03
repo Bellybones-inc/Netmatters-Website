@@ -58,10 +58,10 @@
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .form-check-input {
+  #checkboxNoLabel {
     margin-right: 15px;
-    background-color: #ddd !important;
-    border: 3px solid #333645 !important;
+    background-color: #ddd;
+    border: 3px solid #333645;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -211,10 +211,10 @@
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .form-check-input {
+  #checkboxNoLabel {
     margin-right: 15px;
-    background-color: #ddd !important;
-    border: 3px solid #333645 !important;
+    background-color: #ddd;
+    border: 3px solid #333645;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -418,10 +418,6 @@ label::after {
 #checkboxNoLabel {
   box-shadow: none;
   border-color: #333645;
-}
-
-.check-please {
-  display: none;
 }
 
 .marketing_info_container {
