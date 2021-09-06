@@ -170,11 +170,19 @@
   }
 
   .crane {
-    padding-left: 60px;
+    padding-left: 25px;
   }
 
   .gs-crane {
-    padding-left: 60px;
+    padding-left: 25px;
+  }
+
+  .beat {
+    padding-left: 18px;
+  }
+
+  .gs-beat {
+    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
