@@ -52,6 +52,23 @@ Middle section begins - Services
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #checkboxNoLabel {
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -129,6 +146,51 @@ Middle section begins - Services
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .hire-3 {
+    height: 222.22px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .profile_image {
+    margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 25px;
+  }
+
+  .gs-crane {
+    padding-left: 25px;
+  }
+
+  .beat {
+    padding-left: 18px;
+  }
+
+  .gs-beat {
+    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -193,6 +255,23 @@ Middle section begins - Services
     text-align: center;
   }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .contact {
+    width: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block, .office_container {
+    justify-content: space-around;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #checkboxNoLabel {
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
   .custom-container2, .custom-container1 {
     max-width: 100%;
@@ -270,6 +349,51 @@ Middle section begins - Services
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .hire-3 {
+    height: 222.22px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .profile_image {
+    margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 25px;
+  }
+
+  .gs-crane {
+    padding-left: 25px;
+  }
+
+  .beat {
+    padding-left: 18px;
+  }
+
+  .gs-beat {
+    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {

@@ -2773,6 +2773,7 @@ body {
 
 .services {
   margin-top: -30px;
+  background-color: yellow;
 }
 
 .block {
@@ -3424,7 +3425,7 @@ body {
   overflow-y: hidden;
 }
 
-#about {
+bippit #about {
   display: block;
   background-color: #333645;
   background-position: 100% 50%;
