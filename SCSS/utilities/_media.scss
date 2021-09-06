@@ -198,6 +198,7 @@ padding: 0px 15px 0px 15px;
 //    }
 // }
 
+// Adds correct spacing between profile picture and date of post
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
   {
     .profile_image {
@@ -205,6 +206,7 @@ padding: 0px 15px 0px 15px;
     }
 }
 
+// Removes align text property and corrects position of images
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
   {
     #client_row {
@@ -217,6 +219,7 @@ padding: 0px 15px 0px 15px;
     }
 }
 
+// Corrects spacing between images
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
   {
     .bussey {
