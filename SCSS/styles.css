@@ -6320,7 +6320,7 @@ body {
 .item {
   position: relative;
   padding: 0px 20px 0px 20px;
-  flex-grow: 1;
+  flex-grow: 1 0 auto;
   vertical-align: middle;
 }
 

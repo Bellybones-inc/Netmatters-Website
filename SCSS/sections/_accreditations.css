@@ -148,24 +148,49 @@
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px), (max-width: 1920px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1259px), (max-width: 1399px) {
-  #hire {
-    height: 210.34px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1200px), (max-width: 1258px) {
-  .hire-3 {
-    height: 176.67px;
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 25px;
+  }
+
+  .gs-crane {
+    padding-left: 25px;
+  }
+
+  .beat {
+    padding-left: 18px;
+  }
+
+  .gs-beat {
+    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -326,24 +351,49 @@
     min-height: 2.35rem;
   }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px), (max-width: 1920px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hire-3 {
     height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1259px), (max-width: 1399px) {
-  #hire {
-    height: 210.34px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1200px), (max-width: 1258px) {
-  .hire-3 {
-    height: 176.67px;
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .profile_image {
     margin-right: 15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bussey {
+    padding-left: 20px;
+  }
+
+  .gs-buss {
+    padding-left: 20px;
+  }
+
+  .crane {
+    padding-left: 25px;
+  }
+
+  .gs-crane {
+    padding-left: 25px;
+  }
+
+  .beat {
+    padding-left: 18px;
+  }
+
+  .gs-beat {
+    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -449,7 +499,7 @@ body {
 .item {
   position: relative;
   padding: 0px 20px 0px 20px;
-  flex-grow: 1;
+  flex-grow: 1 0 auto;
   vertical-align: middle;
 }
 
