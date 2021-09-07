@@ -133,6 +133,8 @@ border-right: 1px solid rgba(0,0,0,.25);
   }
 }
 
+// IE fixes
+
 @mixin IE_flex () {
   @media screen and (-ms-high-contrast: active),
   (-ms-high-contrast: none) {
@@ -145,5 +147,12 @@ border-right: 1px solid rgba(0,0,0,.25);
   @media screen and (-ms-high-contrast: active),
   (-ms-high-contrast: none) {
       justify-content: space-around;
+    }
+  }
+
+  @mixin IE_center () {
+    @media screen and (-ms-high-contrast: active),
+    (-ms-high-contrast: none) {
+      justify-content: center;
     }
   }

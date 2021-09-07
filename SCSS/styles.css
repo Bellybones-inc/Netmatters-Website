@@ -3902,6 +3902,10 @@ body {
   }
 }
 
+.item_client:hover .colour {
+  opacity: 1;
+}
+
 .item_client:hover .description {
   display: block;
 }
@@ -5216,6 +5220,12 @@ body {
   text-align: center;
   vertical-align: middle;
   justify-content: space-evenly;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    justify-content: center;
+  }
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {

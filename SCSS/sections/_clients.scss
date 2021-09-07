@@ -79,6 +79,10 @@ margin-bottom: 0;
   vertical-align: middle;
 }
 
+.item_client:hover .colour  {
+  opacity: 1.0;
+}
+
 .item_client:hover .description {
   display: block;
 }

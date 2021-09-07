@@ -376,6 +376,12 @@ body {
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #client_row {
+    justify-content: center;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .first-row, .second-row {
     justify-content: space-around;
   }
