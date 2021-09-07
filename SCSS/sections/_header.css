@@ -389,8 +389,24 @@ body {
   justify-content: space-between;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .logo_container {
+    display: flex;
+  }
+}
+
 .img-logo {
   max-width: 100%;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .img-logo {
+    display: flex;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .img-logo {
+    flex: 0 0 auto;
+  }
 }
 
 .mobile_icon {

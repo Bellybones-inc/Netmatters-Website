@@ -40,7 +40,13 @@
   justify-content: space-between;
 }
 
+.logo_container {
+  @include IE_flex;
+}
+
 .img-logo {
+  @include IE_flex;
+  @include IE_flex_val;
   max-width: 100%;
 }
 
