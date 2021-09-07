@@ -1,0 +1,22 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Netmatters homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bellybones-inc/Netmatters-Website.git"
+  },
+  "author": "William Sears",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bellybones-inc/Netmatters-Website/issues"
+  },
+  "homepage": "https://github.com/Bellybones-inc/Netmatters-Website#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
