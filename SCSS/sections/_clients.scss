@@ -71,6 +71,14 @@ margin-bottom: 0;
   border-left-color: transparent;
 }
 
-.item:hover .description {
+.item_client {
+  @include IE_flex;
+  position: relative;
+  padding: 0px 20px 0px 20px;
+  flex-grow: 1 0 auto;
+  vertical-align: middle;
+}
+
+.item_client:hover .description {
   display: block;
 }

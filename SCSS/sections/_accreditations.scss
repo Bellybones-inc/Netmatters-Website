@@ -26,6 +26,10 @@
   justify-content: space-evenly;
 }
 
+.first-row, .second-row {
+  @include IE_space;
+}
+
 .second-row {
   margin-top: 20px;
 }
@@ -47,7 +51,6 @@
     opacity: 0;
 }
 }
-
 
 .item {
   position: relative;

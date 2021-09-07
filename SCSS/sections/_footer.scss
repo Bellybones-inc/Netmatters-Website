@@ -23,12 +23,14 @@ footer {
 }
 
 .footer_block {
+  @include IE_space;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .office_container {
+  @include IE_space;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

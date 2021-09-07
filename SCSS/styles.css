@@ -53,11 +53,6 @@
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -141,51 +136,6 @@
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -256,11 +206,6 @@
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -344,51 +289,6 @@
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -513,11 +413,6 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -601,51 +496,6 @@ body {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -716,11 +566,6 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -804,51 +649,6 @@ body {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -1115,11 +915,6 @@ rect {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -1203,51 +998,6 @@ rect {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -1318,11 +1068,6 @@ rect {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -1406,51 +1151,6 @@ rect {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -1836,11 +1536,6 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -1924,51 +1619,6 @@ body {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -2039,11 +1689,6 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -2127,51 +1772,6 @@ body {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -2365,11 +1965,6 @@ Middle section begins - Services
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -2453,51 +2048,6 @@ Middle section begins - Services
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -2568,11 +2118,6 @@ Middle section begins - Services
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -2656,51 +2201,6 @@ Middle section begins - Services
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -3024,11 +2524,6 @@ span.p {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -3112,51 +2607,6 @@ span.p {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -3227,11 +2677,6 @@ span.p {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -3315,51 +2760,6 @@ span.p {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -3558,11 +2958,6 @@ p:first-child {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -3646,51 +3041,6 @@ p:first-child {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -3761,11 +3111,6 @@ p:first-child {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -3849,51 +3194,6 @@ p:first-child {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -4222,11 +3522,6 @@ ul {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -4310,51 +3605,6 @@ ul {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -4425,11 +3675,6 @@ ul {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -4513,51 +3758,6 @@ ul {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -4690,7 +3890,19 @@ body {
   border-left-color: transparent;
 }
 
-.item:hover .description {
+.item_client {
+  position: relative;
+  padding: 0px 20px 0px 20px;
+  flex-grow: 1 0 auto;
+  vertical-align: middle;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .item_client {
+    display: flex;
+  }
+}
+
+.item_client:hover .description {
   display: block;
 }
 
@@ -4751,11 +3963,6 @@ body {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .contact {
     width: auto;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -4842,51 +4049,6 @@ body {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -4957,11 +4119,6 @@ body {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -5045,51 +4202,6 @@ body {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -5316,11 +4428,6 @@ label::after {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -5404,51 +4511,6 @@ label::after {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -5519,11 +4581,6 @@ label::after {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -5607,51 +4664,6 @@ label::after {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -5734,11 +4746,21 @@ footer {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_block {
+    justify-content: space-around;
+  }
+}
 
 .office_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .office_container {
+    justify-content: space-around;
+  }
 }
 
 .link_inner, .office_block {
@@ -5879,11 +4901,6 @@ h4 {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -5967,51 +4984,6 @@ h4 {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -6082,11 +5054,6 @@ h4 {
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -6170,51 +5137,6 @@ h4 {
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #client_row {
-    display: flex;
-    flex-direction: row;
-    text-align: inherit;
-    flex-wrap: nowrap;
-    vertical-align: middle;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .bussey {
-    padding-left: 20px;
-  }
-
-  .gs-buss {
-    padding-left: 20px;
-  }
-
-  .crane {
-    padding-left: 25px;
-  }
-
-  .gs-crane {
-    padding-left: 25px;
-  }
-
-  .beat {
-    padding-left: 18px;
-  }
-
-  .gs-beat {
-    padding-left: 18px;
   }
 }
 @media (min-width: 1259px) {
@@ -6294,6 +5216,12 @@ body {
   text-align: center;
   vertical-align: middle;
   justify-content: space-evenly;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .first-row, .second-row {
+    justify-content: space-around;
+  }
 }
 
 .second-row {

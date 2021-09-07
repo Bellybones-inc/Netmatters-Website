@@ -4,7 +4,7 @@
 ****************************
 ***************************/
 
-//Header 
+//Header
 
 @media (min-width:768px) {
 .logo_container{
@@ -56,15 +56,6 @@ padding: 0px 15px 0px 15px;
         width: auto;
    }
 }
-
-//Accreditations links and addresses - IE fix
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
-  {
-    .footer_block, .office_container {
-      justify-content: space-around;
-    }
-  }
-
 
 // Newsletter checkbox - IE fix
 
@@ -177,57 +168,6 @@ padding: 0px 15px 0px 15px;
   min-height: 2.35rem;
   }
 }
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-   .hire-3 {
-      height: 222.22px;
-   }
-}
-
-// Adds correct spacing between profile picture and date of post
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
-  {
-    .profile_image {
-      margin-right: 15px;
-    }
-}
-
-// Removes align text property and corrects position of images
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
-  {
-    #client_row {
-      display: flex;
-      flex-direction: row;
-      text-align: inherit;
-      flex-wrap: nowrap;
-      vertical-align: middle;
-      justify-content: space-evenly;
-    }
-}
-
-// Corrects spacing between images
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
-  {
-    .bussey {
-      padding-left: 20px;
-    }
-    .gs-buss {
-      padding-left: 20px;
-    }
-    .crane {
-      padding-left: 25px;
-    }
-    .gs-crane {
-      padding-left: 25px;
-    }
-    .beat {
-      padding-left: 18px;
-    }
-    .gs-beat {
-      padding-left: 18px;
-    }
-
-  }
 
 // About
 

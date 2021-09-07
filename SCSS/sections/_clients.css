@@ -58,11 +58,6 @@
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -146,26 +141,6 @@
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px), (max-width: 1920px) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1259px), (max-width: 1399px) {
-  #hire {
-    height: 210.34px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1200px), (max-width: 1258px) {
-  .hire-3 {
-    height: 176.67px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
   }
 }
 @media (min-width: 1259px) {
@@ -236,11 +211,6 @@
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .footer_block, .office_container {
-    justify-content: space-around;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
     background-color: #ddd;
@@ -324,26 +294,6 @@
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1400px), (max-width: 1920px) {
-  .hire-3 {
-    height: 222.22px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1259px), (max-width: 1399px) {
-  #hire {
-    height: 210.34px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width: 1200px), (max-width: 1258px) {
-  .hire-3 {
-    height: 176.67px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .profile_image {
-    margin-right: 15px;
   }
 }
 @media (min-width: 1259px) {
@@ -476,7 +426,19 @@ body {
   border-left-color: transparent;
 }
 
-.item:hover .description {
+.item_client {
+  position: relative;
+  padding: 0px 20px 0px 20px;
+  flex-grow: 1 0 auto;
+  vertical-align: middle;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .item_client {
+    display: flex;
+  }
+}
+
+.item_client:hover .description {
   display: block;
 }
 
