@@ -5,38 +5,38 @@
 ***************************/
 // Align content
 @media (min-width: 768px){
-.job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container  {
-  width: 750px;
-  margin: auto;
-}
+  .job_container, .about_container, .container, #careers_container,
+  .newsletter_container, .text-container, .footer_container, .header_container  {
+    width: 750px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 992px) {
-.job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
-  width: 970px;
-}
+  .job_container, .about_container, .container, #careers_container,
+  .newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+    width: 970px;
+  }
 }
 
 @media (min-width: 1260px){
-.job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
-  width: 1200px;
-}
+  .job_container, .about_container, .container, #careers_container,
+  .newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+    width: 1200px;
+  }
 }
 
 //Header
 @media (min-width:768px) {
-.logo_container{
-  padding: 0px 5px 0px 0px
-}
-.action_wrapper {
-padding: 0px 15px 0px 15px;
-}
-.header_row {
-  height: 60.6px;
-}
+  .logo_container{
+    padding: 0px 5px 0px 0px
+  }
+  .action_wrapper {
+    padding: 0px 15px 0px 15px;
+  }
+  .header_row {
+    height: 60.6px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -48,7 +48,7 @@ padding: 0px 15px 0px 15px;
 
 @media (min-width: 768px){
   .burger_menu {
-  margin-left: 20px;
+    margin-left: 20px;
   }
 }
 
@@ -73,71 +73,71 @@ padding: 0px 15px 0px 15px;
 // Header contact btn - IE fix
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
    .contact {
-        width: auto;
-   }
+     width: auto;
+  }
 }
 
 // Banner
 // Transparent background banner
 @media (max-width: 991px) {
-.content-container {
-  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+  .content-container {
+    background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
   }
 }
 
 @media (max-width: 991px){
-.content-container {
-  text-align: center;
+  .content-container {
+    text-align: center;
   }
 }
 
 // Cards careers section
 @media (min-width: 768px) and (max-width: 1259px){
-.job_title1, .job_title2, .job_title3 {
-  min-height: 3rem;
+  .job_title1, .job_title2, .job_title3 {
+    min-height: 3rem;
   }
 }
 
 @media (min-width: 1259px) {
-.job_title1 {
-  min-height: 2.35rem;
+  .job_title1 {
+    min-height: 2.35rem;
   }
 }
 
 // Card  service text boxes - extra space
 @media (min-width: 768px) and (max-width: 1400px){
-.visible-it {
-  display: block;
+  .visible-it {
+    display: block;
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
-.visible-it_two {
-  display: block;
+  .visible-it_two {
+    display: block;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1400px){
  .visible-serv {
-  display: block;
+   display: block;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px){
-.visible-digi {
-  display: block;
+  .visible-digi {
+    display: block;
   }
 }
 
 @media (min-width: 576px) and (max-width: 1400px){
-.visible-sec {
-  display: block;
+  .visible-sec {
+    display: block;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1259px){
-.visible-sec_two, .visible-des_two {
-  display: block;
+  .visible-sec_two, .visible-des_two {
+    display: block;
   }
 }
 
@@ -157,17 +157,17 @@ padding: 0px 15px 0px 15px;
 // About
 @media (min-width: 1259px){
 .about-text {
-width: 50%;
+  width: 50%;
   }
 }
 
 // Newsletter checkbox - IE fix
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-   #checkboxNoLabel {
-        margin-right: 15px;
-        background-color: #ddd;
-        border: 3px solid #333645;
-   }
+  #checkboxNoLabel {
+    margin-right: 15px;
+    background-color: #ddd;
+    border: 3px solid #333645;
+  }
 }
 
 // Footer flex container

@@ -66,14 +66,12 @@ h4 {
   font-size: 1rem;
 }
 
-.end_container { // main flex container for copyright section
+.end_container { 
   padding: 10px 0px 0px 0px;
   border-top: 1px solid #888;
   margin-top: 10px;
   display: flex;
 }
-
-//flex content below is aligned to the end of the container, which expands as viewport increases width.
 
 .social-media {
   display: flex;

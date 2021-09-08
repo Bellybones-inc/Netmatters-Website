@@ -37,8 +37,8 @@
 
 //Border
 @mixin nav-border {
-border-left: 1px solid hsla(0,0%,100%,.1);
-border-right: 1px solid rgba(0,0,0,.25);
+  border-left: 1px solid hsla(0,0%,100%,.1);
+  border-right: 1px solid rgba(0,0,0,.25);
 }
 
 // Small line division
@@ -64,7 +64,7 @@ border-right: 1px solid rgba(0,0,0,.25);
 }
 
 @mixin icon-color {
-    background-color: #67809f;
+  background-color: #67809f;
 }
 
 @mixin btn-header {
@@ -122,9 +122,9 @@ border-right: 1px solid rgba(0,0,0,.25);
 }
 
 @mixin dark-sub-bg($map) {
-@each $theme, $color in $map {
-  &-#{$theme} {
-    background-color: $color;
+  @each $theme, $color in $map {
+    &-#{$theme} {
+      background-color: $color;
     }
   }
 }
@@ -146,23 +146,23 @@ border-right: 1px solid rgba(0,0,0,.25);
 }
 
 //Accreditations links and addresses - IE fix
-@mixin IE_space (){
+@mixin IE_space () {
   @media screen and (-ms-high-contrast: active),
   (-ms-high-contrast: none) {
       justify-content: space-around;
-    }
   }
+}
 
   @mixin IE_center () {
     @media screen and (-ms-high-contrast: active),
     (-ms-high-contrast: none) {
       justify-content: center;
-    }
   }
+}
 
   @mixin IE_margin () {
     @media screen and (-ms-high-contrast: active),
     (-ms-high-contrast: none) {
       margin-right: 15px;
-    }
   }
+}

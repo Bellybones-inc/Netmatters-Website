@@ -8,31 +8,31 @@
         '../utilities/mixins',
         '../utilities/media',
         '../base/base';
- 
+
 .page-parent {
-    display: flex;
-    flex-direction: row;
-    min-height: 700px;
+  display: flex;
+  flex-direction: row;
+  min-height: 700px;
 }
 
 .full-page {
-    width: 100%;
-    height: 100vh;
-    min-height: 700px;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
 }
 
 .inner {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header_container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header_row {
