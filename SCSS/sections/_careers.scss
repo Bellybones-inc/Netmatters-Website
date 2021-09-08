@@ -54,7 +54,7 @@ ul {
   ****************************
   ***************************/
 
-.section {    //sets the top and bottom padding and covers row.
+.section {
   padding: $section;
 }
 
@@ -72,7 +72,7 @@ ul {
   margin: -30px -15px 0px -15px;
 }
 
-.job_block {    //this includes job title, description, button and the date of the listing
+.job_block {    
   padding: 30px 30px 30px 30px;
   border: 1px solid rgb(204, 204, 204, 204);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
@@ -144,7 +144,7 @@ ul {
   }
 }
 
-.details {      //font color and size for job description
+.details {
   font-size: $small-grey-size;
   color: $small-grey;
 }
@@ -167,7 +167,7 @@ ul {
   }
 }
 
-.user {    // items aligned to start of container w/ border above content
+.user {
   display:flex;
   align-items: flex-start;
   gap: 15px;
@@ -176,11 +176,11 @@ ul {
   border-top: 1px solid #ccc;
 }
 
-.person {    // larger font that is positioned next to profile image
+.person {
   font-size: 14px;
 }
 
-.profile_image { //small user image at the bottom of each column
+.profile_image {
   @include IE_margin;
   width: 47px;
   height: 47px;

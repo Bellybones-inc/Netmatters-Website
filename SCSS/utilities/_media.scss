@@ -3,6 +3,29 @@
       Media Queries
 ****************************
 ***************************/
+// Align content
+
+@media (min-width: 768px){
+.job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container  {
+  width: 750px;
+  margin: auto;
+}
+}
+
+@media (min-width: 992px) {
+.job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+  width: 970px;
+}
+}
+
+@media (min-width: 1260px){
+.job_container, .about_container, .container, #careers_container,
+.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+  width: 1200px;
+}
+}
 
 //Header
 
@@ -25,9 +48,17 @@ padding: 0px 15px 0px 15px;
   }
 }
 
+@media (min-width: 768px){
+  .burger_menu {
+  margin-left: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
   .search-submit {
     border-radius: 3px 3px 3px 3px;
   }
+}
 
 
 @media (min-width: 1200px) {
@@ -76,36 +107,6 @@ padding: 0px 15px 0px 15px;
     max-width: 100%;
   }
 }
-// Align content
-
-@media (min-width: 768px){
-.job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container  {
-  width: 750px;
-  margin: auto;
-}
-}
-
-@media (min-width: 992px) {
-.job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
-  width: 970px;
-}
-}
-
-@media (min-width: 1260px){
-.job_container, .about_container, .container, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
-  width: 1200px;
-}
-}
-
-@media (min-width: 768px){
-  .burger_menu {
-  margin-left: 20px;
-  }
-}
-
 
 // Transparent background banner
 
@@ -172,7 +173,6 @@ padding: 0px 15px 0px 15px;
 }
 
 // About
-
 @media (min-width: 1259px){
 .about-text {
 width: 50%;
