@@ -19,16 +19,10 @@
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -172,16 +166,10 @@
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -379,16 +367,10 @@ body {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -532,16 +514,10 @@ body {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -744,24 +720,14 @@ body {
   justify-content: space-between;
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .logo_container {
-    display: flex;
-  }
+.logo_container {
+  display: flex;
 }
 
 .img-logo {
+  display: flex;
+  flex: 0 0 auto;
   max-width: 100%;
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .img-logo {
-    display: flex;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .img-logo {
-    flex: 0 0 auto;
-  }
 }
 
 .mobile_icon {
@@ -897,16 +863,10 @@ rect {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -1050,16 +1010,10 @@ rect {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -1518,16 +1472,10 @@ body {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -1671,16 +1619,10 @@ body {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -1947,16 +1889,10 @@ Middle section begins - Services
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -2100,16 +2036,10 @@ Middle section begins - Services
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -2506,16 +2436,10 @@ span.p {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -2659,16 +2583,10 @@ span.p {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -2940,16 +2858,10 @@ p:first-child {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -3093,16 +3005,10 @@ p:first-child {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -3504,16 +3410,10 @@ ul {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -3657,16 +3557,10 @@ ul {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -3952,16 +3846,10 @@ body {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -4105,16 +3993,10 @@ body {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -4414,16 +4296,10 @@ label::after {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -4567,16 +4443,10 @@ label::after {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -4887,16 +4757,10 @@ h4 {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -5040,16 +4904,10 @@ h4 {
     height: 60.6px;
   }
 }
-@media (min-width: 992px) {
-  .img-logo {
-    width: 374px;
-    max-width: none;
-  }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
 }
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;

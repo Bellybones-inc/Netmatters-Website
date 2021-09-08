@@ -29,11 +29,11 @@
     width: 374px;
     max-width: none;
   }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
 }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
+}
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -182,11 +182,11 @@
     width: 374px;
     max-width: none;
   }
-
-  .search-submit {
-    border-radius: 3px 3px 3px 3px;
-  }
 }
+.search-submit {
+  border-radius: 3px 3px 3px 3px;
+}
+
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;

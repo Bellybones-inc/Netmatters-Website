@@ -12,7 +12,6 @@
 }
 
 // Padding and margin values
-
 @mixin text-padding {
   padding-right: 15px;
   padding-left: 15px;
@@ -43,7 +42,6 @@ border-right: 1px solid rgba(0,0,0,.25);
 }
 
 // Small line division
-
 @mixin line-divider {
   content: "";
   display: block;
@@ -55,7 +53,6 @@ border-right: 1px solid rgba(0,0,0,.25);
 }
 
 //Buttons
-
 @mixin btn-style {
   line-height: 35px;
   padding: 5px 15px 5px 15px;
@@ -98,7 +95,6 @@ border-right: 1px solid rgba(0,0,0,.25);
 }
 
 // Changes icon colour in services on hover
-
 @mixin themes-hover($map) {
   @each $name, $color in $map {
     &-#{$name} {
