@@ -4,7 +4,6 @@
 ****************************
 ***************************/
 // Align content
-
 @media (min-width: 768px){
 .job_container, .about_container, .container, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container  {
@@ -28,7 +27,6 @@
 }
 
 //Header
-
 @media (min-width:768px) {
 .logo_container{
   padding: 0px 5px 0px 0px
@@ -60,7 +58,6 @@ padding: 0px 15px 0px 15px;
   }
 }
 
-
 @media (min-width: 1200px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
@@ -73,46 +70,37 @@ padding: 0px 15px 0px 15px;
   }
 }
 
-@media (max-width: 991px){
-.content-container {
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-}
-}
-
 // Header contact btn - IE fix
-
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
    .contact {
         width: auto;
    }
 }
 
-// Newsletter checkbox - IE fix
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-   #checkboxNoLabel {
-        margin-right: 15px;
-        background-color: #ddd;
-        border: 3px solid #333645;
-   }
-}
-
-// Bootstrap Override
-
-@media (min-width: 576px) and (max-width: 768px){
-  .custom-container2, .custom-container1{
-    max-width: 100%;
-  }
-}
-
+// Banner
 // Transparent background banner
-
 @media (max-width: 991px) {
 .content-container {
   background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (max-width: 991px){
+.content-container {
+  text-align: center;
+  }
+}
+
+// Cards careers section
+@media (min-width: 768px) and (max-width: 1259px){
+.job_title1, .job_title2, .job_title3 {
+  min-height: 3rem;
+  }
+}
+
+@media (min-width: 1259px) {
+.job_title1 {
+  min-height: 2.35rem;
   }
 }
 
@@ -159,16 +147,10 @@ padding: 0px 15px 0px 15px;
   }
 }
 
-// Cards careers section
-@media (min-width: 768px) and (max-width: 1259px){
-.job_title1, .job_title2, .job_title3 {
-  min-height: 3rem;
-  }
-}
-
-@media (min-width: 1259px) {
-.job_title1 {
-  min-height: 2.35rem;
+// Bootstrap Override for services and careers section
+@media (min-width: 576px) and (max-width: 768px){
+  .custom-container2, .custom-container1{
+    max-width: 100%;
   }
 }
 
@@ -176,7 +158,16 @@ padding: 0px 15px 0px 15px;
 @media (min-width: 1259px){
 .about-text {
 width: 50%;
+  }
 }
+
+// Newsletter checkbox - IE fix
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #checkboxNoLabel {
+        margin-right: 15px;
+        background-color: #ddd;
+        border: 3px solid #333645;
+   }
 }
 
 // Footer flex container
