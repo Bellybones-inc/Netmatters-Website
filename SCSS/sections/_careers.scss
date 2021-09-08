@@ -180,7 +180,8 @@ ul {
   font-size: 14px;
 }
 
-.profile_image {    //small user image at the bottom of each column
+.profile_image { //small user image at the bottom of each column
+  @include IE_margin;
   width: 47px;
   height: 47px;
   border-radius: 50%;
