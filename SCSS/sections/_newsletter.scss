@@ -14,7 +14,7 @@
 }
 
 .newsletter_container { // section structure //
-  padding: $container;
+  // padding: $container;
   margin-left: auto;
   margin-right: auto;
 }
@@ -25,11 +25,10 @@
 
 .newsletter_heading {  // h2 element //
   color: $dark-grey-text;
-  margin: 15px;
+  margin: 0px 0px 15px 0px;
 }
 
 .form_container { // flex-box form container //
-  padding: $container;
   display: flex;
   flex-wrap: wrap;
 }
@@ -51,8 +50,16 @@ label::after {  // asterisk after label /
   padding: $container;
 }
 
+.form-control {
+  height: 47px;
+}
+
 .form-group {
   margin-bottom: 15px;
+}
+
+.form-check {
+  margin-bottom: 40px;
 }
 
 .form-check-input { // white background for forms //
@@ -66,7 +73,6 @@ label::after {  // asterisk after label /
   }
 }
 
-
 #checkboxNoLabel {
   box-shadow: none;
   border-color: $dark-grey-text;
@@ -77,11 +83,10 @@ label::after {  // asterisk after label /
   padding: $container;
   display: flex;
   gap: 15px;
-  justify-content: center;
 }
 
 .policy_text {
-  margin-top: 0px;
+  margin: 0px;
   line-height: 32px;
   font-weight: 600;
   color: $dark-grey-text;
@@ -105,4 +110,5 @@ label::after {  // asterisk after label /
 
 .space_between {
   display: block;
+  height: 23px;
 }
