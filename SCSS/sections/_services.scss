@@ -18,6 +18,10 @@
   margin-top: -30px;
 }
 
+.card_con {
+  padding: 0px 15px 0px 15px;
+}
+
 .block {
   margin-top: 30px;
   padding: 30px;
@@ -26,22 +30,31 @@
   border: 1px solid rgb(204, 204, 204);
   font-weight: 600;
   text-align: center;
-&:hover .btn {
+}
+
+.outer:hover .block {
+  @include card-bg($card-bg);
+  color: $white-text;
+  cursor: grab;
+&:hover span.h2::after {
+    background-color: $white-bg;
+  }
+}
+
+
+.block:hover .btn {
   background-color: $white-bg;
   @include themes-hover($themes-hover);
   transition: none !important;
  }
-&:hover .icon {
+
+.block:hover .icon {
   background-color: $white-bg;
 }
-&:hover .icn {
+
+.block:hover .icn {
   @include themes-hover($themes-hover);
 }
-}
-
-.card_con:hover .block {
-  @include card-bg($card-bg);
-  color: $white-text;}
 
 .icon {
   @include card-bg($card-bg);
@@ -87,10 +100,6 @@ span.h2::after {
   left: 0;
   right: 0;
   background-color: #333645;
-}
-
-.card_con:hover span.h2::after {
-  background-color: $white-bg;
 }
 
 span.p {

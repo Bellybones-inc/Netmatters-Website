@@ -89,39 +89,14 @@
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -240,39 +215,14 @@
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -445,39 +395,14 @@ body {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -596,39 +521,14 @@ body {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -959,39 +859,14 @@ rect {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -1110,39 +985,14 @@ rect {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -1576,39 +1426,14 @@ body {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -1727,39 +1552,14 @@ body {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -2001,39 +1801,14 @@ body {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -2152,39 +1927,14 @@ body {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -2271,6 +2021,10 @@ body {
   margin-top: -30px;
 }
 
+.card_con {
+  padding: 0px 15px 0px 15px;
+}
+
 .block {
   margin-top: 30px;
   padding: 30px;
@@ -2280,6 +2034,36 @@ body {
   font-weight: 600;
   text-align: center;
 }
+
+.outer:hover .block {
+  color: #fff;
+  cursor: grab;
+}
+.outer:hover .block-soft {
+  background-color: #67809f;
+}
+.outer:hover .block-it {
+  background-color: #4183d7;
+}
+.outer:hover .block-digi {
+  background-color: #2ecc71;
+}
+.outer:hover .block-tele {
+  background-color: #d64541;
+}
+.outer:hover .block-des {
+  background-color: #926fb1;
+}
+.outer:hover .block-sec {
+  background-color: #f62459;
+}
+.outer:hover .block-train {
+  background-color: #926fb1;
+}
+.outer:hover .block:hover span.h2::after {
+  background-color: #fff;
+}
+
 .block:hover .btn {
   background-color: #fff;
   transition: none !important;
@@ -2305,9 +2089,11 @@ body {
 .block:hover .btn-train {
   color: #926fb1;
 }
+
 .block:hover .icon {
   background-color: #fff;
 }
+
 .block:hover .icn-soft {
   color: #67809f;
 }
@@ -2328,31 +2114,6 @@ body {
 }
 .block:hover .icn-train {
   color: #926fb1;
-}
-
-.card_con:hover .block {
-  color: #fff;
-}
-.card_con:hover .block-soft {
-  background-color: #67809f;
-}
-.card_con:hover .block-it {
-  background-color: #4183d7;
-}
-.card_con:hover .block-digi {
-  background-color: #2ecc71;
-}
-.card_con:hover .block-tele {
-  background-color: #d64541;
-}
-.card_con:hover .block-des {
-  background-color: #926fb1;
-}
-.card_con:hover .block-sec {
-  background-color: #f62459;
-}
-.card_con:hover .block-train {
-  background-color: #926fb1;
 }
 
 .icon-soft {
@@ -2441,10 +2202,6 @@ span.h2::after {
   left: 0;
   right: 0;
   background-color: #333645;
-}
-
-.card_con:hover span.h2::after {
-  background-color: #fff;
 }
 
 span.p {
@@ -2556,39 +2313,14 @@ span.p {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -2707,39 +2439,14 @@ span.p {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -2986,39 +2693,14 @@ p:first-child {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -3137,39 +2819,14 @@ p:first-child {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -3551,39 +3208,14 @@ ul {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -3702,39 +3334,14 @@ ul {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -3995,39 +3602,14 @@ body {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -4146,39 +3728,14 @@ body {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -4453,39 +4010,14 @@ label::after {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -4604,39 +4136,14 @@ label::after {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -4922,39 +4429,14 @@ h4 {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -5073,39 +4555,14 @@ h4 {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
