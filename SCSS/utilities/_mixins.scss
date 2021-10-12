@@ -75,6 +75,12 @@
   font-size: 1.1rem;
 }
 
+// forms
+@mixin highlight-focus {
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
 // Navigation panel hover
 @mixin hover {
   &:hover .company-con {

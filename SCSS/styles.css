@@ -719,6 +719,11 @@ rect {
   padding: 5px 15px 5px 15px;
 }
 
+.form:focus {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  box-shadow: 0 0 5px #51cbee !important;
+}
+
 .extra-space {
   margin-bottom: 0.5em;
 }
@@ -3854,8 +3859,14 @@ label::after {
   padding: 0px 15px 0px 15px;
 }
 
-.form-control {
+.news_form {
   height: 47px;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+.news_form:focus {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: 0 0 5px #51cbee;
 }
 
 .form-group {
