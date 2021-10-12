@@ -81,6 +81,11 @@
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;

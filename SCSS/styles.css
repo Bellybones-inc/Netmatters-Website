@@ -84,6 +84,11 @@
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -208,6 +213,11 @@
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -390,6 +400,11 @@ body {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -514,6 +529,11 @@ body {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -859,6 +879,11 @@ rect {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -983,6 +1008,11 @@ rect {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -1426,6 +1456,11 @@ body {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -1550,6 +1585,11 @@ body {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -1801,6 +1841,11 @@ body {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -1925,6 +1970,11 @@ body {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -2313,6 +2363,11 @@ span.p {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -2437,6 +2492,11 @@ span.p {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -2693,6 +2753,11 @@ p:first-child {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -2817,6 +2882,11 @@ p:first-child {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -2998,6 +3068,10 @@ ul {
 .job_title1 {
   color: #d24d57;
 }
+.job_title1::after {
+  content: "";
+  display: none;
+}
 
 .job_title2 {
   color: #67809f;
@@ -3130,10 +3204,6 @@ ul {
   color: #666666;
 }
 
-.visible-tech {
-  display: none;
-}
-
 /***************************
 ****************************
         Clients section
@@ -3223,6 +3293,11 @@ ul {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -3349,6 +3424,11 @@ ul {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -3619,6 +3699,11 @@ body {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -3743,6 +3828,11 @@ body {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -4043,6 +4133,11 @@ label::after {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -4167,6 +4262,11 @@ label::after {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -4462,6 +4562,11 @@ h4 {
     min-height: 3rem;
   }
 }
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
@@ -4586,6 +4691,11 @@ h4 {
 @media (min-width: 768px) and (max-width: 1259px) {
   .job_title1, .job_title2, .job_title3 {
     min-height: 3rem;
+  }
+}
+@media (min-width: 1245px) {
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
