@@ -720,8 +720,8 @@ rect {
 }
 
 .form:focus {
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
-  box-shadow: 0 0 5px #51cbee !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: 0 0 5px #51cbee;
 }
 
 .extra-space {
@@ -2986,11 +2986,21 @@ ul {
 }
 
 .job_title1, .job_title2, .job_title3 {
-  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.job_title1:hover, .job_title2:hover, .job_title3:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.job_title1, .job_title2 {
-  color: #4183d7;
+.job_title1 {
+  color: #d24d57;
+}
+
+.job_title2 {
+  color: #67809f;
 }
 
 .job_title3 {
@@ -3047,6 +3057,7 @@ ul {
   transform: scale(1.1);
   object-position: 5px 2px;
   opacity: 80%;
+  cursor: pointer;
 }
 
 .details {
@@ -3063,21 +3074,26 @@ ul {
   font-weight: 400;
   font-size: 1.063rem;
   color: #fff;
-  background-color: #4183d7;
 }
 .btn-lg:hover {
-  background-color: #286abd;
+  cursor: pointer;
+}
+
+.btn_1 {
+  background-color: #d24d57;
+}
+.btn_1:hover {
+  background-color: #bc303a;
+}
+
+.btn_2 {
+  background-color: #67809f;
+}
+.btn_2:hover {
+  background-color: #526781;
 }
 
 .btn_3 {
-  line-height: 35px;
-  padding: 5px 15px 5px 15px;
-  border: 1px solid transparent;
-  border-radius: 3px 3px 3px 3px;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 1.063rem;
-  color: #fff;
   background-color: #926fb1;
 }
 .btn_3:hover {
@@ -3095,6 +3111,7 @@ ul {
 
 .person {
   font-size: 14px;
+  color: #333645;
 }
 
 .profile_image {

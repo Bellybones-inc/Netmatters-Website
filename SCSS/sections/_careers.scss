@@ -80,11 +80,21 @@ ul {
 }
 
 .job_title1, .job_title2, .job_title3 {
-  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
-.job_title1, .job_title2 {
-  color: rgb(65, 131, 215);
+.job_title1 {
+  color: $red-text;
+}
+
+.job_title2 {
+  color: $blue-grey-text;
 }
 
 .job_title3 {
@@ -141,6 +151,7 @@ ul {
     transform: scale(1.1);
     object-position: 5px 2px;
     opacity: 80%;
+    cursor: pointer;
   }
 }
 
@@ -152,15 +163,26 @@ ul {
 .btn-lg {
   @include btn-style;
   color: $white-text;
-  background-color: $blue-bg;
   &:hover {
-    background-color: $blue-hover;
+    cursor: pointer;
+  }
+}
+
+.btn_1 {
+  background-color: $red-bg;
+  &:hover {
+    background-color: $red-hover;
+  }
+}
+
+.btn_2 {
+  background-color: $blue-grey-bg;
+  &:hover {
+    background-color: $blue-grey-hover;
   }
 }
 
 .btn_3 {
-  @include btn-style;
-  color: $white-text;
   background-color: $purple-bg;
   &:hover {
     background-color: $purple-hover;
@@ -178,6 +200,7 @@ ul {
 
 .person {
   font-size: 14px;
+  color: #333645;
 }
 
 .profile_image {

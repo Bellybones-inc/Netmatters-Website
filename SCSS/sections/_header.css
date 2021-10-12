@@ -419,8 +419,8 @@ rect {
 }
 
 .form:focus {
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
-  box-shadow: 0 0 5px #51cbee !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: 0 0 5px #51cbee;
 }
 
 .extra-space {

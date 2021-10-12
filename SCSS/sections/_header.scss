@@ -114,10 +114,8 @@ rect {
 }
 
 .form:focus {
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
-    box-shadow: 0 0 5px rgba(81, 203, 238, 1) !important;
+ @include highlight-focus;
 }
-
 
 .extra-space {
   margin-bottom: 0.5em;
@@ -125,10 +123,6 @@ rect {
 
 .search-form {
   margin-left: 20px;
-  // &:focus {
-  //   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
-  //   box-shadow: 0 0 5px rgba(81, 203, 238, 1) !important;
-  // }
 }
 
 .search-submit {
