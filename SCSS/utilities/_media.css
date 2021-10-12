@@ -46,18 +46,32 @@
     margin-left: 20px;
   }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  #mini {
+    display: block;
+    width: 174px;
+  }
+}
 @media (min-width: 1260px) {
   #mini {
     display: block;
   }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .search-submit {
+    display: block;
+  }
+}
 @media (min-width: 992px) and (max-width: 1259px) {
   .search-submit {
+    display: block;
+    margin-left: 30px;
     border-radius: 3px 3px 3px 3px;
   }
 }
 @media (min-width: 1260px) {
   .search-submit {
+    display: block;
     border-radius: 0px 3px 3px 0px;
   }
 }
