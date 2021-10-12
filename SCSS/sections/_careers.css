@@ -90,10 +90,8 @@
   }
 }
 @media (min-width: 1245px) {
-  .job_title1::after {
-    content: "";
-    display: list-item;
-    color: white;
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -223,10 +221,8 @@
   }
 }
 @media (min-width: 1245px) {
-  .job_title1::after {
-    content: "";
-    display: list-item;
-    color: white;
+  .btn_1 {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1259px) {
@@ -407,10 +403,6 @@ ul {
 
 .job_title1 {
   color: #d24d57;
-}
-.job_title1::after {
-  content: "";
-  display: none;
 }
 
 .job_title2 {

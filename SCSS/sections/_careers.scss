@@ -91,12 +91,7 @@ ul {
 
 .job_title1 {
   color: $red-text;
-  &::after {
-    content: "";
-    display: none;
-  }
 }
-
 
 .job_title2 {
   color: $blue-grey-text;

@@ -46,12 +46,17 @@
     margin-left: 20px;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1260px) {
+  #mini {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
   .search-submit {
     border-radius: 3px 3px 3px 3px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1260px) {
   .search-submit {
     border-radius: 0px 3px 3px 0px;
   }
@@ -81,7 +86,7 @@
     min-height: 3rem;
   }
 }
-@media (min-width: 1245px) {
+@media (min-width: 1259px) {
   .btn_1 {
     margin-top: 10px;
   }

@@ -90,10 +90,10 @@
   border-radius: 0rem 0.25rem 0.25rem 0rem;
 }
 
-.form-control:focus {
-  border-color: none;
-  box-shadow: none;
-}
+// .form-control:focus {
+//   border-color: none;
+//   box-shadow: none;
+// }
 
 rect {
   fill: $white-text;
@@ -106,23 +106,34 @@ rect {
   align-items: center;
 }
 
-.form {
-  width: 174px;
-  height: 56px;
-  border: 1px solid #e5e5e5;
-  padding: 5px 15px 5px 15px;
-}
-
-.form:focus {
- @include highlight-focus;
-}
+// .form {
+//   width: 174px;
+//   height: 56px;
+//   border: 1px solid #e5e5e5;
+//   padding: 5px 15px 5px 15px;
+// }
+//
+// .form:focus {
+//  @include highlight-focus;
+// }
 
 .extra-space {
   margin-bottom: 0.5em;
 }
 
-.search-form {
+.vis_search {
+  display: flex;
+}
+
+.mini {
+  display: none;
+  width: 240px;
+  height: 56px;
   margin-left: 20px;
+  border-radius: 0px;
+ &:focus {
+  @include highlight-focus;
+  }
 }
 
 .search-submit {
