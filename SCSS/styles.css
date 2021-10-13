@@ -1342,11 +1342,12 @@ body {
 
 .con-wrapper {
   object-position: center;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
 }
 
 .company-con {
   display: block;
+  font-size: 20px;
   margin: 0% 44% 0% 44%;
 }
 .company-con-1 {
@@ -1993,7 +1994,7 @@ body {
 .arrow-find {
   display: inline-block;
   margin-right: -4px;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 /***************************
@@ -2530,6 +2531,7 @@ body {
 
 .icn {
   margin-top: 16px;
+  font-size: 24px;
 }
 
 .h2 {
@@ -2978,7 +2980,7 @@ p:first-child {
 .arrow-cult {
   display: inline-block;
   margin-right: -4px;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 .btn-culture {
@@ -4971,7 +4973,7 @@ h4 {
   color: #fff;
 }
 .media_icon:hover {
-  border-radius: 50%;
+  border-radius: 45%;
   color: #fff;
 }
 

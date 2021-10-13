@@ -30,6 +30,11 @@
     width: 1200px;
   }
 }
+@media (max-width: 768px) {
+  .action {
+    margin-top: 5px;
+  }
+}
 @media (min-width: 768px) {
   .logo_container {
     padding: 0px 5px 0px 0px;
@@ -54,13 +59,32 @@
     margin-left: 20px;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  #mini {
+    display: block;
+    width: 174px;
+  }
+}
+@media (min-width: 1260px) {
+  #mini {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
   .search-submit {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .search-submit {
+    display: block;
+    margin-left: 30px;
     border-radius: 3px 3px 3px 3px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1260px) {
   .search-submit {
+    display: block;
     border-radius: 0px 3px 3px 0px;
   }
 }
@@ -90,43 +114,23 @@
   }
 }
 @media (min-width: 1259px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -181,6 +185,11 @@
     width: 1200px;
   }
 }
+@media (max-width: 768px) {
+  .action {
+    margin-top: 5px;
+  }
+}
 @media (min-width: 768px) {
   .logo_container {
     padding: 0px 5px 0px 0px;
@@ -205,13 +214,32 @@
     margin-left: 20px;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  #mini {
+    display: block;
+    width: 174px;
+  }
+}
+@media (min-width: 1260px) {
+  #mini {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
   .search-submit {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .search-submit {
+    display: block;
+    margin-left: 30px;
     border-radius: 3px 3px 3px 3px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1260px) {
   .search-submit {
+    display: block;
     border-radius: 0px 3px 3px 0px;
   }
 }
@@ -241,43 +269,23 @@
   }
 }
 @media (min-width: 1259px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -437,7 +445,7 @@ h4 {
   color: #fff;
 }
 .media_icon:hover {
-  border-radius: 50%;
+  border-radius: 45%;
   color: #fff;
 }
 
