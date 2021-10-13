@@ -23,6 +23,7 @@ $blue-bg: rgb(65, 131, 215);
 $white-bg: #fff;
 $purple-bg: #926fb1;
 $red-bg: #d24d57;
+$light-grey-border: lighten(#ccc, 4%);
 
 // Background hover
 $red-hover: darken($red-bg, 10%);
@@ -30,6 +31,8 @@ $purple-hover: darken($purple-bg, 10%);
 $blue-hover: darken($blue-bg, 10%);
 $dark-grey-hover: darken($dark-grey-text, 10%);
 $blue-grey-hover: darken($blue-grey-bg, 10%);
+$grey-hover: darken($grey-bg, 10%);
+$dark-grey-hover: darken($dark-grey-bg, 10%);
 
 // padding
 $section: 50px 0px 50px 0px;

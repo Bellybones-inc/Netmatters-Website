@@ -27,6 +27,12 @@
 }
 
 //Header
+@media (max-width: 768px) {
+  .action {
+    margin-top: 5px;
+  }
+}
+
 @media (min-width:768px) {
   .logo_container{
     padding: 0px 5px 0px 0px
