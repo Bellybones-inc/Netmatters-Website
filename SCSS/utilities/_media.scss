@@ -166,6 +166,12 @@
   }
 }
 
+@media (max-width: 992px) {
+  #about {
+    background-image: none;
+  }
+}
+
 // Newsletter checkbox - IE fix
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {

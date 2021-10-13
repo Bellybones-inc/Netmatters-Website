@@ -9,10 +9,10 @@
         '../utilities/mixins',
         '../utilities/media',
         '../base/base';
- 
+
 #about {
   display: block;
-  background-color: rgb(51, 54, 69);
+  background-color: $dark-grey-bg;
   background-position: 100% 50%;
   background-size: auto 100%;
   background-repeat: no-repeat;
