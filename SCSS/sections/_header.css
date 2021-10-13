@@ -143,6 +143,11 @@
     width: 50%;
   }
 }
+@media (max-width: 992px) {
+  #about {
+    background-image: none;
+  }
+}
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #checkboxNoLabel {
     margin-right: 15px;
@@ -296,6 +301,11 @@
 @media (min-width: 1259px) {
   .about-text {
     width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  #about {
+    background-image: none;
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -519,6 +529,8 @@ body {
   height: 56px;
   margin-left: 20px;
   border-radius: 0px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+  font-size: 14px;
 }
 .mini:focus {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
