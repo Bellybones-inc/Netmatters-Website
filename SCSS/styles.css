@@ -2433,6 +2433,7 @@ body {
   border-radius: 3px 3px 3px 3px;
   border-width: 1px 1px 1px 1px;
   border: 1px solid #cccccc;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   font-weight: 600;
   text-align: center;
 }
