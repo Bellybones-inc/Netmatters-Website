@@ -23,6 +23,23 @@
   flex-direction: column;
 }
 
+#top_header {
+
+}
+
+.scroll-down {
+  display: none;
+}
+
+.scroll-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
 .inner {
   padding-top: 20px;
   padding-bottom: 20px;
