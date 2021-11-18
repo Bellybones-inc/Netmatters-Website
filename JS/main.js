@@ -13,3 +13,10 @@ $(document).ready(function(){
     });
 
 const sidebar = document.getElementById("sidebar");
+const hamburger = document.getElementById("hamburger");
+const topContainer = document.getElementById("top_container");
+
+hamburger.addEventListener('click', () => {
+  sidebar.style.display = 'block';
+  top_container.style.marginLeft = '-350px';
+})
