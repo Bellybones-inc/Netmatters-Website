@@ -22,6 +22,11 @@
     width: 1200px;
   }
 }
+@media (min-width: 992px) {
+  .sidebar {
+    width: 350px;
+  }
+}
 @media (max-width: 768px) {
   .action {
     margin-top: 5px;

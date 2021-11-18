@@ -26,6 +26,12 @@
   }
 }
 
+@media (min-width: 992px) {
+  .sidebar {
+    width: 350px;
+  }
+}
+
 //Header
 @media (max-width: 768px) {
   .action {
