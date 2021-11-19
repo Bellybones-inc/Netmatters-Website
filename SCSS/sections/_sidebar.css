@@ -409,13 +409,29 @@ body {
   transform: translateX(100%);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  text-transform: uppercase;
-  color: white;
   background: #333645;
 }
 
 .sidebar.is-active {
   transform: translateX(0%);
+}
+
+.sidebar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sidebar li {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 15px 20px 15px 20px;
+  font-size: 0.875rem;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
 }
 
 .side_heading {
@@ -424,7 +440,7 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   font-size: 1rem;
-  color: #fff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=_sidebar.css.map */
