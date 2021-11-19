@@ -364,6 +364,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -374,6 +375,20 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.tr_over {
+  position: absolute;
+  z-index: 10000;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  transition: opacity 0.5s;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
 .main-inner {
@@ -484,6 +499,10 @@ body {
   padding: 10px 22px 10px 22px;
   font-size: 24px;
   color: #fff;
+}
+
+.fas.in-use {
+  transform: rotate(-45deg) translate(-15px, -8px);
 }
 
 .menu {

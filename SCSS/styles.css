@@ -359,6 +359,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -369,6 +370,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -743,6 +759,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -753,6 +770,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -863,6 +895,10 @@ body {
   padding: 10px 22px 10px 22px;
   font-size: 24px;
   color: #fff;
+}
+
+.fas.in-use {
+  transform: rotate(-45deg) translate(-15px, -8px);
 }
 
 .menu {
@@ -1360,6 +1396,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -1370,6 +1407,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -2006,6 +2058,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -2016,6 +2069,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -2464,6 +2532,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -2474,6 +2543,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -3056,6 +3140,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -3066,6 +3151,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -3514,6 +3614,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -3524,6 +3625,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -4120,6 +4236,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -4130,6 +4247,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -4592,6 +4724,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -4602,6 +4735,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -5094,6 +5242,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -5104,6 +5253,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -5591,6 +5755,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -5601,6 +5766,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {
@@ -6032,6 +6212,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -6044,24 +6225,54 @@ body {
   overflow-y: auto;
 }
 
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
 .main-inner {
   display: block;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-#sidebar {
+.sidebar {
   position: fixed;
   top: 0;
   right: 0;
-  left: -350px;
   z-index: 1003;
   height: 100%;
   overflow: auto;
+  transition: 0.4s ease-in;
+  transform: translateX(100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  color: white;
+  background: #333645;
 }
 
-.active {
-  left: 0;
+.sidebar.is-active {
+  transform: translateX(0%);
+}
+
+.side_heading {
+  padding: 20px;
+  line-height: 1;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  font-size: 1rem;
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -8,22 +8,32 @@
 ****************************
 ***************************/
 @media (min-width: 768px) {
-  .job_container, .about_container, .container, #careers_container,
+  .job_container, .about_container, .container, #careers_header, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
-  .job_container, .about_container, .container, #careers_container,
+  .job_container, .about_container, .container, #careers_header, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
-  .job_container, .about_container, .container, #careers_container,
+  .job_container, .about_container, .container, #careers_header, #careers_container,
 .newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
+  }
+}
+@media (min-width: 992px) {
+  .sidebar {
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .action {
+    margin-top: 5px;
   }
 }
 @media (min-width: 768px) {
@@ -50,13 +60,32 @@
     margin-left: 20px;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  #mini {
+    display: block;
+    width: 174px;
+  }
+}
+@media (min-width: 1260px) {
+  #mini {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
   .search-submit {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1259px) {
+  .search-submit {
+    display: block;
+    margin-left: 30px;
     border-radius: 3px 3px 3px 3px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1260px) {
   .search-submit {
+    display: block;
     border-radius: 0px 3px 3px 0px;
   }
 }
@@ -86,43 +115,23 @@
   }
 }
 @media (min-width: 1259px) {
+  .btn_1 {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1259px) {
   .job_title1 {
     min-height: 2.35rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .visible-it {
     display: block;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-  .visible-it_two {
-    display: block;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
-  .visible-serv {
-    display: block;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .visible-digi {
-    display: block;
-  }
-}
-@media (min-width: 576px) and (max-width: 1400px) {
-  .visible-sec {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1259px) {
-  .visible-sec_two, .visible-des_two {
-    display: block;
-  }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-  .visible-des {
-    display: block;
+@media (min-width: 1400px) {
+  .dev_train {
+    width: 220px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -133,6 +142,11 @@
 @media (min-width: 1259px) {
   .about-text {
     width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  #about {
+    background-image: none;
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -181,6 +195,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: #666666;
   background-color: white;
@@ -191,6 +206,21 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .main-inner {

@@ -107,6 +107,14 @@
   color: $white-bg;
 }
 
+.fas{
+  
+}
+
+.fas.in-use {
+  transform: rotate(-45deg) translate(-15px, -8px);
+}
+
 .menu {
   position: absolute;
   top: 30%;

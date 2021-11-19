@@ -1,5 +1,6 @@
 
 
+
 $(document).ready(function(){
       $('.slide-inner').slick({
         variableWidth: true,
@@ -12,15 +13,14 @@ $(document).ready(function(){
       });
     });
 
-const sidebar = document.getElementById("sidebar");
+const sidebar = document.querySelector(".sidebar");
 const hamburger = document.getElementById("hamburger");
-const topContainer = document.getElementById("top_container");
+const bars = document.querySelector(".fas");
+const main = document.querySelector(".entire");
+const header = document.getElementById("top_header");
 
 hamburger.addEventListener('click', () => {
-  sidebar.style.display = 'block';
-  top_container.style.marginLeft = '-350px';
+  bars.classList.toggle('in-use');
+  sidebar.classList.toggle('is-active');
+  main.classList.toggle('shade');
 })
-//
-// $("hamburger").click(function(){
-//   $("sidebar").toggleClass('.active');
-// });

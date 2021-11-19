@@ -9,16 +9,31 @@
       '../utilities/media',
       '../base/base';
 
-#sidebar {
+.sidebar {
   position: fixed;
   top: 0;
   right: 0;
-  left: -350px;
   z-index: 1003;
   height: 100%;
   overflow: auto;
+  transition: 0.4s ease-in;
+  transform: translateX(100%);
+  border-top: 1px solid hsla(0,0%,100%,.1);
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  text-transform: uppercase;
+  color: white;
+  background: #333645;
 }
 
-.active {
-  left: 0;
+.sidebar.is-active {
+  transform: translateX(0%);
+}
+
+.side_heading {
+  padding: 20px;
+  line-height: 1;
+  border-top: 1px solid hsla(0,0%,100%,.1);
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  font-size: 1rem;
+  color: $white-text;
 }

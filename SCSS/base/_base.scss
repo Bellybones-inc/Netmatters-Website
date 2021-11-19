@@ -37,6 +37,7 @@ body {
 }
 
 .main {
+  position: relative;
   display: block;
   color: rgb(102, 102, 102);
   background-color: rgb(255, 255, 255);
@@ -47,6 +48,24 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.tr_over {
+}
+
+.entire {
+  transition: all 1s ease;
+}
+
+.entire.shade {
+  content: "";
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 275px;
+  bottom: 0;
+  background: rgba(0,0,0,.4);
 }
 
 .main-inner {
