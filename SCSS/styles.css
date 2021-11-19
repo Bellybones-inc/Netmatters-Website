@@ -6051,13 +6051,17 @@ body {
 }
 
 #sidebar {
-  display: none;
   position: fixed;
   top: 0;
   right: 0;
+  left: -350px;
   z-index: 1003;
   height: 100%;
   overflow: auto;
+}
+
+.active {
+  left: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

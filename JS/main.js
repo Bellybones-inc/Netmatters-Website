@@ -20,3 +20,7 @@ hamburger.addEventListener('click', () => {
   sidebar.style.display = 'block';
   top_container.style.marginLeft = '-350px';
 })
+//
+// $("hamburger").click(function(){
+//   $("sidebar").toggleClass('.active');
+// });
