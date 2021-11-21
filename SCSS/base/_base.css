@@ -186,7 +186,7 @@ body {
   display: block;
 }
 
-#container {
+.top_container {
   display: block;
   position: relative;
   height: 100%;
@@ -201,6 +201,15 @@ body {
   background-color: white;
 }
 
+.main.shift {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 350px;
+  bottom: 0;
+  transition: 0.8s ease-out;
+}
+
 .main-outer {
   display: block;
   height: 100%;
@@ -208,25 +217,14 @@ body {
   overflow-y: auto;
 }
 
-.entire {
-  transition: all 1s ease;
-}
-
-.entire.shade {
-  content: "";
-  position: absolute;
-  z-index: 10000;
-  top: 0;
-  left: 0;
-  right: 275px;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
-}
-
 .main-inner {
   display: block;
   overflow-x: hidden;
   overflow-y: hidden;
+}
+
+.main-inner.over {
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=_base.css.map */
