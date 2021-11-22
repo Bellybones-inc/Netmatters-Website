@@ -50,15 +50,14 @@
   font-size: 1.25rem;
 }
 
-.slide-inner {
+.sloop {
   position: relative;
 }
 
-
-.text-content {
+.text-container {
   position: absolute;
-  z-index: 340;
-  top: 0;
+  z-index: 300;
+  top: 50%;
   left: 0;
   right: 0;
   bottom: 0;

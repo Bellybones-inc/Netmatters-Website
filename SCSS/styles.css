@@ -8,20 +8,20 @@
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -173,20 +173,20 @@
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -407,20 +407,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -572,20 +572,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -937,10 +937,6 @@ body.default {
   display: none;
 }
 
-.fas.in-use {
-  transform: rotate(-45deg) translate(-15px, -8px);
-}
-
 .menu {
   position: absolute;
   top: 30%;
@@ -1085,20 +1081,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -1250,20 +1246,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -1746,20 +1742,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -1911,20 +1907,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -2170,14 +2166,14 @@ body.default {
   font-size: 1.25rem;
 }
 
-.slide-inner {
+.sloop {
   position: relative;
 }
 
-.text-content {
+.text-container {
   position: absolute;
-  z-index: 340;
-  top: 0;
+  z-index: 300;
+  top: 50%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -2219,20 +2215,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -2384,20 +2380,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -2826,20 +2822,20 @@ span.p {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -2991,20 +2987,20 @@ span.p {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -3299,20 +3295,20 @@ p:first-child {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -3464,20 +3460,20 @@ p:first-child {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -3920,20 +3916,20 @@ ul {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -4085,20 +4081,20 @@ ul {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -4407,20 +4403,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -4572,20 +4568,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -4924,20 +4920,20 @@ label::after {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -5089,20 +5085,20 @@ label::after {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -5436,20 +5432,20 @@ h4 {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -5601,20 +5597,20 @@ h4 {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -5892,20 +5888,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
@@ -6057,20 +6053,20 @@ body.default {
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container {
+.newsletter_container, .footer_container, .header_container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .text-container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
     width: 1200px;
   }
 }
