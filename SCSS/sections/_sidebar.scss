@@ -9,7 +9,7 @@
       '../utilities/media',
       '../base/base';
 
-.sidebar {
+#sidebar {
   position: fixed;
   top: 0;
   right: 0;
@@ -24,24 +24,24 @@
   opacity: 1;
 }
 
-.sidebar.is-active {
+#sidebar.is-active {
   transform: translateX(0%);
 }
 
-.sidebar a {
+#sidebar a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
 
-.sidebar li {
+#sidebar li {
   border-top: 1px solid hsla(0,0%,100%,.05);
   padding: 15px 20px 15px 20px;
   font-size: .875rem;
   background-color: rgba(0,0,0,.25);
 }
 
-.sidebar ul {
+#sidebar ul {
   margin: 0;
   padding: 0;
 }

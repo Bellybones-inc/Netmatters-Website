@@ -23,7 +23,7 @@
   }
 }
 @media (min-width: 992px) {
-  .sidebar {
+  #sidebar {
     width: 350px;
   }
 }

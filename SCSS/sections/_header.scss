@@ -101,19 +101,38 @@
   }
 }
 
-.fa-bars {
-  padding: 10px 22px 10px 22px;
-  font-size: 24px;
-  color: $white-bg;
+.top {
+  @include burger-bar;
+  top: 15%;
+  margin-bottom: 5px
 }
 
-.fas{
-  
+.top.ro {
+  top: 30%;
+  transform: rotate(45deg);
+  transition: all 0.4s ease-in-out;
 }
 
-.fas.in-use {
-  transform: rotate(-45deg) translate(-15px, -8px);
+.middle {
+  @include burger-bar;
+  top: 30%;
+  margin-bottom: 5px
 }
+
+.middle.tate {
+  transform: rotate(-45deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.bottom {
+    @include burger-bar;
+    top: 46%;
+    margin-bottom: 5px
+  }
+
+  .bottom.out {
+    display: none;
+  }
 
 .menu {
   position: absolute;
