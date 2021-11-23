@@ -412,6 +412,10 @@ body.default {
   overflow: hidden;
 }
 
+.top_header {
+  transition: all 300ms ease-in-out;
+}
+
 .top_header.scroll-down {
   display: none;
 }

@@ -806,15 +806,15 @@ body.default {
   overflow: hidden;
 }
 
-#top_header {
-  position: fixed;
+.top_header {
+  transition: all 300ms ease-in-out;
 }
 
-.scroll-down {
+.top_header.scroll-down {
   display: none;
 }
 
-.scroll-up {
+.top_header.scroll-up {
   position: fixed;
   top: 0;
   left: 0;

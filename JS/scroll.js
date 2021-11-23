@@ -1,6 +1,9 @@
 
-let lastScroll = 0;
+
 const headerTop = document.querySelector(".top_header");
+const slideContainer = document.querySelector(".slide_container");
+let lastScroll = 0;
+
 
 window.addEventListener('scroll', () => {
 
@@ -9,37 +12,20 @@ window.addEventListener('scroll', () => {
 // If the page is at the top
   if(currentScroll <= 0) {
     headerTop.classList.remove("scroll-up")
+    slideContainer.style.marginTop = "0px";
   }
 
   // This is causing the scroll-down to be added/ menu disappear
-  if (currentScroll > 1000 && !headerTop.classList.contains("scroll-down")) {
+  if (currentScroll > 1200 && !headerTop.classList.contains("scroll-down")) {
     headerTop.classList.remove('scroll-up')
     headerTop.classList.add('scroll-down')
   }
 
-  // if (currentScroll < lastScroll && !headerTop.classList.contains("scroll-down")) {
-  //   headerTop.classList.remove('scroll-down')
-  //   headerTop.classList.add('scroll-up')
-  // }
+  if (currentScroll < lastScroll && headerTop.classList.contains("scroll-down")) {
+    headerTop.classList.remove('scroll-down')
+    headerTop.classList.add('scroll-up')
+    slideContainer.style.marginTop = "208px";
+  }
 
   lastScroll = currentScroll;
 })
-
-//
-//
-// if(currentScroll >= 0) {
-//   header.classList.remove("scroll-up")
-// }
-//
-// This is causing the scroll-down to be added/ menu disappear
-// if (currentScroll >  500 && !body.classList.contains("scroll-down")) {
-//   header.classList.remove("scroll-up")
-//   header.classList.add("scroll-down")
-// }
-//
-// if (currentScroll < lastScroll && !body.classList.contains("scroll-down")) {
-//   header.classList.remove("scroll-down")
-//   header.classList.add("scroll-up")
-// }
-//
-// lastScroll = currentScroll;
