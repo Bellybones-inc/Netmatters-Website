@@ -24,15 +24,15 @@
   overflow: hidden;
 }
 
-#top_header {
+.top_header {
 
 }
 
-.scroll-down {
+.top_header.scroll-down {
   display: none;
 }
 
-.scroll-up {
+.top_header.scroll-up {
   position: fixed;
   top: 0;
   left: 0;

@@ -806,6 +806,10 @@ body.default {
   overflow: hidden;
 }
 
+#top_header {
+  position: fixed;
+}
+
 .scroll-down {
   display: none;
 }

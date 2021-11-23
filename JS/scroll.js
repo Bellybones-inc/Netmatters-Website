@@ -1,14 +1,31 @@
-// const body = document.body;
-// let lastScroll = 0;
-// const header = document.querySelector('header');
+
+let lastScroll = 0;
+const headerTop = document.querySelector(".top_header");
 
 window.addEventListener('scroll', () => {
-  const scrolled = window.scrollY;
 
-  console.log(scrolled);
-});
+  const currentScroll = window.pageYOffset
 
-// const currentScroll = window.pageYOffset
+// If the page is at the top
+  if(currentScroll <= 0) {
+    headerTop.classList.remove("scroll-up")
+  }
+
+  // This is causing the scroll-down to be added/ menu disappear
+  if (currentScroll > 1000 && !headerTop.classList.contains("scroll-down")) {
+    headerTop.classList.remove('scroll-up')
+    headerTop.classList.add('scroll-down')
+  }
+
+  // if (currentScroll < lastScroll && !headerTop.classList.contains("scroll-down")) {
+  //   headerTop.classList.remove('scroll-down')
+  //   headerTop.classList.add('scroll-up')
+  // }
+
+  lastScroll = currentScroll;
+})
+
+//
 //
 // if(currentScroll >= 0) {
 //   header.classList.remove("scroll-up")
