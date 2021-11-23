@@ -488,11 +488,49 @@ ul.slick-dots {
   padding: 5px 20px;
   line-height: 50px;
   color: #fff;
-  background-color: #926fb1;
   font-size: 1.25rem;
 }
-.btn.banner-btn:hover {
-  background-color: #79539a !important;
+
+.banner-btn.sign {
+  background-color: #926fb1;
+}
+.banner-btn.sign:hover {
+  background-color: #79539a;
+}
+
+.banner-btn.port {
+  background-color: #4183d7;
+}
+.banner-btn.port:hover {
+  background-color: #286abd;
+}
+
+.banner-btn.coms {
+  background-color: #d64541;
+}
+.banner-btn.coms:hover {
+  background-color: #bc2c28;
+}
+
+.banner-btn.ware {
+  background-color: #67809f;
+}
+.banner-btn.ware:hover {
+  background-color: #526781;
+}
+
+.banner-btn.market {
+  background-color: #2ecc71;
+}
+.banner-btn.market:hover {
+  background-color: #25a25a;
+}
+
+.banner-btn.cyber {
+  background-color: #f62459;
+}
+.banner-btn.cyber:hover {
+  background-color: #bc303a;
 }
 
 .arrow-find {

@@ -32,18 +32,9 @@ li.slick-active::after {
   border: 2px solid #fff;
 }
 
-//
-// .slick-slide .slick-current .slick-active {
-//   position: relative;
-// }
-
 .slick-initialized .slick-slide {
   position: relative;
 }
-
-// .slick-track {
-//   position: relative;
-// }
 
 ul.slick-dots {
   bottom: 30px;
@@ -112,11 +103,49 @@ ul.slick-dots {
   padding: 5px 20px;
   line-height: 50px;
   color: $white-text;
-  background-color: $purple-bg;
   font-size: 1.25rem;
- &:hover {
-   background-color: $purple-hover !important;
- }
+}
+
+.banner-btn.sign {
+  background-color: $purple-bg;
+  &:hover {
+    background-color: $purple-hover;
+  }
+}
+
+.banner-btn.port {
+  background-color: $blue-bg;
+  &:hover {
+    background-color: $blue-hover;
+  }
+}
+
+.banner-btn.coms {
+    background-color: #d64541;
+  &:hover {
+    background-color: $maroon-hover;
+  }
+}
+
+.banner-btn.ware {
+    background-color: $blue-grey-bg;
+  &:hover {
+    background-color: $blue-grey-hover;
+  }
+}
+
+.banner-btn.market {
+    background-color: #2ecc71;
+  &:hover {
+    background-color: $green-hover;
+  }
+}
+
+.banner-btn.cyber {
+    background-color: #f62459;
+  &:hover {
+    background-color: $red-hover;
+  }
 }
 
 .arrow-find {
