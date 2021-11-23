@@ -11,6 +11,7 @@ $(document).ready(function(){
       });
     });
 
+// slide-out menu variables
 const sidebar = document.getElementById("sidebar");
 const hamburger = document.getElementById("hamburger");
 const bars = document.querySelector(".fas");

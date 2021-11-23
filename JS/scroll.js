@@ -4,7 +4,6 @@ const headerTop = document.querySelector(".top_header");
 const slideContainer = document.querySelector(".slide_container");
 let lastScroll = 0;
 
-
 window.addEventListener('scroll', () => {
 
   const currentScroll = window.pageYOffset
