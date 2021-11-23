@@ -36,18 +36,6 @@ hamburger.addEventListener('click', () => {
   body.classList.toggle('nav_active');
 })
 
-// document.onclick = function(e) {
-//   if(e.target.id !== 'sidebar')
-//   {
-//       outer.classList.remove('hidden');
-//       bars.classList.remove('in-use');
-//       sidebar.classList.remove('is-active');
-//       main.classList.remove('shift');
-//       inner.classList.remove('over');
-//       body.classList.toggle('nav_active');
-//   }
-// }
-
   sidebar.addEventListener('click', () => {
   outer.classList.remove('hidden');
   bars.classList.remove('in-use');
@@ -58,14 +46,3 @@ hamburger.addEventListener('click', () => {
   barMiddle.classList.remove('tate');
   barBottom.classList.remove('out');
 })
-
-
-//   body.onclick = function() {
-//   outer.classList.remove('hidden');
-//   bars.classList.remove('in-use');
-//   sidebar.classList.remove('is-active');
-//   main.classList.remove('shift');
-//   inner.classList.remove('over');
-// })
-
-// body.document.style.transition('all 0.8s ease 0.8s');
