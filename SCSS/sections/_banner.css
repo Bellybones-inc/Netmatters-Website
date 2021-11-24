@@ -424,7 +424,7 @@ li.slick-active::after {
 }
 
 ul.slick-dots {
-  bottom: 30px;
+  top: 75%;
   z-index: 1000;
 }
 

@@ -806,6 +806,10 @@ body.default {
   overflow: hidden;
 }
 
+.top_header::before {
+  transition: all 0.8s ease-in-out;
+}
+
 .top_header.scroll-down {
   display: none;
 }
@@ -817,7 +821,6 @@ body.default {
   right: 0;
   z-index: 1000;
   background-color: white;
-  transition: all 0.8s ease-in-out;
 }
 
 .inner {
@@ -2154,7 +2157,7 @@ li.slick-active::after {
 }
 
 ul.slick-dots {
-  bottom: 30px;
+  top: 75%;
   z-index: 1000;
 }
 
