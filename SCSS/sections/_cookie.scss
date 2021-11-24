@@ -1,0 +1,79 @@
+/***************************
+****************************
+       Cookie Section
+****************************
+***************************/
+
+@import '../utilities/variables',
+      '../utilities/mixins',
+      '../utilities/media',
+      '../base/base';
+
+#cookie-consent {
+  display: flex;
+  position: fixed;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,.7);
+}
+
+.qookie_outer {
+  position: relative;
+  margin: auto;
+}
+
+.cookie-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    outline: none;
+}
+
+.cookie_header {
+  padding: 15px 20px 15px 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.cookie_text {
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.cookie_text p {
+  margin: 0px 0px 25px 0px;
+  line-height: 1.875rem;
+}
+
+.cookie_footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+#settings {
+  @include cookie_btn;
+  background-color: $grey-bg;
+  &:hover {
+    background-color: $grey-hover;
+  }
+}
+
+#accept {
+  @include cookie_btn;
+  background-color: $purple-bg;
+ &:hover {
+   background-color: $purple-hover;
+ }
+}

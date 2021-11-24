@@ -27,6 +27,11 @@
     width: 350px;
   }
 }
+@media (min-width: 768px) {
+  .qookie_outer {
+    width: 600px;
+  }
+}
 @media (max-width: 768px) {
   .action {
     margin-top: 5px;
