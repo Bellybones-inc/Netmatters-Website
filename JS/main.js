@@ -26,7 +26,7 @@ const barTop = document.querySelector(".top");
 const barMiddle = document.querySelector(".middle");
 const barBottom = document.querySelector(".bottom");
 
-hamburger.addEventListener('click', () => {
+hamburger.onclick = () => {
   outer.classList.toggle('hidden');
   barTop.classList.toggle('ro');
   barMiddle.classList.toggle('tate');
@@ -35,15 +35,18 @@ hamburger.addEventListener('click', () => {
   main.classList.toggle('shift');
   inner.classList.toggle('over');
   body.classList.toggle('nav_active');
-})
+}
 
-  sidebar.addEventListener('click', () => {
+sidebar.onclick = () => {
   outer.classList.remove('hidden');
-  bars.classList.remove('in-use');
+  barTop.classList.remove('ro');
+  barMiddle.classList.remove('tate');
+  barBottom.classList.remove('out');
+  // bars.classList.remove('in-use');
   sidebar.classList.remove('is-active');
   main.classList.remove('shift');
   inner.classList.remove('over');
   barTop.classList.remove('ro');
   barMiddle.classList.remove('tate');
   barBottom.classList.remove('out');
-})
+}

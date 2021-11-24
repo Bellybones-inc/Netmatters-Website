@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ===Variables=== */
 /* ===Mixins=== */
 /* ===Variables=== */
@@ -350,7 +351,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -759,7 +760,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -1447,7 +1448,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -2118,7 +2119,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -2669,7 +2670,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -3286,7 +3287,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -3769,7 +3770,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -4400,7 +4401,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -4897,7 +4898,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -5424,7 +5425,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -5946,7 +5947,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -6412,7 +6413,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -6508,6 +6509,11 @@ body.default {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   font-size: 1rem;
   text-decoration: none;
+}
+
+.matters li a::before {
+  content: "»";
+  padding-right: 15px;
 }
 
 /***************************
@@ -6867,7 +6873,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -6921,6 +6927,8 @@ body.default {
 
 #cookie-consent {
   position: fixed;
+  height: 100%;
+  overflow: hidden;
   display: flex;
   padding: 30px;
   top: 0;
@@ -6928,7 +6936,6 @@ body.default {
   left: 0;
   right: 0;
   z-index: 100;
-  overflow: hidden;
   flex-direction: row;
   align-items: center;
   justify-content: center;

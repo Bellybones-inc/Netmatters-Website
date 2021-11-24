@@ -11,6 +11,8 @@
 
 #cookie-consent {
   position: fixed;
+  height: 100%;
+  overflow: hidden;
   display: flex;
   padding: 30px;
   top: 0;
@@ -18,7 +20,6 @@
   left: 0;
   right: 0;
   z-index: 100;
-  overflow: hidden;
   flex-direction: row;
   align-items: center;
   justify-content: center;
