@@ -6920,7 +6920,6 @@ body.default {
 }
 
 #cookie-consent {
-  display: flex;
   position: fixed;
   padding: 30px;
   top: 0;

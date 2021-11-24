@@ -408,7 +408,6 @@ body.default {
 }
 
 #cookie-consent {
-  display: flex;
   position: fixed;
   padding: 30px;
   top: 0;
@@ -461,6 +460,7 @@ body.default {
 }
 
 #settings {
+  width: 45%;
   line-height: 35px;
   padding: 5px 15px;
   border-radius: 3px;
@@ -474,6 +474,7 @@ body.default {
 }
 
 #accept {
+  width: 45%;
   line-height: 35px;
   padding: 5px 15px;
   border-radius: 3px;
