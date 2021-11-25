@@ -410,13 +410,13 @@ body {
 
 #sidebar {
   position: fixed;
+  display: none;
   top: 0;
   right: 0;
   z-index: 1003;
   height: 100%;
   overflow: auto;
   transition: 0.4s ease-in;
-  transform: translateX(100%);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   background: #333645;
@@ -424,7 +424,7 @@ body {
 }
 
 #sidebar.is-active {
-  transform: translateX(0%);
+  display: block;
 }
 
 #sidebar a {

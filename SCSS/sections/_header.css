@@ -35,6 +35,11 @@
     width: 350px;
   }
 }
+@media (min-width: 768px) {
+  .qookie_outer {
+    width: 600px;
+  }
+}
 @media (max-width: 768px) {
   .action {
     margin-top: 5px;
@@ -200,6 +205,11 @@
     width: 350px;
   }
 }
+@media (min-width: 768px) {
+  .qookie_outer {
+    width: 600px;
+  }
+}
 @media (max-width: 768px) {
   .action {
     margin-top: 5px;
@@ -345,7 +355,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -362,7 +372,7 @@ body.default {
   background-color: white;
 }
 
-.main.shift {
+.shift {
   position: absolute;
   top: 0;
   left: 0;
@@ -385,7 +395,13 @@ body.default {
   overflow-y: hidden;
 }
 
-.main-inner.over::after {
+.page-parent {
+  display: flex;
+  flex-direction: row;
+  min-height: 700px;
+}
+
+.layer::after {
   content: "";
   opacity: 0.5;
   background: #000;
@@ -395,12 +411,6 @@ body.default {
   top: 0;
   left: 0;
   position: absolute;
-}
-
-.page-parent {
-  display: flex;
-  flex-direction: row;
-  min-height: 700px;
 }
 
 .full-page {
