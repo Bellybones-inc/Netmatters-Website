@@ -28,9 +28,6 @@ body {
   display: block;
 }
 
-body.nav_active {
-}
-
 .main {
   position: relative;
   display: block;
@@ -41,7 +38,7 @@ body.nav_active {
 .shift {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -25%;
   right: 350px;
   bottom: 0;
 }

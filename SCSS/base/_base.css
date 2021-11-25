@@ -16,13 +16,13 @@
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container, .text-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .text-container {
     width: 1200px;
   }
 }
@@ -168,6 +168,16 @@
     justify-content: space-evenly;
   }
 }
+@media (max-width: 767px) {
+  .text-container {
+    left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .text-container {
+    right: 50%;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -201,7 +211,7 @@ body {
 .shift {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -25%;
   right: 350px;
   bottom: 0;
 }

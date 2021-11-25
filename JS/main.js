@@ -38,7 +38,7 @@ hamburger.addEventListener("click", () => {
   pageParent.classList.toggle('layer');
 })
 
-// Removes side-menu and returns page to default. 
+// Removes side-menu and returns page to default
 pageParent.addEventListener("click", () => {
   if(inner.classList.toggle('over')) {
   outer.classList.remove('hidden');

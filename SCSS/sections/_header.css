@@ -399,6 +399,7 @@ body {
   display: flex;
   flex-direction: row;
   min-height: 700px;
+  transition: all 0.4s ease-in;
 }
 
 .layer::after {
