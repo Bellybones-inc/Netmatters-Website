@@ -27,7 +27,6 @@
 }
 
 //sidebar
-
 @media (min-width: 992px) {
   #sidebar {
     width: 350px;
@@ -35,7 +34,6 @@
 }
 
 // Cookie pop-up
-
 @media (min-width: 768px){
   .qookie_outer {
     width: 600px;
@@ -206,6 +204,7 @@
   }
 }
 
+// Banner text content position
 @media (max-width: 767px) {
 .text-container {
   left: 0;
@@ -218,6 +217,7 @@
   }
 }
 
+// Position of main content when side nav appears
 @media (min-width: 1500px) {
   .shift {
     left: 0% !important;
