@@ -38,7 +38,6 @@
 }
 
 .top_header::before {
-  transition: all 0.8s ease-in-out;
 }
 
 .top_header.scroll-down {
@@ -117,7 +116,8 @@
 .top {
   @include burger-bar;
   top: 15%;
-  margin-bottom: 5px
+  margin-bottom: 5px;
+  transition: all 0.4s ease-in-out;
 }
 
 .top.ro {
@@ -129,7 +129,8 @@
 .middle {
   @include burger-bar;
   top: 30%;
-  margin-bottom: 5px
+  margin-bottom: 5px;
+  transition: all 0.4s ease-in-out;
 }
 
 .middle.tate {
@@ -140,7 +141,7 @@
 .bottom {
     @include burger-bar;
     top: 46%;
-    margin-bottom: 5px
+    margin-bottom: 5px;
   }
 
   .bottom.out {

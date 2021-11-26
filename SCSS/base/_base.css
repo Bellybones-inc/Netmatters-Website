@@ -178,6 +178,11 @@
     right: 50%;
   }
 }
+@media (min-width: 1500px) {
+  .shift {
+    left: 0% !important;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -206,6 +211,7 @@ body {
   display: block;
   color: #666666;
   background-color: white;
+  transition: all 0.6s ease-in;
 }
 
 .shift {
