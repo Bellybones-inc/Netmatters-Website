@@ -2850,7 +2850,7 @@ body {
 
 .outer:hover .block {
   color: #fff;
-  cursor: grab;
+  cursor: pointer;
 }
 .outer:hover .block-soft {
   background-color: #67809f;

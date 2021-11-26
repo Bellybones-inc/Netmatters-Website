@@ -36,12 +36,11 @@
 .outer:hover .block {
   @include card-bg($card-bg);
   color: $white-text;
-  cursor: grab;
+  cursor: pointer;
 &:hover span.h2::after {
     background-color: $white-bg;
   }
 }
-
 
 .block:hover .btn {
   background-color: $white-bg;
