@@ -3522,7 +3522,7 @@ p:first-child {
   border-radius: 3px;
   white-space: normal;
   background-image: none;
-  background-color: #fff;
+  background-color: #fff !important;
   color: #333645;
   font-size: 1.063rem;
 }
@@ -3530,6 +3530,16 @@ p:first-child {
   background-color: #bfbfbf;
   border-color: #bfbfbf;
   color: #333645;
+}
+.btn-culture:focus {
+  border-color: #bfbfbf !important;
+  color: #333645;
+  background-color: #bfbfbf;
+  box-shadow: none;
+}
+.btn-culture:active {
+  border-color: #bfbfbf !important;
+  box-shadow: none;
 }
 
 /***************************

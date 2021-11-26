@@ -59,12 +59,22 @@ p:first-child {
   border-radius: 3px;
   white-space: normal;
   background-image: none;
-  background-color: $white-text;
+  background-color: $white-text !important;
   color: $dark-grey-text;
   font-size: 1.063rem;
   &:hover {
   background-color: $white-text-dark;
   border-color: $white-text-dark;
   color: $dark-grey-text;
+  }
+  &:focus {
+    border-color: $white-text-dark !important;
+    color: $dark-grey-text;
+    background-color: $white-text-dark;
+    box-shadow: none;
+  }
+  &:active {
+    border-color: $white-text-dark !important;
+    box-shadow: none;
   }
 }
