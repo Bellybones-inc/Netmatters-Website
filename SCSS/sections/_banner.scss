@@ -24,8 +24,8 @@
 li.slick-active::after {
   content: "";
   position: absolute;
-  top: -2.9px;
-  left: 6.5px;
+  top: -2.5px;
+  left: 4.5px;
   width: 24px;
   height: 25px;
   border-radius: 50%;
@@ -37,18 +37,18 @@ li.slick-active::after {
 }
 
 ul.slick-dots {
-  top: 75%;
+  top: 80%;
   z-index: 10;
 }
 
 .slick-dots li button:before {
-  font-size: 50px;
-  // background-color: hsla(0,0%,100%,.5);
+  font-size: 40px;
+  // background-color:
   width: 11px;
   height: 11px;
   margin: 0px 10px 0px 10px;
   opacity: 1;
-  color: white;
+  color: hsla(0,0%,100%,.5);
 }
 
 

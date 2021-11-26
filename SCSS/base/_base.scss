@@ -33,7 +33,6 @@ body {
   display: block;
   color: rgb(102, 102, 102);
   background-color: rgb(255, 255, 255);
-  transition: all 0.6s ease-in;
 }
 
 .shift {
@@ -42,7 +41,6 @@ body {
   left: -25%;
   right: 350px;
   bottom: 0;
-  // transition: all 0.4s ease-in-out;
 }
 
 .main-outer {
