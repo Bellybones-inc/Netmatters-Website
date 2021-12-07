@@ -209,12 +209,13 @@ body {
 .main {
   position: relative;
   display: block;
+  transition: transform 0.4s ease-in-out;
   color: #666666;
   background-color: white;
 }
 
 .main.shift {
-  transition: right 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
   transform: translateX(-250px);
 }
 

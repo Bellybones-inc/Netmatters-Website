@@ -27,16 +27,17 @@ body {
   margin: 0;
   display: block;
 }
-
+ 
 .main {
   position: relative;
   display: block;
+  transition: transform .4s ease-in-out;
   color: rgb(102, 102, 102);
   background-color: rgb(255, 255, 255);
 }
 
 .main.shift {
-  transition: right .4s ease-in-out;
+  transition: transform .4s ease-in-out;
   transform: translateX(-250px);
 }
 
