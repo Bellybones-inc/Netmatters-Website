@@ -403,12 +403,9 @@ body {
   background-color: white;
 }
 
-.shift {
-  position: absolute;
-  top: 0;
-  left: -25%;
-  right: 350px;
-  bottom: 0;
+.main.shift {
+  transition: right 0.4s ease-in-out;
+  transform: translateX(-350px);
 }
 
 .main-outer {
@@ -442,7 +439,7 @@ body {
 }
 
 #sidebar.is-active {
-  transform: translateX(0%);
+  transform: translateX(70%);
   transition: all 0.4s ease-in-out;
 }
 
