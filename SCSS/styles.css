@@ -178,9 +178,17 @@
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -363,9 +371,17 @@
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -609,9 +625,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -794,9 +818,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -1332,9 +1364,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -1517,9 +1557,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -2025,9 +2073,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -2210,9 +2266,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -2598,9 +2662,17 @@ ul.slick-dots {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -2783,9 +2855,17 @@ ul.slick-dots {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -3237,9 +3317,17 @@ span.p {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -3422,9 +3510,17 @@ span.p {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -3752,9 +3848,17 @@ p:first-child {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -3937,9 +4041,17 @@ p:first-child {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -4406,9 +4518,17 @@ ul {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -4591,9 +4711,17 @@ ul {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -4925,9 +5053,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -5110,9 +5246,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -5474,9 +5618,17 @@ label::after {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -5659,9 +5811,17 @@ label::after {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -6018,9 +6178,17 @@ h4 {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -6203,9 +6371,17 @@ h4 {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -6506,9 +6682,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -6691,9 +6875,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -6989,9 +7181,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 /* ===Base=== */
@@ -7174,9 +7374,17 @@ body {
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 html {
@@ -7281,6 +7489,7 @@ body {
 .cookie_text p {
   margin: 0px 0px 25px 0px;
   line-height: 1.875rem;
+  font-weight: 500;
 }
 
 .cookie_footer {

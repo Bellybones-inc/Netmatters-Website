@@ -174,9 +174,17 @@
     right: 50%;
   }
 }
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+@media (max-width: 567px) {
+  #accept {
+    margin-top: 20px;
+  }
+
+  #settings, #accept {
+    width: 100% !important;
+  }
+
+  .cookie_footer {
+    display: block !important;
   }
 }
 

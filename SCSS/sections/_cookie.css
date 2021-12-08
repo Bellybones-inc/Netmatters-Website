@@ -20,13 +20,13 @@
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container, .text-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .text-container {
     width: 1200px;
   }
 }
@@ -170,6 +170,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+}
+@media (max-width: 767px) {
+  .text-container {
+    left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .text-container {
+    right: 50%;
+  }
+}
+@media (min-width: 1500px) {
+  .shift {
+    left: 0% !important;
   }
 }
 /* ===Base=== */
@@ -190,13 +205,13 @@
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container, .text-container {
     width: 970px;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .text-container {
     width: 1200px;
   }
 }
@@ -342,6 +357,21 @@
     justify-content: space-evenly;
   }
 }
+@media (max-width: 767px) {
+  .text-container {
+    left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .text-container {
+    right: 50%;
+  }
+}
+@media (min-width: 1500px) {
+  .shift {
+    left: 0% !important;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -355,7 +385,7 @@ html {
   box-sizing: inherit;
 }
 
-body.default {
+body {
   font-family: Poppins, sans-serif;
   line-height: 1.42857143;
   font-size: 1rem;
@@ -368,16 +398,19 @@ body.default {
 .main {
   position: relative;
   display: block;
+  transition: transform 0.4s ease-in-out;
   color: #666666;
   background-color: white;
 }
 
 .main.shift {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 350px;
-  bottom: 0;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(-250px);
+}
+
+.main.scroll_stop {
+  overflow: hidden;
+  height: 100vh;
 }
 
 .main-outer {
@@ -386,25 +419,14 @@ body.default {
 }
 
 .main-outer.hidden {
-  overflow: hidden;
+  overflow-y: hidden;
+  height: 100vh;
 }
 
 .main-inner {
   display: block;
   overflow-x: hidden;
   overflow-y: hidden;
-}
-
-.main-inner.over::after {
-  content: "";
-  opacity: 0.5;
-  background: #000;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  position: absolute;
 }
 
 #cookie-consent {
@@ -452,6 +474,7 @@ body.default {
 .cookie_text p {
   margin: 0px 0px 25px 0px;
   line-height: 1.875rem;
+  font-weight: 500;
 }
 
 .cookie_footer {

@@ -218,8 +218,22 @@
 }
 
 // Position of main content when side nav appears
-@media (min-width: 1500px) {
-  .shift {
-    left: 0% !important;
+// @media (min-width: 1500px) {
+//   .shift {
+//     left: 0% !important;
+//   }
+// }
+
+//cookie buttons mobile
+
+@media (max-width: 567px) {
+#accept {
+  margin-top: 20px;
+}
+#settings, #accept {
+ width: 100% !important;
+  }
+.cookie_footer {
+  display: block !important;
   }
 }
