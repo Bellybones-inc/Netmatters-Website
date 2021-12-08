@@ -30,14 +30,16 @@
 }
 
 #sidebar a {
+  padding: 15px 20px 15px 20px;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+  display: block;
 }
 
 #sidebar li {
   border-top: 1px solid hsla(0,0%,100%,.05);
-  padding: 15px 20px 15px 20px;
+  // padding: 15px 20px 15px 20px;
   font-size: .875rem;
   background-color: rgba(0,0,0,.25);
 }
@@ -48,6 +50,7 @@
 }
 
 .side_heading {
+  display: block;
   padding: 20px;
   line-height: 1;
   border-top: 1px solid hsla(0,0%,100%,.1);
