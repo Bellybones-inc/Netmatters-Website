@@ -1005,7 +1005,7 @@ body {
   content: "";
   width: 35px;
   height: 4px;
-  left: 25%;
+  left: 23%;
   background-color: white;
   position: absolute;
   top: 15%;
@@ -1023,7 +1023,7 @@ body {
   content: "";
   width: 35px;
   height: 4px;
-  left: 25%;
+  left: 23%;
   background-color: white;
   position: absolute;
   top: 30%;
@@ -1040,7 +1040,7 @@ body {
   content: "";
   width: 35px;
   height: 4px;
-  left: 25%;
+  left: 23%;
   background-color: white;
   position: absolute;
   top: 46%;
@@ -1054,7 +1054,7 @@ body {
 .menu {
   position: absolute;
   top: 30%;
-  left: 22%;
+  left: 23%;
   font-size: 12px;
   text-transform: uppercase;
   color: #fff;
