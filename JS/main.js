@@ -10,7 +10,7 @@ $(document).ready(function(){
         speed: 3000,
         mobileFirst: true,
         pauseOnFocus: false,
-        pauseOnHover: false, 
+        pauseOnHover: false,
         waitForAnimate: false,
       });
     });
@@ -54,4 +54,52 @@ pageParent.addEventListener("click", () => {
   inner.classList.remove('over');
   pageParent.classList.remove('layer');
   }
+})
+
+const cookieSection = document.getElementById("cookie-consent");
+const acceptBtn = document.getElementById("accept");
+const disableScroll = document.querySelector(".main");
+
+acceptBtn.addEventListener("click", () => {
+  localStorage.setItem('true', 'fine');
+  cookieSection.style.display = "none";
+  disableScroll.classList.remove('scroll_stop');
+})
+
+document.addEventListener('DOMContentLoaded', function(event) {
+  if ("true" in localStorage) {
+    cookieSection.style.display = "none";
+    disableScroll.classList.remove('scroll_stop');
+  } else {
+    disableScroll.classList.add('scroll_stop');
+  }
+});
+
+const headerTop = document.querySelector(".top_header");
+const slideContainer = document.querySelector(".slide_container");
+let lastScroll = 0;
+
+window.addEventListener('scroll', () => {
+
+  const currentScroll = window.pageYOffset
+
+// If the page is at the top
+  if(currentScroll <= 0) {
+    headerTop.classList.remove("scroll-up")
+    slideContainer.style.marginTop = "0px";
+  }
+
+  // This is causing the scroll-down to be added/ menu disappear
+  if (currentScroll > 1200 && !headerTop.classList.contains("scroll-down")) {
+    headerTop.classList.remove('scroll-up')
+    headerTop.classList.add('scroll-down')
+  }
+
+  if (currentScroll < lastScroll && headerTop.classList.contains("scroll-down")) {
+    headerTop.classList.remove('scroll-down')
+    headerTop.classList.add('scroll-up')
+    slideContainer.style.marginTop = "208px";
+  }
+
+  lastScroll = currentScroll;
 })
