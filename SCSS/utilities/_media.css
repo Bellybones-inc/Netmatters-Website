@@ -187,5 +187,10 @@
     display: block !important;
   }
 }
+@media (min-width: 991px) {
+  #sidebar_sm {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=_media.css.map */

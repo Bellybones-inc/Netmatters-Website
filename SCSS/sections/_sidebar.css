@@ -466,8 +466,20 @@ body {
   transition: all 0.4s ease-in-out;
 }
 
-#sidebar a {
+#sidebar_lg a {
   padding: 15px 20px 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+}
+
+#sidebar_lg li {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#sidebar_sm a {
+  padding: 19px 0px 18px 0px;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -477,7 +489,6 @@ body {
 #sidebar li {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 0.875rem;
-  background-color: rgba(0, 0, 0, 0.25);
 }
 
 #sidebar ul {
@@ -500,13 +511,31 @@ body {
   padding-right: 15px;
 }
 
-.slideService {
-  padding: 19px 0px 19px 0px;
-  text-align: center;
-}
-
 .bar_sm_active {
   padding: 20px !important;
+}
+
+.slideService {
+  padding-top: 20px;
+  text-align: center;
+  color: #666666;
+}
+
+.slideItem {
+  display: block;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+ul .slide_links {
+  margin-top: 20px !important;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 /*# sourceMappingURL=_sidebar.css.map */

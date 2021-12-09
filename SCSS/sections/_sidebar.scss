@@ -29,8 +29,20 @@
   transition: all 0.4s ease-in-out;
 }
 
-#sidebar a {
+#sidebar_lg a {
   padding: 15px 20px 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+}
+
+#sidebar_lg li {
+  background-color: rgba(0,0,0,.25);
+}
+
+#sidebar_sm a {
+  padding: 19px 0px 18px 0px;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -41,7 +53,7 @@
   border-top: 1px solid hsla(0,0%,100%,.05);
   // padding: 15px 20px 15px 20px;
   font-size: .875rem;
-  background-color: rgba(0,0,0,.25);
+  // background-color: rgba(0,0,0,.25);
 }
 
 #sidebar ul {
@@ -64,11 +76,29 @@
   padding-right: 15px;
 }
 
-.slideService {
-  padding: 19px 0px 19px 0px;
-  text-align: center;
-}
-
 .bar_sm_active {
   padding: 20px !important;
+}
+
+.slideService {
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(102, 102, 102);
+}
+
+.slideItem {
+    display: block;
+    line-height: 1;
+    color: $white-text;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    outline: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+ul .slide_links {
+  margin-top: 20px !important;
+  background-color: rgba(0, 0, 0, 0.25);
 }
