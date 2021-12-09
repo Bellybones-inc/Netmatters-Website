@@ -5,7 +5,6 @@ const slideContainer = document.querySelector(".slide_container");
 let lastScroll = 0;
 
 window.addEventListener('scroll', () => {
-
   const currentScroll = window.pageYOffset
 
 // If the page is at the top
@@ -13,7 +12,6 @@ window.addEventListener('scroll', () => {
     headerTop.classList.remove("scroll-up")
     slideContainer.style.marginTop = "0px";
   }
-
   // This is causing the scroll-down to be added/ menu disappear
   if (currentScroll > 1200 && !headerTop.classList.contains("scroll-down")) {
     headerTop.classList.remove('scroll-up')
@@ -24,7 +22,7 @@ window.addEventListener('scroll', () => {
     headerTop.classList.remove('scroll-down')
     headerTop.classList.add('scroll-up')
     slideContainer.style.marginTop = "208px";
-  }
-
+  } {
   lastScroll = currentScroll;
+}
 })

@@ -8,7 +8,7 @@ acceptBtn.addEventListener("click", () => {
   disableScroll.classList.remove('scroll_stop');
 })
 
-document.addEventListener('DOMContentLoaded', function(event) {
+document.addEventListener("DOMContentLoaded", function(event) {
   if ("true" in localStorage) {
     cookieSection.style.display = "none";
     disableScroll.classList.remove('scroll_stop');
