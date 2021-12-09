@@ -9,6 +9,9 @@ $(document).ready(function(){
         autoplay: true,
         speed: 3000,
         mobileFirst: true,
+        pauseOnFocus: false,
+        pauseOnHover: false, 
+        waitForAnimate: false,
       });
     });
 
