@@ -192,5 +192,17 @@
     display: none;
   }
 }
+@media (max-width: 567px) {
+  .text-container {
+    width: 100vw;
+    left: -2%;
+    top: 10%;
+    text-align: center;
+  }
+
+  ul.slick-dots {
+    top: 65%;
+  }
+}
 
 /*# sourceMappingURL=_media.css.map */

@@ -8,6 +8,7 @@ $(document).ready(function(){
         dots: true,
         autoplay: true,
         speed: 3000,
+        mobileFirst: true,
       });
     });
 

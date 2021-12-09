@@ -204,7 +204,7 @@
   }
 }
 
-// Banner text content position
+//Banner text content position
 @media (max-width: 767px) {
 .text-container {
   left: 0;
@@ -243,5 +243,17 @@
 @media (min-width: 991px) {
   #sidebar_sm {
     display: none;
+  }
+}
+
+// Banner text mobile
+@media (max-width: 567px) {
+  .text-container {
+    width: 100vw;
+    left: -2%;
+    top: 10%;
+    text-align: center;
+  } ul.slick-dots {
+    top: 65%;
   }
 }
