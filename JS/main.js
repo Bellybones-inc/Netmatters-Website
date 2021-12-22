@@ -11,7 +11,6 @@ $(document).ready(function(){
         mobileFirst: true,
         pauseOnFocus: false,
         pauseOnHover: false,
-        // waitForAnimate: false,
       });
     });
 

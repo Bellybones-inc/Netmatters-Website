@@ -7411,6 +7411,9 @@ body {
   font-size: 1rem;
   text-decoration: none;
 }
+.side_heading:hover {
+  background-color: #6e6e6e;
+}
 
 .matters li a::before {
   content: "»";

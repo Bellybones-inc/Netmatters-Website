@@ -196,6 +196,23 @@
     display: block !important;
   }
 }
+@media (min-width: 991px) {
+  #sidebar_sm {
+    display: none;
+  }
+}
+@media (max-width: 567px) {
+  .text-container {
+    width: 100vw;
+    left: -2%;
+    top: 10%;
+    text-align: center;
+  }
+
+  ul.slick-dots {
+    top: 65%;
+  }
+}
 /* ===Base=== */
 /* ===Variables=== */
 /* ===Mixins=== */
@@ -389,6 +406,23 @@
     display: block !important;
   }
 }
+@media (min-width: 991px) {
+  #sidebar_sm {
+    display: none;
+  }
+}
+@media (max-width: 567px) {
+  .text-container {
+    width: 100vw;
+    left: -2%;
+    top: 10%;
+    text-align: center;
+  }
+
+  ul.slick-dots {
+    top: 65%;
+  }
+}
 html {
   height: 100%;
   display: block;
@@ -504,6 +538,9 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   font-size: 1rem;
   text-decoration: none;
+}
+.side_heading:hover {
+  background-color: #cccccc;
 }
 
 .matters li a::before {
