@@ -7,11 +7,11 @@ $(document).ready(function(){
         slidesToScroll: 1,
         dots: true,
         autoplay: true,
-        speed: 3000,
+        speed: 500,
         mobileFirst: true,
         pauseOnFocus: false,
         pauseOnHover: false,
-        waitForAnimate: false,
+        // waitForAnimate: false,
       });
     });
 
