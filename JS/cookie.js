@@ -10,9 +10,9 @@ acceptBtn.addEventListener("click", () => {
 
 document.addEventListener("DOMContentLoaded", function(event) {
   if ("true" in localStorage) {
-    cookieSection.style.display = "none";
     disableScroll.classList.remove('scroll_stop');
   } else {
     disableScroll.classList.add('scroll_stop');
+    cookieSection.style.display = "flex";
   }
 });
