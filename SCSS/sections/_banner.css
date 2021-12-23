@@ -22,12 +22,14 @@
   .job_container, .about_container, .container, #careers_header, #careers_container,
 .newsletter_container, .footer_container, .header_container, .navigation-container, .text-container {
     width: 970px;
+    margin: auto;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
 .newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .text-container {
     width: 1200px;
+    margin: auto;
   }
 }
 @media (min-width: 992px) {
@@ -177,11 +179,6 @@
     left: 0;
   }
 }
-@media (min-width: 768px) {
-  .text-container {
-    right: 50%;
-  }
-}
 @media (max-width: 567px) {
   #accept {
     margin-top: 20px;
@@ -193,6 +190,15 @@
 
   .cookie_footer {
     display: block !important;
+  }
+}
+@media (min-width: 992px) {
+  #sidebar {
+    width: 350px;
+  }
+
+  #sidebar.is-active {
+    transform: translateX(70%);
   }
 }
 @media (min-width: 991px) {
@@ -232,12 +238,14 @@
   .job_container, .about_container, .container, #careers_header, #careers_container,
 .newsletter_container, .footer_container, .header_container, .navigation-container, .text-container {
     width: 970px;
+    margin: auto;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
 .newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .text-container {
     width: 1200px;
+    margin: auto;
   }
 }
 @media (min-width: 992px) {
@@ -387,11 +395,6 @@
     left: 0;
   }
 }
-@media (min-width: 768px) {
-  .text-container {
-    right: 50%;
-  }
-}
 @media (max-width: 567px) {
   #accept {
     margin-top: 20px;
@@ -403,6 +406,15 @@
 
   .cookie_footer {
     display: block !important;
+  }
+}
+@media (min-width: 992px) {
+  #sidebar {
+    width: 350px;
+  }
+
+  #sidebar.is-active {
+    transform: translateX(70%);
   }
 }
 @media (min-width: 991px) {
@@ -554,16 +566,8 @@ ul.slick-dots {
 }
 
 .text-container {
-  position: absolute;
-  z-index: 300;
-  top: 30%;
-  left: 10%;
-  right: 0;
-  bottom: 0;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: 43.313px;
-  margin-left: 43.313px;
 }
 
 .btn.banner-btn {
