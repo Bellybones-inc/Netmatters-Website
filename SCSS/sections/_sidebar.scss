@@ -57,7 +57,7 @@
   color: rgb(102, 102, 102);
 }
 
-.slideItem { 
+.slideItem {
   display: block;
   padding: 19px 0 18px 0 !important;
   line-height: 1;
@@ -68,7 +68,6 @@
   text-transform: uppercase;
   text-decoration: none;
   color: $white-text;
-
   &:hover {
     cursor: pointer;
     background-color: $black-light-hover;
@@ -79,7 +78,7 @@ ul .slide_links {
   margin-top: 20px !important;
   background-color: rgba(0, 0, 0, 0.25);
 }
-// Sidebar that appears from large breakpoints upwards
+// Sidebar for large breakpoint
 #sidebar_lg a {
   display: block;
   padding: 15px 20px;
