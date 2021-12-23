@@ -187,6 +187,15 @@
     display: block !important;
   }
 }
+@media (min-width: 992px) {
+  #sidebar {
+    width: 350px;
+  }
+
+  #sidebar.is-active {
+    transform: translateX(70%);
+  }
+}
 @media (min-width: 991px) {
   #sidebar_sm {
     display: none;
