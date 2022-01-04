@@ -13,21 +13,21 @@
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .text-container {
+.newsletter_container, .footer_container, .header_container, .slide_wrapper {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .navigation-container, .text-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container, .slide_wrapper {
     width: 970px;
     margin: auto;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .text-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .slide_wrapper {
     width: 1200px;
     margin: auto;
   }
@@ -229,21 +229,21 @@
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .text-container {
+.newsletter_container, .footer_container, .header_container, .slide_wrapper {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .navigation-container, .text-container {
+.newsletter_container, .footer_container, .header_container, .navigation-container, .slide_wrapper {
     width: 970px;
     margin: auto;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .text-container {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .slide_wrapper {
     width: 1200px;
     margin: auto;
   }
@@ -623,6 +623,32 @@ ul.slick-dots {
   display: inline-block;
   margin-right: -4px;
   margin-left: 10px;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #000;
+}
+
+.img-cover-modern-container {
+  height: 100%;
+}
+
+.content_modern {
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  bottom: 0;
+  background: linear-gradient(270deg, transparent 25%, #000);
+  justify-content: center;
 }
 
 /*# sourceMappingURL=_banner.css.map */

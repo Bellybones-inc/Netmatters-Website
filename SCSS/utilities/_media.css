@@ -5,21 +5,21 @@
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .slide_wrapper, .text-container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .navigation-container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .navigation-container, .slide_wrapper, .text-container {
     width: 970px;
     margin: auto;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .slide_wrapper, .text-container {
     width: 1200px;
     margin: auto;
   }
