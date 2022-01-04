@@ -103,12 +103,12 @@
   }
 }
 @media (max-width: 991px) {
-  .content-container {
-    background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+  .carousel_image {
+    opacity: 0.5;
   }
 }
 @media (max-width: 991px) {
-  .content-container {
+  .text {
     text-align: center;
   }
 }

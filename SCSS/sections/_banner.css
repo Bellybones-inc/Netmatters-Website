@@ -13,21 +13,21 @@
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .slide_wrapper, .text-container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .navigation-container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .navigation-container, .slide_wrapper, .text-container {
     width: 970px;
     margin: auto;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .slide_wrapper, .text-container {
     width: 1200px;
     margin: auto;
   }
@@ -111,12 +111,12 @@
   }
 }
 @media (max-width: 991px) {
-  .content-container {
-    background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+  .carousel_image {
+    opacity: 0.5;
   }
 }
 @media (max-width: 991px) {
-  .content-container {
+  .text {
     text-align: center;
   }
 }
@@ -229,21 +229,21 @@
 ***************************/
 @media (min-width: 768px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .slide_wrapper, .text-container {
     width: 750px;
     margin: auto;
   }
 }
 @media (min-width: 992px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .navigation-container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .navigation-container, .slide_wrapper, .text-container {
     width: 970px;
     margin: auto;
   }
 }
 @media (min-width: 1260px) {
   .job_container, .about_container, .container, #careers_header, #careers_container,
-.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .slide_wrapper {
+.newsletter_container, .footer_container, .header_container, .client_container, .navigation-container, .slide_wrapper, .text-container {
     width: 1200px;
     margin: auto;
   }
@@ -327,12 +327,12 @@
   }
 }
 @media (max-width: 991px) {
-  .content-container {
-    background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
+  .carousel_image {
+    opacity: 0.5;
   }
 }
 @media (max-width: 991px) {
-  .content-container {
+  .text {
     text-align: center;
   }
 }
@@ -497,6 +497,29 @@ body {
   height: 100%;
 }
 
+.slide_container {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.slide-inner {
+  height: 100%;
+}
+
+.slick-list {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slick-track {
+  height: 100%;
+}
+
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: white;
@@ -518,8 +541,8 @@ li.slick-active::after {
 }
 
 ul.slick-dots {
-  top: 80%;
   z-index: 10;
+  bottom: 44px;
 }
 
 .slick-dots li button:before {
@@ -635,9 +658,25 @@ ul.slick-dots {
 .img-cover-modern-container {
   height: 100%;
 }
+.img-cover-modern-container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000;
+  background: linear-gradient(270deg, transparent 25%, #000);
+  z-index: 100;
+}
+
+.carousel_image {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
 
 .content_modern {
-  width: 100%;
   align-content: center;
   align-items: center;
   display: flex;
@@ -647,7 +686,6 @@ ul.slick-dots {
   top: 0;
   z-index: 100;
   bottom: 0;
-  background: linear-gradient(270deg, transparent 25%, #000);
   justify-content: center;
 }
 

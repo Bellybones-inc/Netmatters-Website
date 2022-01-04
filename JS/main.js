@@ -1,7 +1,7 @@
 // Slick
 $(document).ready(function(){
       $('.slide-inner').slick({
-        variableWidth: true,
+        variableWidth: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,

@@ -8,7 +8,7 @@
   .job_container, .about_container, .container, #careers_header, #careers_container,
   .newsletter_container, .footer_container, .header_container, .slide_wrapper, .text-container {
     width: 750px;
-    margin: auto; 
+    margin: auto;
   }
 }
 
@@ -123,14 +123,15 @@
 
 // Banner
 // Transparent background banner
+
 @media (max-width: 991px) {
-  .content-container {
-    background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.5);
-  }
-}
+ .carousel_image {
+      opacity: .5;
+    }
+ }
 
 @media (max-width: 991px){
-  .content-container {
+  .text {
     text-align: center;
   }
 }
