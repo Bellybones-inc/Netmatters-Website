@@ -131,7 +131,7 @@
  }
 
 @media (max-width: 991px){
-  .text {
+  .slide_text {
     text-align: center;
   }
 }
@@ -207,12 +207,12 @@
   }
 }
 
-//Banner text content position
-@media (max-width: 767px) {
-.text-container {
-  left: 0;
-  }
-}
+// //Banner text content position
+// @media (max-width: 767px) {
+// .text-container {
+//   left: 0;
+//   }
+// }
 
 // @media (min-width: 768px) {
 //   .text-container {
@@ -260,13 +260,13 @@
 }
 
 // Banner text mobile
-@media (max-width: 567px) {
-  .text-container {
-    width: 100vw;
-    left: -2%;
-    top: 10%;
-    text-align: center;
-  } ul.slick-dots {
-    top: 65%;
-  }
-}
+// @media (max-width: 567px) {
+//   .text-container {
+//     width: 100vw;
+//     left: -2%;
+//     top: 10%;
+//     text-align: center;
+//   } ul.slick-dots {
+//     top: 65%;
+//   }
+// }

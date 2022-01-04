@@ -116,7 +116,7 @@
   }
 }
 @media (max-width: 991px) {
-  .text {
+  .slide_text {
     text-align: center;
   }
 }
@@ -174,11 +174,6 @@
     justify-content: space-evenly;
   }
 }
-@media (max-width: 767px) {
-  .text-container {
-    left: 0;
-  }
-}
 @media (max-width: 567px) {
   #accept {
     margin-top: 20px;
@@ -204,18 +199,6 @@
 @media (min-width: 991px) {
   #sidebar_sm {
     display: none;
-  }
-}
-@media (max-width: 567px) {
-  .text-container {
-    width: 100vw;
-    left: -2%;
-    top: 10%;
-    text-align: center;
-  }
-
-  ul.slick-dots {
-    top: 65%;
   }
 }
 /* ===Base=== */
@@ -332,7 +315,7 @@
   }
 }
 @media (max-width: 991px) {
-  .text {
+  .slide_text {
     text-align: center;
   }
 }
@@ -390,11 +373,6 @@
     justify-content: space-evenly;
   }
 }
-@media (max-width: 767px) {
-  .text-container {
-    left: 0;
-  }
-}
 @media (max-width: 567px) {
   #accept {
     margin-top: 20px;
@@ -420,18 +398,6 @@
 @media (min-width: 991px) {
   #sidebar_sm {
     display: none;
-  }
-}
-@media (max-width: 567px) {
-  .text-container {
-    width: 100vw;
-    left: -2%;
-    top: 10%;
-    text-align: center;
-  }
-
-  ul.slick-dots {
-    top: 65%;
   }
 }
 html {
@@ -528,7 +494,7 @@ body {
 li.slick-active::after {
   content: "";
   position: absolute;
-  top: -2.5px;
+  top: -2.56px;
   left: 4.5px;
   width: 24px;
   height: 25px;
@@ -554,20 +520,6 @@ ul.slick-dots {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.content-container {
-  z-index: 200;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
-}
-
 .img-title {
   display: block;
   margin-bottom: 25px;
@@ -582,10 +534,6 @@ ul.slick-dots {
   line-height: 2.25rem;
   color: #fff;
   font-size: 1.25rem;
-}
-
-.sloop {
-  position: relative;
 }
 
 .text-container {
@@ -672,8 +620,8 @@ ul.slick-dots {
 
 .carousel_image {
   height: 100%;
-  object-fit: cover;
   width: 100%;
+  object-fit: cover;
 }
 
 .content_modern {
