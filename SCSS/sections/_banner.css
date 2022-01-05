@@ -491,6 +491,14 @@ body {
   color: white;
 }
 
+.slick-dots li button:hover::before {
+  color: #869791;
+}
+
+.slick-dots li.slick-active button:hover::before {
+  color: white;
+}
+
 li.slick-active::after {
   content: "";
   position: absolute;
