@@ -9,6 +9,7 @@ $(document).ready(function(){
         autoplay: true,
         speed: 500,
         mobileFirst: true,
+        waitForAnimate: true,
         pauseOnFocus: false,
         pauseOnHover: false,
       });
