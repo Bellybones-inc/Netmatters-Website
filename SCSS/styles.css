@@ -4410,6 +4410,7 @@ ul {
 }
 .btn_1:hover {
   background-color: #bc303a;
+  border-color: #d24d57;
 }
 
 .btn_2 {
@@ -4417,6 +4418,7 @@ ul {
 }
 .btn_2:hover {
   background-color: #526781;
+  border-color: #67809f;
 }
 
 .btn_3 {
@@ -4424,6 +4426,7 @@ ul {
 }
 .btn_3:hover {
   background-color: #79539a;
+  border-color: #926fb1;
 }
 
 .user {

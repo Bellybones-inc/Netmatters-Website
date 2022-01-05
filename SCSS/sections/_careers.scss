@@ -173,6 +173,7 @@ ul {
   background-color: $red-bg;
   &:hover {
     background-color: $red-hover;
+    border-color: $red-bg;
   }
 }
 
@@ -180,6 +181,7 @@ ul {
   background-color: $blue-grey-bg;
   &:hover {
     background-color: $blue-grey-hover;
+    border-color: $blue-grey-bg;
   }
 }
 
@@ -187,6 +189,7 @@ ul {
   background-color: $purple-bg;
   &:hover {
     background-color: $purple-hover;
+    border-color: $purple-bg;
   }
 }
 
