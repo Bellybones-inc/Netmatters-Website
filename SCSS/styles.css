@@ -4308,7 +4308,7 @@ ul {
   border: 1px solid #cccccc;
   border-top: none;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
-  border-radius: 3px;
+  border-radius: 0px 0px 3px 3px;
 }
 
 .job_title1, .job_title2, .job_title3 {
