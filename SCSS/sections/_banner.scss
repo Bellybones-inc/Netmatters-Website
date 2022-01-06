@@ -29,6 +29,8 @@
   height: 100%;
 }
 
+// Slick
+
 .slick-list {
   height: 100%;
   position: relative;
@@ -39,7 +41,7 @@
   height: 100%;
 }
 
-// slick menu
+// slick  dots
 
 .slick-dots li.slick-active button:before {
   opacity: 1;
@@ -84,25 +86,8 @@ ul.slick-dots {
   color: hsla(0,0%,100%,.5);
 }
 
-.img-title {
-  display: block;
-  margin-bottom: 25px;
-  color: $white-text;
-  font-weight: 400;
-  font-size: 3rem;
-  text-transform: uppercase;
-}
 
-.img-sub-heading {
-  margin-bottom: 35px;
-  line-height: 2.25rem;
-  color: $white-text;
-  font-size: 1.25rem;
-}
-
-.text-container {
-  @include text-padding;
-}
+// Banner buttons
 
 .btn.banner-btn {
   padding: 5px 20px;
@@ -153,9 +138,7 @@ ul.slick-dots {
   }
 }
 
-.arrow-find {
-  @include arrow-wrapper;
-}
+// Slide image and container
 
 .cover {
   width: 100%;
@@ -185,8 +168,9 @@ ul.slick-dots {
   object-fit: cover;
 }
 
+// Text content
+
 .content_modern {
-  // width: 100%;
   align-content: center;
   align-items: center;
   display: flex;
@@ -197,4 +181,28 @@ ul.slick-dots {
   z-index: 100;
   bottom: 0;
   justify-content: center;
+}
+
+.text-container {
+  @include text-padding;
+}
+
+.img-title {
+  display: block;
+  margin-bottom: 25px;
+  color: $white-text;
+  font-weight: 400;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.img-sub-heading {
+  margin-bottom: 35px;
+  line-height: 2.25rem;
+  color: $white-text;
+  font-size: 1.25rem;
+}
+
+.arrow-find {
+  @include arrow-wrapper;
 }
