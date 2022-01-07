@@ -59,7 +59,7 @@ p:first-child {
   border-radius: 3px;
   white-space: normal;
   background-image: none;
-  background-color: $white-text !important;
+  background-color: $white-text;
   color: $dark-grey-text;
   font-size: 1.063rem;
   &:hover {
@@ -70,7 +70,7 @@ p:first-child {
   &:focus {
     border-color: $white-text-dark !important;
     color: $dark-grey-text;
-    background-color: $white-text-dark;
+    background-color: $white-bg-hover !important;
     box-shadow: none;
   }
   &:active {

@@ -3762,7 +3762,7 @@ p:first-child {
   border-radius: 3px;
   white-space: normal;
   background-image: none;
-  background-color: #fff !important;
+  background-color: #fff;
   color: #333645;
   font-size: 1.063rem;
 }
@@ -3774,7 +3774,7 @@ p:first-child {
 .btn-culture:focus {
   border-color: #bfbfbf !important;
   color: #333645;
-  background-color: #bfbfbf;
+  background-color: #fafafa !important;
   box-shadow: none;
 }
 .btn-culture:active {
