@@ -8263,4 +8263,15 @@ body {
   background-color: #79539a;
 }
 
+.net_email {
+  color: #926fb1;
+  font-size: 1.625em;
+  text-decoration: none;
+}
+
+.bus_hrs, .opening {
+  font-weight: 600;
+  color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */

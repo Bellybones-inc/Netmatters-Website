@@ -8,6 +8,13 @@
 
     <div class="container">
 
+    <div class="details_con">
+      <p>Email us on:</p>
+      <p><a href="#" class="net_email">sales@netmatters.com</a></p>
+      <p class="bus_hrs">Business Hours</p>
+      <p class="opening">Monday - Friday 7:00 - 18:00</p>
+    </div>
+
     <form id="contact_form" action="index.html" method="post">
       <div class="row">
 
