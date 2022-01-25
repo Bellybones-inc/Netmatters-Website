@@ -463,4 +463,18 @@ body {
   padding: 30px;
 }
 
+.enquire {
+  padding: 5px 15px;
+  line-height: 35px;
+  border-radius: 3px;
+  border: 0px solid #926fb1;
+  background-color: #926fb1;
+  border-color: #926fb1;
+  color: white;
+  text-transform: uppercase;
+}
+.enquire:hover {
+  background-color: #79539a;
+}
+
 /*# sourceMappingURL=_contact.css.map */

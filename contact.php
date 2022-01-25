@@ -68,7 +68,7 @@
           </p>
         </div>
 
-        <button type="submit" name="button">Send Enquiry</button>
+        <button class="enquire" type="submit" name="button">Send Enquiry</button>
 
       </div>
     </form>
