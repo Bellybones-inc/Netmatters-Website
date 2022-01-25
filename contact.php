@@ -8,48 +8,45 @@
 
     <div class="container">
 
-
-
-
     <form id="contact_form" action="index.html" method="post">
-      <div class="fields">
+      <div class="row">
 
-        <div class="input_field">
+        <div class="col-6">
           <div class="form-group">
             <label for="name" class="required">Your Name</label>
             <input class="form-control" type="text" name="name">
           </div>
         </div>
 
-        <div class="input_field">
+        <div class="col-6">
           <div class="form-group">
-            <label for="company" class="required">Company Name</label>
+            <label for="company">Company Name</label>
             <input class="form-control" type="text" name="company">
           </div>
         </div>
 
-        <div class="input_field">
+        <div class="col-6">
           <div class="form-group">
             <label for="email" class="required">Your Email</label>
             <input class="form-control" type="email" name="email">
           </div>
         </div>
 
-        <div class="input_field">
+        <div class="col-6">
           <div class="form-group">
             <label for="telephone" class="required">Your Telephone Number</label>
             <input class="form-control" type="text" name="telephone">
           </div>
         </div>
 
-        <div class="input_field">
+        <div class="col-12">
           <div class="form-group">
             <label for="subject" class="required">Subject</label>
             <input class="form-control" type="text" name="subject">
           </div>
         </div>
 
-        <div class="input_field">
+        <div class="col-12">
           <div class="form-group">
             <label for="message" class="required">Message</label>
             <textarea class="form-control" name="message" rows="10" cols="50"></textarea>
@@ -67,8 +64,10 @@
             <span class="space_between">&nbsp;</span>
           </p>
         </div>
+        <div class="col-6">
+          <button class="enquire" type="submit" name="button">Send Enquiry</button>
+        </div>
 
-        <button class="enquire" type="submit" name="button">Send Enquiry</button>
 
       </div>
     </form>
