@@ -8,6 +8,10 @@
 
     <div class="container">
 
+      <?php
+      include 'includes/dbh.php';
+       ?>
+
     <div class="details_con">
       <p>Email us on:</p>
       <p><a href="#" class="net_email">sales@netmatters.com</a></p>
