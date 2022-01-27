@@ -1,5 +1,6 @@
-
+<!--
     <?php
+    // phpinfo();
     include 'inc/header.php';
     ?>
 
@@ -618,4 +619,4 @@
   <script src="/js/cookie.js"></script>
 
 </body>
-</html>
+</html> -->
