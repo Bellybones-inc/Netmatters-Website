@@ -4,6 +4,10 @@
     include 'inc/header.php';
     ?>
 
+    <?php
+    include 'includes/dbh.php';
+    ?>
+
               <!-- banner section start  -->
 
               <div class="banner">
@@ -399,17 +403,33 @@
                     <div class="container custom-container2">
                       <div class="row custom-row">
 
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                           <div class="inner">
                             <div class="img-container">
                               <a href="#" class="tag tag-j-1">News</a>
                               <img src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/2nd-line-support-eTYH.webp" onerror="this.src='img/now-hiring-2.jpeg';" class="img-fluid responsive" alt="Responsive image">
                             </div>
                             <div class="job_block">
-                              <h3 class="job_title1">2nd Line Support Technician</h3>
-                              <p class="details">Salary Range £24k-£30k + Bonuses +
-                                Pension Hours 40 hours per week,
-                                Monday - Friday Location Wymondh...</p>
+                              <?php
+                              $sql = "SELECT * FROM news;";
+                              $result = mysqli_query($con, $sql);
+                               for($i=0;$i<=0;$i++)
+                               {
+                              $row=$result->fetch_assoc();
+                               echo $row['title'];
+                              }
+                              ?>
+                              <p class="details">
+                                <?php
+                                $sql = "SELECT * FROM news;";
+                                $result = mysqli_query($con, $sql);
+                                 for($i=0;$i<=0;$i++)
+                                 {
+                                $row=$result->fetch_assoc();
+                                 echo $row['description'];
+                                }
+                                ?>
+                              </p>
                               <button type="button" class="btn btn-primary btn-lg btn_1">Read More</button>
                               <div class="user">
                                 <div>
@@ -417,15 +437,31 @@
                                 </div>
                                 <div class="user_info">
                                   <span class="person">
-                                    <strong> Posted by Tom Lancaster</strong>
+                                    <strong> Posted By <?php
+                                    $sql = "SELECT * FROM news;";
+                                    $result = mysqli_query($con, $sql);
+                                     for($i=0;$i<=0;$i++)
+                                     {
+                                    $row=$result->fetch_assoc();
+                                     echo $row['person'];
+                                    }
+                                    ?></strong>
                                   </span><br>
-                                  <span class="date">28th July 2021</span>
+                                  <span class="date"><?php
+                                  $sql = "SELECT * FROM news;";
+                                  $result = mysqli_query($con, $sql);
+                                   for($i=0;$i<=0;$i++)
+                                   {
+                                  $row=$result->fetch_assoc();
+                                   echo $row['date'];
+                                  }
+                                  ?></span>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-
+  <!--
                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                           <div class="inner">
                             <div class="img-container">
@@ -483,7 +519,7 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div>-->
                         </div>
 
                       </div> <!-- row end -->
