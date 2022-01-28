@@ -17,22 +17,6 @@ catch (Exception $e)
 {
   echo $e->getMessage();
 }
-
-
-    // $con = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
-
-// if ($con->connect_error)
-// { die('Error'.(".$con->connect_errno.")".$con->connect_error");
-// } else {
-//   echo "Connected to Database";
-// }
-
-
-//Check connection
-// if ($con -> connect_errno) {
-//   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-//   exit();
-// } else {
-//   echo "success";
-// }
 ?>
+
+    
