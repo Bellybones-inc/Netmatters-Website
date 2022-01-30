@@ -3,6 +3,10 @@
     require 'inc/header.php';
     ?>
 
+    <?php
+    include 'form_process.php';
+    ?>
+
   </div>
   </div>
 
@@ -10,7 +14,7 @@
 
       <?php
       include 'includes/dbh.php';
-      
+
         $sql = "SELECT * FROM Fruit;";
         $result = mysqli_query($con, $sql);
         $resultCheck = mysqli_num_rows($result);
@@ -28,13 +32,14 @@
       <p class="opening">Monday - Friday 7:00 - 18:00</p>
     </div>
 
-    <form id="contact_form" action="index.html" method="post">
+    <form id="contact_form" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
       <div class="row">
 
         <div class="col-6">
           <div class="form-group">
-            <label for="name" class="required">Your Name</label>
+            <label for="name">Your Name</label>
             <input class="form-control" type="text" name="name">
+            <span class="error"><?= $name_error ?></span>
           </div>
         </div>
 
@@ -42,33 +47,37 @@
           <div class="form-group">
             <label for="company">Company Name</label>
             <input class="form-control" type="text" name="company">
+            <span class="error"><?= $company_error ?></span>
           </div>
         </div>
 
         <div class="col-6">
           <div class="form-group">
-            <label for="email" class="required">Your Email</label>
-            <input class="form-control" type="email" name="email">
+            <label for="email">Your Email</label>
+            <input class="form-control" type="text" name="email">
+            <span class="error"><?= $email_error ?></span>
           </div>
         </div>
 
         <div class="col-6">
           <div class="form-group">
-            <label for="telephone" class="required">Your Telephone Number</label>
-            <input class="form-control" type="text" name="telephone">
+            <label for="phone">Your Telephone Number</label>
+            <input class="form-control" type="text" name="phone">
+            <span class="error"><?= $phone_error ?></span>
           </div>
         </div>
 
         <div class="col-12">
           <div class="form-group">
-            <label for="subject" class="required">Subject</label>
+            <label for="subject">Subject</label>
             <input class="form-control" type="text" name="subject">
+            <span class="error"><?= $subject_error ?></span>
           </div>
         </div>
 
         <div class="col-12">
           <div class="form-group">
-            <label for="message" class="required">Message</label>
+            <label for="message">Message</label>
             <textarea class="form-control" name="message" rows="10" cols="50"></textarea>
           </div>
         </div>
