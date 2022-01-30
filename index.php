@@ -461,6 +461,124 @@
                             </div>
                           </div>
                         </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="inner">
+                              <div class="img-container">
+                                <a href="#" class="tag tag-j-1">News</a>
+                                <img src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/business-development-pAAs.webp" onerror="this.src='img/now-hiring-1.jpeg';" class="img-fluid responsive" alt="Responsive image">
+                              </div>
+                              <div class="job_block">
+                                <?php
+                                $sql = "SELECT * FROM news;";
+                                $result = mysqli_query($con, $sql);
+                                 for($i=0;$i<=0;$i++)
+                                 {
+                                $row=$result->fetch_assoc();
+                                 echo $row['title'];
+                                }
+                                ?>
+                                <p class="details">
+                                  <?php
+                                  $sql = "SELECT * FROM news;";
+                                  $result = mysqli_query($con, $sql);
+                                   for($i=0;$i<=0;$i++)
+                                   {
+                                  $row=$result->fetch_assoc();
+                                   echo $row['description'];
+                                  }
+                                  ?>
+                                </p>
+                                <button type="button" class="btn btn-primary btn-lg btn_1">Read More</button>
+                                <div class="user">
+                                  <div>
+                                    <img class="profile_image" src="img/lydia-whitney.jpeg" alt="employee photo">
+                                  </div>
+                                  <div class="user_info">
+                                    <span class="person">
+                                      <strong> Posted By <?php
+                                      $sql = "SELECT * FROM news;";
+                                      $result = mysqli_query($con, $sql);
+                                       for($i=0;$i<=0;$i++)
+                                       {
+                                      $row=$result->fetch_assoc();
+                                       echo $row['person'];
+                                      }
+                                      ?></strong>
+                                    </span><br>
+                                    <span class="date"><?php
+                                    $sql = "SELECT * FROM news;";
+                                    $result = mysqli_query($con, $sql);
+                                     for($i=0;$i<=0;$i++)
+                                     {
+                                    $row=$result->fetch_assoc();
+                                     echo $row['date'];
+                                    }
+                                    ?></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                              <div class="inner">
+                                <div class="img-container">
+                                  <a href="#" class="tag tag-j-1">News</a>
+                                  <img src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/why-shopify-is-vewi.webp" onerror="this.src='img/now-hiring-3.jpeg';" id="hire" class="img-fluid responsive hire-3" alt="Responsive image">
+                                </div>
+                                <div class="job_block">
+                                  <?php
+                                  $sql = "SELECT * FROM news;";
+                                  $result = mysqli_query($con, $sql);
+                                   for($i=0;$i<=0;$i++)
+                                   {
+                                  $row=$result->fetch_assoc();
+                                   echo $row['title'];
+                                  }
+                                  ?>
+                                  <p class="details">
+                                    <?php
+                                    $sql = "SELECT * FROM news;";
+                                    $result = mysqli_query($con, $sql);
+                                     for($i=0;$i<=0;$i++)
+                                     {
+                                    $row=$result->fetch_assoc();
+                                     echo $row['description'];
+                                    }
+                                    ?>
+                                  </p>
+                                  <button type="button" class="btn btn-primary btn-lg btn_1">Read More</button>
+                                  <div class="user">
+                                    <div>
+                                      <img class="profile_image" src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/netmatters-ltd-VXAv.webp" onerror="this.src='img/netmatters-mini.png';" alt="Company logo">
+                                    </div>
+                                    <div class="user_info">
+                                      <span class="person">
+                                        <strong> Posted By <?php
+                                        $sql = "SELECT * FROM news;";
+                                        $result = mysqli_query($con, $sql);
+                                         for($i=0;$i<=0;$i++)
+                                         {
+                                        $row=$result->fetch_assoc();
+                                         echo $row['person'];
+                                        }
+                                        ?></strong>
+                                      </span><br>
+                                      <span class="date"><?php
+                                      $sql = "SELECT * FROM news;";
+                                      $result = mysqli_query($con, $sql);
+                                       for($i=0;$i<=0;$i++)
+                                       {
+                                      $row=$result->fetch_assoc();
+                                       echo $row['date'];
+                                      }
+                                      ?></span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
   <!--
                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                           <div class="inner">
