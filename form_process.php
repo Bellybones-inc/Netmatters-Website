@@ -1,7 +1,7 @@
 <?php
 // define variables and set to empty values
-$nameErr = $emailErr = $genderErr = $websiteErr = "";
-$name = $email = $gender = $comment = $website = "";
+$name_error = $email_error = $phone_error = $subject_error = "";
+$name = $company = $email = $phone = $subject = $message = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -14,6 +14,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $name_error = "Only letters and white space allowed";
     }
   }
+
+  if (empty($_POST["company"])) {
+      $company = "";
+    } else {
+      $company = test_input($_POST["company"]);
+    }
 
   if (empty($_POST["email"])) {
       $email_error = "Email is required";
@@ -50,22 +56,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $message = test_input($_POST["message"]);
         }
 
+      // if ($name_error == "" and $email_error == "" and $phone_error == ""
+      // and $subject_error == "") {
+      //     $message_body = '';
+      //     unset($_POST['submit']);
+      //     foreach ($_POST as $key => $value){
+      //       $message_body .= "$key: $value\n";
+      //     }
+      //     $to = 'wilbersears@gmail.com';
+      //     if (mail($to, $subject, $message)){
+      //       $success = "Message sent, thank you for contacting us!";
+      //       $name = $email = $phone = $subject = $message = '';
+      //     }
+      // }
 
-        if ($name_error == '' and $email_error = '' and $phone_error = ''
-        and $subject_error == '') {
-            $message_body = '';
-            unset($_POST['submit']);
-            foreach ($_POST as $key => $value){
-              $message_body .= "$key: $value\n";
-            }
-            $to = 'wilbersears@gmail.com';
-            if (mail($to, $subject, $message)){
-              $success = "Message sent, thank you for contacting us!";
-              $name = $email = $phone = $subject = $message = '';
-            }
-        }
-
-      }
+  }
 
 function test_input($data) {
     $data = trim($data);
