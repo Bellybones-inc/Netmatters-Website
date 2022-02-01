@@ -1,14 +1,10 @@
-// Email validation
+// Accordion plugin
+const revealArrow = document.getElementById("arrow");
+const textReveal = document.getElementById("answer");
 
-const errMessages = document.getElementById("error");
-const submitBtn = document.getElementById("enquire");
-const contactForm = document.getElementById("contact_form");
-
-
-submitBtn.addEventListener('click', (e) => {
-
-  if (errMessages.innerHTML !== "") {
-    e.preventDefault()
-  }
-
+revealArrow.addEventListener('click', () => {
+  textReveal.style.display = "block";
 })
+
+
+// Email validation

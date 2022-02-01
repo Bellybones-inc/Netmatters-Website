@@ -2,13 +2,12 @@
     <?php
     require 'inc/header.php';
     ?>
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
 
-    <?php
-    include 'form_process.php';
-    ?>
-
-  </div>
-  </div>
+    </div>
+    </div>
 
     <div class="container">
 
@@ -19,24 +18,53 @@
       <p class="opening">Monday - Friday 7:00 - 18:00</p>
     </div>
 
-    <form id="contact_form" action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
+    <div class="out-of-hours">
+      <div class="question out-of-hours">
+        <h4>
+          <a href="#">
+            <p class="question-text">
+              "Out of Hours IT Support"
+            </p>
+            <i id="arrow" class="fa fa-chevron-down rotate"></i>
+          </a>
+        </h4>
+      </div>
+    </div>
+    <div id="answer">
+      <p>
+        Netmatters IT are offering an Out of Hours service for Emergency and
+        Critical tasks.
+      </p>
+      <p>
+        <strong>Monday - Friday 18:00 - 22:00</strong>
+        <strong>Saturday 08:00 - 16:00</strong></br>
+        <strong>Sunday 10:00 - 18:00</strong>
+      </p>
+      <p>
+        To log a critical task, you will need to call our main line number
+        and select Option 2 to leave an Out of Hours&nbsp; voicemail. A technician
+        will contact you on the number provided within 45 minutes of your call.&nbsp;
+      </p>
+    </div>
+
+    <form id="contact_form" action="" method="POST">
       <div class="row">
         <div class="col-6">
           <div class="form-group">
+            
             <fieldset>
               <label for="name">Your Name</label>
-                <input class="form-control" type="text" value="<?php echo $name; ?>" name="name">
-                <span id="error"><?= $name_error ?></span>
+                <input id="name" type="text" name="name">
             </fieldset>
           </div>
         </div>
+
 
         <div class="col-6">
           <div class="form-group">
             <fieldset>
             <label for="company">Company Name</label>
-              <input class="form-control" type="text" value="<?php echo $company; ?>" name="company">
-              <span id="error"><?= $company_error ?></span>
+              <input id="company" type="text" value="" name="company">
             </fieldset>
           </div>
         </div>
@@ -45,8 +73,7 @@
           <div class="form-group">
             <fieldset>
             <label for="email">Your Email</label>
-              <input class="form-control" type="text"  name="email" value="<?php $email; ?>">
-              <span id="error"><?= $email_error ?></span>
+              <input id="email" type="text"  name="email" value="">
             </fieldset>
           </div>
         </div>
@@ -55,8 +82,7 @@
           <div class="form-group">
             <fieldset>
             <label for="phone">Your Telephone Number</label>
-              <input class="form-control" type="text" name="phone" value="<?php echo $phone;?>">
-              <span id="error"><?= $phone_error ?></span>
+              <input id="phone" type="text" name="phone" value="">
             </fieldset>
           </div>
         </div>
@@ -65,8 +91,8 @@
           <div class="form-group">
             <fieldset>
             <label for="subject">Subject</label>
-              <input class="form-control" type="text" name="subject" value="<?php echo $subject;?>">
-              <span id="error"><?= $subject_error ?></span>
+              <input id="subject" type="text" name="subject" value="">
+
             </fieldset>
 
           </div>
@@ -76,7 +102,7 @@
           <div class="form-group">
             <fieldset>
               <label for="message">Message</label>
-              <textarea class="form-control" name="message" rows="10" cols="50"><?php echo $message ?></textarea>
+              <textarea class="form-control" id="message" name="message" rows="10" cols="50"></textarea>
             </fieldset>
           </div>
         </div>
@@ -94,17 +120,23 @@
         </div>
 
         <div class="col-6">
+
           <fieldset>
-            <button id="enquire" type="submit" name="submit">Send Enquiry</button>
+            <button id="submit_enquire" type="submit" name="submit">Send Enquiry</button>
           </fieldset>
 
         </div>
 
-
       </div>
-  </form>
+    </form>
 
     </div>
+
+    <script>
+    $("#accordion").accordion();
+  </script>
+
+  <script src="./js/contact.js"></script>
 
     <?php
     require 'inc/footer.php';
@@ -114,7 +146,25 @@
     require 'inc/sidebar.php';
     ?>
 
-    <script src="js/contact.js"></script>
+    <!-- <script>
+
+    const submitButton = document.getElementById("submit_enquire");
+
+    submitButton.addEventListener('click', () => {
+    let name = document.getElementById("name").value;
+
+    const formdata = new FormData();
+
+    formdata.append("name", name);
+
+    const xhr = new XMLHttpRequest();
+
+    xhr.open("POST", "")
+
+  })
+
+    </script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
 </body>
 </html>
