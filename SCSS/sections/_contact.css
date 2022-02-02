@@ -483,6 +483,14 @@ body {
   text-decoration: none;
 }
 
+.dropdown_link {
+  color: black !important;
+  text-decoration: none;
+}
+.dropdown_link:hover {
+  text-decoration: underline;
+}
+
 .bus_hrs, .opening {
   font-weight: 600;
   color: black;

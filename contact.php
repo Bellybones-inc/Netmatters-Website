@@ -2,9 +2,9 @@
     <?php
     require 'inc/header.php';
     ?>
-    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     </div>
     </div>
@@ -18,54 +18,58 @@
       <p class="opening">Monday - Friday 7:00 - 18:00</p>
     </div>
 
-    <div class="out-of-hours">
-      <div class="question out-of-hours">
+    <div class="accordion out-of-hours">
+      <div id="question-wrapper" class="hide">
         <h4>
-          <a href="#">
-            <p class="question-text">
-              "Out of Hours IT Support"
-            </p>
-            <i id="arrow" class="fa fa-chevron-down rotate"></i>
+          <a class="dropdown_link" href="#/">
+            <p id="support-heading" class="hide">Out of Hours IT Support
+            <i id="arrow" class="fa fa-chevron-down rotate"></i></p>
           </a>
         </h4>
+
+        <div id="answer">
+          <p>
+            Netmatters IT are offering an Out of Hours service for Emergency and
+            Critical tasks.
+          </p>
+          <p>
+            <strong>Monday - Friday 18:00 - 22:00</strong>
+            <strong>Saturday 08:00 - 16:00</strong></br>
+            <strong>Sunday 10:00 - 18:00</strong>
+          </p>
+          <p>
+            To log a critical task, you will need to call our main line number
+            and select Option 2 to leave an Out of Hours&nbsp; voicemail. A technician
+            will contact you on the number provided within 45 minutes of your call.&nbsp;
+          </p>
+        </div>
       </div>
     </div>
-    <div id="answer">
-      <p>
-        Netmatters IT are offering an Out of Hours service for Emergency and
-        Critical tasks.
-      </p>
-      <p>
-        <strong>Monday - Friday 18:00 - 22:00</strong>
-        <strong>Saturday 08:00 - 16:00</strong></br>
-        <strong>Sunday 10:00 - 18:00</strong>
-      </p>
-      <p>
-        To log a critical task, you will need to call our main line number
-        and select Option 2 to leave an Out of Hours&nbsp; voicemail. A technician
-        will contact you on the number provided within 45 minutes of your call.&nbsp;
-      </p>
-    </div>
 
-    <form id="contact_form" action="" method="POST">
+    <!-- Email section -->
+
+    <form id="contact_form" action="upload.php" method="POST">
       <div class="row">
+
+        <div id="error"></div>
+
         <div class="col-6">
           <div class="form-group">
-            
             <fieldset>
               <label for="name">Your Name</label>
-                <input id="name" type="text" name="name">
+                <input class="form-control" id="name" type="text" name="name">
             </fieldset>
+            <div id="name_err"></div>
           </div>
         </div>
-
 
         <div class="col-6">
           <div class="form-group">
             <fieldset>
             <label for="company">Company Name</label>
-              <input id="company" type="text" value="" name="company">
+              <input class="form-control" id="company" type="text" value="" name="company">
             </fieldset>
+
           </div>
         </div>
 
@@ -73,8 +77,9 @@
           <div class="form-group">
             <fieldset>
             <label for="email">Your Email</label>
-              <input id="email" type="text"  name="email" value="">
+              <input class="form-control" id="email" type="text"  name="email" value="">
             </fieldset>
+              <div id="email_err"></div>
           </div>
         </div>
 
@@ -82,8 +87,9 @@
           <div class="form-group">
             <fieldset>
             <label for="phone">Your Telephone Number</label>
-              <input id="phone" type="text" name="phone" value="">
+              <input class="form-control" id="phone" type="text" name="phone" value="">
             </fieldset>
+               <div id="phone_err"></div>
           </div>
         </div>
 
@@ -91,10 +97,9 @@
           <div class="form-group">
             <fieldset>
             <label for="subject">Subject</label>
-              <input id="subject" type="text" name="subject" value="">
-
+              <input class="form-control" id="subject" type="text" name="subject" value="">
             </fieldset>
-
+                <div id="subject_err"></div>
           </div>
         </div>
 
@@ -104,6 +109,7 @@
               <label for="message">Message</label>
               <textarea class="form-control" id="message" name="message" rows="10" cols="50"></textarea>
             </fieldset>
+              <div id="message_err"></div>
           </div>
         </div>
 
@@ -111,6 +117,7 @@
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
           </div>
+
           <p class="policy_text">Please tick this box if you wish to receive marketing
             information from us. Please see our
             <a href="#" class="privacy">Privacy Policy</a> for more
@@ -132,11 +139,6 @@
 
     </div>
 
-    <script>
-    $("#accordion").accordion();
-  </script>
-
-  <script src="./js/contact.js"></script>
 
     <?php
     require 'inc/footer.php';
@@ -145,6 +147,12 @@
     <?php
     require 'inc/sidebar.php';
     ?>
+
+    <script>
+      $("#accordion").accordion();
+    </script>
+
+    <script src="./js/contact.js"></script>
 
     <!-- <script>
 

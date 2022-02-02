@@ -2,9 +2,23 @@
 // Database connection
 
 <?php
+  if(isset($_POST['submit'])) {
 
+$name = $_POST["name"];
+$company = $_POST["company"];
+$email = $_POST["email"];
+$phone = $_POST["phone"];
+$subject = $_POST ["subject"];
+$message = $_POST["message"];
 
-print_r($POST);
+print_r($name);
+print_r($company);
+print_r($email);
+print_r($phone);
+print_r($subject);
+print_r($message);
+}
+
 // $dbServername = "127.0.0.1";
 // $dbUsername = "will";
 // $dbPassword = "maine";

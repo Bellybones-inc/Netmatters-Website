@@ -35,6 +35,22 @@
   text-decoration: none;
 }
 
+#question-wrapper.active {
+
+}
+
+.dropdown_link {
+  color: black !important;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#support-heading.active {
+  
+}
+
 .bus_hrs, .opening {
   font-weight: 600;
   color: black;
