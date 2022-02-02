@@ -7,7 +7,6 @@
     <?php
     include 'includes/dbh.php';
     ?>
-
               <!-- banner section start  -->
 
               <div class="banner">

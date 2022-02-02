@@ -6,6 +6,85 @@
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
+    <div class="container">
+
+      <div class="locations">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="block address address-cambridge">
+            </div>
+              <div class="office_content">
+                <h2></h2>
+                <p class="p">
+                  Unit 1.28,
+                  <br>
+                  St John's Innovation Centre,
+                  <br>
+                  Cowley Road,
+                  Milton,
+                  <br>
+                  Cambridge,
+                  <br>
+                  CB4 0WS
+                  </p>
+              </div>
+              <div class="telephone">
+                <a>01223 37 57 72</a>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="block address address-cambridge">
+            </div>
+              <div class="office_content">
+                <h2></h2>
+                <p class="p">
+                  Unit 1.28,
+                  <br>
+                  St John's Innovation Centre,
+                  <br>
+                  Cowley Road,
+                  Milton,
+                  <br>
+                  Cambridge,
+                  <br>
+                  CB4 0WS
+                  </p>
+              </div>
+              <div class="telephone">
+                <a>01223 37 57 72</a>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="block address address-cambridge">
+            </div>
+              <div class="office_content">
+                <h2></h2>
+                <p class="p">
+                  Unit 1.28,
+                  <br>
+                  St John's Innovation Centre,
+                  <br>
+                  Cowley Road,
+                  Milton,
+                  <br>
+                  Cambridge,
+                  <br>
+                  CB4 0WS
+                  </p>
+              </div>
+              <div class="telephone">
+                <a>01223 37 57 72</a>
+              </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
     </div>
     </div>
 
@@ -135,10 +214,9 @@
         </div>
 
       </div>
+
     </form>
-
     </div>
-
 
     <?php
     require 'inc/footer.php';
@@ -148,31 +226,13 @@
     require 'inc/sidebar.php';
     ?>
 
+  </div>
+
     <script>
       $("#accordion").accordion();
     </script>
 
-    <script src="./js/contact.js"></script>
-
-    <!-- <script>
-
-    const submitButton = document.getElementById("submit_enquire");
-
-    submitButton.addEventListener('click', () => {
-    let name = document.getElementById("name").value;
-
-    const formdata = new FormData();
-
-    formdata.append("name", name);
-
-    const xhr = new XMLHttpRequest();
-
-    xhr.open("POST", "")
-
-  })
-
-    </script> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="js/contact.js"></script>
 
 </body>
 </html>

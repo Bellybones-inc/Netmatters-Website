@@ -1,33 +1,36 @@
-
-// Database connection
-
 <?php
-  if(isset($_POST['submit'])) {
+$dbServername = "127.0.0.1";
+$dbUsername = "will";
+$dbPassword = "maine";
+$dbName = "email_upload";
 
-$name = $_POST["name"];
-$company = $_POST["company"];
-$email = $_POST["email"];
-$phone = $_POST["phone"];
-$subject = $_POST ["subject"];
-$message = $_POST["message"];
+$conn = mysqli_connect('127.0.0.1', 'will', 'maine', 'email_upload');
 
-print_r($name);
-print_r($company);
-print_r($email);
-print_r($phone);
-print_r($subject);
-print_r($message);
-}
+// Check connection
+      if($conn === false) {
+        die("ERROR: Could not connect. " . mysqli_connect_error());
+      }
 
-// $dbServername = "127.0.0.1";
-// $dbUsername = "will";
-// $dbPassword = "maine";
-// $dbName = "email_upload";
+$name = $_REQUEST["name"];
+$company = $_REQUEST["company"];
+$email = $_REQUEST["email"];
+$phone = $_REQUEST["phone"];
+$subject = $_REQUEST["subject"];
+$message = $_REQUEST["message"];
 
-// $conn = new mysqli('127.0.0.1', 'will', 'maine', 'email_upload');
-//
-// // Insert data Query
-// $sql = "INSERT INTO contact_form (name, company, email, phone, subject, message, checkbox)
-// VALUES ( '".$_POST['name']."' , '".$_POST['company']."', '".$_POST['email']."', '".$_POST['phone']."', '".$_POST['subject']."', '".$_POST['message']."')";
+$sql = "INSERT INTO contact_form  VALUES ('$name',
+            '$company','$email','$phone','$subject','$message')";
 
-?>
+  if(mysqli_query($conn, $sql)){
+        echo "<h3>data stored in a database successfully." ;
+
+        echo nl2br("\n$name\n $company\n "
+            . "$email\n $phone\n $subject\n $message");
+    } else {
+        echo "ERROR: Hush! Sorry $sql. "
+            . mysqli_error($conn);
+    }
+
+    // Close connection
+    mysqli_close($conn);
+  ?>
