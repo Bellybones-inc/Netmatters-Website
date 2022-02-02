@@ -11,11 +11,15 @@
       <div class="locations">
         <div class="row">
 
-          <div class="col-md-4">
+          <div class="col-xs-12 col-md-4">
             <div class="block address address-cambridge">
+            <div class="image">
+              <a href="#">
+                <img class="office_image" src="img/cambridge.jpeg" alt="Cambridge Netmatters Office">
+              </a>
             </div>
               <div class="office_content">
-                <h2></h2>
+                <h2>Cambridge Office</h2>
                 <p class="p">
                   Unit 1.28,
                   <br>
@@ -33,52 +37,61 @@
                 <a>01223 37 57 72</a>
               </div>
           </div>
+        </div>
 
-          <div class="col-md-4">
+          <div class="col-xs-12 col-md-4">
             <div class="block address address-cambridge">
+            <div class="image">
+              <a href="#">
+                <img class="office_image" src="img/wymondham.jpeg" alt="Cambridge Netmatters Office">
+              </a>
             </div>
               <div class="office_content">
-                <h2></h2>
+                <h2>Wymondham Office</h2>
                 <p class="p">
-                  Unit 1.28,
+                  Unit 15,
                   <br>
-                  St John's Innovation Centre,
+                  Penfold Drive,
                   <br>
-                  Cowley Road,
-                  Milton,
+                  Gateway 11 Business Park,
                   <br>
-                  Cambridge,
+                  Wymondham, Norfolk,
                   <br>
-                  CB4 0WS
-                  </p>
+                  NR18 0WZ
+                </p>
               </div>
               <div class="telephone">
-                <a>01223 37 57 72</a>
+                <a>01603 70 40 20</a>
               </div>
           </div>
+        </div>
 
-          <div class="col-md-4">
+          <div class="col-xs-12 col-md-4">
             <div class="block address address-cambridge">
-            </div>
+              <div class="image">
+                <a href="#">
+                  <img class="office_image" src="img/yarmouth-2.jpeg" alt="Cambridge Netmatters Office">
+                </a>
+              </div>
               <div class="office_content">
-                <h2></h2>
+                <h2>Great Yarmouth Office</h2>
                 <p class="p">
-                  Unit 1.28,
+                  Suite F23,
                   <br>
-                  St John's Innovation Centre,
+                  Beacon Innovation Centre,
                   <br>
-                  Cowley Road,
-                  Milton,
+                  Beacon Park, Gorleston,
                   <br>
-                  Cambridge,
+                  Great Yarmouth, Norfolk,
                   <br>
-                  CB4 0WS
-                  </p>
+                  NR31 7RA
+                </p>
               </div>
               <div class="telephone">
-                <a>01223 37 57 72</a>
+                <a>01493 60 32 04</a>
               </div>
           </div>
+        </div>
 
         </div>
       </div>

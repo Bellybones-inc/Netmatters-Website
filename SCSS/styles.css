@@ -8243,6 +8243,10 @@ body {
   overflow-y: hidden;
 }
 
+.office_image {
+  max-width: 100%;
+}
+
 #contact_form {
   background-color: #e6e7e9;
   border-radius: 10px;
