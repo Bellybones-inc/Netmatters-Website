@@ -1,4 +1,5 @@
-<?php
+<?php 
+
 // define variables and set to empty values
 $name_error = $email_error = $phone_error = $subject_error = "";
 $name = $company = $email = $phone = $subject = $message = "";
@@ -55,21 +56,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } else {
           $message = test_input($_POST["message"]);
         }
-
-      // if ($name_error == "" and $email_error == "" and $phone_error == ""
-      // and $subject_error == "") {
-      //     $message_body = '';
-      //     unset($_POST['submit']);
-      //     foreach ($_POST as $key => $value){
-      //       $message_body .= "$key: $value\n";
-      //     }
-      //     $to = 'wilbersears@gmail.com';
-      //     if (mail($to, $subject, $message)){
-      //       $success = "Message sent, thank you for contacting us!";
-      //       $name = $email = $phone = $subject = $message = '';
-      //     }
-      // }
-
   }
 
 function test_input($data) {
