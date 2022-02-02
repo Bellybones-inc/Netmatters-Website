@@ -8247,6 +8247,13 @@ body {
   max-width: 100%;
 }
 
+.p {
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
 #contact_form {
   background-color: #e6e7e9;
   border-radius: 10px;
