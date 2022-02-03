@@ -7,6 +7,30 @@
     <?php
     include 'includes/dbh.php';
     ?>
+
+    <?php
+    $sql = "SELECT * FROM news;";
+    $result = mysqli_query($con, $sql);
+    $i = 0;
+    foreach ($result as $r)
+    {
+      echo '<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">';
+      echo '<div class="img-container">';
+      echo '<div class="img-container">';
+      echo '<div class="job_block">';
+      echo   $r['title'];
+      echo $r['description'];
+      '</p>';
+      '</div>';
+      '</div>';
+      '</div>';
+
+      if (++$i == 3)break;
+    }
+
+    ?>
+
+
               <!-- banner section start  -->
 
               <div class="banner">
@@ -406,7 +430,7 @@
                           <div class="inner">
                             <div class="img-container">
                               <a href="#" class="tag tag-j-1">News</a>
-                              <img src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/2nd-line-support-eTYH.webp" onerror="this.src='img/now-hiring-2.jpeg';" class="img-fluid responsive" alt="Responsive image">
+                                <img src="<?php echo $row ['image']?>" onerror="this.src='img/now-hiring-2.jpeg';" class="img-fluid responsive" alt="Responsive image">
                             </div>
                             <div class="job_block">
                               <?php
@@ -415,19 +439,11 @@
                                for($i=0;$i<=0;$i++)
                                {
                               $row=$result->fetch_assoc();
-                               echo $row['title'];
+                               echo $row ['title'];
                               }
                               ?>
                               <p class="details">
-                                <?php
-                                $sql = "SELECT * FROM news;";
-                                $result = mysqli_query($con, $sql);
-                                 for($i=0;$i<=0;$i++)
-                                 {
-                                $row=$result->fetch_assoc();
-                                 echo $row['description'];
-                                }
-                                ?>
+                                <?php echo $row ['description']; ?>
                               </p>
                               <button type="button" class="btn btn-primary btn-lg btn_1">Read More</button>
                               <div class="user">
@@ -436,25 +452,9 @@
                                 </div>
                                 <div class="user_info">
                                   <span class="person">
-                                    <strong> Posted By <?php
-                                    $sql = "SELECT * FROM news;";
-                                    $result = mysqli_query($con, $sql);
-                                     for($i=0;$i<=0;$i++)
-                                     {
-                                    $row=$result->fetch_assoc();
-                                     echo $row['person'];
-                                    }
-                                    ?></strong>
+                                    <strong> Posted By <?php echo $row ['person']; ?> </strong>
                                   </span><br>
-                                  <span class="date"><?php
-                                  $sql = "SELECT * FROM news;";
-                                  $result = mysqli_query($con, $sql);
-                                   for($i=0;$i<=0;$i++)
-                                   {
-                                  $row=$result->fetch_assoc();
-                                   echo $row['date'];
-                                  }
-                                  ?></span>
+                                  <span class="date"> <?php echo $row ['date'] ?></span>
                                 </div>
                               </div>
                             </div>
@@ -465,28 +465,20 @@
                             <div class="inner">
                               <div class="img-container">
                                 <a href="#" class="tag tag-j-1">News</a>
-                                <img src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/business-development-pAAs.webp" onerror="this.src='img/now-hiring-1.jpeg';" class="img-fluid responsive" alt="Responsive image">
+                                <img src="<?php echo $row ['image']?>" onerror="this.src='img/now-hiring-1.jpeg';" class="img-fluid responsive" alt="Responsive image">
                               </div>
                               <div class="job_block">
                                 <?php
                                 $sql = "SELECT * FROM news;";
                                 $result = mysqli_query($con, $sql);
-                                 for($i=0;$i<=0;$i++)
+                                 for($i=2; $i>=3; $i++)
                                  {
                                 $row=$result->fetch_assoc();
                                  echo $row['title'];
                                 }
                                 ?>
                                 <p class="details">
-                                  <?php
-                                  $sql = "SELECT * FROM news;";
-                                  $result = mysqli_query($con, $sql);
-                                   for($i=0;$i<=0;$i++)
-                                   {
-                                  $row=$result->fetch_assoc();
-                                   echo $row['description'];
-                                  }
-                                  ?>
+                                  <?php echo $row['description'];?>
                                 </p>
                                 <button type="button" class="btn btn-primary btn-lg btn_1">Read More</button>
                                 <div class="user">
@@ -494,25 +486,12 @@
                                     <img class="profile_image" src="img/lydia-whitney.jpeg" alt="employee photo">
                                   </div>
                                   <div class="user_info">
-                                    <span class="person">
-                                      <strong> Posted By <?php
-                                      $sql = "SELECT * FROM news;";
-                                      $result = mysqli_query($con, $sql);
-                                       for($i=0;$i<=0;$i++)
-                                       {
-                                      $row=$result->fetch_assoc();
-                                       echo $row['person'];
-                                      }
-                                      ?></strong>
+                                    <span class="person"><strong>
+                                      <?php echo $row['person'];?>
+                                    </strong>
                                     </span><br>
                                     <span class="date"><?php
-                                    $sql = "SELECT * FROM news;";
-                                    $result = mysqli_query($con, $sql);
-                                     for($i=0;$i<=0;$i++)
-                                     {
-                                    $row=$result->fetch_assoc();
                                      echo $row['date'];
-                                    }
                                     ?></span>
                                   </div>
                                 </div>

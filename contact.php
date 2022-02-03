@@ -3,6 +3,7 @@
     require 'inc/header.php';
     ?>
 
+    <!--  -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -151,8 +152,9 @@
             <fieldset>
               <label for="name">Your Name</label>
                 <input class="form-control" id="name" type="text" name="name">
-                <!-- <input id="name" type="text" value="<?php echo $name; ?>" name="name"> -->
-                <!-- <span id="error"><?= $name_error ?></span> -->
+                <!-- <input class="form-control "id="name" type="text"
+                value="<?php echo $name; ?>" name="name">
+                <span id="error"><?= $name_error ?></span> -->
             </fieldset>
           </div>
         </div>
@@ -162,8 +164,9 @@
             <fieldset>
             <label for="company">Company Name</label>
               <input class="form-control" id="company" type="text" value="" name="company">
+              <!-- <input id="company" type="text" value="<?php echo $company; ?>" name="company"> -->
+             <!-- <span id="error"><?= $company_error ?></span> -->
             </fieldset>
-            <!-- <span id="error"><?= $company_error ?></span> -->
           </div>
         </div>
 
@@ -172,6 +175,7 @@
             <fieldset>
             <label for="email">Your Email</label>
               <input class="form-control" id="email" type="text"  name="email" value="">
+              <!-- <input id="email" type="text"  name="email" value="<?php $email; ?>"> -->
                <!-- <span id="error"><?= $email_error ?></span> -->
             </fieldset>
           </div>
@@ -182,7 +186,8 @@
             <fieldset>
             <label for="phone">Your Telephone Number</label>
               <input class="form-control" id="phone" type="text" name="phone" value="">
-               <!-- <span id="error"><?= $phone_error ?></span> -->
+              <!-- <input id="phone" type="text" name="phone" value="<?php echo $phone;?>">
+               <span id="error"><?= $phone_error ?></span> -->
             </fieldset>
           </div>
         </div>
@@ -192,7 +197,8 @@
             <fieldset>
             <label for="subject">Subject</label>
               <input class="form-control" id="subject" type="text" name="subject" value="">
-              <!-- <span id="error"><?= $phone_error ?></span> -->
+              <!-- <input id="subject" type="text" name="subject" value="<?php echo $subject;?>">
+              <span id="error"><?= $subject_error ?></span> -->
             </fieldset>
 
           </div>
@@ -203,6 +209,7 @@
             <fieldset>
               <label for="message">Message</label>
               <textarea class="form-control" id="message" name="message" rows="10" cols="50"></textarea>
+              <!-- <textarea class="form-control" id="message" name="message" rows="10" cols="50"><?php echo $message ?></textarea> -->
             </fieldset>
           </div>
         </div>
@@ -247,7 +254,7 @@
       $("#accordion").accordion();
     </script>
 
-    <!-- <script src="js/contact.js"></script> -->
+    <script src="js/contact.js"></script>
 
 </body>
 </html>

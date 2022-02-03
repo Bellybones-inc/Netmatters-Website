@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+  include 'upload.php';
 // define variables and set to empty values
 $name_error = $email_error = $phone_error = $subject_error = "";
 $name = $company = $email = $phone = $subject = $message = "";
@@ -33,13 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (empty($_POST["phone"])) {
-        $phone_error = "Phone is required";
-      } else {
-        $phone = test_input($_POST["phone"]);
-        if (!preg_match("/^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/",$phone)) {
-          $phone_error = "Invalid phone number";
-        }
-      }
+        $phone_error = "Phone is required"; }
 
       if (empty($_POST["subject"])) {
         $subject_error = "Subject is required";
@@ -50,12 +44,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $subject_error = "Only letters and white space allowed";
         }
       }
-
       if (empty($_POST["message"])) {
           $message = "";
         } else {
           $message = test_input($_POST["message"]);
         }
+
+      //  if ($name_error === " " && $subject_error === " ") {
+      //   echo "It worked";
+      // }
   }
 
 function test_input($data) {

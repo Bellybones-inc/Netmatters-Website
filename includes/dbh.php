@@ -10,13 +10,21 @@ try {
     if (!$con) {
       throw new Exception('MySQL Connection Database Error: ' . mysql_error());
     } else {
-      echo "Connected";
+      // echo "Connected";
     }
   }
 catch (Exception $e)
 {
   echo $e->getMessage();
 }
-?>
 
-    
+$stmt = $con->prepare('SELECT * FROM news');
+$stmt->execute();
+$resultSet = $stmt->get_result();
+$result = $resultSet->fetch_all();
+
+foreach ($result as $r)
+{
+  echo $r['title'];
+}
+?>
