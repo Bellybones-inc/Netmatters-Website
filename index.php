@@ -16,7 +16,8 @@
     {
       echo '<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">';
       echo '<div class="img-container">';
-      echo '<div class="img-container">';
+      echo '<img src="'.$r['image'].'" class="img-fluid responsive" alt="Responsive image">';
+      '</div>';
       echo '<div class="job_block">';
       echo   $r['title'];
       echo $r['description'];
@@ -30,7 +31,6 @@
 
     ?>
 
-tttt 
               <!-- banner section start  -->
 
               <div class="banner">
