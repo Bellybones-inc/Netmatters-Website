@@ -1,5 +1,5 @@
 <?php
-
+//DB connect
 $dbServername = "127.0.0.1";
 $dbUsername = "will";
 $dbPassword = "maine";
@@ -11,7 +11,7 @@ $conn = mysqli_connect('127.0.0.1', 'will', 'maine', 'email_upload');
       if($conn === false) {
         die("ERROR: Could not connect. " . mysqli_connect_error());
       }
-      
+
 // use JSON decode here
 $name = $_REQUEST["name"];
 $company = $_REQUEST["company"];
