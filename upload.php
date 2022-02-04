@@ -2,12 +2,12 @@
 <?php
 
 //DB connect
-$dbServername = "localhost";
+$dbServername = "11.100.0.9";
 $dbUsername = "root";
 $dbPassword = "nL=jpZM2_O9L";
 $dbName = "williams_netmatters";
 
-$conn = mysqli_connect('localhost', 'root', 'nL=jpZM2_O9L', 'williams_netmatters');
+$conn = mysqli_connect('11.100.0.9', 'root', 'nL=jpZM2_O9L', 'williams_netmatters');
 
 // Check connection
       if($conn === false) {

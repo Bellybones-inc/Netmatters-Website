@@ -1,6 +1,6 @@
 <?php
 
-$dbServername = "localhost";
+$dbServername = "11.100.0.9";
 $dbUsername = "root";
 $dbPassword = "nL=jpZM2_O9L";
 $dbName = "williams_netmatters";
