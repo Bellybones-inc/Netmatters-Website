@@ -83,7 +83,9 @@
                     <div class="header_container">
                       <div class="header_row">
                         <div class="logo_container">
+                          <a href="index.php">
                           <img class="img-logo" src="img/netmatters-logo.png" alt="Netmatters company logo">
+                          </a>
                         </div>
 
                         <div class="action_wrapper">

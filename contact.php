@@ -116,7 +116,7 @@
       <div id="question-wrapper" class="hide">
         <h4>
           <a class="dropdown_link" href="#/">
-            <p id="support-heading" class="hide">Out of Hours IT Support
+            <p id="support-heading">Out of Hours IT Support
             <i id="arrow" class="fa fa-chevron-down rotate"></i></p>
           </a>
         </h4>

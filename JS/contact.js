@@ -31,7 +31,7 @@ supportHeading.addEventListener('click', () => {
 // Email validation
 const contactForm = document.getElementById("contact_form");
 const name = document.getElementById("name");
-const company = document.getElementById("company").required = false; 
+const company = document.getElementById("company").required = false;
 const email = document.getElementById("email");
 const phone = document.getElementById("phone");
 const subject = document.getElementById("subject");
