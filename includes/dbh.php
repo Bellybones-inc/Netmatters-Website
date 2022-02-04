@@ -1,8 +1,8 @@
 <?php
 
 $dbServername = "11.100.0.9";
-$dbUsername = "root";
-$dbPassword = "nL=jpZM2_O9L";
+$dbUsername = "williams_wellingtons";
+$dbPassword = "UkX9mPM}?3f^";
 $dbName = "williams_netmatters";
 
 try {
