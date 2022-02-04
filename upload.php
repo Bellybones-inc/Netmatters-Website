@@ -1,7 +1,6 @@
 
 <?php
 
-
 //DB connect
 $dbServername = "127.0.0.1";
 $dbUsername = "will";
@@ -28,8 +27,7 @@ $sql = "INSERT INTO contact_form  VALUES ('$name',
   if(mysqli_query($conn, $sql)){
         echo "<h3>data stored in a database successfully." ;
 
-        echo nl2br("\n$name\n $company\n "
-            . "$email\n $phone\n $subject\n $message");
+        echo nl2br("\n Thank you $name\n");
     } else {
         echo "ERROR: Hush! Sorry $sql. "
             . mysqli_error($conn);

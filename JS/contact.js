@@ -37,8 +37,6 @@ const phone = document.getElementById("phone");
 const subject = document.getElementById("subject");
 const message = document.getElementById("message");
 const error = document.getElementById("error");
-// const nameError = document.getElementById("name_err")
-// const emailError = document.getElementById("email_err")
 
 // messages accepts string
 contactForm.addEventListener('submit', (e) => {

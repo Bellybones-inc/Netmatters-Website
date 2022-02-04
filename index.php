@@ -1,4 +1,4 @@
-<!--
+
     <?php
     // phpinfo();
     include 'inc/header.php';
@@ -6,29 +6,6 @@
 
     <?php
     include 'includes/dbh.php';
-    ?>
-
-    <?php
-    $sql = "SELECT * FROM news;";
-    $result = mysqli_query($con, $sql);
-    $i = 0;
-    foreach ($result as $r)
-    {
-      echo '<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">';
-      echo '<div class="img-container">';
-      echo '<img src="'.$r['image'].'" class="img-fluid responsive" alt="Responsive image">';
-      '</div>';
-      echo '<div class="job_block">';
-      echo   $r['title'];
-      echo $r['description'];
-      '</p>';
-      '</div>';
-      '</div>';
-      '</div>';
-
-      if (++$i == 3)break;
-    }
-
     ?>
 
               <!-- banner section start  -->
@@ -425,198 +402,35 @@
 
                     <div class="container custom-container2">
                       <div class="row custom-row">
-
-                      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                          <div class="inner">
-                            <div class="img-container">
-                              <a href="#" class="tag tag-j-1">News</a>
-                                <img src="<?php echo $row ['image']?>" onerror="this.src='img/now-hiring-2.jpeg';" class="img-fluid responsive" alt="Responsive image">
-                            </div>
-                            <div class="job_block">
-                              <?php
-                              $sql = "SELECT * FROM news;";
-                              $result = mysqli_query($con, $sql);
-                               for($i=0;$i<=0;$i++)
-                               {
-                              $row=$result->fetch_assoc();
-                               echo $row ['title'];
-                              }
-                              ?>
-                              <p class="details">
-                                <?php echo $row ['description']; ?>
-                              </p>
-                              <button type="button" class="btn btn-primary btn-lg btn_1">Read More</button>
-                              <div class="user">
-                                <div>
-                                  <img class="profile_image" src="img/tom-lancaster.jpeg" alt="employee photo">
-                                </div>
-                                <div class="user_info">
-                                  <span class="person">
-                                    <strong> Posted By <?php echo $row ['person']; ?> </strong>
-                                  </span><br>
-                                  <span class="date"> <?php echo $row ['date'] ?></span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner">
-                              <div class="img-container">
-                                <a href="#" class="tag tag-j-1">News</a>
-                                <img src="<?php echo $row ['image']?>" onerror="this.src='img/now-hiring-1.jpeg';" class="img-fluid responsive" alt="Responsive image">
-                              </div>
-                              <div class="job_block">
-                                <?php
-                                $sql = "SELECT * FROM news;";
-                                $result = mysqli_query($con, $sql);
-                                 for($i=2; $i>=3; $i++)
-                                 {
-                                $row=$result->fetch_assoc();
-                                 echo $row['title'];
-                                }
-                                ?>
-                                <p class="details">
-                                  <?php echo $row['description'];?>
-                                </p>
-                                <button type="button" class="btn btn-primary btn-lg btn_1">Read More</button>
-                                <div class="user">
-                                  <div>
-                                    <img class="profile_image" src="img/lydia-whitney.jpeg" alt="employee photo">
-                                  </div>
-                                  <div class="user_info">
-                                    <span class="person"><strong>
-                                      <?php echo $row['person'];?>
-                                    </strong>
-                                    </span><br>
-                                    <span class="date"><?php
-                                     echo $row['date'];
-                                    ?></span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                              <div class="inner">
-                                <div class="img-container">
-                                  <a href="#" class="tag tag-j-1">News</a>
-                                  <img src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/why-shopify-is-vewi.webp" onerror="this.src='img/now-hiring-3.jpeg';" id="hire" class="img-fluid responsive hire-3" alt="Responsive image">
-                                </div>
-                                <div class="job_block">
-                                  <?php
-                                  $sql = "SELECT * FROM news;";
-                                  $result = mysqli_query($con, $sql);
-                                   for($i=0;$i<=0;$i++)
-                                   {
-                                  $row=$result->fetch_assoc();
-                                   echo $row['title'];
-                                  }
-                                  ?>
-                                  <p class="details">
-                                    <?php
-                                    $sql = "SELECT * FROM news;";
-                                    $result = mysqli_query($con, $sql);
-                                     for($i=0;$i<=0;$i++)
-                                     {
-                                    $row=$result->fetch_assoc();
-                                     echo $row['description'];
-                                    }
-                                    ?>
-                                  </p>
-                                  <button type="button" class="btn btn-primary btn-lg btn_1">Read More</button>
-                                  <div class="user">
-                                    <div>
-                                      <img class="profile_image" src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/netmatters-ltd-VXAv.webp" onerror="this.src='img/netmatters-mini.png';" alt="Company logo">
-                                    </div>
-                                    <div class="user_info">
-                                      <span class="person">
-                                        <strong> Posted By <?php
-                                        $sql = "SELECT * FROM news;";
-                                        $result = mysqli_query($con, $sql);
-                                         for($i=0;$i<=0;$i++)
-                                         {
-                                        $row=$result->fetch_assoc();
-                                         echo $row['person'];
-                                        }
-                                        ?></strong>
-                                      </span><br>
-                                      <span class="date"><?php
-                                      $sql = "SELECT * FROM news;";
-                                      $result = mysqli_query($con, $sql);
-                                       for($i=0;$i<=0;$i++)
-                                       {
-                                      $row=$result->fetch_assoc();
-                                       echo $row['date'];
-                                      }
-                                      ?></span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-  <!--
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                          <div class="inner">
-                            <div class="img-container">
-                              <a href="#" class="tag tag-j-2">News</a>
-                              <img src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/business-development-pAAs.webp" onerror="this.src='img/now-hiring-1.jpeg';" class="img-fluid responsive" alt="Responsive image">
-                            </div>
-                            <div class="job_block">
-                              <h3 class="job_title2">Business Development / Account Manager</h3>
-                              <p class="details">Salary Range £25k+ per annum + Bonus +
-                                Benefits Hours 40 hours per week,
-                                Monday – Friday Location Wy...</p>
-                              <button type="button" class="btn btn-primary btn-lg btn_2">
-                                Read More
-                              </button>
-                              <div class="user">
-                                <div>
-                                  <img class="profile_image" src="img/lydia-whitney.jpeg" alt="employee photo">
-                                </div>
-                                <div class="user_info">
-                                  <span class="person">
-                                    <strong>Posted by Lydia Whitney</strong>
-                                  </span><br>
-                                  <span class="date">29th July 2021</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-xl-4 d-lg-none d-md-none d-xl-block col-sm-12">
-                          <div class="inner">
-                            <div class="img-container">
-                              <a href="#" class="tag tag-art">News</a>
-                              <img src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/why-shopify-is-vewi.webp" onerror="this.src='img/now-hiring-3.jpeg';" id="hire" class="img-fluid responsive hire-3" alt="Responsive image">
-                            </div>
-                            <div class="job_block">
-                              <h3 class="job_title3">
-                                Why Shopify Is The Ecommerce Platform f...
-                              </h3>
-                              <p class="details">Shopify is an all-in-one eCommerce platform
-                                to start, run and grow a business. It currently powers o...
-                              </p>
-                              <button type="button" class="btn_3 btn-primary btn-lg">
-                                Read More
-                              </button>
-                              <div class="user">
-                                <div>
-                                  <img class="profile_image" src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/netmatters-ltd-VXAv.webp" onerror="this.src='img/netmatters-mini.png';" alt="Company logo">
-                                </div>
-                                <div class="user_info">
-                                  <span class="person">
-                                    <strong> Posted by Netmatters Ltd </strong>
-                                  </span><br>
-                                  <span class="date">20th July 2021</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>-->
-                        </div>
+                        <?php
+                        $sql = "SELECT * FROM news;";
+                        $result = mysqli_query($con, $sql);
+                        $i = 0;
+                        foreach ($result as $r)
+                        {
+                          echo '<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">';
+                          echo '<div class="inner">';
+                          echo '<div class="img-container">';
+                          echo '<a href="#" class="tag tag-j-1">News</a>';
+                          echo '<img src="'.$r['image'].'" class="img-fluid responsive" alt="Responsive image">';
+                          echo '</div>';
+                          echo '<div class="job_block">';
+                          echo   $r['title'];
+                          echo '<p class="details"> ' . $r['description'] . ' </p>';
+                          echo '<button type="button" class="btn btn-primary btn-lg btn_1"> Read More </button>';
+                          echo '<div class="user">';
+                          echo '<img src="'.$r['profile image'].'" class="profile_image" alt="Company logo">';
+                          echo '<div class="user_info">';
+                          echo '<span class="person"><strong> Posted By '. $r['person'] .' </strong></span>';
+                          echo '<span class="date"> ' . $r['date'] . ' </span>';
+                          echo '</div>';
+                          echo '</div>';
+                          echo '</div>';
+                          echo '</div>';
+                          echo '</div>';
+                          if (++$i == 3)break;
+                        }
+                        ?>
 
                       </div> <!-- row end -->
                     </div> <!-- container end -->
@@ -739,7 +553,7 @@
       include 'inc/sidebar.php';
       ?>
 
-    </div> <!-- main  -->
+  </div> <!-- main  -->
   </div> <!-- top container  -->
 
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -751,4 +565,4 @@
   <script src="/js/cookie.js"></script>
 
 </body>
-</html> -->
+</html>
