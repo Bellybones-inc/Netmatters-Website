@@ -4,7 +4,7 @@ const supportHeading = document.getElementById("support-heading");
 const textReveal = document.getElementById("answer");
 const questWrap = document.getElementById("question-wrapper");
 
-revealArrow.addEventListener('click', () => {
+revealArrow.addEventListener('click', () => { 
   textReveal.style.display = "block";
   supportHeading.classList.toggle('active');
 })

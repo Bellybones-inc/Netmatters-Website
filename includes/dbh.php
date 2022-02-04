@@ -5,7 +5,7 @@ $dbUsername = "will";
 $dbPassword = "maine";
 $dbName = "test";
 
-try {
+try { 
     $con = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
     if (!$con) {
       throw new Exception('MySQL Connection Database Error: ' . mysql_error());

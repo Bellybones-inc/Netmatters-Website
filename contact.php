@@ -2,7 +2,7 @@
     <?php
     require 'inc/header.php';
     ?>
-
+ 
     <!--  -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
