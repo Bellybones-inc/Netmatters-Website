@@ -1,11 +1,11 @@
 <?php
 
-$dbServername = "127.0.0.1";
-$dbUsername = "will";
-$dbPassword = "maine";
-$dbName = "test";
+$dbServername = "localhost";
+$dbUsername = "root";
+$dbPassword = "nL=jpZM2_O9L";
+$dbName = "williams_netmatters";
 
-try { 
+try {
     $con = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
     if (!$con) {
       throw new Exception('MySQL Connection Database Error: ' . mysql_error());

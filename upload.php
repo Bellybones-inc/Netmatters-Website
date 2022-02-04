@@ -1,13 +1,13 @@
 
 <?php
- 
-//DB connect
-$dbServername = "127.0.0.1";
-$dbUsername = "will";
-$dbPassword = "maine";
-$dbName = "email_upload";
 
-$conn = mysqli_connect('127.0.0.1', 'will', 'maine', 'email_upload');
+//DB connect
+$dbServername = "localhost";
+$dbUsername = "root";
+$dbPassword = "nL=jpZM2_O9L";
+$dbName = "williams_netmatters";
+
+$conn = mysqli_connect('localhost', 'root', 'nL=jpZM2_O9L', 'williams_netmatters');
 
 // Check connection
       if($conn === false) {
