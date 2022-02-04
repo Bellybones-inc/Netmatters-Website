@@ -159,8 +159,8 @@
         <div class="col-6">
           <div class="form-group">
             <fieldset>
-            <label for="company">Company Name</label>
-              <input class="form-control" id="company" type="text" value="" name="company">
+            <label class="company-label" for="company">Company Name</label>
+              <input class="form-control" id="company" type="text" name="company">
             </fieldset>
           </div>
         </div>
@@ -218,7 +218,7 @@
         <div class="col-6">
 
           <fieldset>
-            <button id="submit_enquire" type="submit" name="submit">Send Enquiry</button>
+            <button class="enquire" id="submit_enquire" type="submit" name="submit">Send Enquiry</button>
           </fieldset>
 
         </div>

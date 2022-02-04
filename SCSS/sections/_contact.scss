@@ -26,6 +26,10 @@
   padding: 30px;
 }
 
+.company-label::after {
+  content: "" !important;
+}
+
 .enquire {
   padding: 5px 15px;
   line-height: 35px;
