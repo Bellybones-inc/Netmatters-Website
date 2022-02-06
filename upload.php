@@ -3,11 +3,11 @@
 
 //DB connect
 $dbServername = "localhost";
-$dbUsername = "william_sears";
-$dbPassword = "nL=jpZM2_O9L";
+$dbUsername = "williams_sears";
+$dbPassword = "6O6nNLI8p2DwLeQI1m7t";
 $dbName = "williams_netmatters";
 
-$conn = mysqli_connect('localhost', 'william_sears', 'nL=jpZM2_O9L', 'williams_netmatters');
+$conn = mysqli_connect('localhost', 'williams_sears', '6O6nNLI8p2DwLeQI1m7t', 'williams_netmatters');
 
 // Check connection
       if($conn === false) {

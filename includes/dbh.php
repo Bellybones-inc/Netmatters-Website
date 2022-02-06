@@ -1,8 +1,8 @@
 <?php
 
 $dbServername = "localhost";
-$dbUsername = "william_sears";
-$dbPassword = "nL=jpZM2_O9L";
+$dbUsername = "williams_sears";
+$dbPassword = "6O6nNLI8p2DwLeQI1m7t";
 $dbName = "williams_netmatters";
 
 try {
