@@ -41,7 +41,13 @@
 }
 
 .top_header.scroll-down {
-  transform: translateY(-250px);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transform: translateY(-100%);
+  transition: transform .5s ease-in-out;
+  background-color: white;
 }
 
 .top_header.scroll-up {
@@ -50,7 +56,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  transform: translateY(0);
+  transform: translateY(0%);
   transition: transform .5s ease-in-out;
   background-color: white;
 }

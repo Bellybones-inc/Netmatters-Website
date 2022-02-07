@@ -556,8 +556,8 @@
   </div> <!-- main  -->
   </div> <!-- top container  -->
 
-  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
 
   <script src="/js/slick.min.js"></script>
   <script src="/js/main.js"></script>
