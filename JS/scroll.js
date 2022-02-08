@@ -17,8 +17,6 @@ window.addEventListener('scroll', () => {
       headerTop.classList.remove('scroll-up');
       headerTop.classList.add('scroll-down');
     }
-
-
   if (currentScroll < lastScroll && headerTop.classList.contains("scroll-down")) {
     headerTop.classList.remove('scroll-down');
     headerTop.classList.add('scroll-up');
