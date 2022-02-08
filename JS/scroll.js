@@ -6,10 +6,10 @@ let lastScroll = 0;
 
 window.addEventListener('scroll', () => {
   const currentScroll = window.pageYOffset
- 
+
 // If the page is at the top
   if(currentScroll <= 0) {
-    headerTop.classList.remove("scroll-up");
+    // headerTop.classList.remove("scroll-up");
     slideContainer.style.marginTop = "0px";
   }
 
