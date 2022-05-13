@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="scss/all.min.css">
 
-    <link rel="stylesheet" type="text/css" href="scss/styles.css">
+    <link rel="stylesheet" type="text/css" href="scss/styles.min.css">
 
     <script nomodule>
       window.MSInputMethodContext && document.documentMode && document.write(
@@ -82,7 +82,7 @@
 
                     <div class="header_container">
                       <div class="header_row">
-                        <div class="logo_container">  
+                        <div class="logo_container">
                           <a href="index.php">
                           <img class="img-logo" src="img/netmatters-logo.png" alt="Netmatters company logo">
                           </a>
@@ -108,7 +108,7 @@
 
                             <div class="btn-group">
                               <div class="d-none d-md-none d-lg-inline-flex contact_btn">
-                                <form>
+                                <form class="contact_btn">
                                 <button formaction="contact.php" "type="button" class="btn btn-primary contact">
                                   <i class="far fa-paper-plane"></i>
                                   contact
@@ -139,11 +139,11 @@
                         </div> <!-- action_wrapper -->
                       </div> <!-- header_row -->
 
-                      <div class="extra-space"></div>
+                      <div class="extra-space d-md-none"></div>
 
                       <!-- large search bar -->
 
-                      <form class="lg-search" action="#" method="GET">
+                      <form class="lg-search d-md-none d-lg-none" action="#" method="GET">
                         <input id="control" class="form-control search-bar d-md-none d-lg-none" placeholder="Search...">
                         <button class="d-md-none" id="submit-lg" type="submit">
                           <i id="search-lg" class="fas fa-search"></i>

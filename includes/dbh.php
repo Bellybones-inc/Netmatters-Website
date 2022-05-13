@@ -23,8 +23,8 @@ $stmt->execute();
 $resultSet = $stmt->get_result();
 $result = $resultSet->fetch_all();
 
-foreach ($result as $r)
-{
-  echo $r['title'];
-}
+// foreach ($result as $r)
+// {
+//   echo $r['title'];
+// }
 ?>

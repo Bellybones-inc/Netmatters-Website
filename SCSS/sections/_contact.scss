@@ -13,6 +13,44 @@
   max-width: 100%;
 }
 
+.office_header {
+  text-decoration: none;
+  color: black;
+}
+
+.office_content {
+  padding: 30px;
+  text-align: left;
+}
+
+.h2 {
+  font-size: 1.125rem;
+  font-weight: 400 !important;
+  margin-bottom: 15px;
+}
+
+.telephone {
+  margin-left: 0px;
+}
+
+.h3 {
+  font-weight: 700;
+  color: #926fb1!important;
+  font-size: 1.625rem;
+  margin-bottom: 15px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.address {
+  text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.10);
+}
+
 .p {
   font-size: .8125rem;
   line-height: 1.375rem;
@@ -24,6 +62,15 @@
   background-color: #e6e7e9;
   border-radius: 10px;
   padding: 30px;
+}
+
+.view_btn {
+  color: #fff;
+  background-color: #926fb1;
+  border-color: #926fb1;
+  margin-top: 15px;
+  font-size: .9em;
+  padding: 5px 30px;
 }
 
 .company-label::after {
@@ -45,7 +92,7 @@
 }
 
 .net_email {
-  color: $purple-text; 
+  color: $purple-text;
   font-size: 1.625em;
   text-decoration: none;
 }

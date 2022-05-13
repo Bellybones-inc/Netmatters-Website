@@ -167,10 +167,11 @@
 
 .lg-search {
   display: flex;
+  position: relative;
+  margin-bottom: 0px;
 }
 
 #control {
-  position: relative;
   height: 47px;
   padding: 5px 40px 5px 15px;
   border: 2px solid rgba(0,0,0,.1);
@@ -178,7 +179,7 @@
   border-radius: 0.25rem 0rem 0rem 0.25rem;
   outline: 1px solid hsla(0,0%,100%,.2);
   font-size: 14px;
-  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.10);
   background-color: rgba(0, 0, 0, 0.1);
   &:focus {
     border-color: none;
@@ -189,6 +190,7 @@
 #submit-lg {
   position: absolute;
   right: 3%;
+  top: 8;
   line-height: 47px;
   outline: none;
   border: none;
@@ -209,21 +211,27 @@
   align-items: center;
 }
 
+.contact_btn {
+  margin-bottom: 0px;
+}
+
 .extra-space {
   margin-bottom: 0.5em;
 }
 
 .vis_search {
+  margin-bottom: 0px;
   display: flex;
 }
 
 .mini {
+  margin-bottom: 0px;
   display: none;
   width: 240px;
   height: 56px;
   margin-left: 20px;
   border-radius: 0px;
-  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.10);
   font-size: 14px;
  &:focus {
   @include highlight-focus;

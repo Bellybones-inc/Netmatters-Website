@@ -2,7 +2,7 @@
     <?php
     require 'inc/header.php';
     ?>
- 
+
     <!--  -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
@@ -13,15 +13,17 @@
       <div class="locations">
         <div class="row">
 
-          <div class="col-xs-12 col-md-4">
-            <div class="block address address-cambridge">
+          <div class="col-md-4 spacer-sm">
+            <div class="address address-cambridge">
             <div class="image">
               <a href="#">
                 <img class="office_image" src="img/cambridge.jpeg" alt="Cambridge Netmatters Office">
               </a>
             </div>
               <div class="office_content">
-                <h2>Cambridge Office</h2>
+                <p class="h2">
+                  <a href="#" class="office_header">Cambridge Office</a>
+                  </p>
                 <p class="p">
                   Unit 1.28,
                   <br>
@@ -34,22 +36,28 @@
                   <br>
                   CB4 0WS
                   </p>
-              </div>
+
               <div class="telephone">
-                <a>01223 37 57 72</a>
+                <a href="#" class="h3">01223 37 57 72</a>
+              </div>
+
+              <button type="button" name="button" class="view_btn btn btn-secondary btn-soft">View More</button>
+
               </div>
           </div>
         </div>
 
-          <div class="col-xs-12 col-md-4">
-            <div class="block address address-cambridge">
+          <div class="col-md-4 spacer-sm">
+            <div class="address address-cambridge">
             <div class="image">
               <a href="#">
                 <img class="office_image" src="img/wymondham.jpeg" alt="Cambridge Netmatters Office">
               </a>
             </div>
               <div class="office_content">
-                <h2>Wymondham Office</h2>
+                <p class="h2">
+                  <a href="#" class="office_header">Wymondham Office</a>
+                  </p>
                 <p class="p">
                   Unit 15,
                   <br>
@@ -61,22 +69,28 @@
                   <br>
                   NR18 0WZ
                 </p>
-              </div>
+
               <div class="telephone">
-                <a>01603 70 40 20</a>
+                <a href="#" class="h3">01603 70 40 20</a>
+              </div>
+
+              <button type="button" name="button" class="view_btn btn btn-secondary btn-soft">View More</button>
+
               </div>
           </div>
         </div>
 
-          <div class="col-xs-12 col-md-4">
-            <div class="block address address-cambridge">
+          <div class="col-md-4 spacer-sm">
+            <div class="address address-cambridge">
               <div class="image">
                 <a href="#">
                   <img class="office_image" src="img/yarmouth-2.jpeg" alt="Cambridge Netmatters Office">
                 </a>
               </div>
               <div class="office_content">
-                <h2>Great Yarmouth Office</h2>
+                <p class="h2">
+                  <a href="#" class="office_header">Great Yarmouth Office</a>
+                </p>
                 <p class="p">
                   Suite F23,
                   <br>
@@ -88,9 +102,13 @@
                   <br>
                   NR31 7RA
                 </p>
-              </div>
+
               <div class="telephone">
-                <a>01493 60 32 04</a>
+                <a href="#" class="h3">01493 60 32 04</a>
+              </div>
+
+              <button type="button" name="button" class="view_btn btn btn-secondary btn-soft">View More</button>
+
               </div>
           </div>
         </div>
