@@ -3,15 +3,25 @@
     require 'inc/header.php';
     ?>
 
-    <!--  -->
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+          <div class="container">
+          <ul class="breadcrumb">
+            <li>
+              <a class="home_link" href="/">
+                Home
+              </a>
+            </li>
 
-    <div class="container">
+            <li class="our_off">
+              Our Offices
+            </li>
+            </ul>
+            <h1>Our Offices</h1>
+            </div>
 
-      <div class="locations">
-        <div class="row">
+          <div class="locations">
+            <div class="service-list container">
+            <div class="row">
+
 
           <div class="col-md-4 spacer-sm">
             <div class="address address-cambridge">
@@ -45,6 +55,8 @@
 
               </div>
           </div>
+          <div class="cambridge" id="map1">
+            </div>
         </div>
 
           <div class="col-md-4 spacer-sm">
@@ -78,6 +90,8 @@
 
               </div>
           </div>
+          <div class="norfolk" id="map2">
+            </div>
         </div>
 
           <div class="col-md-4 spacer-sm">
@@ -111,6 +125,8 @@
 
               </div>
           </div>
+          <div class="yarmouth" id="map3">
+            </div>
         </div>
 
         </div>
@@ -118,51 +134,16 @@
 
     </div>
 
-    </div>
-    </div>
+    </div> <!-- full-page end  -->
+    </div> <!-- page-parent end  -->
 
     <div class="container">
-
-    <div class="details_con">
-      <p>Email us on:</p>
-      <p><a href="#" class="net_email">sales@netmatters.com</a></p>
-      <p class="bus_hrs">Business Hours</p>
-      <p class="opening">Monday - Friday 7:00 - 18:00</p>
-    </div>
-
-    <div class="accordion out-of-hours">
-      <div id="question-wrapper" class="hide">
-        <h4>
-          <a class="dropdown_link" href="#/">
-            <p id="support-heading">Out of Hours IT Support
-            <i id="arrow" class="fa fa-chevron-down rotate"></i></p>
-          </a>
-        </h4>
-
-        <div id="answer">
-          <p>
-            Netmatters IT are offering an Out of Hours service for Emergency and
-            Critical tasks.
-          </p>
-          <p>
-            <strong>Monday - Friday 18:00 - 22:00</strong>
-            <strong>Saturday 08:00 - 16:00</strong></br>
-            <strong>Sunday 10:00 - 18:00</strong>
-          </p>
-          <p>
-            To log a critical task, you will need to call our main line number
-            and select Option 2 to leave an Out of Hours&nbsp; voicemail. A technician
-            will contact you on the number provided within 45 minutes of your call.&nbsp;
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Email section -->
-
-    <form id="contact_form" action="upload.php" method="POST">
       <div class="row">
 
+
+    <!-- Email section -->
+        <div class="col-lg-8 col-lg-pull-4">
+        <form id="contact_form" action="upload.php" method="POST">
         <div id="error"></div>
 
         <div class="col-6">
@@ -240,11 +221,50 @@
           </fieldset>
 
         </div>
-
-      </div>
-
-    </form>
+      </form>
     </div>
+
+    <div class="col-lg-4 col-lg-pull-4">
+
+    <div class="details_con">
+      <p>Email us on:</p>
+      <p><a href="#" class="net_email">sales@netmatters.com</a></p>
+      <p class="bus_hrs">Business Hours</p>
+      <p class="opening">Monday - Friday 7:00 - 18:00</p>
+    </div>
+
+    <div class="accordion out-of-hours">
+      <div id="question-wrapper" class="hide">
+        <h4>
+          <a class="dropdown_link" href="#/">
+            <p id="support-heading">Out of Hours IT Support
+            <i id="arrow" class="fa fa-chevron-down rotate"></i></p>
+          </a>
+        </h4>
+
+        <div id="answer">
+          <p>
+            Netmatters IT are offering an Out of Hours service for Emergency and
+            Critical tasks.
+          </p>
+          <p>
+            <strong>Monday - Friday 18:00 - 22:00</strong>
+            <strong>Saturday 08:00 - 16:00</strong></br>
+            <strong>Sunday 10:00 - 18:00</strong>
+          </p>
+          <p>
+            To log a critical task, you will need to call our main line number
+            and select Option 2 to leave an Out of Hours&nbsp; voicemail. A technician
+            will contact you on the number provided within 45 minutes of your call.&nbsp;
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    </div>
+  </div>
 
     <?php
     require 'inc/footer.php';
@@ -254,13 +274,12 @@
     require 'inc/sidebar.php';
     ?>
 
-  </div>
-
-    <script>
-      $("#accordion").accordion();
-    </script>
+  </div> <!-- main  -->
+  </div> <!-- top container  -->
 
     <script src="js/contact.js"></script>
+    <script src="js/office.js"></script>
+    <script src="js/scroll.js"></script>
 
 </body>
 </html>

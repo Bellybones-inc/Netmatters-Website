@@ -9,6 +9,30 @@
       '../utilities/media',
       '../base/base';
 
+.breadcrumb {
+  background: none;
+  color: #333645;
+  font-size: .8125rem;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb::before, .breadcrumb::after {
+  content: " ";
+  display: table;
+}
+
+.home_link {
+  color: #333645;
+  text-decoration: none;
+}
+
+.our_off::before {
+  content: "/\A0";
+  padding: 0 5px;
+  color: #333645;
+}
+
 .office_image {
   max-width: 100%;
 }
@@ -75,6 +99,10 @@
 
 .company-label::after {
   content: "" !important;
+}
+
+#map1, #map2, #map3 {
+  height: 180px;
 }
 
 .enquire {
