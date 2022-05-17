@@ -13,7 +13,7 @@ $conn = mysqli_connect('127.0.0.1', 'will', 'maine', 'email_upload');
       if($conn === false) {
         die("ERROR: Could not connect. " . mysqli_connect_error());
       }
-
+      
 $name = $_REQUEST["name"];
 $company = $_REQUEST["company"];
 $email = $_REQUEST["email"];

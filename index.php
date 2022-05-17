@@ -1,17 +1,31 @@
 
     <?php
     // phpinfo();
-    include 'inc/header.php';
+    include 'inc/head.php';
     ?>
 
     <?php
     include 'includes/dbh.php';
     ?>
 
+    <body>
+    <div id="top_container">
+
+      <div class="main">
+        <div class="main-outer">
+          <div class="main-inner">
+
+            <div class="page-parent">
+              <div class="full-page">
+
+                <?php
+                include 'inc/header.php';
+                ?>
               <!-- banner section start  -->
 
+
               <div class="banner">
-                <div class="slide_container">
+                <div class="slide_container after_header">
 
                   <div class="slide-inner">
 
@@ -179,6 +193,7 @@
                   </div>
                 </div>
               </div>
+
               <!-- </div> -->
             </div> <!-- full-page end  -->
 

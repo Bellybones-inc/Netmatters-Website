@@ -1,8 +1,8 @@
 <?php
-  include 'upload.php'; 
+  include 'upload.php';
 // define variables and set to empty values
 $name_error = $email_error = $phone_error = $subject_error = "";
-$name = $company = $email = $phone = $subject = $message = "";
+$id = $name = $company = $email = $phone = $subject = $message = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 

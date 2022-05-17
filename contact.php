@@ -1,8 +1,22 @@
 
     <?php
-    require 'inc/header.php';
+    require 'inc/head.php';
     ?>
 
+    <body>
+    <div id="top_container">
+
+      <div class="main">
+        <div class="main-outer">
+          <div class="main-inner">
+
+          <?php
+          include 'inc/header.php';
+          ?>
+
+          <div class="contact_middle after_header">
+
+          <div class="hidden-xs breadcrumb_container">
           <div class="container">
           <ul class="breadcrumb">
             <li>
@@ -10,20 +24,26 @@
                 Home
               </a>
             </li>
-
             <li class="our_off">
-              Our Offices
+                Our Offices
             </li>
             </ul>
-            <h1>Our Offices</h1>
             </div>
+            </div>
+
+          <div class="section_top">
+            <div class="page_head">
+            <div class="container">
+              <h1>Our Offices</h1>
+            </div>
+            </div>
+          </div>
 
           <div class="locations">
             <div class="service-list container">
             <div class="row">
 
-
-          <div class="col-md-4 spacer-sm">
+          <div class="col-lg-4 col-md-12 spacer-sm">
             <div class="address address-cambridge">
             <div class="image">
               <a href="#">
@@ -59,7 +79,7 @@
             </div>
         </div>
 
-          <div class="col-md-4 spacer-sm">
+          <div class=" col-lg-4 col-md-12 spacer-sm">
             <div class="address address-cambridge">
             <div class="image">
               <a href="#">
@@ -94,7 +114,7 @@
             </div>
         </div>
 
-          <div class="col-md-4 spacer-sm">
+          <div class="col-lg-4 col-md-12 spacer-sm">
             <div class="address address-cambridge">
               <div class="image">
                 <a href="#">
@@ -134,64 +154,110 @@
 
     </div>
 
-    </div> <!-- full-page end  -->
-    </div> <!-- page-parent end  -->
 
     <div class="container">
-      <div class="row">
+      <div class="row contact_row">
+
+        <div class="col-lg-4 col-lg-pull-4">
+
+        <div class="details_con">
+          <p>Email us on:</p>
+          <p><a href="#" class="net_email">sales@netmatters.com</a></p>
+          <p class="bus_hrs">Business Hours</p>
+          <p class="opening">Monday - Friday 7:00 - 18:00</p>
+        </div>
+
+        <div class="out-of-hours">
+          <div id="question-wrapper" class="hide">
+            <h4>
+              <a class="dropdown_link" href="#/">
+                <p id="support-heading">Out of Hours IT Support
+                <i id="arrow" class="fa fa-chevron-down rotate"></i></p>
+              </a>
+            </h4>
+
+            <div id="answer">
+              <p>
+                Netmatters IT are offering an Out of Hours service for Emergency and
+                Critical tasks.
+              </p>
+              <p>
+                <strong>Monday - Friday 18:00 - 22:00</strong>
+                <strong>Saturday 08:00 - 16:00</strong></br>
+                <strong>Sunday 10:00 - 18:00</strong>
+              </p>
+              <p>
+                To log a critical task, you will need to call our main line number
+                and select Option 2 to leave an Out of Hours&nbsp; voicemail. A technician
+                will contact you on the number provided within 45 minutes of your call.&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+          </div>
 
 
-    <!-- Email section -->
+        <!-- Email section -->
         <div class="col-lg-8 col-lg-pull-4">
         <form id="contact_form" action="upload.php" method="POST">
         <div id="error"></div>
 
-        <div class="col-6">
+        <div class="row">
+
+        <div class="col-lg-6 col-12">
           <div class="form-group">
             <fieldset>
               <label for="name">Your Name</label>
-                <input class="form-control" id="name" type="text" name="name">
+                <input class="form-control field_input" id="name" type="text" name="name">
             </fieldset>
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-lg-6 col-12">
           <div class="form-group">
             <fieldset>
             <label class="company-label" for="company">Company Name</label>
-              <input class="form-control" id="company" type="text" name="company">
+              <input class="form-control field_input" id="company" type="text" name="company">
             </fieldset>
           </div>
         </div>
 
-        <div class="col-6">
+        </div>
+
+        <div class="row">
+
+        <div class="col-lg-6 col-12">
           <div class="form-group">
             <fieldset>
             <label for="email">Your Email</label>
-              <input class="form-control" id="email" type="text"  name="email" value="">
+              <input class="form-control field_input" id="email" type="text"  name="email" value="">
             </fieldset>
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-lg-6 col-12">
           <div class="form-group">
             <fieldset>
             <label for="phone">Your Telephone Number</label>
-              <input class="form-control" id="phone" type="text" name="phone" value="">
+              <input class="form-control field_input" id="phone" type="text" name="phone" value="">
             </fieldset>
           </div>
         </div>
 
+      </div>
+      <div class="row">
         <div class="col-12">
           <div class="form-group">
             <fieldset>
             <label for="subject">Subject</label>
-              <input class="form-control" id="subject" type="text" name="subject" value="">
+              <input class="form-control field_input" id="subject" type="text" name="subject" value="">
             </fieldset>
 
           </div>
         </div>
+      </div>
 
+        <div class="row">
         <div class="col-12">
           <div class="form-group">
             <fieldset>
@@ -200,6 +266,7 @@
             </fieldset>
           </div>
         </div>
+      </div>
 
         <div class="marketing_info_container">
           <div class="form-check">
@@ -224,48 +291,9 @@
       </form>
     </div>
 
-    <div class="col-lg-4 col-lg-pull-4">
-
-    <div class="details_con">
-      <p>Email us on:</p>
-      <p><a href="#" class="net_email">sales@netmatters.com</a></p>
-      <p class="bus_hrs">Business Hours</p>
-      <p class="opening">Monday - Friday 7:00 - 18:00</p>
     </div>
-
-    <div class="accordion out-of-hours">
-      <div id="question-wrapper" class="hide">
-        <h4>
-          <a class="dropdown_link" href="#/">
-            <p id="support-heading">Out of Hours IT Support
-            <i id="arrow" class="fa fa-chevron-down rotate"></i></p>
-          </a>
-        </h4>
-
-        <div id="answer">
-          <p>
-            Netmatters IT are offering an Out of Hours service for Emergency and
-            Critical tasks.
-          </p>
-          <p>
-            <strong>Monday - Friday 18:00 - 22:00</strong>
-            <strong>Saturday 08:00 - 16:00</strong></br>
-            <strong>Sunday 10:00 - 18:00</strong>
-          </p>
-          <p>
-            To log a critical task, you will need to call our main line number
-            and select Option 2 to leave an Out of Hours&nbsp; voicemail. A technician
-            will contact you on the number provided within 45 minutes of your call.&nbsp;
-          </p>
-        </div>
-      </div>
     </div>
-
-  </div>
-
-    </div>
-  </div>
-
+  </div> <!-- middle end  -->
     <?php
     require 'inc/footer.php';
     ?>
@@ -273,7 +301,8 @@
     <?php
     require 'inc/sidebar.php';
     ?>
-
+  </div>
+  </div>
   </div> <!-- main  -->
   </div> <!-- top container  -->
 

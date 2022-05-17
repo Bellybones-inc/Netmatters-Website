@@ -9,6 +9,11 @@
       '../utilities/media',
       '../base/base';
 
+.breadcrumb_container {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.10);
+    padding: 14px 0px 13px 0px;
+}
+
 .breadcrumb {
   background: none;
   color: #333645;
@@ -27,10 +32,18 @@
   text-decoration: none;
 }
 
+.section_top {
+  margin-top: 50px;
+}
+
 .our_off::before {
   content: "/\A0";
   padding: 0 5px;
   color: #333645;
+}
+
+.locations {
+  margin-bottom: 40px;
 }
 
 .office_image {
@@ -82,11 +95,6 @@
   margin-bottom: 15px;
 }
 
-#contact_form {
-  background-color: #e6e7e9;
-  border-radius: 10px;
-  padding: 30px;
-}
 
 .view_btn {
   color: #fff;
@@ -103,6 +111,19 @@
 
 #map1, #map2, #map3 {
   height: 180px;
+}
+.contact_row {
+  flex-direction: row-reverse;
+}
+
+#contact_form {
+  background-color: #e6e7e9;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.field_input {
+  height: 47px;
 }
 
 .enquire {
