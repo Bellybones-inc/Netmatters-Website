@@ -3,30 +3,40 @@ const revealArrow = document.getElementById("arrow");
 const supportHeading = document.getElementById("support-heading");
 const textReveal = document.getElementById("answer");
 const questWrap = document.getElementById("question-wrapper");
+const dropdownLink = document.getElementById("dropdown_link");
+const header = document.getElementById("h4");
 
-revealArrow.addEventListener('click', () => { 
+// revealArrow.addEventListener('click', () => {
+//   if(!document.classList.contains('active')) {
+//   textReveal.style.display = "block";
+//   supportHeading.classList.toggle('active');
+// }
+// })
+//
+// revealArrow.addEventListener('click', () => {
+//   if(supportHeading.classList.contains('active')) {
+//   textReveal.style.display = "none";
+//   supportHeading.classList.toggle('hide');
+//   }
+// })
+
+questWrap.addEventListener('click', () => {
+  if(questWrap.classList.contains('hide')) {
   textReveal.style.display = "block";
-  supportHeading.classList.toggle('active');
-})
-
-revealArrow.addEventListener('click', () => {
-  if(supportHeading.classList.contains('active')) {
-  textReveal.style.display = "none";
-  supportHeading.classList.toggle('hide');
+  questWrap.classList.remove('hide');
+  questWrap.classList.add('active');
   }
 })
 
-supportHeading.addEventListener('click', () => {
-  textReveal.style.display = "block";
-  supportHeading.classList.toggle('active');
-})
+// questWrap.addEventListener('click', () => {
+//   if(questWrap.classList.contains('active')) {
+//   textReveal.style.display = "none";
+//   questWrap.classList.remove('active');
+//   questWrap.classList.add('hide');
+//   }
+// })
 
-supportHeading.addEventListener('click', () => {
-  if(supportHeading.classList.contains('active')) {
-  textReveal.style.display = "none";
-  supportHeading.classList.toggle('hide');
-  }
-})
+
 
 // Email validation
 const contactForm = document.getElementById("contact_form");
@@ -85,6 +95,8 @@ contactForm.addEventListener('submit', (e) => {
     messages.push('Please write a message')
     subject.style.border = "1px red solid";
   } else {
+
+    // response.push('Well done')
     subject.style.border = "1px solid #DCDCDC";
   }
 

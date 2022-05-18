@@ -169,14 +169,14 @@
 
         <div class="out-of-hours">
           <div id="question-wrapper" class="hide">
-            <h4>
-              <a class="dropdown_link" href="#/">
+            <h4 id="h4">
+              <a class="dropdown_link" id="dropdown_link" href="#/">
                 <p id="support-heading">Out of Hours IT Support
                 <i id="arrow" class="fa fa-chevron-down rotate"></i></p>
               </a>
             </h4>
 
-            <div id="answer">
+            <dv id="answer">
               <p>
                 Netmatters IT are offering an Out of Hours service for Emergency and
                 Critical tasks.
@@ -199,9 +199,12 @@
 
         <!-- Email section -->
         <div class="col-lg-8 col-lg-pull-4">
-        <form id="contact_form" action="upload.php" method="POST">
-        <div id="error"></div>
 
+        <form id="contact_form" action="/includes/upload.php" method="POST">
+        <!-- <div id="contact_form"> -->
+
+        <div id="error"></div>
+        <!-- <div id="response"></div> -->
         <div class="row">
 
         <div class="col-lg-6 col-12">
@@ -289,6 +292,7 @@
 
         </div>
       </form>
+    <!-- </div> -->
     </div>
 
     </div>
