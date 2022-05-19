@@ -8,6 +8,10 @@
     include 'includes/dbh.php';
     ?>
 
+    <?php
+    include 'includes/news.php';
+    ?>
+
     <body>
     <div id="top_container">
 

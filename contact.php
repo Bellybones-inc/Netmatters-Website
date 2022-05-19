@@ -167,14 +167,16 @@
           <p class="opening">Monday - Friday 7:00 - 18:00</p>
         </div>
 
-        <div class="out-of-hours">
-          <div id="question-wrapper" class="hide">
-            <h4 id="h4">
-              <a class="dropdown_link" id="dropdown_link" href="#/">
-                <p id="support-heading">Out of Hours IT Support
-                <i id="arrow" class="fa fa-chevron-down rotate"></i></p>
-              </a>
-            </h4>
+            <div class="out-of-hours">
+              <div id="question-wrapper" class="hide">
+                <h4>
+                  <a class="dropdown_link" href="#/">
+                    <p id="support-heading">Out of Hours IT Support
+                    <em id="arrow" class="fa fa-chevron-down rotate"></em>
+                  </p>
+                  </a>
+                </h4>
+
 
             <dv id="answer">
               <p>
@@ -194,7 +196,7 @@
             </div>
           </div>
         </div>
-          </div>
+
 
 
         <!-- Email section -->
@@ -292,26 +294,30 @@
 
         </div>
       </form>
-    <!-- </div> -->
+    </div>
     </div>
 
     </div>
-    </div>
-  </div> <!-- middle end  -->
-    <?php
-    require 'inc/footer.php';
-    ?>
+    </div><!-- middle end  -->
 
     <?php
-    require 'inc/sidebar.php';
+    include 'inc/footer.php';
     ?>
+    </div><!-- main-inner end  -->
+  </div><!-- main-outer end  -->
+  <?php
+  include 'inc/sidebar.php';
+  ?>
   </div>
   </div>
   </div> <!-- main  -->
+
+
   </div> <!-- top container  -->
 
     <script src="js/contact.js"></script>
     <script src="js/office.js"></script>
+    <script src="js/side.js"></script>
     <script src="js/scroll.js"></script>
 
 </body>

@@ -18,13 +18,6 @@ catch (Exception $e)
   echo $e->getMessage();
 }
 
-$stmt = $con->prepare('SELECT * FROM news');
-$stmt->execute();
-$resultSet = $stmt->get_result();
-$result = $resultSet->fetch_all();
+$conn = mysqli_connect('127.0.0.1', 'will', 'maine', 'test');
 
-// foreach ($result as $r)
-// {
-//   echo $r['title'];
-// }
 ?>
