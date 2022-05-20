@@ -162,17 +162,19 @@
                             </a>
                           </h4>
 
-                          <dv id="answer">
+                          <div id="answer">
                             <p>
                               Netmatters IT are offering an Out of Hours service for Emergency and Critical tasks.
                             </p>
                             <p>
                               <strong>Monday - Friday 18:00 - 22:00</strong>
-                              <strong>Saturday 08:00 - 16:00</strong></br>
+                              <strong>Saturday 08:00 - 16:00</strong><br>
                               <strong>Sunday 10:00 - 18:00</strong>
                             </p>
                             <p>
-                              To log a critical task, you will need to call our main line number and select Option 2 to leave an Out of Hours&nbsp; voicemail. A technician will contact you on the number provided within 45 minutes of your call.&nbsp;
+                              To log a critical task, you will need to call our main line number and select
+                               Option 2 to leave an Out of Hours&nbsp; voicemail. A technician will contact
+                               you on the number provided within 45 minutes of your call.&nbsp;
                             </p>
                         </div>
                       </div>
@@ -289,9 +291,7 @@
         ?>
       </div>
     </div>
-    </div>
     <!-- main  -->
-
     </div>
     <!-- top container  -->
 
