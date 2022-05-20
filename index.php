@@ -493,6 +493,7 @@
             </div> <!-- client section end -->
 
             <div class="newsletter_section">
+              
               <!-- newsletter section start -->
               <div class="newsletter_container">
                 <div class="newsletter_inner">

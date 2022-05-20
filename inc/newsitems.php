@@ -36,7 +36,7 @@ $result = mysqli_query($con, $sql);
 $i = 0;
 foreach ($result as $r)
 {
-  echo '<div class="d-sm-none d-md-block col-md-6 d-xl-none">';
+  echo '<div class="d-none d-md-block col-md-6 d-xl-none">';
   echo '<div class="inner">';
   echo '<div class="img-container">';
   echo '<a href="#" class="tag tag-j-1">News</a>';

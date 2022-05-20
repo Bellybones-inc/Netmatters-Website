@@ -17,7 +17,7 @@
 .navigation-container {
   padding: 0px 15px 0px 15px;
 }
- 
+
 .nav-list {
   border-left: 1px solid hsla(0,0%,100%,.1);
   border-right: 1px solid rgba(0,0,0,.2);
@@ -173,6 +173,10 @@
   padding-left: 0px;
 }
 
+.nav-item:hover {
+  display: block;
+}
+
 .nav-menu::before{
   content: "";
   display: block;
@@ -222,3 +226,9 @@
 .sub-last:after {
   content: "";
 }
+
+// .nav-menu:after {
+//   content: "";
+//   display: block;
+//   height: 80px;
+// }

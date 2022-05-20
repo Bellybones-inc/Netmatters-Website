@@ -5,4 +5,4 @@ $stmt->execute();
 $resultSet = $stmt->get_result();
 $result = $resultSet->fetch_all();
 
- ?>
+?>

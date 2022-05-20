@@ -5,6 +5,12 @@ $dbUsername = "will";
 $dbPassword = "maine";
 $dbName = "test";
 
+// $dbServername = "localhost";
+// $dbUsername = "williams_sears";
+// $dbPassword = "6O6nNLI8p2DwLeQI1m7t";
+// $dbName = "williams_netmatters";
+
+
 try {
     $con = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
     if (!$con) {
@@ -19,5 +25,8 @@ catch (Exception $e)
 }
 
 $conn = mysqli_connect('127.0.0.1', 'will', 'maine', 'test');
+
+// $conn = mysqli_connect('localhost', 'williams_sears', '6O6nNLI8p2DwLeQI1m7t', 'williams_netmatters');
+
 
 ?>
