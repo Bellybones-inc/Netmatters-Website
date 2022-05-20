@@ -8,7 +8,7 @@
 
       <div class="main">
         <div class="main-outer">
-          <div class="main-inner">
+          <div class="main-inner page-parent">
 
           <?php
           include 'inc/header.php';
@@ -197,16 +197,13 @@
           </div>
         </div>
 
-
-
         <!-- Email section -->
         <div class="col-lg-8 col-lg-pull-4">
 
         <form id="contact_form" action="/includes/upload.php" method="POST">
-        <!-- <div id="contact_form"> -->
-
+      
         <div id="error"></div>
-        <!-- <div id="response"></div> -->
+
         <div class="row">
 
         <div class="col-lg-6 col-12">

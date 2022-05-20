@@ -4,10 +4,32 @@
 ****************************
 ***************************/
 
+
+
+
 @import '../utilities/variables',
       '../utilities/mixins',
       '../utilities/media',
       '../base/base';
+
+#contact_inner {
+  display: flex;
+  flex-direction: row;
+  min-height: 700px;
+  transition: all 0.4s ease-in;
+}
+
+.layer::after {
+  content: "";
+  opacity: 0.5;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
 
 .breadcrumb_container {
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.10);
@@ -122,6 +144,10 @@
   padding: 30px;
 }
 
+#error {
+  padding-bottom: 16px;
+}
+
 .field_input {
   height: 47px;
 }
@@ -151,7 +177,7 @@
 }
 
 #question-wrapper.hide {
-  
+
 }
 
 .dropdown_link {

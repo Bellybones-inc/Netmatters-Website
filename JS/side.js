@@ -2,11 +2,10 @@
 const sidebar = document.getElementById("sidebar");
 const hamburger = document.getElementById("hamburger");
 const main = document.querySelector(".main");
-const header = document.getElementById("top_header");
 const inner = document.querySelector(".main-inner");
 const outer = document.querySelector(".main-outer");
-const body = document.getElementsByTagName('body')[0];
 const pageParent = document.querySelector(".page-parent");
+
 
 // Burger bars
 const barTop = document.querySelector(".top");
