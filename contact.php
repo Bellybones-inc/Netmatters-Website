@@ -179,7 +179,7 @@
                         </div>
                       </div>
                     </div>
-
+                  </div>
                     <!-- Email section -->
                     <div class="col-lg-8 col-lg-pull-4">
 
