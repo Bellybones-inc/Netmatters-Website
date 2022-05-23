@@ -74,56 +74,50 @@
 
 .web-one:hover {
   background-color: $purple-bg;
+&:hover .option-1 {
+  display: block;
+  }
 }
 
 .web-two:hover {
   background-color: #4183d7;
+  &:hover .option-2 {
+    display: block;
+  }
 }
 
 .web-three:hover {
   background-color: #d64541;
+  &:hover .option-3 {
+    display: block;
+  }
 }
 
 .web-four:hover {
   background-color: #67809f;
+  &:hover .option-4 {
+    display: block;
+  }
 }
 
 .web-five:hover {
   background-color: #2ecc71;
+  &:hover .option-5 {
+    display: block;
+  }
 }
 
 .web-six:hover {
   background-color: #f62459;
+  &:hover .option-6 {
+    display: block;
+  }
 }
 
 // Sub-menu on hover
 
 .options {
   display: none;
-}
-
-.lin-web:hover + .option-1 {
-  display: block;
-}
-
-.lin-sup:hover + .option-2 {
-  display: block;
-}
-
-.lin-serv:hover + .option-3 {
-  display: block;
-}
-
-.lin-soft:hover + .option-4 {
-  display: block;
-}
-
-.lin-mark:hover + .option-5 {
-  display: block;
-}
-
-.lin-sec:hover + .option-6 {
-  display: block;
 }
 
 // Sub-menu
@@ -173,8 +167,8 @@
   padding-left: 0px;
 }
 
-.nav-item:hover {
-  display: block;
+.sub-link:hover {
+  color: white;
 }
 
 .nav-menu::before{
@@ -227,8 +221,6 @@
   content: "";
 }
 
-// .nav-menu:after {
-//   content: "";
-//   display: block;
-//   height: 80px;
-// }
+.nav-soft:hover {
+  display: block;
+}

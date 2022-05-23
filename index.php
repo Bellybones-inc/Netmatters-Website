@@ -49,7 +49,7 @@
                               <h1 class="img-title">Web Design</h1>
                               <p class="img-sub-heading">For businesses looking to make a strong <br>
                                 and effective first impression.</p>
-                              <a href="#" class="btn btn-lg banner-btn market">Find out more
+                              <a href="#" class="btn btn-lg banner-btn web">Find out more
                                 <div class="arrow-find">
                                   <i class="fas fa-arrow-right"></i>
                                 </div>
@@ -76,7 +76,7 @@
 
                               <h1 class="img-title">IT Support</h1>
                               <p class="img-sub-heading">Fast and cost-effective IT support <br> services for your business.</p>
-                              <a href="#" class="btn btn-lg banner-btn market">Find out more
+                              <a href="#" class="btn btn-lg banner-btn sup">Find out more
                                 <div class="arrow-find">
                                   <i class="fas fa-arrow-right"></i>
                                 </div>
@@ -103,7 +103,7 @@
 
                               <h1 class="img-title">Telecoms Services</h1>
                               <p class="img-sub-heading">A new approach to connectivity, see how <br> we can help your business.</p>
-                              <a href="#" class="btn btn-lg banner-btn market">Find out more
+                              <a href="#" class="btn btn-lg banner-btn coms">Find out more
                                 <div class="arrow-find">
                                   <i class="fas fa-arrow-right"></i>
                                 </div>
@@ -130,7 +130,7 @@
 
                               <h1 class="img-title">Bespoke Software</h1>
                               <p class="img-sub-heading">Bring your business solutions together <br> with solutions that grow with you.</p>
-                              <a href="#" class="btn btn-lg banner-btn market">Find out more
+                              <a href="#" class="btn btn-lg banner-btn soft">Find out more
                                 <div class="arrow-find">
                                   <i class="fas fa-arrow-right"></i>
                                 </div>
@@ -163,7 +163,7 @@
                                 </div>
                               </a>
 
-                            </div>
+                            </div> 
                           </div>
                         </div>
 
@@ -182,7 +182,7 @@
                             <div class="slide_text">
                               <h1 class="img-title">Cyber Security</h1>
                               <p class="img-sub-heading">Keeping businesses and their customers <br> sensitive information protected.</p>
-                              <a href="#" class="btn btn-lg banner-btn market">Find out more
+                              <a href="#" class="btn btn-lg banner-btn cyber">Find out more
                                 <div class="arrow-find">
                                   <i class="fas fa-arrow-right"></i>
                                 </div>
@@ -493,7 +493,7 @@
             </div> <!-- client section end -->
 
             <div class="newsletter_section">
-              
+
               <!-- newsletter section start -->
               <div class="newsletter_container">
                 <div class="newsletter_inner">

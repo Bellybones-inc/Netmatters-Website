@@ -96,14 +96,15 @@ ul.slick-dots {
   font-size: 1.25rem;
 }
 
-.banner-btn.sign {
+
+.banner-btn.web {
   background-color: $purple-bg;
   &:hover {
     background-color: $purple-hover;
   }
 }
 
-.banner-btn.port {
+.banner-btn.sup {
   background-color: $blue-bg;
   &:hover {
     background-color: $blue-hover;
@@ -117,7 +118,7 @@ ul.slick-dots {
   }
 }
 
-.banner-btn.ware {
+.banner-btn.soft {
     background-color: $blue-grey-bg;
   &:hover {
     background-color: $blue-grey-hover;
